@@ -19,8 +19,8 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 * Get a really good understanding of `closures` and `this` 
 * Study performance and code optimization
 
- Here is a great article 
- [10 Javascript Performance Boosting Tips from Nicholas Zakas](http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas)
+ Here is a good article by Nicholas Zakas: 
+ [10 Javascript Performance Boosting Tips](http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas)
 
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
 * Read some books. Here is a list of some really great books on JS:
