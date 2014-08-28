@@ -7,13 +7,9 @@ LearnJavascript: A list of resources
 * Get a good understaning of Functions, Scope and Hoisting 
 * Study Objects, Prototypal Inheritance and OOP 
 * Understand callbacks, IIFEs and asynchronicity 
-* Study the source code of popular libraries: jQuery, underscore, etc.
-
- Here are 2 great videos on the subject by Paul Irish: 
-
+* Study the source code of popular libraries: jQuery, underscore, etc. Here are 2 great videos on the subject by Paul Irish: 
  * [10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
  * [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
-
 * Watch every video by Douglas Crockford.
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
 * Get a really good understanding of closures and 'this' 
