@@ -100,6 +100,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Always use semicolons. 
 * Prefer using `===` over `==` 
 * Always use curly braces 
+* Comment your code
 * Avoid/Reduce global variables 
 * Avoid using `with()` 
 * Avoid using `eval()`
