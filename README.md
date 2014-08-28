@@ -32,23 +32,6 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
  * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
  * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
 
-* Follow some of the masters on Twitter:
-
- * [Paul Irish](http://twitter.com/paul_irish) 
- * [Brendan Eich](http://twitter.com/BrendanEich) 
- * [Ariya Hidayat](http://twitter.com/ariyahidayat)
- * [John Resig](http://twitter.com/jeresig) 
- * [Axel Rauschmayer](http://twitter.com/rauschma)	
- * [Jeremy Ashkenas](http://twitter.com/jashkenas) 
- * [Nicholas Zakas](http://twitter.com/slicknet)
- * [Addy Osmani](http://twitter.com/addyosmani) 
- * [Christian Heilmann](http://twitter.com/codepo8) 
- * [Remy Sharp](http://twitter.com/rem) 
- * [David Walsh](http://twitter.com/davidwalshblog) 
- * [Rebecca Murphey](http://twitter.com/rmurphey) 
- * [David Flanagan](http://twitter.com/__DavidFlanagan) 
- * [Ilya Grigorik](http://twitter.com/igrigorik) 
-
 * Learn how to debug your JS code. Here are some good links as a starting point:
 
  [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
@@ -90,7 +73,22 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 
 * Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/).
 * Start building Desktop Applications using HTML/JavaScript in Node-Webkit.
+* Follow some of the masters on Twitter:
 
+ * [Paul Irish](http://twitter.com/paul_irish) 
+ * [Brendan Eich](http://twitter.com/BrendanEich) 
+ * [Ariya Hidayat](http://twitter.com/ariyahidayat)
+ * [John Resig](http://twitter.com/jeresig) 
+ * [Axel Rauschmayer](http://twitter.com/rauschma)	
+ * [Jeremy Ashkenas](http://twitter.com/jashkenas) 
+ * [Nicholas Zakas](http://twitter.com/slicknet)
+ * [Addy Osmani](http://twitter.com/addyosmani) 
+ * [Christian Heilmann](http://twitter.com/codepo8) 
+ * [Remy Sharp](http://twitter.com/rem) 
+ * [David Walsh](http://twitter.com/davidwalshblog) 
+ * [Rebecca Murphey](http://twitter.com/rmurphey) 
+ * [David Flanagan](http://twitter.com/__DavidFlanagan) 
+ * [Ilya Grigorik](http://twitter.com/igrigorik) 
 
 ## 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
