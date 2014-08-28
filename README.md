@@ -103,6 +103,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Avoid/Reduce global variables 
 * Avoid using `with()` 
 * Avoid using `eval()`
+* Pass functions instead of strings to setTimeout or setInterval, as this triggers eval() internally. 
 * Use [JSHint](http://www.jshint.com/) / [JSLint](http://www.jslint.com/)
  * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
  * [Interactive code linting framework for Sublime Text 3](https://github.com/SublimeLinter/SublimeLinter3)
