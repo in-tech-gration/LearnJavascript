@@ -28,7 +28,7 @@ LearnJavascript: A list of resources
  * High Performance JavaScript, *by Nicolas Zakas*
  * Secret of the JavaScript Ninja, *by John Resig*
  * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
- * [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/) **(Free Online Version)**
+ * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
 
 * Follow some of the masters on Twitter:
 
@@ -54,14 +54,14 @@ LearnJavascript: A list of resources
 * Study JavaScript Patterns and Anti-Patterns:
 
  * [Learning JavaScript Design Patterns, Addy Osmani](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
- * [Javascript Patterns](http://shichuan.github.io/javascript-patterns/)
+ * [Javascript Patterns, moderated by *Shi Chuan*](http://shichuan.github.io/javascript-patterns/)
 
 * Understand the Single Threaded Process & Event Loop. 
 
- * [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/EventLoop)
+ * [Concurrency model and Event Loop, MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/EventLoop)
  * [The JavaScript Event Loop: Explained, By Erin  Swenson-Healey](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
- * [Understanding the node.js event loop](http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/)
- * [Introduction to Javascript Processes](http://quickleft.com/blog/introduction-to-javascript-processes)
+ * [Understanding the node.js event loop, by *Mixu*](http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/)
+ * [Introduction to Javascript Processes, by *Nico Valencia *](http://quickleft.com/blog/introduction-to-javascript-processes)
  * [How JavaScript Timers Work, By John Resig](http://ejohn.org/blog/how-javascript-timers-work/)
 
 * Study some of the modern APIs: [WebRTC](https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC), [File API](https://developer.mozilla.org/en-US/docs/Web/API/File), [Blob API](https://developer.mozilla.org/en-US/docs/Web/API/Blob), etc. 
