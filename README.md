@@ -4,16 +4,17 @@ LearnJavascript: A list of resources
 ##LEARNING
 
 
-* Get a good understaning of Functions, Scope and Hoisting 
-* Study Objects, Prototypal Inheritance and OOP 
-* Understand callbacks, IIFEs and asynchronicity 
-* Study the source code of popular libraries: jQuery, underscore, etc. 
+* Get a good understaning of `Functions`, `Scope` and `Hoisting` 
+* Study `Objects`, `Prototypal Inheritance` and `OOP` 
+* Understand `callbacks`, `IIFEs` and `asynchronicity` 
+* Study the source code of popular libraries: [jQuery](http://jquery.com/), [underscore](http://underscorejs.org/), etc. 
+
  Here are 2 great videos on the subject by Paul Irish: 
  * [10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
  * [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
 * Watch every video by Douglas Crockford.
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
-* Get a really good understanding of closures and 'this' 
+* Get a really good understanding of `closures` and `this` 
 * Study performance and code optimization
 
  Here is a great article 
@@ -22,10 +23,10 @@ LearnJavascript: A list of resources
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
 * Read some books. Here is a list of some really great books on JS:
 
- * JavaScript: The Good Parts, by Douglas Crockford
- * JavaScript, The Definitive Guide, by David Flanagan
- * High Performance JavaScript, by Nicolas Zakas
- * Secret of the JavaScript Ninja, by John Resig
+ * JavaScript: The Good Parts, *by Douglas Crockford*
+ * JavaScript, The Definitive Guide, *by David Flanagan*
+ * High Performance JavaScript, *by Nicolas Zakas*
+ * Secret of the JavaScript Ninja, *by John Resig*
  * [Eloquent Javascript](http://eloquentjavascript.net/)	**(Free Online Version)**
  * [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/) **(Free Online Version)**
 
@@ -63,15 +64,15 @@ LearnJavascript: A list of resources
  * [Introduction to Javascript Processes](http://quickleft.com/blog/introduction-to-javascript-processes)
  * [How JavaScript Timers Work, By John Resig](http://ejohn.org/blog/how-javascript-timers-work/)
 
-* Study some of the modern APIs: WebRTC, File API, Blob API, etc. 
-* Master Regular Expressions 
-* Get in the habit of testing. (Crucial!). Start with QUnit. 
+* Study some of the modern APIs: [WebRTC](https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC), [File API](https://developer.mozilla.org/en-US/docs/Web/API/File), [Blob API](https://developer.mozilla.org/en-US/docs/Web/API/Blob), etc. 
+* Master `Regular Expressions`. 
+* Get in the habit of testing. **(Crucial!)**. [QUnit](http://qunitjs.com/) is a good starting point. 
 * Subscribe to these great YouTube channels and watch every video you can:
 
  * [CascadiaJS](https://www.youtube.com/user/cascadiajs)
  * [JSConf](https://www.youtube.com/user/jsconfeu)
 
-* Learn some framework or library like jQuery, Backbone.JS, underscore, Angular, Ember, Knockout.JS, etc. 
+* Learn some framework or library like [jQuery](http://jquery.com/), [Backbone.JS](http://backbonejs.org/), [underscore](http://underscorejs.org/), [Angular](https://angularjs.org/), [Ember](http://emberjs.com/), [Knockout.JS](http://knockoutjs.com/), etc. 
 
  Try building a ToDo App using one of these libraries..
 
@@ -85,20 +86,22 @@ LearnJavascript: A list of resources
  * [JavaScript Weekly](http://javascriptweekly.com/) 
  * [Node Weekly](http://nodeweekly.com/)
 
+* Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/).
 * Start building Desktop Applications using HTML/JavaScript in Node-Webkit.
 
 
 ## 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
-* Code using "use strict"; 
+* Code using `"use strict"`; 
 * Always use semicolons. 
-* Prefer using === over == 
+* Prefer using `===` over `==` 
 * Always use curly braces 
 * Avoid/Reduce global variables 
-* Avoid using with() 
-* Avoid using eval()
-* Use JSHint / JSLint
-
+* Avoid using `with()` 
+* Avoid using `eval()`
+* Use [JSHint](http://www.jshint.com/) / [JSLint](http://www.jslint.com/)
+ * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
+ * [Interactive code linting framework for Sublime Text 3](https://github.com/SublimeLinter/SublimeLinter3)
 
 ## 3. LINKS
 
@@ -107,3 +110,4 @@ LearnJavascript: A list of resources
 * [Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
 * [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
 * [David Walsh's Blog](http://davidwalsh.name/)
+
