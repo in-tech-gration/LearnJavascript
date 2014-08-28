@@ -5,7 +5,7 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 
 Contributors:
 
-Kudos to **Dimitrios Michalakos** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
+Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
 
 ##LEARNING
 
