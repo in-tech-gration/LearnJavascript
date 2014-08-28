@@ -1,8 +1,5 @@
-LearnJavascript
-===============
-
-Learn Javascript: A list of resources 
-
+LearnJavascript: A list of resources
+====================================
 
 ##LEARNING
 
@@ -12,11 +9,11 @@ Learn Javascript: A list of resources
 * Understand callbacks, IIFEs and asynchronicity 
 * Study the source code of popular libraries: jQuery, underscore, etc.
 
-Here are 2 great videos on the subject by Paul Irish: 
+ Here are 2 great videos on the subject by Paul Irish: 
 
-[10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
+ [10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
 
-[11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
+ [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
 
 * Watch every video by Douglas Crockford.
  
