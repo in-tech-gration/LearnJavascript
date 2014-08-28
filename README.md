@@ -27,7 +27,7 @@ LearnJavascript: A list of resources
  * JavaScript, The Definitive Guide, *by David Flanagan*
  * High Performance JavaScript, *by Nicolas Zakas*
  * Secret of the JavaScript Ninja, *by John Resig*
- * [Eloquent Javascript](http://eloquentjavascript.net/)	**(Free Online Version)**
+ * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
  * [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/) **(Free Online Version)**
 
 * Follow some of the masters on Twitter:
@@ -78,8 +78,8 @@ LearnJavascript: A list of resources
 
 * Get to know Node.JS and start building apps. 
 
- * Try running code on Node on [Runnable.com](http://runnable.com/)
- * Install Node locally and start experimenting.
+ * Try running code on `Node.JS` on [Runnable.com](http://runnable.com/)
+ * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
 
 * Subscribe to these Newsletters and stay up to date with JS and Node:
 
