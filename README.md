@@ -131,12 +131,8 @@ LearnJavascript: A list of resources
 
 ## 3. LINKS
 
-[Learn Javascript resources on MDN](https://developer.mozilla.org/en/learn/javascript)
-
-[Dos and Donts: Best Practices When Learning JavaScript](https://www.youtube.com/watch?v=zILmbcIYnfw)
-
-[Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
-
-[The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
-
-[David Walsh's Blog](http://davidwalsh.name/)
+* [Learn Javascript resources on MDN](https://developer.mozilla.org/en/learn/javascript)
+* [Dos and Donts: Best Practices When Learning JavaScript](https://www.youtube.com/watch?v=zILmbcIYnfw)
+* [Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
+* [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
+* [David Walsh's Blog](http://davidwalsh.name/)
