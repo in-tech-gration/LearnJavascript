@@ -63,7 +63,7 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 
 * Get to know Node.JS and start building apps. 
 
- * Try running code on `Node.JS` on [Runnable.com](http://runnable.com/)
+ * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
  * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
 
 * Subscribe to these Newsletters and stay up to date with JS and Node:
