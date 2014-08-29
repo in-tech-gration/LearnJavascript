@@ -94,6 +94,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [David Flanagan](http://twitter.com/__DavidFlanagan) 
  * [Ilya Grigorik](http://twitter.com/igrigorik) 
 
+* Check out the **LINKS** section!
+
 ## 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
 * Code using `"use strict"`; 
@@ -111,6 +113,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ## 3. LINKS
 
+* [JavaScript, The Right Way](http://www.jstherightway.org/)
 * [Learn Javascript resources on MDN](https://developer.mozilla.org/en/learn/javascript)
 * [Dos and Donts: Best Practices When Learning JavaScript](https://www.youtube.com/watch?v=zILmbcIYnfw)
 * [Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
