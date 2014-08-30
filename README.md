@@ -9,7 +9,6 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ##LEARNING
 
-
 * Get a good understaning of `Functions`, `Scope` and `Hoisting` 
 * Study `Objects`, `Prototypal Inheritance` and `OOP` 
 * Understand `callbacks`, `IIFEs` and `asynchronicity` 
@@ -27,15 +26,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  [10 Javascript Performance Boosting Tips](http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas)
 
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
-* Read some books. Here is a list of some really great books on JS:
-
- * JavaScript: The Good Parts, *by Douglas Crockford*
- * JavaScript, The Definitive Guide, *by David Flanagan*
- * High Performance JavaScript, *by Nicolas Zakas*
- * Secret of the JavaScript Ninja, *by John Resig*
- * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
- * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
-
+* Read some books. You can find some great books for JS on the BOOKS section of this list.
 * Learn how to debug your JS code. Here are some good links as a starting point:
 
  [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
@@ -77,24 +68,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/).
 * Start building Desktop Applications using HTML/JavaScript in Node-Webkit.
-* Follow some of the masters on Twitter:
-
- * [Paul Irish](http://twitter.com/paul_irish) 
- * [Brendan Eich](http://twitter.com/BrendanEich) 
- * [Ariya Hidayat](http://twitter.com/ariyahidayat)
- * [John Resig](http://twitter.com/jeresig) 
- * [Axel Rauschmayer](http://twitter.com/rauschma)	
- * [Jeremy Ashkenas](http://twitter.com/jashkenas) 
- * [Nicholas Zakas](http://twitter.com/slicknet)
- * [Addy Osmani](http://twitter.com/addyosmani) 
- * [Christian Heilmann](http://twitter.com/codepo8) 
- * [Remy Sharp](http://twitter.com/rem) 
- * [David Walsh](http://twitter.com/davidwalshblog) 
- * [Rebecca Murphey](http://twitter.com/rmurphey) 
- * [David Flanagan](http://twitter.com/__DavidFlanagan) 
- * [Ilya Grigorik](http://twitter.com/igrigorik) 
-
-* Check out the **LINKS** section!
+* Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 
 ## 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
@@ -111,7 +85,13 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
  * [Interactive code linting framework for Sublime Text 3](https://github.com/SublimeLinter/SublimeLinter3)
 
-## 3. LINKS
+## 3. RESOURCES
+
+### 3.1 BEGINNER RESOURCES
+
+* [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
+
+### 3.2 GENERAL
 
 * [Learn JavaScript Essentials (for all skill levels), by Eric Elliott](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2)
 * [JavaScript, The Right Way](http://www.jstherightway.org/)
@@ -121,3 +101,37 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
 * [David Walsh's Blog](http://davidwalsh.name/)
 
+### 3.3 BOOKS
+
+ * [JavaScript: The Good Parts, *by Douglas Crockford*](http://shop.oreilly.com/product/9780596517748.do)
+ * [JavaScript, The Definitive Guide, *by David Flanagan*](http://shop.oreilly.com/product/9780596805531.do)
+ * [High Performance JavaScript, *by Nicolas Zakas*](http://shop.oreilly.com/product/9780596802806.do)
+ * [Secrets of the JavaScript Ninja, *by John Resig*](http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/)
+
+### 3.4 ONLINE BOOKS
+
+ * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/javascript-for-cats.pdf) **(Free PDF)**
+ * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
+ * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
+
+### 3.5 VIDEOS 
+
+ * [10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
+ * [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
+
+### 3.6 DEVELOPERS ON TWITTER
+
+ * [Paul Irish](http://twitter.com/paul_irish) 
+ * [Brendan Eich](http://twitter.com/BrendanEich) 
+ * [Ariya Hidayat](http://twitter.com/ariyahidayat)
+ * [John Resig](http://twitter.com/jeresig) 
+ * [Axel Rauschmayer](http://twitter.com/rauschma)	
+ * [Jeremy Ashkenas](http://twitter.com/jashkenas) 
+ * [Nicholas Zakas](http://twitter.com/slicknet)
+ * [Addy Osmani](http://twitter.com/addyosmani) 
+ * [Christian Heilmann](http://twitter.com/codepo8) 
+ * [Remy Sharp](http://twitter.com/rem) 
+ * [David Walsh](http://twitter.com/davidwalshblog) 
+ * [Rebecca Murphey](http://twitter.com/rmurphey) 
+ * [David Flanagan](http://twitter.com/__DavidFlanagan) 
+ * [Ilya Grigorik](http://twitter.com/igrigorik) 
