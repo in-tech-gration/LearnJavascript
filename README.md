@@ -7,7 +7,7 @@ Contributors:
 
 Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
 
-##LEARNING
+###LEARNING
 
 * Get a good understaning of `Functions`, `Scope` and `Hoisting` 
 * Study `Objects`, `Prototypal Inheritance` and `OOP` 
@@ -70,7 +70,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Start building Desktop Applications using HTML/JavaScript in Node-Webkit.
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 
-## 2. SUGGESTED CODING RULES AND BEST PRACTIVES
+### 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
 * Code using `"use strict"`; 
 * Always use semicolons. 
@@ -85,41 +85,50 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
  * [Interactive code linting framework for Sublime Text 3](https://github.com/SublimeLinter/SublimeLinter3)
 
-## 3. RESOURCES
+### 3. RESOURCES
 
-### 3.1 BEGINNER RESOURCES
+#### 3.1 BEGINNER RESOURCES
 
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
 
-### 3.2 GENERAL
+#### 3.2 GENERAL
 
 * [Learn JavaScript Essentials (for all skill levels), by Eric Elliott](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2)
 * [JavaScript, The Right Way](http://www.jstherightway.org/)
 * [Learn Javascript resources on MDN](https://developer.mozilla.org/en/learn/javascript)
 * [Dos and Donts: Best Practices When Learning JavaScript](https://www.youtube.com/watch?v=zILmbcIYnfw)
-* [Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
 * [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
 * [David Walsh's Blog](http://davidwalsh.name/)
 
-### 3.3 BOOKS
+#### 3.3 NODE
+
+[Node School](http://nodeschool.io/)
+
+#### 3.4 FRAMEWORKS AND LIBRARIES
+
+##### 3.4.1 BACKBONE.JS
+
+* [Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
+
+#### 3.5 BOOKS
 
  * [JavaScript: The Good Parts, *by Douglas Crockford*](http://shop.oreilly.com/product/9780596517748.do)
  * [JavaScript, The Definitive Guide, *by David Flanagan*](http://shop.oreilly.com/product/9780596805531.do)
  * [High Performance JavaScript, *by Nicolas Zakas*](http://shop.oreilly.com/product/9780596802806.do)
  * [Secrets of the JavaScript Ninja, *by John Resig*](http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/)
 
-### 3.4 ONLINE BOOKS
+#### 3.6 ONLINE BOOKS
 
  * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/javascript-for-cats.pdf) **(Free PDF)**
  * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
  * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
 
-### 3.5 VIDEOS 
+#### 3.7 VIDEOS 
 
  * [10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
  * [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
 
-### 3.6 DEVELOPERS ON TWITTER
+#### 3.8 DEVELOPERS ON TWITTER
 
  * [Paul Irish](http://twitter.com/paul_irish) 
  * [Brendan Eich](http://twitter.com/BrendanEich) 
