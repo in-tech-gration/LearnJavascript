@@ -61,11 +61,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
  * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
 
-* Subscribe to these Newsletters and stay up to date with JS and Node:
-
- * [JavaScript Weekly](http://javascriptweekly.com/) 
- * [Node Weekly](http://nodeweekly.com/)
-
+* Subscribe to Newsletters and stay up to date with JS and Node. *(See section `3.8 NEWSLETTERS`)*
 * Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/).
 * Start building Desktop Applications using HTML/JavaScript in Node-Webkit.
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
@@ -116,6 +112,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [JavaScript, The Definitive Guide, *by David Flanagan*](http://shop.oreilly.com/product/9780596805531.do)
  * [High Performance JavaScript, *by Nicolas Zakas*](http://shop.oreilly.com/product/9780596802806.do)
  * [Secrets of the JavaScript Ninja, *by John Resig*](http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/)
+ * [Programming JavaScript Applications, *by Eric Elliot*](http://learn-javascript.ericelliott.me/programming-javascript-applications/)
 
 #### 3.6 ONLINE BOOKS
 
@@ -125,10 +122,20 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 #### 3.7 VIDEOS 
 
- * [10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
- * [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
+ * [Javascript, the Good Parts, GoogleTechTalks, *Douglas Crockford*](https://www.youtube.com/watch?v=hQVTIJBZook)
+ * [Douglas Crockford: The JavaScript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M)
+ * [10 Things I Learned from the jQuery Source, *Paul Irish*](http://www.youtube.com/watch?v=i_qE1iAmjFg)
+ * [11 More Things I Learned from the jQuery Source, *Paul Irish*](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
+ * [Paul Irish, "Delivering the goods"](https://www.youtube.com/watch?v=R8W_6xWphtw)
+ * [Paul Irish, "JavaScript Development Workflow of 2013"](https://www.youtube.com/watch?v=f7AU2Ozu8eo)
 
-#### 3.8 DEVELOPERS ON TWITTER
+#### 3.8 NEWSLETTERS
+
+ * [JavaScript Weekly](http://javascriptweekly.com/) 
+ * [A Drip of JavaScript](http://designpepper.com/a-drip-of-javascript/)
+ * [Node Weekly](http://nodeweekly.com/)
+
+#### 3.9 DEVELOPERS ON TWITTER
 
  * [Paul Irish](http://twitter.com/paul_irish) 
  * [Brendan Eich](http://twitter.com/BrendanEich) 
