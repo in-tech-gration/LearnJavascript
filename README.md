@@ -108,6 +108,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
 
+##### 3.4.2 JQUERY
+
+* [A tidy repository of jQuery plugins, *by @psnka*](http://unheap.com/)
+
 #### 3.5 BOOKS
 
  * [JavaScript: The Good Parts, *by Douglas Crockford*](http://shop.oreilly.com/product/9780596517748.do)
