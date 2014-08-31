@@ -113,6 +113,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [High Performance JavaScript, *by Nicolas Zakas*](http://shop.oreilly.com/product/9780596802806.do)
  * [Secrets of the JavaScript Ninja, *by John Resig*](http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/)
  * [Programming JavaScript Applications, *by Eric Elliot*](http://learn-javascript.ericelliott.me/programming-javascript-applications/)
+ * [Professional JavaScript for Web Developers *by Nicolas Zakas*](http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-3rd-Edition.productCd-1118222199.html)
 
 #### 3.6 ONLINE BOOKS
 
