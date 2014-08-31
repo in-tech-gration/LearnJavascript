@@ -19,7 +19,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
 * Watch every video by Douglas Crockford.
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
-* Get a really good understanding of `closures` and `this` 
+* Get a really good understanding of [closures](http://bonsaiden.github.io/JavaScript-Garden/#function.closures) and [this](http://bonsaiden.github.io/JavaScript-Garden/#function.this) 
 * Study performance and code optimization
 
  Here is a good article by Nicholas Zakas: 
@@ -57,29 +57,25 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [JSConf](https://www.youtube.com/user/jsconfeu)
 
 * Learn some framework or library like [jQuery](http://jquery.com/), [Backbone.JS](http://backbonejs.org/), [underscore](http://underscorejs.org/), [Angular](https://angularjs.org/), [Ember](http://emberjs.com/), [Knockout.JS](http://knockoutjs.com/), etc. 
-
- Try building a ToDo App using one of these libraries..
-
-* Get to know Node.JS and start building apps. 
-
+* [Try building a ToDo App using one of these libraries](http://todomvc.com/)
+* Get to know [Node.JS](http://nodejs.org/) and start building apps. 
  * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
  * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
-
 * Subscribe to Newsletters and stay up to date with JS and Node. *(See section `3.8 NEWSLETTERS`)*
 * Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/).
-* Start building Desktop Applications using HTML/JavaScript in Node-Webkit.
+* Start building Desktop Applications using HTML/JavaScript in [Node-Webkit](https://github.com/rogerwang/node-webkit).
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 
 ### 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
 * Code using `"use strict"`; 
-* Always use semicolons. 
-* Prefer using `===` over `==` 
+* [Always use semicolons.](http://bonsaiden.github.io/JavaScript-Garden/#core.semicolon) 
+* [Prefer using `===` over `==`](http://bonsaiden.github.io/JavaScript-Garden/#types.equality) 
 * Always use curly braces 
 * Comment your code
 * Avoid/Reduce global variables 
 * Avoid using `with()` 
-* Avoid using `eval()`
+* [Avoid using `eval()`](http://bonsaiden.github.io/JavaScript-Garden/#core.eval)
 * Pass functions instead of strings to setTimeout or setInterval, as this triggers eval() internally. 
 * Use [JSHint](http://www.jshint.com/) / [JSLint](http://www.jslint.com/)
  * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
