@@ -90,6 +90,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 #### 3.1 BEGINNER RESOURCES
 
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
+* [JavaScript Guide, MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 #### 3.2 GENERAL
 
