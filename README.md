@@ -26,6 +26,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  [10 Javascript Performance Boosting Tips](http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas)
 
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
+* Check [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/).
+
+	**JavaScript Garden** *is a growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.*
+
 * Read some books. You can find some great books for JS on the BOOKS section of this list.
 * Learn how to debug your JS code. Here are some good links as a starting point:
 
