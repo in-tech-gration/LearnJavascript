@@ -87,6 +87,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
 * [JavaScript Guide, MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* [JAVASCRIPT FUNDAMENTALS, *by Azat Mardan*](http://gist.io/5955726)
 
 #### 3.2 GENERAL
 
@@ -158,3 +159,4 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Rebecca Murphey](http://twitter.com/rmurphey) 
  * [David Flanagan](http://twitter.com/__DavidFlanagan) 
  * [Ilya Grigorik](http://twitter.com/igrigorik) 
+ * [Azat Mardan](https://twitter.com/azat_co)
