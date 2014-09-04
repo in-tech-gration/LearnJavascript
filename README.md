@@ -9,7 +9,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ###LEARNING
 
-* Get a good understaning of `Functions`, `Scope` and `Hoisting` 
+* Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * Study `Objects`, `Prototypal Inheritance` and `OOP` 
 * Understand `callbacks`, `IIFEs` and `asynchronicity` 
 * Study the source code of popular libraries: [jQuery](http://jquery.com/), [underscore](http://underscorejs.org/), etc. 
@@ -68,12 +68,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ### 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
-* Code using `"use strict"`; 
+* [Code using `"use strict"`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * [Always use semicolons.](http://bonsaiden.github.io/JavaScript-Garden/#core.semicolon) 
 * [Prefer using `===` over `==`](http://bonsaiden.github.io/JavaScript-Garden/#types.equality) 
 * Always use curly braces 
 * Comment your code
-* Avoid/Reduce global variables 
+* [Avoid/Reduce global variables](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * Avoid using `with()` 
 * [Avoid using `eval()`](http://bonsaiden.github.io/JavaScript-Garden/#core.eval)
 * Pass functions instead of strings to setTimeout or setInterval, as this triggers eval() internally. 
@@ -88,6 +88,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
 * [JavaScript Guide, MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [JAVASCRIPT FUNDAMENTALS, *by Azat Mardan*](http://gist.io/5955726)
+* [5 Tips to Become a Better JavaScript Developer, *by JUSTIN CHMURA*](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
 
 #### 3.2 GENERAL
 
