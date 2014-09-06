@@ -9,6 +9,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ###LEARNING
 
+* Understand type coercion
 * Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * Study `Objects`, `Prototypal Inheritance` and `OOP` 
 * Understand `callbacks`, `IIFEs` and `asynchronicity` 
