@@ -269,7 +269,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 **Christian Heilmann** [Twitter](http://twitter.com/codepo8) 
 **Remy Sharp** [Twitter](http://twitter.com/rem) 
 **David Walsh** [Twitter](http://twitter.com/davidwalshblog) 
-**Rebecca Murphey** [Twitter](http://twitter.com/rmurphey), [Blog](Adventures in JavaScript Development) 	
+**Rebecca Murphey** [Twitter](http://twitter.com/rmurphey), [Blog](http://rmurphey.com/) 	
 **David Flanagan** [Twitter](http://twitter.com/__DavidFlanagan) 
 **Ilya Grigorik** [Twitter](http://twitter.com/igrigorik) 
 **Azat Mardan** [Twitter](https://twitter.com/azat_co)
