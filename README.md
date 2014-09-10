@@ -11,7 +11,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * Understand type coercion
 * Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
-* Study `Objects`, `Prototypal Inheritance` and `OOP` 
+* Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/)
 * Understand `callbacks`, `IIFEs` and `asynchronicity` 
 * Study the source code of popular libraries: [jQuery](http://jquery.com/), [underscore](http://underscorejs.org/), etc. 
 
@@ -94,6 +94,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [JavaScript Guide, MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [JAVASCRIPT FUNDAMENTALS, *by Azat Mardan*](http://gist.io/5955726)
 * [5 Tips to Become a Better JavaScript Developer, *by JUSTIN CHMURA*](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
+* [JS 101](http://www.teaching-materials.org/javascript/)
+* [7 JavaScript Basics Many Developers Aren't Using (Properly)](http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly)
 
 #### 3.2 GENERAL
 
@@ -105,6 +107,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
 * [David Walsh's Blog](http://davidwalsh.name/)
 * [DailyJS](http://dailyjs.com/)
+* [Understand JavaScript Closures With Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
+* [JavaScript the Right Way](http://jstherightway.org/)
 
 > DEBUGGING
 
@@ -252,24 +256,24 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Node Weekly](http://nodeweekly.com/)
  * [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
 
-#### 3.9 DEVELOPERS ON TWITTER
+#### 3.9 DEVELOPERS (TWITTER, BLOGS)
 
- * [Paul Irish](http://twitter.com/paul_irish) 
- * [Brendan Eich](http://twitter.com/BrendanEich) 
- * [Ariya Hidayat](http://twitter.com/ariyahidayat)
- * [John Resig](http://twitter.com/jeresig) 
- * [Axel Rauschmayer](http://twitter.com/rauschma)	
- * [Jeremy Ashkenas](http://twitter.com/jashkenas) 
- * [Nicholas Zakas](http://twitter.com/slicknet)
- * [Addy Osmani](http://twitter.com/addyosmani) 
- * [Christian Heilmann](http://twitter.com/codepo8) 
- * [Remy Sharp](http://twitter.com/rem) 
- * [David Walsh](http://twitter.com/davidwalshblog) 
- * [Rebecca Murphey](http://twitter.com/rmurphey) 
- * [David Flanagan](http://twitter.com/__DavidFlanagan) 
- * [Ilya Grigorik](http://twitter.com/igrigorik) 
- * [Azat Mardan](https://twitter.com/azat_co)
- * [Dmitry Baranovskiy](https://twitter.com/DmitryBaranovsk)
+ **Paul Irish** [Twitter](http://twitter.com/paul_irish) 
+ **Brendan Eich** [Twitter](http://twitter.com/BrendanEich) 
+ **Ariya Hidayat** [Twitter](http://twitter.com/ariyahidayat)
+ **John Resig** [Twitter](http://twitter.com/jeresig) 
+ **Axel Rauschmayer** [Twitter](http://twitter.com/rauschma)	
+ **Jeremy Ashkenas** [Twitter](http://twitter.com/jashkenas) 
+ **Nicholas Zakas** [Twitter](http://twitter.com/slicknet)
+ **Addy Osmani** [Twitter](http://twitter.com/addyosmani) 
+ **Christian Heilmann** [Twitter](http://twitter.com/codepo8) 
+ **Remy Sharp** [Twitter](http://twitter.com/rem) 
+ **David Walsh** [Twitter](http://twitter.com/davidwalshblog) 
+ **Rebecca Murphey** [Twitter](http://twitter.com/rmurphey), [Blog](Adventures in JavaScript Development) 	
+ **David Flanagan** [Twitter](http://twitter.com/__DavidFlanagan) 
+ **Ilya Grigorik** [Twitter](http://twitter.com/igrigorik) 
+ **Azat Mardan** [Twitter](https://twitter.com/azat_co)
+ **Dmitry Baranovskiy** [Twitter](https://twitter.com/DmitryBaranovsk)
 
  #### 3.10 TOOLS
 
