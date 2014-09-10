@@ -84,7 +84,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
  * [Interactive code linting framework for Sublime Text 3](https://github.com/SublimeLinter/SublimeLinter3)
 
-*The difference between JavaScript and JavaSscript with __use strict__*
+*The difference between JavaScript and JavaScript with __use strict__*
 ![Alt text](/img/usestrict.jpg "Make a difference by coding with use strict")
 
 ### 3. RESOURCES
