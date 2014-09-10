@@ -111,6 +111,15 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Understand JavaScript Closures With Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [JavaScript the Right Way](http://jstherightway.org/)
 
+> PERFORMANCE
+
+* [JavaScript Performance Analysis: Keeping the Big Picture, *by Ariya Hidayat*](http://calendar.perfplanet.com/2013/javascript-performance-big-picture/)
+* [Speeding up JavaScript: Working with the DOM](https://developers.google.com/speed/articles/javascript-dom)
+* [Javascript optimization – high performance JS apps](http://www.mellowmorning.com/2008/05/18/javascript-optimization-high-performance-js-apps/)
+* [Writing Efficient JavaScript: Chapter 7 - Even Faster Websites, *by Nicholas C. Zakas*](http://oreilly.com/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html)
+* [A Couple of Quick Tips for JavaScript Optimization](https://mondaybynoon.com/a-couple-of-quick-tips-for-javascript-optimization/)
+* [CSS TRIGGERS](http://csstriggers.com/)
+
 > DEBUGGING
 
 * [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
@@ -172,6 +181,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Cloud9](https://c9.io/)
 * [Heroku](https://www.heroku.com/)
 * [OpenShift](https://www.openshift.com/)
+* [NodeJitsu](https://www.nodejitsu.com/)
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
@@ -261,24 +271,25 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 #### 3.9 DEVELOPERS (TWITTER, BLOGS)
 
-DEVELOPER  | TWITTER | BLOG
+DEVELOPER  | TWITTER | BLOG | VIDEO CHANNEL
 ------------- | ------------- | -------------
-Paul Irish | [Twitter](http://twitter.com/paul_irish) | 
-Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | 
-Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) |
-John Resig | [Twitter](http://twitter.com/jeresig) |
-Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) |	
-Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) |
-Nicholas Zakas | [Twitter](http://twitter.com/slicknet) |
-Addy Osmani | [Twitter](http://twitter.com/addyosmani) |
-Christian Heilmann | [Twitter](http://twitter.com/codepo8) | 
-Remy Sharp | [Twitter](http://twitter.com/rem) |
-David Walsh | [Twitter](http://twitter.com/davidwalshblog) |
-Rebecca Murphey | [Twitter](http://twitter.com/rmurphey) | [Blog](http://rmurphey.com/) 	
-David Flanagan | [Twitter](http://twitter.com/__DavidFlanagan) |
-Ilya Grigorik | [Twitter](http://twitter.com/igrigorik) |
-Azat Mardan | [Twitter](https://twitter.com/azat_co) |
-Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) |
+Paul Irish | [Twitter](http://twitter.com/paul_irish) | |
+Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | |
+Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) | [Blog](http://ariya.ofilabs.com/) | [YouTube](https://www.youtube.com/user/ariyahidayat)
+John Resig | [Twitter](http://twitter.com/jeresig) | |
+Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) |	|
+Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | |
+Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | |
+Addy Osmani | [Twitter](http://twitter.com/addyosmani) | |
+Christian Heilmann | [Twitter](http://twitter.com/codepo8) | |
+Remy Sharp | [Twitter](http://twitter.com/rem) | |
+David Walsh | [Twitter](http://twitter.com/davidwalshblog) | |
+Rebecca Murphey | [Twitter](http://twitter.com/rmurphey) | [Blog](http://rmurphey.com/) |
+David Flanagan | [Twitter](http://twitter.com/__DavidFlanagan) | |
+Ilya Grigorik | [Twitter](http://twitter.com/igrigorik) | |
+Azat Mardan | [Twitter](https://twitter.com/azat_co) | |
+Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) | |
+Pamela Fox | [Twitter](https://twitter.com/pamelafox) | [Blog](http://blog.pamelafox.org/) |
 
 #### 3.10 TOOLS
 
