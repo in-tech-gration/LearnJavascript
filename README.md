@@ -97,6 +97,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [5 Tips to Become a Better JavaScript Developer, *by JUSTIN CHMURA*](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
 * [JS 101](http://www.teaching-materials.org/javascript/)
 * [7 JavaScript Basics Many Developers Aren't Using (Properly)](http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly)
+* [5 Tips to Become a Better JavaScript Developer](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
 
 #### 3.2 GENERAL
 
@@ -307,3 +308,7 @@ Pamela Fox | [Twitter](https://twitter.com/pamelafox) | [Blog](http://blog.pamel
 
  * [Smooth CoffeeScript](http://autotelicum.github.io/Smooth-CoffeeScript/)
  * [The Little Book on CoffeeScript](http://arcturo.github.io/library/coffeescript/)
+
+------
+
+![Alt text](/img/javascript-please-work.jpg "JavaScript please work")
