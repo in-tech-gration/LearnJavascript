@@ -258,32 +258,34 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 #### 3.9 DEVELOPERS (TWITTER, BLOGS)
 
-**Paul Irish** [Twitter](http://twitter.com/paul_irish) 
-**Brendan Eich** [Twitter](http://twitter.com/BrendanEich) 
-**Ariya Hidayat** [Twitter](http://twitter.com/ariyahidayat)
-**John Resig** [Twitter](http://twitter.com/jeresig) 
-**Axel Rauschmayer** [Twitter](http://twitter.com/rauschma)	
-**Jeremy Ashkenas** [Twitter](http://twitter.com/jashkenas) 
-**Nicholas Zakas** [Twitter](http://twitter.com/slicknet)
-**Addy Osmani** [Twitter](http://twitter.com/addyosmani) 
-**Christian Heilmann** [Twitter](http://twitter.com/codepo8) 
-**Remy Sharp** [Twitter](http://twitter.com/rem) 
-**David Walsh** [Twitter](http://twitter.com/davidwalshblog) 
-**Rebecca Murphey** [Twitter](http://twitter.com/rmurphey), [Blog](http://rmurphey.com/) 	
-**David Flanagan** [Twitter](http://twitter.com/__DavidFlanagan) 
-**Ilya Grigorik** [Twitter](http://twitter.com/igrigorik) 
-**Azat Mardan** [Twitter](https://twitter.com/azat_co)
-**Dmitry Baranovskiy** [Twitter](https://twitter.com/DmitryBaranovsk)
+DEVELOPER  | TWITTER | BLOG
+------------- | ------------- | -------------
+Paul Irish | [Twitter](http://twitter.com/paul_irish) | 
+Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | 
+Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) |
+John Resig | [Twitter](http://twitter.com/jeresig) |
+Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) |	
+Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) |
+Nicholas Zakas | [Twitter](http://twitter.com/slicknet) |
+Addy Osmani | [Twitter](http://twitter.com/addyosmani) |
+Christian Heilmann | [Twitter](http://twitter.com/codepo8) | 
+Remy Sharp | [Twitter](http://twitter.com/rem) |
+David Walsh | [Twitter](http://twitter.com/davidwalshblog) |
+Rebecca Murphey | [Twitter](http://twitter.com/rmurphey) | [Blog](http://rmurphey.com/) 	
+David Flanagan | [Twitter](http://twitter.com/__DavidFlanagan) |
+Ilya Grigorik | [Twitter](http://twitter.com/igrigorik) |
+Azat Mardan | [Twitter](https://twitter.com/azat_co) |
+Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) |
 
- #### 3.10 TOOLS
+#### 3.10 TOOLS
 
- ##### 3.10.1 GIT
+##### 3.10.1 GIT
 
  * [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
 
- #### 3.11 JAVASCRIPT COMPILED LANGUAGES
+#### 3.11 JAVASCRIPT COMPILED LANGUAGES
 
- ##### 3.11.1 COFFEESCRIPT
+##### 3.11.1 COFFEESCRIPT
 
  * [CoffeeScript official site](http://coffeescript.org/)
 
