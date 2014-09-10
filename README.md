@@ -250,6 +250,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 ##### 3.7.2 AUDIO
 
 * [The Origin of Javascript with Brendan Eich](http://javascriptjabber.com/124-jsj-the-origin-of-javascript-with-brendan-eich/)
+* [5 Minutes of JavaScript](http://five-js.envylabs.com/)
 
 #### 3.8 NEWSLETTERS
 
