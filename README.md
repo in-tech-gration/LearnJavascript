@@ -273,7 +273,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 #### 3.9 DEVELOPERS (TWITTER, BLOGS)
 
 DEVELOPER  | TWITTER | BLOG | VIDEO CHANNEL
-------------- | ------------- | -------------
+------------- | ------------- | ------------- | -------------
 Paul Irish | [Twitter](http://twitter.com/paul_irish) | |
 Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | |
 Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) | [Blog](http://ariya.ofilabs.com/) | [YouTube](https://www.youtube.com/user/ariyahidayat)
