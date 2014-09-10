@@ -7,7 +7,7 @@ Contributors:
 
 Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
 
-###LEARNING
+### LEARNING
 
 * Understand type coercion
 * Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
@@ -104,19 +104,85 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Dos and Donts: Best Practices When Learning JavaScript](https://www.youtube.com/watch?v=zILmbcIYnfw)
 * [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
 * [David Walsh's Blog](http://davidwalsh.name/)
+* [DailyJS](http://dailyjs.com/)
+
+> DEBUGGING
 
 * [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
 * [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
 
 #### 3.3 NODE
 
-[Node School](http://nodeschool.io/)
+> BEGINNERS
+
+* [Node.js for Beginnersby Maciej Sopyło](http://code.tutsplus.com/tutorials/node-js-for-beginners--net-26314)
+* [Node School](http://nodeschool.io/)
+* [Resources to Get You Up to Speed in Node.js](http://code.tutsplus.com/articles/resources-to-get-you-up-to-speed-in-nodejs--cms-21431)
+* [Getting Started With NodeJS: Installing And Writing Your First Code](http://sub.watchmecode.net/getting-started-with-nodejs-installing-and-writing-your-first-code/)
+* [UNDERSTANDING MODULE.EXPORTS AND EXPORTS IN NODE.JS](http://www.choskim.me/understanding-module-exports-and-exports-in-node-js/)
+* [Introduction to the MEAN Stack](http://code.tutsplus.com/tutorials/introduction-to-the-mean-stack--cms-19918)
+* [Felix's Node.js Beginners Guide](http://nodeguide.com/beginner.html)
+* [8 NPM Tips for Better Node Development](http://scottksmith.com/blog/2014/06/25/8-npm-tips-for-better-node-development/)
+* [Command-line utilities with Node.js](http://cruft.io/posts/node-command-line-utilities/)
+* [Receiving Emails with Node](http://dailyjs.com/2014/06/05/mailin/)
+* [Build a Killer Node.js Client for Your REST+JSON API](https://stormpath.com/blog/build-a-killer-node-dot-js-client-for-your-rest-plus-json-api/)
+* [Beer Locker: Building a RESTful API With Node - Passport](http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/)
+
+> EXPRESS.JS
+
+* [Express.js Fundamentals](http://modernweb.com/2013/11/11/express-js-fundamentals/)
+* [The Basics of Express Routes](http://modernweb.com/2014/04/07/the-basics-of-express-routes/)
+* [LEARNING EXPRESS 4](http://blog.modulus.io/learning-express-four)
+* [Creating a REST API using Node.js, Express, and MongoDB](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
+* [Restful: A Better REST API Using Node.js With Express](http://benaugarten.com/blog/2013/01/31/restful-a-better-rest-api-using-node-dot-js-with-express/)
+* [Using Express.js for APIs](http://strongloop.com/strongblog/using-express-js-for-apis/)
+* [Build a Complete MVC Website With ExpressJS]()
+* [Simple form handling with Express and Nodemailer](http://blog.ragingflame.co.za/2012/6/28/simple-form-handling-with-express-and-nodemailer)
+* [Form Validation With ExpressJS](http://blogs.telerik.com/backendservices/posts/13-11-21/form-validation-with-expressjs)
+* [Migrating Express.js 3.x to 4.x: Middleware, Route and Other Changes](http://webapplog.com/migrating-express-js-3-x-to-4-x-middleware-route-and-other-changes/)
+* [Intro to Express.js: Parameters, Error Handling and Other Middleware](http://webapplog.com/intro-to-express-js-parameters-error-handling-and-other-middleware/)
+
+> ADVANCED
+
+* [Using Node.js in Production](http://modernweb.com/2014/06/23/using-node-js-in-production/)
+* [Node.js in Production](http://blog.carbonfive.com/2014/06/02/node-js-in-production/)
+* [Scaling Node.js with recluster](https://medium.com/@garychambers108/scaling-node-js-with-recluster-f04dd346108c)
+* [Comparison: Tools to Automate Restarting Node.js Server After Code Changes](http://strongloop.com/strongblog/comparison-tools-to-automate-restarting-node-js-server-after-code-changes-forever-nodemon-nodesupervisor-nodedev/)
+* [Error Handling in Node.js](http://www.joyent.com/developers/node/design/errors)
+* [Using Node.js to join audio files](http://blog.ragingflame.co.za/2013/5/31/using-nodejs-to-join-audio-files)
+
+> BOOKS
+
+* [Node: Up and Running, *by Tom Hughes-Croucher and Mike Wilson*](http://chimera.labs.oreilly.com/books/1234000001808/index.html)
+* [The Node Beginner Book](http://www.nodebeginner.org/)
+
+> VIDEOS
+
+* [NodeTuts: Node.JS Video Tutorials](http://nodetuts.com/)
+
+> HOSTING PLATFORMS
+
+* [MODULUS](https://modulus.io/)
+* [NITROUS.IO](https://www.nitrous.io/)
+* [Cloud9](https://c9.io/)
+* [OpenShift](https://www.openshift.com/)
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
 ##### 3.4.1 BACKBONE.JS
 
-* [Developing Backbone.js Applications, Addy Osmani](https://github.com/addyosmani/backbone-fundamentals)
+* [Introduction to Backbone Js and Setting Up an Working Environment – Learning Backbone Js](http://www.codebeerstartups.com/2012/12/introduction-to-backbone-js-and-setting-up-an-working-environment/)
+* [Single Page ToDo Application With Backbone.js](http://code.tutsplus.com/tutorials/single-page-todo-application-with-backbonejs--cms-21417)
+* [Developing Backbone.js Applications, *by Addy Osmani*](https://github.com/addyosmani/backbone-fundamentals)
+* [Your First Backbone.js App – Service Chooser, *by Martin Angelov*](http://tutorialzine.com/2013/04/services-chooser-backbone-js/)
+
+> CODE
+
+* [Super Simple Backbone Starter Kit and Boilerplate](https://github.com/azat-co/super-simple-backbone-starter-kit)
+
+> BOOKS
+
+* [Developing Backbone.js Applications, *By Addy Osmani*](http://addyosmani.github.io/backbone-fundamentals/)
 
 ##### 3.4.2 JQUERY
 
@@ -210,3 +276,14 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  ##### 3.10.1 GIT
 
  * [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
+
+ #### 3.11 JAVASCRIPT COMPILED LANGUAGES
+
+ ##### 3.11.1 COFFEESCRIPT
+
+ * [CoffeeScript official site](http://coffeescript.org/)
+
+> BOOKS
+
+ * [Smooth CoffeeScript](http://autotelicum.github.io/Smooth-CoffeeScript/)
+ * [The Little Book on CoffeeScript](http://arcturo.github.io/library/coffeescript/)
