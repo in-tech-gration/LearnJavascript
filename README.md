@@ -35,6 +35,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Learn how to debug your JS code. Here are some good links as a starting point:
 
  [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
+ [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
 
 * Study JavaScript Patterns and Anti-Patterns:
 
@@ -101,6 +102,9 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Dos and Donts: Best Practices When Learning JavaScript](https://www.youtube.com/watch?v=zILmbcIYnfw)
 * [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
 * [David Walsh's Blog](http://davidwalsh.name/)
+
+* [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
+* [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
 
 #### 3.3 NODE
 
@@ -170,3 +174,9 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Ilya Grigorik](http://twitter.com/igrigorik) 
  * [Azat Mardan](https://twitter.com/azat_co)
  * [Dmitry Baranovskiy](https://twitter.com/DmitryBaranovsk)
+
+ #### 3.10 TOOLS
+
+ ##### 3.10.1 GIT
+
+ * [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
