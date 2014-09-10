@@ -138,7 +138,6 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Web Spreadsheet in 99 lines using Angular](https://github.com/audreyt/500lines/blob/master/spreadsheet/chapter.md)
 * [Fun with AngularJS!](http://devgirl.org/2013/03/21/fun-with-angularjs/)
 * [AngularJS Cheat Sheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
-
 * [Speeding up AngularJS apps with simple optimizations](http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135)
 * [Optimizing AngularJS: 1200ms to 35ms](http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/)
 
