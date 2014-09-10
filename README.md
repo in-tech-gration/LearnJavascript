@@ -170,6 +170,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [MODULUS](https://modulus.io/)
 * [NITROUS.IO](https://www.nitrous.io/)
 * [Cloud9](https://c9.io/)
+* [Heroku](https://www.heroku.com/)
 * [OpenShift](https://www.openshift.com/)
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
