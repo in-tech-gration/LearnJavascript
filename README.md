@@ -122,6 +122,34 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [A tidy repository of jQuery plugins, *by @psnka*](http://unheap.com/)
 
+##### 3.4.3 ANGULAR JS
+
+> TUTORIALS
+
+* [3 Reasons to Choose AngularJS for Your Next Project](http://code.tutsplus.com/tutorials/3-reasons-to-choose-angularjs-for-your-next-project--net-28457)
+* [Comprehensive Beginner’s Guide to AngularJS](http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/)
+* [Recipes with Angular.js](http://fdietz.github.io/recipes-with-angular-js/)
+* [AngularJS for Absolute Beginners, *by David East*](http://medialoot.com/blog/angularjs-for-absolute-beginners/)
+* [Learn AngularJS With These 5 Practical Examples](http://tutorialzine.com/2013/08/learn-angularjs-5-examples/)
+* [How to Learn AngularJS - Your AngularJS Sherpa](http://www.ng-newsletter.com/posts/how-to-learn-angular.html)
+* [ANGULARJS: SHOPPING LIST APPLICATION](http://return-true.com/2013/06/angularjs-shopping-list-application-part-1/)
+* [Building a Spreadsheet in 20 Minutes with Angular.js, *by David Graunke*](http://thomasstreet.com/blog/legacy/spreadsheet.html)
+* [Learning AngularJS by Example – The Customer Manager Application](http://weblogs.asp.net/dwahlin/learning-angularjs-by-example-the-customer-manager-application)
+* [Web Spreadsheet in 99 lines using Angular](https://github.com/audreyt/500lines/blob/master/spreadsheet/chapter.md)
+* [Fun with AngularJS!](http://devgirl.org/2013/03/21/fun-with-angularjs/)
+* [AngularJS Cheat Sheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
+
+* [Speeding up AngularJS apps with simple optimizations](http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135)
+* [Optimizing AngularJS: 1200ms to 35ms](http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/)
+
+> VIDEOS
+
+* [AngularJS Fundamentals In 60-ish Minutes, *by Dan Wahlin*](https://www.youtube.com/watch?v=i9MHigUZKEM) 
+
+> NEWSLETTERS
+
+* [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
+
 #### 3.5 BOOKS
 
  * [JavaScript: The Good Parts, *by Douglas Crockford*](http://shop.oreilly.com/product/9780596517748.do)
@@ -157,6 +185,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [JavaScript Weekly](http://javascriptweekly.com/) 
  * [A Drip of JavaScript](http://designpepper.com/a-drip-of-javascript/)
  * [Node Weekly](http://nodeweekly.com/)
+ * [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
 
 #### 3.9 DEVELOPERS ON TWITTER
 
