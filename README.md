@@ -98,6 +98,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [JS 101](http://www.teaching-materials.org/javascript/)
 * [7 JavaScript Basics Many Developers Aren't Using (Properly)](http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly)
 * [5 Tips to Become a Better JavaScript Developer](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
+* [JavaScript Idiosyncrasies](https://github.com/miguelmota/javascript-idiosyncrasies)
+
+> TESTING CODE
+
+* [JSBin](http://jsbin.com/)
+* [JSFiddle](http://jsfiddle.net/)
 
 #### 3.2 GENERAL
 
@@ -125,6 +131,11 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
 * [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
+
+> ADVANCED
+
+* [JavaScript language advanced Tips & Tricks](https://code.google.com/p/jslibs/wiki/JavascriptTips)
+* [Byte saving techniques: a collection of JavaScript wizardry that can shave bytes off of your code](https://github.com/jed/140bytes/wiki/Byte-saving-techniques)
 
 #### 3.3 NODE
 
@@ -177,8 +188,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > HOSTING PLATFORMS
 
-* [MODULUS](https://modulus.io/)
-* [NITROUS.IO](https://www.nitrous.io/)
+* [Modulus](https://modulus.io/)
+* [Nitrous.IO](https://www.nitrous.io/)
 * [Cloud9](https://c9.io/)
 * [Heroku](https://www.heroku.com/)
 * [OpenShift](https://www.openshift.com/)
