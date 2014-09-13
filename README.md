@@ -117,6 +117,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [DailyJS](http://dailyjs.com/)
 * [Understand JavaScript Closures With Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [JavaScript the Right Way](http://jstherightway.org/)
+* [JavaScript and the Browser: Under the Hood, *by Ariya Hidayat*](https://speakerdeck.com/ariya/javascript-and-the-browser-under-the-hood)
 
 > PERFORMANCE
 
