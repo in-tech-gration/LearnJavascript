@@ -99,6 +99,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [7 JavaScript Basics Many Developers Aren't Using (Properly)](http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly)
 * [5 Tips to Become a Better JavaScript Developer](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
 * [JavaScript Idiosyncrasies](https://github.com/miguelmota/javascript-idiosyncrasies)
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 > TESTING CODE
 
@@ -138,6 +139,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [JavaScript language advanced Tips & Tricks](https://code.google.com/p/jslibs/wiki/JavascriptTips)
 * [Byte saving techniques: a collection of JavaScript wizardry that can shave bytes off of your code](https://github.com/jed/140bytes/wiki/Byte-saving-techniques)
 * [Advanced JavaScript Techniques](http://www.slideshare.net/Dmitry.Baranovskiy/advanced-javascript-techniques)
+* [MetaJS: Visualize JavaScript AST Execution](http://int3.github.io/metajs/)
 
 #### 3.3 NODE
 
