@@ -64,7 +64,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
  * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
 * Subscribe to Newsletters and stay up to date with JS and Node. *(See section `3.8 NEWSLETTERS`)*
-* Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/).
+* Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](#gulp).
 * Start building Desktop Applications using HTML/JavaScript in [Node-Webkit](https://github.com/rogerwang/node-webkit).
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 
@@ -316,6 +316,15 @@ Pamela Fox | [Twitter](https://twitter.com/pamelafox) | [Blog](http://blog.pamel
 ##### 3.10.1 GIT
 
  * [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
+
+##### 3.10.2 TASK RUNNERS
+
+###### GRUNT 
+
+###### <a name="gulp"></a>GULP
+
+* [Gulp](http://gulpjs.com/)
+* [LEARNING GULP: GETTING STARTED WITH THE FRONT END FACTORY](http://hmphry.com/gulp/)
 
 #### 3.11 JAVASCRIPT COMPILED LANGUAGES
 
