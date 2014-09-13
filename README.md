@@ -190,6 +190,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [NodeTuts: Node.JS Video Tutorials](http://nodetuts.com/)
 
+> TESTING CODE
+
+* [Runnable.com](runnable.com)
+
 > HOSTING PLATFORMS
 
 * [Modulus](https://modulus.io/)
