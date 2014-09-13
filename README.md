@@ -278,6 +278,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Paul Irish, "Delivering the goods"](https://www.youtube.com/watch?v=R8W_6xWphtw)
  * [Paul Irish, "JavaScript Development Workflow of 2013"](https://www.youtube.com/watch?v=f7AU2Ozu8eo)
  * [JavaScript Scope Chains and Closures, *by Adam Breindel*](https://www.youtube.com/watch?v=zRZNb4GDOPI)
+ * [**Must-watch videos about javascript**, video list curated by *Sergey Bolshchikov*](https://github.com/bolshchikov/js-must-watch)
 
 ##### 3.7.2 AUDIO
 
@@ -319,7 +320,7 @@ Pamela Fox | [Twitter](https://twitter.com/pamelafox) | [Blog](http://blog.pamel
 
  * [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
 
-##### 3.10.2 TASK RUNNERS
+##### 3.10.2 BUILD TOOLS / TASK RUNNERS
 
 ###### GRUNT 
 
