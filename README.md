@@ -289,6 +289,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [**Must-watch videos about javascript**, video list curated by *Sergey Bolshchikov*](https://github.com/bolshchikov/js-must-watch)
  * [**Must-Watch JavaScript**, video list curated by *Matt Smith*](https://github.com/AllThingsSmitty/must-watch-javascript)
  * [JavaScript Coding Tips, *by Axel Rauschmayer* ](http://vimeo.com/102974011)
+ * [Philip Roberts: Help, I'm stuck in an event-loop: How JavaScript actually works](http://vimeo.com/96425312)
 
 ##### 3.7.2 AUDIO
 
