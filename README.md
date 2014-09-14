@@ -160,6 +160,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Build a Killer Node.js Client for Your REST+JSON API](https://stormpath.com/blog/build-a-killer-node-dot-js-client-for-your-rest-plus-json-api/)
 * [Beer Locker: Building a RESTful API With Node - Passport](http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/)
 * [Most Popular Node.js Frameworks for App Development](http://www.algoworks.com/blog/most-popular-node-js-frameworks-for-app-development/)
+* [10 Tips to Make Your Node.js Web App Faster](http://www.sitepoint.com/10-tips-make-node-js-web-app-faster/)
 
 > EXPRESS.JS
 
