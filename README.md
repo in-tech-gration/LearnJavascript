@@ -285,6 +285,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [JavaScript Scope Chains and Closures, *by Adam Breindel*](https://www.youtube.com/watch?v=zRZNb4GDOPI)
  * [**Must-watch videos about javascript**, video list curated by *Sergey Bolshchikov*](https://github.com/bolshchikov/js-must-watch)
  * [**Must-Watch JavaScript**, video list curated by *Matt Smith*](https://github.com/AllThingsSmitty/must-watch-javascript)
+ * [JavaScript Coding Tips, *by Axel Rauschmayer* ](http://vimeo.com/102974011)
 
 ##### 3.7.2 AUDIO
 
