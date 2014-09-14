@@ -158,6 +158,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Receiving Emails with Node](http://dailyjs.com/2014/06/05/mailin/)
 * [Build a Killer Node.js Client for Your REST+JSON API](https://stormpath.com/blog/build-a-killer-node-dot-js-client-for-your-rest-plus-json-api/)
 * [Beer Locker: Building a RESTful API With Node - Passport](http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/)
+* [Most Popular Node.js Frameworks for App Development](http://www.algoworks.com/blog/most-popular-node-js-frameworks-for-app-development/)
 
 > EXPRESS.JS
 
