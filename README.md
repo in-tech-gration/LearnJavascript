@@ -209,7 +209,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
-[Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things](https://github.com/sorrycc/awesome-javascript)
+> LISTS
+
+* [JavaScripting](http://www.javascripting.com/)
+* [Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things](https://github.com/sorrycc/awesome-javascript)
 
 ##### 3.4.1 BACKBONE.JS
 
