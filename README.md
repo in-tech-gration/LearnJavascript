@@ -318,6 +318,7 @@ Azat Mardan | [Twitter](https://twitter.com/azat_co) | |
 Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) | |
 Pamela Fox | [Twitter](https://twitter.com/pamelafox) | [Blog](http://blog.pamelafox.org/) |
 Alex Castrounis | [Twitter](https://twitter.com/innoarchitech) | [Blog](http://www.innoarchitech.com/) |
+Béla Varga | [Twitter](https://twitter.com/netzzwerg) | |
 
 #### 3.10 TOOLS
 
