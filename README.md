@@ -287,6 +287,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [JavaScript Essentials](http://www.techotopia.com/index.php/JavaScript_Essentials)
 * [Oh My JS: The Best JavaScript Articles, *by Azat Mardan*](https://leanpub.com/ohmyjs)
 * [Understanding ECMAScript 6, *by Nicholas Zakas*](https://leanpub.com/understandinges6/read)
+* [JavaScript Enlightenment](http://www.javascriptenlightenment.com/)
 
 #### 3.7 VIDEO & AUDIO
 
