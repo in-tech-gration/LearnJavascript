@@ -68,6 +68,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](#gulp).
 * Start building Desktop Applications using HTML/JavaScript in [Node-Webkit](https://github.com/rogerwang/node-webkit).
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
+* Code using a [Style Guide](https://github.com/airbnb/javascript). 
 
 ### 2. SUGGESTED CODING RULES AND BEST PRACTIVES
 
@@ -207,6 +208,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Heroku](https://www.heroku.com/)
 * [OpenShift](https://www.openshift.com/)
 * [NodeJitsu](https://www.nodejitsu.com/)
+* [NodeGear](https://nodegear.com/)
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
