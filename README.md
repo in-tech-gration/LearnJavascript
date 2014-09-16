@@ -203,6 +203,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 > VIDEOS
 
 * [NodeTuts: Node.JS Video Tutorials](http://nodetuts.com/)
+* [Node.JS videos @ egghead.io](https://egghead.io/technologies/node)
 
 > TESTING CODE
 
@@ -266,6 +267,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 > VIDEOS
 
 * [AngularJS Fundamentals In 60-ish Minutes, *by Dan Wahlin*](https://www.youtube.com/watch?v=i9MHigUZKEM) 
+* [AngularJS videos @ egghead.io](https://egghead.io/technologies/angularjs)
 
 > NEWSLETTERS
 
