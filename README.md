@@ -330,7 +330,7 @@ Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | |
 Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | |
 Addy Osmani | [Twitter](http://twitter.com/addyosmani) | |
 Christian Heilmann | [Twitter](http://twitter.com/codepo8) | |
-Remy Sharp | [Twitter](http://twitter.com/rem) | |
+Remy Sharp | [Twitter](http://twitter.com/rem) | [Blog](http://remysharp.com/) |
 David Walsh | [Twitter](http://twitter.com/davidwalshblog) | |
 Rebecca Murphey | [Twitter](http://twitter.com/rmurphey) | [Blog](http://rmurphey.com/) |
 David Flanagan | [Twitter](http://twitter.com/__DavidFlanagan) | |
