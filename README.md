@@ -104,6 +104,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 * [Context or the "This" Keyword in JavaScript, *by Adam Breindel*](https://thenewcircle.com/s/post/1564/context_or_the_this_keyword_in_javascript_tutorial)
 * [45 Useful JavaScript Tips, Tricks and Best Practices](http://modernweb.com/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices/)
+* [MDN JavaScript DevDocs](http://devdocs.io/javascript/)
 
 > COURSES
 
