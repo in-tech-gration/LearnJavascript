@@ -327,7 +327,7 @@ DEVELOPER  | TWITTER | BLOG | VIDEO CHANNEL
 Paul Irish | [Twitter](http://twitter.com/paul_irish) | |
 Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | |
 Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) | [Blog](http://ariya.ofilabs.com/) | [YouTube](https://www.youtube.com/user/ariyahidayat)
-John Resig | [Twitter](http://twitter.com/jeresig) | |
+John Resig | [Twitter](http://twitter.com/jeresig) | [Blog](http://ejohn.org/category/blog/) |
 Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) |	|
 Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | |
 Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | |
