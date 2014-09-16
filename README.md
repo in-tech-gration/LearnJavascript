@@ -284,10 +284,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/javascript-for-cats.pdf) **(Free PDF)**
  * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
  * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
-* [JavaScript Essentials](http://www.techotopia.com/index.php/JavaScript_Essentials)
-* [Oh My JS: The Best JavaScript Articles, *by Azat Mardan*](https://leanpub.com/ohmyjs)
-* [Understanding ECMAScript 6, *by Nicholas Zakas*](https://leanpub.com/understandinges6/read)
-* [JavaScript Enlightenment](http://www.javascriptenlightenment.com/)
+ * [JavaScript Essentials](http://www.techotopia.com/index.php/JavaScript_Essentials)
+ * [Oh My JS: The Best JavaScript Articles, *by Azat Mardan*](https://leanpub.com/ohmyjs)
+ * [Understanding ECMAScript 6, *by Nicholas Zakas*](https://leanpub.com/understandinges6/read)
+ * [JavaScript Enlightenment](http://www.javascriptenlightenment.com/)
 
 #### 3.7 VIDEO & AUDIO
 
