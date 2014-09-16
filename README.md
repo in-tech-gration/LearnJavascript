@@ -170,6 +170,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Beer Locker: Building a RESTful API With Node - Passport](http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/)
 * [Most Popular Node.js Frameworks for App Development](http://www.algoworks.com/blog/most-popular-node-js-frameworks-for-app-development/)
 * [10 Tips to Make Your Node.js Web App Faster](http://www.sitepoint.com/10-tips-make-node-js-web-app-faster/)
+* [LEARN ALL THE NODES: SCREENCASTS EXPLORING, EXPLAINING, AND EXPANDING THE WORLD OF NODE.JS](http://www.learnallthenodes.com/)
 
 > EXPRESS.JS
 
