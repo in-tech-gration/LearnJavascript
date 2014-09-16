@@ -107,6 +107,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > COURSES
 
+* [CodeCombat: Learn to Code by Playing a Game](http://codecombat.com/)
 * [Javascript for Beginners, Udemy **PAID COURSE**](https://www.udemy.com/beginning-javascript/)
 
 > TESTING CODE
