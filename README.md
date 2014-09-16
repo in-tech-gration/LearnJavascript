@@ -324,26 +324,55 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 DEVELOPER  | TWITTER | BLOG | VIDEO CHANNEL
 ------------- | ------------- | ------------- | -------------
-Paul Irish | [Twitter](http://twitter.com/paul_irish) | |
-Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | |
+Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | [Blog](http://brendaneich.com/) |
 Douglas Crockford | | [Blog](http://javascript.crockford.com/) |
+Paul Irish | [Twitter](http://twitter.com/paul_irish) | [Blog](http://paulirish.com/) |
 Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) | [Blog](http://ariya.ofilabs.com/) | [YouTube](https://www.youtube.com/user/ariyahidayat)
 John Resig | [Twitter](http://twitter.com/jeresig) | [Blog](http://ejohn.org/category/blog/) |
 Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) |	|
 Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | |
-Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | |
-Addy Osmani | [Twitter](http://twitter.com/addyosmani) | |
-Christian Heilmann | [Twitter](http://twitter.com/codepo8) | |
+Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | [Blog](http://www.nczonline.net/) |
+Addy Osmani | [Twitter](http://twitter.com/addyosmani) | [Blog](http://addyosmani.com/blog/) |
+Christian Heilmann | [Twitter](http://twitter.com/codepo8) | [Blog](http://christianheilmann.com/) |
 Remy Sharp | [Twitter](http://twitter.com/rem) | [Blog](http://remysharp.com/) |
-David Walsh | [Twitter](http://twitter.com/davidwalshblog) | |
+David Walsh | [Twitter](http://twitter.com/davidwalshblog) | [Blog](http://davidwalsh.name/) |
 Rebecca Murphey | [Twitter](http://twitter.com/rmurphey) | [Blog](http://rmurphey.com/) |
-David Flanagan | [Twitter](http://twitter.com/__DavidFlanagan) | |
+David Flanagan | [Twitter](http://twitter.com/__DavidFlanagan) | [Blog](http://davidflanagan.com/) |
 Ilya Grigorik | [Twitter](http://twitter.com/igrigorik) | |
 Azat Mardan | [Twitter](https://twitter.com/azat_co) | |
-Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) | |
+Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) | [Blog](http://dmitry.baranovskiy.com/) |
 Pamela Fox | [Twitter](https://twitter.com/pamelafox) | [Blog](http://blog.pamelafox.org/) |
 Alex Castrounis | [Twitter](https://twitter.com/innoarchitech) | [Blog](http://www.innoarchitech.com/) |
 Béla Varga | [Twitter](https://twitter.com/netzzwerg) | |
+Dean Edwards | | [Blog](http://dean.edwards.name/weblog/) |
+Dustin Diaz | [Twitter](https://twitter.com/ded) | [Blog](http://www.dustindiaz.com/) |
+Thomas Fuchs | [Twitter](https://twitter.com/thomasfuchs) | [Blog](http://mir.aculo.us/) |
+Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.com/) |
+Juriy Zaytsev | [Twitter](https://twitter.com/kangax) | [Blog](http://perfectionkills.com/) |
+Peter van der Zee | [Twitter](https://twitter.com/kuvos) | [Blog](http://qfox.nl/weblog) |
+Stoyan Stefanov | [Twitter](Stoyan Stefanov) | [Blog](http://www.phpied.com/) |
+Lucas Smith | [Twitter](https://twitter.com/ls_n) | |
+Ben Alman | [Twitter](https://twitter.com/cowboy) | [Blog](http://benalman.com/) |
+Rey Bango | [Twitter](https://twitter.com/reybango) | [Blog](http://blog.reybango.com/) |
+Cody Lindley | [Twitter](https://twitter.com/codylindley) | [Blog](http://blog.codylindley.com/) |
+James Padolsey | [Twitter](https://twitter.com/padolsey) | [Blog](http://james.padolsey.com/) |
+Oliver Steele | [Twitter](https://twitter.com/osteele) | [Blog](http://www.osteele.com/) |
+Ben Cherry | [Twitter](https://twitter.com/bcherry) | [Blog](http://www.adequatelygood.com/) |
+Michael Bolin | [Twitter](https://twitter.com/bolinfest) | [Blog](http://blog.bolinfest.com/) |
+James Coglan | [Twitter](https://twitter.com/jcoglan) | [Blog](https://blog.jcoglan.com/) |
+Angus Croll | [Twitter](http://twitter.com/angusTweets) | [Blog](http://javascriptweblog.wordpress.com/) |
+John-David Dalton | [Twitter](https://twitter.com/jdalton) | [Blog](http://allyoucanleet.com/) |
+Andrea Giammarchi | [Twitter](http://twitter.com/WebReflection) | [Blog](http://webreflection.blogspot.gr/) |
+Peter Michaux | | [Blog](http://peter.michaux.ca/) |
+Dion Almaer | [Twitter](https://twitter.com/dalmaer) | [Blog](http://almaer.com/blog/) |
+
+NAME | [Twitter]() | [Blog]() |
+NAME | [Twitter]() | [Blog]() |
+NAME | [Twitter]() | [Blog]() |
+NAME | [Twitter]() | [Blog]() |
+NAME | [Twitter]() | [Blog]() |
+NAME | [Twitter]() | [Blog]() |
+
 
 #### 3.10 TOOLS
 
