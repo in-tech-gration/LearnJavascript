@@ -284,6 +284,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
 * [JavaScript Essentials](http://www.techotopia.com/index.php/JavaScript_Essentials)
 * [Oh My JS: The Best JavaScript Articles, *by Azat Mardan*](https://leanpub.com/ohmyjs)
+* [Understanding ECMAScript 6, *by Nicholas Zakas*](https://leanpub.com/understandinges6/read)
 
 #### 3.7 VIDEO & AUDIO
 
