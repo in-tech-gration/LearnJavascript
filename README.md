@@ -330,7 +330,7 @@ Paul Irish | [Twitter](http://twitter.com/paul_irish) | [Blog](http://paulirish.
 Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) | [Blog](http://ariya.ofilabs.com/) | [YouTube](https://www.youtube.com/user/ariyahidayat)
 John Resig | [Twitter](http://twitter.com/jeresig) | [Blog](http://ejohn.org/category/blog/) |
 Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) |	|
-Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | |
+Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | [Blog]() |
 Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | [Blog](http://www.nczonline.net/) |
 Addy Osmani | [Twitter](http://twitter.com/addyosmani) | [Blog](http://addyosmani.com/blog/) |
 Christian Heilmann | [Twitter](http://twitter.com/codepo8) | [Blog](http://christianheilmann.com/) |
@@ -365,14 +365,6 @@ John-David Dalton | [Twitter](https://twitter.com/jdalton) | [Blog](http://allyo
 Andrea Giammarchi | [Twitter](http://twitter.com/WebReflection) | [Blog](http://webreflection.blogspot.gr/) |
 Peter Michaux | | [Blog](http://peter.michaux.ca/) |
 Dion Almaer | [Twitter](https://twitter.com/dalmaer) | [Blog](http://almaer.com/blog/) |
-
-NAME | [Twitter]() | [Blog]() |
-NAME | [Twitter]() | [Blog]() |
-NAME | [Twitter]() | [Blog]() |
-NAME | [Twitter]() | [Blog]() |
-NAME | [Twitter]() | [Blog]() |
-NAME | [Twitter]() | [Blog]() |
-
 
 #### 3.10 TOOLS
 
