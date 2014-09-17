@@ -218,6 +218,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [OpenShift](https://www.openshift.com/)
 * [NodeJitsu](https://www.nodejitsu.com/)
 * [NodeGear](https://nodegear.com/)
+* [AppFrog](https://www.appfog.com/)
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
