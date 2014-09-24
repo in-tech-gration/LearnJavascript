@@ -117,6 +117,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [JSBin](http://jsbin.com/)
 * [JSFiddle](http://jsfiddle.net/)
 
+> APIs
+
+* [Screen Orientation API](http://www.sitepoint.com/introducing-screen-orientation-api/)
+
 #### 3.2 GENERAL
 
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
@@ -130,6 +134,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Understand JavaScript Closures With Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [JavaScript the Right Way](http://jstherightway.org/)
 * [JavaScript and the Browser: Under the Hood, *by Ariya Hidayat*](https://speakerdeck.com/ariya/javascript-and-the-browser-under-the-hood)
+* [JSdo It: Share JavaScript, HTML5 and CSS.](http://jsdo.it/)
 
 > PERFORMANCE
 
@@ -218,7 +223,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [OpenShift](https://www.openshift.com/)
 * [NodeJitsu](https://www.nodejitsu.com/)
 * [NodeGear](https://nodegear.com/)
-* [AppFrog](https://www.appfog.com/)
+* [AppFog](https://www.appfog.com/)
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
@@ -273,6 +278,16 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 > NEWSLETTERS
 
 * [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
+
+##### 3.4.4 EMBER 
+
+* [Ember.js introduction by Kasper Tidemann](https://www.youtube.com/watch?v=L3sYt8PPHyI) [**VIDEO**]
+
+##### 3.4.5 KNOCKOUT JS
+
+##### 3.4.5 REACT
+
+* [Getting Started With React](http://www.tysoncadenhead.com/blog/getting-started-with-react)
 
 #### 3.5 BOOKS
 
