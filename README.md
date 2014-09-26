@@ -313,6 +313,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ##### 3.7.1 VIDEO
 
+> BEGINNERS
+
+* [Introduction to JavaScript Programming, *by Curran Kelleher*](https://www.youtube.com/watch?v=zIpA8k167gU)
+
+> GENERAL
+
  * [Javascript, the Good Parts, GoogleTechTalks, *Douglas Crockford*](https://www.youtube.com/watch?v=hQVTIJBZook)
  * [Douglas Crockford: The JavaScript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M)
  * [10 Things I Learned from the jQuery Source, *Paul Irish*](http://www.youtube.com/watch?v=i_qE1iAmjFg)
