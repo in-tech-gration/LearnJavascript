@@ -274,6 +274,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [AngularJS Fundamentals In 60-ish Minutes, *by Dan Wahlin*](https://www.youtube.com/watch?v=i9MHigUZKEM) 
 * [AngularJS videos @ egghead.io](https://egghead.io/technologies/angularjs)
+* [Introduction to Angular.js in 50 Examples, *by Curran Kelleher*](https://www.youtube.com/watch?v=TRrL5j3MIvo)
 
 > NEWSLETTERS
 
