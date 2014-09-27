@@ -7,6 +7,8 @@ Contributors:
 
 Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
 
+![Alt text](/img/2017-JS.png)
+
 ### LEARNING
 
 * Understand type coercion
@@ -150,6 +152,13 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
 * [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
 
+> LINTERS
+
+* [JSLINT](http://www.jslint.com/)
+* [JSHINT Linter](http://www.jshint.com/)
+* [ESLINT Linter](http://eslint.org/)
+* [JSCS](https://www.npmjs.org/package/jscs)
+
 > ADVANCED
 
 * [JavaScript language advanced Tips & Tricks](https://code.google.com/p/jslibs/wiki/JavascriptTips)
@@ -224,6 +233,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [NodeJitsu](https://www.nodejitsu.com/)
 * [NodeGear](https://nodegear.com/)
 * [AppFog](https://www.appfog.com/)
+* [Codio.io](https://codio.com/)
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
@@ -398,7 +408,10 @@ Dion Almaer | [Twitter](https://twitter.com/dalmaer) | [Blog](http://almaer.com/
 
 ##### 3.10.2 BUILD TOOLS / TASK RUNNERS
 
-###### GRUNT 
+###### <a name="grunt"></a>GRUNT 
+
+* [An Introduction To Grunt](http://code.tutsplus.com/articles/an-introduction-to-grunt--wp-34728)
+* [Setting Up Grunt For Your Next Project](http://code.tutsplus.com/articles/an-introduction-to-grunt--wp-34728)
 
 ###### <a name="gulp"></a>GULP
 
