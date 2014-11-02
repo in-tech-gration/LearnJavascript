@@ -96,6 +96,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 #### 3.1 BEGINNER RESOURCES
 
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
+* [Javascript: BEST PRACTICES PART 1, *by Christian Heilmann*](http://www.thinkful.com/learn/javascript-best-practices-1/)
 * [JavaScript Guide, MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [JAVASCRIPT FUNDAMENTALS, *by Azat Mardan*](http://gist.io/5955726)
 * [5 Tips to Become a Better JavaScript Developer, *by JUSTIN CHMURA*](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
@@ -165,6 +166,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Byte saving techniques: a collection of JavaScript wizardry that can shave bytes off of your code](https://github.com/jed/140bytes/wiki/Byte-saving-techniques)
 * [Advanced JavaScript Techniques](http://www.slideshare.net/Dmitry.Baranovskiy/advanced-javascript-techniques)
 * [MetaJS: Visualize JavaScript AST Execution](http://int3.github.io/metajs/)
+* [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 #### 3.3 NODE
 
