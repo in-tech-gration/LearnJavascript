@@ -386,6 +386,7 @@ Douglas Crockford | | [Blog](http://javascript.crockford.com/) |
 Dean Edwards | | [Blog](http://dean.edwards.name/weblog/) |
 Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) | [Blog](http://dmitry.baranovskiy.com/) |
 Dustin Diaz | [Twitter](https://twitter.com/ded) | [Blog](http://www.dustindiaz.com/) |
+Eric Elliott | [Twitter](https://twitter.com/_ericelliott) | |
 Ilya Grigorik | [Twitter](http://twitter.com/igrigorik) | |
 Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | [Blog]() |
 John Resig | [Twitter](http://twitter.com/jeresig) | [Blog](http://ejohn.org/category/blog/) |
@@ -393,6 +394,7 @@ Juriy Zaytsev | [Twitter](https://twitter.com/kangax) | [Blog](http://perfection
 James Coglan | [Twitter](https://twitter.com/jcoglan) | [Blog](https://blog.jcoglan.com/) |
 John-David Dalton | [Twitter](https://twitter.com/jdalton) | [Blog](http://allyoucanleet.com/) |
 James Padolsey | [Twitter](https://twitter.com/padolsey) | [Blog](http://james.padolsey.com/) |
+Kyle Simpson | [Twitter](https://twitter.com/getify) | [Blog](http://getify.me/) |
 Lucas Smith | [Twitter](https://twitter.com/ls_n) | |
 Michael Bolin | [Twitter](https://twitter.com/bolinfest) | [Blog](http://blog.bolinfest.com/) |
 Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | [Blog](http://www.nczonline.net/) |
