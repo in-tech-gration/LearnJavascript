@@ -363,8 +363,6 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 DEVELOPER  | TWITTER | BLOG | VIDEO CHANNEL
 ------------- | ------------- | ------------- | -------------
-
-
 Addy Osmani | [Twitter](http://twitter.com/addyosmani) | [Blog](http://addyosmani.com/blog/) |
 Azat Mardan | [Twitter](https://twitter.com/azat_co) | |
 Alex Castrounis | [Twitter](https://twitter.com/innoarchitech) | [Blog](http://www.innoarchitech.com/) |
