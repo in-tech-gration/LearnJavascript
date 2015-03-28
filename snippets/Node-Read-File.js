@@ -5,3 +5,9 @@ fs.readFile( 'file.txt', function(err, data){
 		console.log(data);
 	}
 });
+
+/* READ FILE SYNCHRONOUSLY IN VARIABLE */
+
+var file = fs.readFileSync( "file.html", "UTF-8");
+
+
