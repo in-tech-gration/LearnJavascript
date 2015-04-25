@@ -72,7 +72,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 * Code using a [Style Guide](https://github.com/airbnb/javascript). 
 
-### 2. SUGGESTED CODING RULES AND BEST PRACTIVES
+### 2. SUGGESTED CODING RULES AND BEST PRACTICES
 
 * Always use `var` when declaring a variable
 * [Code using `"use strict"`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
