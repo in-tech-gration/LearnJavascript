@@ -2,7 +2,7 @@ var fs       = require('fs');
 var readline = require('readline');
 var filename = '/path/to/file';
 
-var rd = readline.createInterface({
+var read = readline.createInterface({
 
     input    : fs.createReadStream( filename ),
     output   : process.stdout,
@@ -10,9 +10,15 @@ var rd = readline.createInterface({
 
 });
 
-rd.on( 'line', function(line) {
+read.on( 'line', function(line) {
 
     console.log( line );
+
+});
+
+read.on( 'close', function() {
+
+    console.log( "Finished parsing " + filename );
 
 });
 
