@@ -6,7 +6,7 @@ var match = regexpCSS.exec(css);
 console.log( 
 
     "\n Selector:", match[1], 
-    "\n Declaration Block:", match[2] 
+    "\n Declaration Block / Rules:", match[2] 
 
 );
 
