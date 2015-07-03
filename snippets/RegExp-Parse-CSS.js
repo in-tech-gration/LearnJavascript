@@ -10,4 +10,7 @@ console.log(
 
 );
 
+// MEDIA QUERIES
+// var regexpCSS_Media_Query = /((\s*?@media[\s\S]*?){([\s\S]*?)}\s*?})|(([\s\S]*?){([\s\S]*?)})/;
+
 /* Reference: http://www.devbattles.com/en/sand/post-1423-Writing+a+CSS+Parser+in+JavaScript */
