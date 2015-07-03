@@ -103,6 +103,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [JS 101](http://www.teaching-materials.org/javascript/)
 * [7 JavaScript Basics Many Developers Aren't Using (Properly)](http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly)
 * [5 Tips to Become a Better JavaScript Developer](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/)
+* [Things Every Javascript Developer Should Know, by Lubomir Vitol](http://www.devbattles.com/en/sand/post-1427-Things+Every+Javascript+Developer+Should+Know)
 * [JavaScript Idiosyncrasies](https://github.com/miguelmota/javascript-idiosyncrasies)
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 * [Context or the "This" Keyword in JavaScript, *by Adam Breindel*](https://thenewcircle.com/s/post/1564/context_or_the_this_keyword_in_javascript_tutorial)
