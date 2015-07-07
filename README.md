@@ -248,6 +248,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ##### 3.4.1 BACKBONE.JS
 
+* [**Awesome Backbone** List of Resources](https://github.com/instanceofpro/awesome-backbone/blob/master/README.md)
 * [Introduction to Backbone Js and Setting Up an Working Environment – Learning Backbone Js](http://www.codebeerstartups.com/2012/12/introduction-to-backbone-js-and-setting-up-an-working-environment/)
 * [Single Page ToDo Application With Backbone.js](http://code.tutsplus.com/tutorials/single-page-todo-application-with-backbonejs--cms-21417)
 * [Developing Backbone.js Applications, *by Addy Osmani*](https://github.com/addyosmani/backbone-fundamentals)
