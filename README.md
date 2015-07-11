@@ -128,6 +128,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 #### 3.2 GENERAL
 
+* [Essential JavaScript Links,A curated list by Eric Elliott and friends](https://github.com/ericelliott/essential-javascript-links)
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
 * [Learn JavaScript Essentials (for all skill levels), by Eric Elliott](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2)
 * [JavaScript, The Right Way](http://www.jstherightway.org/)
