@@ -174,6 +174,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 > FUNCTIONAL PROGRAMMING
 
 * [Recursion in Functional JavaScript, By M. David Green](http://www.sitepoint.com/recursion-functional-javascript/)
+* [**VIDEO** | Pure, functional JavaScript, Christian Johansen](https://vimeo.com/43382919)
 
 #### 3.3 NODE
 
