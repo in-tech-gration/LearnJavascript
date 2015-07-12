@@ -171,6 +171,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [MetaJS: Visualize JavaScript AST Execution](http://int3.github.io/metajs/)
 * [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
+> FUNCTIONAL PROGRAMMING
+
+* [Recursion in Functional JavaScript, By M. David Green](http://www.sitepoint.com/recursion-functional-javascript/)
+
 #### 3.3 NODE
 
 > BEGINNERS
