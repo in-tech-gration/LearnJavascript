@@ -318,6 +318,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 #### 3.5 BOOKS
 
+ * [**YDKJS: You-Dont-Know-JS**, A book series on JavaScript by Kyle Simpson](https://github.com/getify/You-Dont-Know-JS)
  * [JavaScript: The Good Parts, *by Douglas Crockford*](http://shop.oreilly.com/product/9780596517748.do)
  * [JavaScript, The Definitive Guide, *by David Flanagan*](http://shop.oreilly.com/product/9780596805531.do)
  * [High Performance JavaScript, *by Nicolas Zakas*](http://shop.oreilly.com/product/9780596802806.do)
