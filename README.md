@@ -151,6 +151,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [A Couple of Quick Tips for JavaScript Optimization](https://mondaybynoon.com/a-couple-of-quick-tips-for-javascript-optimization/)
 * [CSS TRIGGERS](http://csstriggers.com/)
 
+> PROMISES
+
+* [**Write Better JavaScript with Promises**, By Landon Schropp](http://davidwalsh.name/write-javascript-promises)
+
 > DEBUGGING
 
 * [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
