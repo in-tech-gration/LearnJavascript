@@ -447,8 +447,10 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 
 > BOOKS
 
- * [Smooth CoffeeScript](http://autotelicum.github.io/Smooth-CoffeeScript/)
- * [The Little Book on CoffeeScript](http://arcturo.github.io/library/coffeescript/)
+ * [**CoffeeScript Ristretto**](https://leanpub.com/coffeescript-ristretto/read)
+ * [**Smooth CoffeeScript**](http://autotelicum.github.io/Smooth-CoffeeScript/)
+ * [**The Little Book on CoffeeScript**](http://arcturo.github.io/library/coffeescript/)
+ * [**CoffeeScript: The Good Parts**, By Azat Mardan](https://qconnewyork.com/ny2014/system/files/presentation-slides/CoffeeScript-The-Good-Parts.pdf)
 
 ------
 
