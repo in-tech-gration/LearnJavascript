@@ -449,6 +449,10 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 
  * [CoffeeScript official site](http://coffeescript.org/)
 
+> TOOLS
+
+* [**CoffeePad**: CoffeeScript editor in your browser](https://github.com/gokmen/coffeepad)
+
 > BOOKS
 
  * [**CoffeeScript Ristretto**](https://leanpub.com/coffeescript-ristretto/read)
