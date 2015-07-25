@@ -269,6 +269,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Backbone.js Video Tutorials on YouTube, by *Moshfegh Hamedani*](https://www.youtube.com/watch?v=4t0n5k0X7ow)
 * [Backbone.js Tutorial for Beginners, by *Thomas Davis*](https://www.youtube.com/watch?v=FZSjvWtUxYk)
 * [Sample application built with Backbone.js, Twitter Bootstrap, Node.js, Express, MongoDB, by *Christophe Coenraets*](https://github.com/ccoenraets/nodecellar)
+* [Top 8 Common Backbone.js Developer Mistakes, By Mahmub Ridwan](http://www.toptal.com/backbone-js/top-8-common-backbone-js-developer-mistakes)
 
 > CODE
 
