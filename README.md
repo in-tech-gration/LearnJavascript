@@ -176,12 +176,19 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [MetaJS: Visualize JavaScript AST Execution](http://int3.github.io/metajs/)
 * [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
-> FUNCTIONAL PROGRAMMING
+> FUNCTIONAL PROGRAMMING: **READING**
 
 * [**Functional Programming in Javascript** An interactive learning course by Jafar Husain](http://jhusain.github.io/learnrx/)
-* [Recursion in Functional JavaScript, By M. David Green](http://www.sitepoint.com/recursion-functional-javascript/)
-* [**VIDEO** | Pure, functional JavaScript, Christian Johansen](https://vimeo.com/43382919)
-* [**VIDEO** | Lenses Quick n' Dirty: Functional Lenses in javascript. Implementation and some use cases, By Brian Lonsdorf](https://vimeo.com/104807358)
+* [**Recursion in Functional JavaScript**, By M. David Green](http://www.sitepoint.com/recursion-functional-javascript/)
+
+> FUNCTIONAL PROGRAMMING: **VIDEO**
+
+* [**Next-level functional Javascript with Ramda**, By Warren Seymour](https://vimeo.com/129549453)
+* [**Pure, functional JavaScript**, By Christian Johansen](https://vimeo.com/43382919)
+* [**Lenses Quick n' Dirty: Functional Lenses in javascript**, By Brian Lonsdorf](https://vimeo.com/104807358)
+
+> FUNCTIONAL PROGRAMMING: **LIBRARIES**
+
 
 #### 3.3 NODE
 
