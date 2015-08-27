@@ -189,6 +189,9 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > FUNCTIONAL PROGRAMMING: **LIBRARIES**
 
+* [*Ramda.JS*](http://ramdajs.com/)
+* [*Lodash.JS*](https://lodash.com/)
+* [*Underscore.JS*](http://underscorejs.org/)
 
 #### 3.3 NODE
 
