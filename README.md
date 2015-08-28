@@ -178,6 +178,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > FUNCTIONAL PROGRAMMING: **READING**
 
+* [**Why Curry Helps**, By Hugh FD Jackson](https://hughfdjackson.com/javascript/why-curry-helps/)
 * [**Functional Programming in Javascript** An interactive learning course by Jafar Husain](http://jhusain.github.io/learnrx/)
 * [**Recursion in Functional JavaScript**, By M. David Green](http://www.sitepoint.com/recursion-functional-javascript/)
 
