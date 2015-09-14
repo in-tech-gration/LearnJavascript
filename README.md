@@ -200,6 +200,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > BEGINNERS
 
+* [**Stream Adventure:** Go on an educational stream adventure!](https://github.com/substack/stream-adventure)
+* [**test-anything:** Learn to test anything with TAP](https://github.com/finnp/test-anything)
 * [Node.js for Beginnersby Maciej Sopyło](http://code.tutsplus.com/tutorials/node-js-for-beginners--net-26314)
 * [Node School](http://nodeschool.io/)
 * [Resources to Get You Up to Speed in Node.js](http://code.tutsplus.com/articles/resources-to-get-you-up-to-speed-in-nodejs--cms-21431)
