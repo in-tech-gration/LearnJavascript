@@ -467,6 +467,7 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 
  * [**CoffeeScript** Official site](http://coffeescript.org/)
  * [**Hard Rock CoffeeScript**](http://hardrockcoffeescript.org/)
+ * [**CoffeeScript: The beautiful way to write JavaScript**, By Amir Salihefendic](http://amix.dk/blog/post/19612)
 
 > TOOLS
 
