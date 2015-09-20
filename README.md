@@ -183,6 +183,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [**Functional Programming in Javascript** An interactive learning course by Jafar Husain](http://jhusain.github.io/learnrx/)
 * [**Recursion in Functional JavaScript**, By M. David Green](http://www.sitepoint.com/recursion-functional-javascript/)
 * [**Functional Programming**, By Scott Sauyet](http://scott.sauyet.com/Javascript/Talk/FunctionalProgramming/)
+* [Ramda + ramda-fantasy REPL](https://github.com/hemanth/ramda-repl)
 
 > FUNCTIONAL PROGRAMMING: **VIDEO**
 
