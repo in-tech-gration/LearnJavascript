@@ -465,7 +465,8 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 
 ##### 3.11.1 COFFEESCRIPT
 
- * [CoffeeScript official site](http://coffeescript.org/)
+ * [**CoffeeScript** Official site](http://coffeescript.org/)
+ * [**Hard Rock CoffeeScript**](http://hardrockcoffeescript.org/)
 
 > TOOLS
 
