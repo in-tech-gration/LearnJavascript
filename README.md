@@ -284,8 +284,6 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Single Page ToDo Application With Backbone.js](http://code.tutsplus.com/tutorials/single-page-todo-application-with-backbonejs--cms-21417)
 * [Developing Backbone.js Applications, *by Addy Osmani*](https://github.com/addyosmani/backbone-fundamentals)
 * [Your First Backbone.js App – Service Chooser, *by Martin Angelov*](http://tutorialzine.com/2013/04/services-chooser-backbone-js/)
-* [Backbone.js Video Tutorials on YouTube, by *Moshfegh Hamedani*](https://www.youtube.com/watch?v=4t0n5k0X7ow)
-* [Backbone.js Tutorial for Beginners, by *Thomas Davis*](https://www.youtube.com/watch?v=FZSjvWtUxYk)
 * [Sample application built with Backbone.js, Twitter Bootstrap, Node.js, Express, MongoDB, by *Christophe Coenraets*](https://github.com/ccoenraets/nodecellar)
 * [Top 8 Common Backbone.js Developer Mistakes, By Mahmub Ridwan](http://www.toptal.com/backbone-js/top-8-common-backbone-js-developer-mistakes)
 
@@ -296,6 +294,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 > BOOKS
 
 * [Developing Backbone.js Applications, *By Addy Osmani*](http://addyosmani.github.io/backbone-fundamentals/)
+
+> VIDEOS
+
+* [Backbone.js Video Tutorials on YouTube, by *Moshfegh Hamedani*](https://www.youtube.com/watch?v=4t0n5k0X7ow)
+* [Backbone.js Tutorial for Beginners, by *Thomas Davis*](https://www.youtube.com/watch?v=FZSjvWtUxYk)
+* [**Jeremy Ashkenas - Taking JavaScript Seriously with Backbone.js**](https://www.youtube.com/watch?v=4udR30JYenA)
 
 ##### 3.4.2 JQUERY
 
