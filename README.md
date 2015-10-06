@@ -478,6 +478,10 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 
 * [**CoffeePad**: CoffeeScript editor in your browser](https://github.com/gokmen/coffeepad)
 
+> VIDEOS
+
+* [**Rise of the Transpilers** by Jeremy Ashkenas](https://www.youtube.com/watch?v=DspYurD75Ns)
+
 > BOOKS
 
  * [**CoffeeScript Ristretto**](https://leanpub.com/coffeescript-ristretto/read)
