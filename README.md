@@ -187,6 +187,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > FUNCTIONAL PROGRAMMING: **VIDEO**
 
+* [**Functional programming and curry cooking in JS** By Stefanie Schirmer | JSConf EU 2015**](https://www.youtube.com/watch?v=6Qx5ZAbfqjo)
 * [**Next-level functional Javascript with Ramda**, By Warren Seymour](https://vimeo.com/129549453)
 * [**Pure, functional JavaScript**, By Christian Johansen](https://vimeo.com/43382919)
 * [**Lenses Quick n' Dirty: Functional Lenses in javascript**, By Brian Lonsdorf](https://vimeo.com/104807358)
