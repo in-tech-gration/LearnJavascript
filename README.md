@@ -91,6 +91,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 *The difference between JavaScript and JavaScript with __use strict__*
 ![Alt text](/img/usestrict.jpg "Make a difference by coding with use strict")
 
+#### ECMASCRIPT 6
+
+[**Overview of ECMAScript 6 features**](https://github.com/lukehoban/es6features)
+
 ### 3. RESOURCES
 
 #### 3.1 BEGINNER RESOURCES
