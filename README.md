@@ -161,6 +161,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [**JavaScript Goes Asynchronous (and It’s Awesome)**](http://www.sitepoint.com/javascript-goes-asynchronous-awesome/)
 * [**Write Better JavaScript with Promises**, By Landon Schropp](http://davidwalsh.name/write-javascript-promises)
+* [**The Evolution of Asynchronous JavaScript**](https://blog.risingstack.com/asynchronous-javascript/)
+* [**Javascript Async Control Flow**, By KENNY KAYE | 20 OCTOBER 2015](https://kaye.us/javascript-async-control-flow/)
 
 > DEBUGGING
 
