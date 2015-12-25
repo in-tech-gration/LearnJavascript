@@ -13,8 +13,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * Understand type coercion
 * Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
-* Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/)
-* Understand `callbacks`, `IIFEs` and `asynchronicity` 
+* Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/), and [**OLOO**: Objects Linked to Other Objects](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md)
+* Understand `callbacks`, `IIFEs` and [`asynchronicity`](https://github.com/kostasx/LearnJavascript#async) 
 * Study the source code of popular libraries: [jQuery](http://jquery.com/), [underscore](http://underscorejs.org/), etc. 
 
  Here are 2 great videos on the subject by Paul Irish: 
@@ -91,6 +91,11 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 *The difference between JavaScript and JavaScript with __use strict__*
 ![Alt text](/img/usestrict.jpg "Make a difference by coding with use strict")
 
+#### ECMASCRIPT 6 | ES2015
+
+* [**ES6 Overview in 350 Bullet Points**](https://ponyfoo.com/articles/es6)
+* [**Overview of ECMAScript 6 features**](https://github.com/lukehoban/es6features)
+
 ### 3. RESOURCES
 
 #### 3.1 BEGINNER RESOURCES
@@ -111,6 +116,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [45 Useful JavaScript Tips, Tricks and Best Practices](http://modernweb.com/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices/)
 * [JavaScript DevDocs](http://devdocs.io/javascript/)
 * [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* [**How to Become a Great JavaScript Developer***](http://blog.ustunozgur.com/javascript/programming/books/videos/2015/06/17/how_to_be_a_great_javascript_software_developer.html)
 
 > COURSES
 
@@ -152,9 +158,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [A Couple of Quick Tips for JavaScript Optimization](https://mondaybynoon.com/a-couple-of-quick-tips-for-javascript-optimization/)
 * [CSS TRIGGERS](http://csstriggers.com/)
 
-> PROMISES
+> TAMING <a href="#async" id="async">THE ASYNCHRONOUS NATURE OF JAVASCRIPT</a>
 
+* [**JavaScript Goes Asynchronous (and It’s Awesome)**](http://www.sitepoint.com/javascript-goes-asynchronous-awesome/)
 * [**Write Better JavaScript with Promises**, By Landon Schropp](http://davidwalsh.name/write-javascript-promises)
+* [**The Evolution of Asynchronous JavaScript**](https://blog.risingstack.com/asynchronous-javascript/)
+* [**Javascript Async Control Flow**, By KENNY KAYE | 20 OCTOBER 2015](https://kaye.us/javascript-async-control-flow/)
 
 > DEBUGGING
 
@@ -178,11 +187,16 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > FUNCTIONAL PROGRAMMING: **READING**
 
+* [**An Intro to Functional Programming Concepts in JavaScript**, By Thomas Collardeau ](https://medium.com/@collardeau/intro-to-functional-programming-concepts-in-javascript-b0650773139c#.8bp7dkyvm)
+* [**Why Curry Helps**, By Hugh FD Jackson](https://hughfdjackson.com/javascript/why-curry-helps/)
 * [**Functional Programming in Javascript** An interactive learning course by Jafar Husain](http://jhusain.github.io/learnrx/)
 * [**Recursion in Functional JavaScript**, By M. David Green](http://www.sitepoint.com/recursion-functional-javascript/)
+* [**Functional Programming**, By Scott Sauyet](http://scott.sauyet.com/Javascript/Talk/FunctionalProgramming/)
+* [Ramda + ramda-fantasy REPL](https://github.com/hemanth/ramda-repl)
 
 > FUNCTIONAL PROGRAMMING: **VIDEO**
 
+* [**Functional programming and curry cooking in JS** By Stefanie Schirmer | JSConf EU 2015**](https://www.youtube.com/watch?v=6Qx5ZAbfqjo)
 * [**Next-level functional Javascript with Ramda**, By Warren Seymour](https://vimeo.com/129549453)
 * [**Pure, functional JavaScript**, By Christian Johansen](https://vimeo.com/43382919)
 * [**Lenses Quick n' Dirty: Functional Lenses in javascript**, By Brian Lonsdorf](https://vimeo.com/104807358)
@@ -197,6 +211,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > BEGINNERS
 
+* [**Stream Adventure:** Go on an educational stream adventure!](https://github.com/substack/stream-adventure)
+* [**test-anything:** Learn to test anything with TAP](https://github.com/finnp/test-anything)
 * [Node.js for Beginnersby Maciej Sopyło](http://code.tutsplus.com/tutorials/node-js-for-beginners--net-26314)
 * [Node School](http://nodeschool.io/)
 * [Resources to Get You Up to Speed in Node.js](http://code.tutsplus.com/articles/resources-to-get-you-up-to-speed-in-nodejs--cms-21431)
@@ -278,8 +294,6 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Single Page ToDo Application With Backbone.js](http://code.tutsplus.com/tutorials/single-page-todo-application-with-backbonejs--cms-21417)
 * [Developing Backbone.js Applications, *by Addy Osmani*](https://github.com/addyosmani/backbone-fundamentals)
 * [Your First Backbone.js App – Service Chooser, *by Martin Angelov*](http://tutorialzine.com/2013/04/services-chooser-backbone-js/)
-* [Backbone.js Video Tutorials on YouTube, by *Moshfegh Hamedani*](https://www.youtube.com/watch?v=4t0n5k0X7ow)
-* [Backbone.js Tutorial for Beginners, by *Thomas Davis*](https://www.youtube.com/watch?v=FZSjvWtUxYk)
 * [Sample application built with Backbone.js, Twitter Bootstrap, Node.js, Express, MongoDB, by *Christophe Coenraets*](https://github.com/ccoenraets/nodecellar)
 * [Top 8 Common Backbone.js Developer Mistakes, By Mahmub Ridwan](http://www.toptal.com/backbone-js/top-8-common-backbone-js-developer-mistakes)
 
@@ -290,6 +304,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 > BOOKS
 
 * [Developing Backbone.js Applications, *By Addy Osmani*](http://addyosmani.github.io/backbone-fundamentals/)
+
+> VIDEOS
+
+* [Backbone.js Video Tutorials on YouTube, by *Moshfegh Hamedani*](https://www.youtube.com/watch?v=4t0n5k0X7ow)
+* [Backbone.js Tutorial for Beginners, by *Thomas Davis*](https://www.youtube.com/watch?v=FZSjvWtUxYk)
+* [**Jeremy Ashkenas - Taking JavaScript Seriously with Backbone.js**](https://www.youtube.com/watch?v=4udR30JYenA)
 
 ##### 3.4.2 JQUERY
 
@@ -460,11 +480,17 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 
 ##### 3.11.1 COFFEESCRIPT
 
- * [CoffeeScript official site](http://coffeescript.org/)
+ * [**CoffeeScript** Official site](http://coffeescript.org/)
+ * [**Hard Rock CoffeeScript**](http://hardrockcoffeescript.org/)
+ * [**CoffeeScript: The beautiful way to write JavaScript**, By Amir Salihefendic](http://amix.dk/blog/post/19612)
 
 > TOOLS
 
 * [**CoffeePad**: CoffeeScript editor in your browser](https://github.com/gokmen/coffeepad)
+
+> VIDEOS
+
+* [**Rise of the Transpilers** by Jeremy Ashkenas](https://www.youtube.com/watch?v=DspYurD75Ns)
 
 > BOOKS
 
