@@ -196,6 +196,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > FUNCTIONAL PROGRAMMING: **VIDEO**
 
+* [**Intro to Recursion - Refactoring to a Pure Function**, By Shanon Osbourne](https://egghead.io/lessons/javascript-intro-to-recursion-the-problem)
 * [**Functional programming and curry cooking in JS** By Stefanie Schirmer | JSConf EU 2015**](https://www.youtube.com/watch?v=6Qx5ZAbfqjo)
 * [**Next-level functional Javascript with Ramda**, By Warren Seymour](https://vimeo.com/129549453)
 * [**Pure, functional JavaScript**, By Christian Johansen](https://vimeo.com/43382919)
