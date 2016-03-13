@@ -495,6 +495,7 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 
 > BOOKS
 
+ * [**CoffeeScript Cookbook**](https://coffeescript-cookbook.github.io/)
  * [**CoffeeScript Ristretto**](https://leanpub.com/coffeescript-ristretto/read)
  * [**Smooth CoffeeScript**](http://autotelicum.github.io/Smooth-CoffeeScript/)
  * [**The Little Book on CoffeeScript**](http://arcturo.github.io/library/coffeescript/)
