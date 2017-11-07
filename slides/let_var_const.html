@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript | Understanding Variables: let, var and const</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Lato', sans-serif;
+			width: 100vw;
+			height: 100vh;
+			text-align: center;
+			background-color: #9dbd4a;			
+			padding: 0;
+			margin: 0;
+			overflow-x: hidden;
+		}
+		.arrow.hidden,
+		.arrow.hidden:hover {
+			opacity: 0;
+			cursor: auto;
+		}
+		.wrapper {
+			position: relative;
+		}
+		span.slide_num {
+			transition: opacity 400ms ease;
+			opacity: 1;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			padding: 10px;
+			background: rgba(255,255,255,0.7);
+			border-radius: 50%;
+			width: 30px;
+			height: 30px;
+			line-height: 28px;
+			font-size: 24px;
+			color: #9dbd4a;
+		}
+		.slides {
+			width: auto;
+		    height: 99vh;
+		}
+		.arrow {
+		  position: absolute;
+		  top: 50%;
+		  width: 2rem;
+		  height: 2rem;
+		  background: transparent;
+		  border-top: .4rem solid black;
+		  border-right: .4rem solid black;
+		  box-shadow: 0 0 0 lightgray;
+		  -webkit-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		  opacity: 0.3;
+		}
+		.arrow.left {
+		  left: 5%;
+		  -webkit-transform: translate3d(0, -50%, 0) rotate(-135deg);
+		          transform: translate3d(0, -50%, 0) rotate(-135deg);
+		}
+		.arrow.right {
+		  right: 5%;
+		  -webkit-transform: translate3d(0, -50%, 0) rotate(45deg);
+		          transform: translate3d(0, -50%, 0) rotate(45deg);
+		}
+		.arrow:hover {
+		  opacity: 1;
+		}
+	</style>
+</head>
+<body>
+
+<div class="wrapper">
+	<span class="slide_num">1</span>
+	<img class="slides" alt="">	
+	<a href="#" class="arrow left hidden"></a>
+	<a href="#" class="arrow right"></a>
+</div>
+
+<script>
+(function(){
+
+	var currentSlide = 1;
+	var numSlides = 13;
+	var imgUrl = function(num){ num = (""+num).length < 2 ? "0" + num : num; return "images/let_var_const_" + num + ".jpg"; } 
+	var direction;
+	var $slideNum = document.querySelector('.slide_num');
+	var $img = document.querySelector(".slides");
+		$img.src = imgUrl(currentSlide);
+	var $leftArrow = document.querySelector(".arrow.left");
+	var $rightArrow = document.querySelector(".arrow.right");
+
+	// PRELOAD SLIDES
+	for ( var i = numSlides; i > 0; i-- ) {
+		var slideImg  = document.createElement("img");
+    		slideImg.setAttribute( "src", imgUrl(i) );
+    		slideImg.style.display = "none";
+    		document.body.appendChild(slideImg);
+	}
+
+	// SLIDER ARROW EVENT HANDLERS
+	$leftArrow.addEventListener("click", function(e){
+
+		if ( currentSlide > 1 ) {
+			currentSlide--;
+			if ( currentSlide === 1 ) $leftArrow.classList.add('hidden');
+			$slideNum.textContent = currentSlide;
+			$img.src = imgUrl(currentSlide);
+		}
+		if ( currentSlide < numSlides ) $rightArrow.classList.remove('hidden');
+		return false;
+
+	});
+
+	$rightArrow.addEventListener("click", function(e){
+
+		if ( currentSlide < numSlides ) {
+			currentSlide++;
+			if ( currentSlide === numSlides ) $rightArrow.classList.add('hidden');
+			$slideNum.textContent = currentSlide;
+			$img.src = imgUrl(currentSlide);
+			
+		}
+		if ( currentSlide > 1 ) $leftArrow.classList.remove('hidden');
+		return false;
+
+	});
+
+}());
+	
+</script>	
+</body>
+</html>
