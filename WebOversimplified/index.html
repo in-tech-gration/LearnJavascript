@@ -54,6 +54,26 @@
 			.reveal .subs .col_two {
 			    padding: 0 100px;
 			}
+			.reveal .fullclear {
+				margin: 0;
+				padding: 0;
+			}
+			.reveal .font-half {
+				font-size: 0.5em;
+			}
+			.reveal .slides section .fragment.highlight-orange,
+			.reveal .slides section .fragment.highlight-current-orange {
+			  opacity: 1;
+			  visibility: inherit; 
+			}
+
+			.reveal .slides section .fragment.highlight-orange.visible {
+			  color: #F7BE2C; 
+			}
+
+			.reveal .slides section .fragment.highlight-current-orange.current-fragment {
+			  color: #F7BE2C; 
+			}
 		</style>
 	</head>
 
@@ -77,10 +97,14 @@
 				<section>
 					<h2>The Web</h2>
 					<p>(Oversimplified)</p>
+					<p>
+						<small>Understanding: <span class="colorful">https://domain.com:80/index.html</span></small>
+					</p>
 					<ul class="small">
 						<li>Web Servers &amp; HTTP</li>
 						<li>IP Addresses &amp; DNS</li>
 						<li>Port Addresses</li>
+						<li>Delivering Content</li>
 					</ul>
 				</section>
 
@@ -92,6 +116,7 @@
 						<h3 class="fragment">Oversimplified</h3>
 					</section>
 
+					<!-- WHAT IS A WEB SERVER -->
 					<section>
 
 						<p>What is a <strong class="colorful">Web Server</strong>?</p>
@@ -105,6 +130,7 @@
 						well, somewhat more powerful than your laptop...</span></small>
 					</section>
 
+					<!-- NETWORK COMMUNICATION -->
 					<section>
 
 						<p>Let's talk!</p>
@@ -158,6 +184,7 @@
 
 					<section>
 
+						<p class="fullclear" style="font-size:0.6em;"><span class="colorful">https://</span>domain.com:80/index.html</p>
 						<div class="two_columns">
 							<div class="col_one">
 								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-apache.png" alt="" />
@@ -184,15 +211,15 @@
 							&lt;--[ <span class="colorful">GET</span> /index.html ]--
 						</small>
 						<br/>
-						<small class="fragment">
+						<small class="font-half fragment">
 							The Web Browser, requests the <span class="colorful">index.html</span> file<br/>from the Web Server using a simple HTTP command: <span class="colorful">GET</span>
 						</small>
-						<br/><br/>
-						<small class="fragment">
+						<br/>
+						<small class="fragment" style="margin-top: 10px;">
 							--[ <span class="colorful">index.html</span> ]--&gt;
 						</small>
 						<br/>
-						<small class="fragment">
+						<small class="font-half fragment">
 							The Web Server, responds by sending the <span class="colorful">index.html</span><br/>file to the Web Browser, which in turn renders<br/>and displays the web page to the user.
 						</small>
 
@@ -205,49 +232,92 @@
 					<section>
 						<h2 class="colorful">Let me call you!</h2>
 						<h3 class="fragment">IP Addresses &amp; Domain Name Servers</h3>
+						<p class="fullclear fragment" style="font-size:0.6em;">https://<span class="colorful">domain.com</span>:80/index.html</p>
 					</section>
 
+
+					<!-- HOW MOBILE PHONES CALL EACH OTHER -->
 					<section>
 
-						<div class="two_columns">
+						<p>Computers on the Internet contact each other much like our mobile phones.</p>
+						<small class="fragment">Each mobile device is using a unique phone number<br/>which enables it to place and receive calls.</small>
+						<div class="two_columns fragment">
 							<div class="col_one">
-								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-apache.png" alt="" />
-								<small class="Dfragment">
-									Web Server<span class="colorful">*</span>
-									<br/>
-									<small><span class="colorful">*A Server, holding and serving web pages.</span><br/>( It can 'talk' HTTP )</small>
-								</small><br/>
-								<small>
-									<strong class="colorful">&nbsp;</strong>
-								</small>
+								<img height="200px" class="Dfragment block-center img-clean" src="img/smartphone.png" alt="" />
+								<small class="fragment highlight-orange">6912345678</small>
+								<div class="fragment">"Hello!"</div>
 							</div>
 							<div class="col_two">
-								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
-								<small class="Dfragment">
-									Your Web Browser<span class="colorful">*</span>
-									<br/>
-									<small><span class="colorful">*Software that fetches and displays web pages.</span><br/>( It can 'talk' HTTP too )</small>
-								</small><br/>
-							</div>	
+								<img height="200px" class="Dfragment block-center img-clean" src="img/smartphone.png" alt="" />
+								<small class="fragment highlight-orange">6987654321</small>
+								<div class="fragment">"Hi there!"</div>
+							</div>
 						</div>
 
-						<small class="fragment">
-							&lt;--[ <span class="colorful">GET</span> /index.html ]--
-						</small>
-						<br/>
-						<small class="fragment">
-							The Web Browser, requests the <span class="colorful">index.html</span> file<br/>from the Web Server using a simple HTTP command: <span class="colorful">GET</span>
-						</small>
-						<br/><br/>
-						<small class="fragment">
-							--[ <span class="colorful">index.html</span> ]--&gt;
-						</small>
-						<br/>
-						<small class="fragment">
-							The Web Server, responds by sending the <span class="colorful">index.html</span><br/>file to the Web Browser, which in turn renders<br/>and displays the web page to the user.
-						</small>
+					</section>
+
+					<!-- HOW COMPUTERS CALL EACH OTHER -->
+					<section>
+
+						<p>Instad of telephone numbers, computers use Internet Protocol (IP) Addresses.</p>
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="fragment highlight-orange">196.168.0.10</small>
+								<div class="fragment">"Hello!"</div>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="fragment highlight-orange">196.168.0.23</small>
+								<div class="fragment">"Hi there!"</div>
+							</div>
+						</div>
 
 					</section>
+
+					<!-- HOW MOBILE PHONES USE CONTACTS -->
+					<section>
+
+						<small>Since it's pretty hard to remember all<br/>those phone numbers, we tend to use Contacts...</small>
+						<div class="two_columns fragment">
+							<div class="col_one">
+								<p>Bob</p>
+								<small style="color:hotpink;">6912345678</small>
+								<img height="200px" class="block-center img-clean" src="img/smartphone.png" alt="" />
+								<small><span style="color:cyan;">Alice</span> === <span style="color:cyan;">6987654321</span></small>
+							</div>
+							<div class="col_two">
+								<p>Alice</p>
+								<small style="color:cyan;">6987654321</small>
+								<img height="200px" class="Dfragment block-center img-clean" src="img/smartphone.png" alt="" />
+								<small><span style="color:hotpink;">Bob</span> === <span style="color:hotpink;">6912345678</span></small>
+							</div>
+						</div>
+						<p class="fragment" style="margin-top: 0; padding-top: 0; font-size:0.6em;">Bob has a Contact entry named "Alice" on his phone<br/>that points to the number of Alice.<br/>Whenever he wants to call Alice, he just types "Alice"<br/>instead of the number.</p>
+
+					</section>
+
+					<!-- HOW COMPUTERS USE DOMAIN NAMES -->
+					<section>
+
+						<small>The same rule applies for Internet Protocol Addresses.<br/>We tend to use <span class="colorful">Domain Names</span> which point to IP Addresses.</small>
+						<div class="two_columns fragment">
+							<div class="col_one">
+								<p>Google Web Server</p>
+								<small style="color:hotpink;">196.168.0.10</small>
+								<img height="200px" class="block-center img-clean" src="img/laptop-apache.png" alt="" />
+							</div>
+							<div class="col_two">
+								<p>Your Computer</p>
+								<small style="color:cyan;">196.168.0.32</small>
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
+								<small><span style="color:hotpink;">www.google.com</span> === <span style="color:hotpink;">196.168.0.10</span></small>
+							</div>
+						</div>
+						<p class="fragment" style="margin-top: 0; padding-top: 0; font-size:0.6em;">Instead of typing an IP address in your Browser's Address bar, <br/>you can just type the Domain Name, e.g. <span style="color:hotpink;">www.google.com</span></p>
+						<p class="fragment" style="font-size:0.5em;"><span class="colorful">*Google doesn't really need a domain name to call you back,<br/>since you've already contacted it with your IP address.</span></p>
+					</section>
+
 				</section>
 
 				<!-- Network Ports -->
