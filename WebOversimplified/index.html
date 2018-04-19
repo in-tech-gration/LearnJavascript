@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>JavaScript Module 1 | Week 02 Part II | Social Hackers Academy</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Kosmas Pouianou, Kostas Minaidis">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="./libs/revealjs/css/reveal.css">
+		<link rel="stylesheet" href="./libs/revealjs/css/theme/black-sha.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="./libs/revealjs/lib/css/monokai-sublime-sha.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? './libs/revealjs/css/print/pdf.css' : './libs/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+			.reveal .block-center {
+				margin: 0 auto;
+			}
+			.reveal img.img-clean {
+				border: none;
+				background: transparent;
+				display: block;
+				box-shadow: none;
+			}
+			.reveal .two_columns {
+				display: flex;
+				justify-content: center;				
+			}
+			.reveal .col_one,
+			.reveal .col_two {
+    			padding: 0 40px;
+			}
+			.reveal .subs .col_one, 
+			.reveal .subs .col_two {
+			    padding: 0 100px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<!-- INTRO -->
+				<section>
+					<h1>Node.JS 101</h1>
+					<h3 class="colorful">101 Course | Week 01</h3>
+					<p>Complementary Material</p>
+					<p>
+						<small>By <a href="https://github.com/kostasx">Kostas Minaidis</a></small>
+					</p>
+				</section>
+
+				<!-- SRC :: Recapping Part I -->   
+				<section>
+					<h2>The Web</h2>
+					<p>(Oversimplified)</p>
+					<ul class="small">
+						<li>Web Servers &amp; HTTP</li>
+						<li>IP Addresses &amp; DNS</li>
+						<li>Port Addresses</li>
+					</ul>
+				</section>
+
+				<!-- SRC :: WEB SERVERS & HTTP -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Web Servers &amp; HTTP</h2>
+						<h3 class="fragment">Oversimplified</h3>
+					</section>
+
+					<section>
+
+						<p>What is a <strong class="colorful">Web Server</strong>?</p>
+						<div class="fragment">
+							<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="">
+							<small class="Dfragment">A computer,<strong class="colorful"></strong> just like yours<span class="colorful">*</span>,<br/>holding files and running programs.</small>
+						</div>
+						<small class="fragment">A server is <span class="colorful">always</span> connected to the Internet.</small>
+						<br/>
+						<small class="fragment"><span class="colorful">* 
+						well, somewhat more powerful than your laptop...</span></small>
+					</section>
+
+					<section>
+
+						<p>Let's talk!</p>
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="Dfragment">
+									Server
+								</small><br/>
+								<small class="fragment">
+									<strong class="colorful">Hello!</strong>
+								</small>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="Dfragment">
+									Your Computer
+								</small><br/>
+								<small class="fragment">
+									<strong class="colorful">Hi!</strong>
+								</small>
+							</div>	
+						</div>
+
+						<small class="fragment">Your computer can communicate<br/>with Internet servers, through various <span class="colorful">protocols*</span></small>
+
+					</section>
+
+				</section>
+
+				<!-- PROTOCOLS -->
+				<section data-transition="slide" data-background="#F7BE2C" data-background-transition="zoom">
+
+					<h2>Internet Protocols!</h2>
+					<p class="fragment">(Don't be afraid of the term.)</p>
+					<small class="fragment">You can think of protocols as a way for computers to speak<br/>with other computers on a network such as the Internet.</small>
+					<br/><br/>
+					<small class="fragment">...much like people talk to each other in different languages<br/>(english, greek, arabic, etc.).</small>
+					<br/><br/>
+					<small class="fragment">Your Web browser uses the HTTP protocol to talk to Web servers.</small>
+
+				</section>
+
+				<!-- HTTP -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Let's talk HTTP</h2>
+						<h3 class="fragment">Web Browsers &amp; Web Servers</h3>
+					</section>
+
+					<section>
+
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-apache.png" alt="" />
+								<small class="Dfragment">
+									Web Server<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*A Server, holding and serving web pages.</span><br/>( It can 'talk' HTTP )</small>
+								</small><br/>
+								<small>
+									<strong class="colorful">&nbsp;</strong>
+								</small>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
+								<small class="Dfragment">
+									Your Web Browser<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*Software that fetches and displays web pages.</span><br/>( It can 'talk' HTTP too )</small>
+								</small><br/>
+							</div>	
+						</div>
+
+						<small class="fragment">
+							&lt;--[ <span class="colorful">GET</span> /index.html ]--
+						</small>
+						<br/>
+						<small class="fragment">
+							The Web Browser, requests the <span class="colorful">index.html</span> file<br/>from the Web Server using a simple HTTP command: <span class="colorful">GET</span>
+						</small>
+						<br/><br/>
+						<small class="fragment">
+							--[ <span class="colorful">index.html</span> ]--&gt;
+						</small>
+						<br/>
+						<small class="fragment">
+							The Web Server, responds by sending the <span class="colorful">index.html</span><br/>file to the Web Browser, which in turn renders<br/>and displays the web page to the user.
+						</small>
+
+					</section>
+				</section>
+
+				<!-- DNS & IPs -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Let me call you!</h2>
+						<h3 class="fragment">IP Addresses &amp; Domain Name Servers</h3>
+					</section>
+
+					<section>
+
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-apache.png" alt="" />
+								<small class="Dfragment">
+									Web Server<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*A Server, holding and serving web pages.</span><br/>( It can 'talk' HTTP )</small>
+								</small><br/>
+								<small>
+									<strong class="colorful">&nbsp;</strong>
+								</small>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
+								<small class="Dfragment">
+									Your Web Browser<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*Software that fetches and displays web pages.</span><br/>( It can 'talk' HTTP too )</small>
+								</small><br/>
+							</div>	
+						</div>
+
+						<small class="fragment">
+							&lt;--[ <span class="colorful">GET</span> /index.html ]--
+						</small>
+						<br/>
+						<small class="fragment">
+							The Web Browser, requests the <span class="colorful">index.html</span> file<br/>from the Web Server using a simple HTTP command: <span class="colorful">GET</span>
+						</small>
+						<br/><br/>
+						<small class="fragment">
+							--[ <span class="colorful">index.html</span> ]--&gt;
+						</small>
+						<br/>
+						<small class="fragment">
+							The Web Server, responds by sending the <span class="colorful">index.html</span><br/>file to the Web Browser, which in turn renders<br/>and displays the web page to the user.
+						</small>
+
+					</section>
+				</section>
+
+				<!-- Network Ports -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Network Ports</h2>
+						<h3 class="fragment">...</h3>
+					</section>
+
+					<section>
+
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-apache.png" alt="" />
+								<small class="Dfragment">
+									Web Server<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*A Server, holding and serving web pages.</span><br/>( It can 'talk' HTTP )</small>
+								</small><br/>
+								<small>
+									<strong class="colorful">&nbsp;</strong>
+								</small>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
+								<small class="Dfragment">
+									Your Web Browser<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*Software that fetches and displays web pages.</span><br/>( It can 'talk' HTTP too )</small>
+								</small><br/>
+							</div>	
+						</div>
+
+						<small class="fragment">
+							&lt;--[ <span class="colorful">GET</span> /index.html ]--
+						</small>
+						<br/>
+						<small class="fragment">
+							The Web Browser, requests the <span class="colorful">index.html</span> file<br/>from the Web Server using a simple HTTP command: <span class="colorful">GET</span>
+						</small>
+						<br/><br/>
+						<small class="fragment">
+							--[ <span class="colorful">index.html</span> ]--&gt;
+						</small>
+						<br/>
+						<small class="fragment">
+							The Web Server, responds by sending the <span class="colorful">index.html</span><br/>file to the Web Browser, which in turn renders<br/>and displays the web page to the user.
+						</small>
+
+					</section>
+				</section>
+
+				<!-- FINALE -->
+				<section data-background="img/background-scarlet.jpg">
+
+					<p>That's all Folks!</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="./libs/revealjs/lib/js/head.min.js"></script>
+		<script src="./libs/revealjs/js/reveal.js"></script>
+
+		<script>
+
+			/* SHA */
+			Reveal.configure({
+				keyboard: {
+					// Key: 'e'
+				    69: function(){
+				    	/*
+				    	IF NOT EXIST
+							<PRE>.insertAdjacentHTML('afterend', code);
+						EVALUATE 
+							eval( <PRE>.textContent )
+						*/
+				    }
+				  }
+			});
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: './libs/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: './libs/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: './libs/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: './libs/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: './libs/revealjs/plugin/search/search.js', async: true },
+					{ src: './libs/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: './libs/revealjs/plugin/notes/notes.js', async: true }
+				]
+			});
+
+			/* SHA */
+			Reveal.addEventListener( 'evaluation', function() {
+				console.log( 'Evaluation!' );
+			});
+		</script>
+
+	</body>
+</html>
