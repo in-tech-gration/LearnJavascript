@@ -74,6 +74,9 @@
 			.reveal .slides section .fragment.highlight-current-orange.current-fragment {
 			  color: #F7BE2C; 
 			}
+			.reveal .lightblue {
+				color: #3ca1e6;
+			}
 		</style>
 	</head>
 
@@ -318,6 +321,12 @@
 						<p class="fragment" style="font-size:0.5em;"><span class="colorful">*Google doesn't really need a domain name to call you back,<br/>since you've already contacted it with your IP address.</span></p>
 					</section>
 
+					<!-- DNS -->
+					<section>
+						<p style="font-size:0.7em;">The translation of IP Addresses to Domain Names is handled by a bunch of special Servers, called <span class="colorful">Domain Name System</span> Servers or <span class="colorful">DNS</span> Servers for short. Think of them as the old Telephone Operators.</p>
+						<img src="img/operators.jpg" alt="">
+					</section>
+
 				</section>
 
 				<!-- Network Ports -->
@@ -325,55 +334,63 @@
 
 					<section>
 						<h2 class="colorful">Network Ports</h2>
-						<h3 class="fragment">...</h3>
+						<h3 class="fragment">One Address - Many Services</h3>
 					</section>
 
+					<!-- The Hidden :80 Number in URLs -->
 					<section>
+						<p>
+							<small>Whenever we enter an URL on our Browser's address bar in order to reach a specific website, a hidden number is present in the URL right after the domain name, in the following form:</small>
+						</p>
 
 						<div class="two_columns">
 							<div class="col_one">
-								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-apache.png" alt="" />
-								<small class="Dfragment">
-									Web Server<span class="colorful">*</span>
-									<br/>
-									<small><span class="colorful">*A Server, holding and serving web pages.</span><br/>( It can 'talk' HTTP )</small>
-								</small><br/>
-								<small>
-									<strong class="colorful">&nbsp;</strong>
-								</small>
+								<p>What we type:</p>
+								<span class="lightblue">www.domain.com</span>
+								<span class="lightblue">www.cnn.com/news</span>
 							</div>
 							<div class="col_two">
-								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
-								<small class="Dfragment">
-									Your Web Browser<span class="colorful">*</span>
-									<br/>
-									<small><span class="colorful">*Software that fetches and displays web pages.</span><br/>( It can 'talk' HTTP too )</small>
-								</small><br/>
-							</div>	
+								<p>The actual request:</p>
+								<span class="lightblue">www.domain.com</span><span class="colorful">:80</span>
+								<span class="lightblue">www.cnn.com</span><span class="colorful">:80</span><span class="lightblue">/news</span>
+							</div>
 						</div>
 
-						<small class="fragment">
-							&lt;--[ <span class="colorful">GET</span> /index.html ]--
-						</small>
-						<br/>
-						<small class="fragment">
-							The Web Browser, requests the <span class="colorful">index.html</span> file<br/>from the Web Server using a simple HTTP command: <span class="colorful">GET</span>
-						</small>
-						<br/><br/>
-						<small class="fragment">
-							--[ <span class="colorful">index.html</span> ]--&gt;
-						</small>
-						<br/>
-						<small class="fragment">
-							The Web Server, responds by sending the <span class="colorful">index.html</span><br/>file to the Web Browser, which in turn renders<br/>and displays the web page to the user.
-						</small>
+						<p class="fragment">Try it! reach your favorite site by appending a <span class="colorful">:80</span> right after its domain name.</p>
 
 					</section>
+
+					<section>
+						<p>But, what exactly is the purpose of such a number?</p>
+					</section>
+
+					<section>
+						<p>A Network Port number can be compared with a Call Centre's internal phone numbers.</p>
+					</section>
+
+					<section>
+						<img src="img/PBX-001.jpg" alt="">
+					</section>
+
+					<section>
+						<p>An unique external telephone number can be used as the first point of entrance into the Call Centre (think of an IP/Domain Name analogy here).</p>
+						<p class="fragment">The Internal Numbers (think of Network Ports) can subsequently be used to connect to the many different internal endpoints/services.</p>
+					</section>
+
+					<section>
+						<img src="img/PBX-002.jpg" alt="">
+					</section>
+
+					<section>
+						<p>Much like a Call Centre, a Server using one unique IP address or Domain Name can provide many different services, each using an unique Network Port.</p>
+						<p class="fragment">For example, a Server might serve web pages on Port 80 and also run a Chat Service (like Skype) on a different Port, e.g. 4378</p>
+						<p class="fragment">A Server can have a maximum of 65535 Network Port numbers.</p>
+					</section>
+
 				</section>
 
 				<!-- FINALE -->
 				<section data-background="img/background-scarlet.jpg">
-
 					<p>That's all Folks!</p>
 				</section>
 
