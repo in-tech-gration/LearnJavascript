@@ -58,14 +58,14 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Get in the habit of testing. **(Crucial!)**. [QUnit](http://qunitjs.com/) is a good starting point. 
 * Subscribe to these great YouTube channels and watch every video you can:
 
- * [CascadiaJS](https://www.youtube.com/user/cascadiajs)
- * [JSConf](https://www.youtube.com/user/jsconfeu/videos)
+  * [CascadiaJS](https://www.youtube.com/user/cascadiajs)
+  * [JSConf](https://www.youtube.com/user/jsconfeu/videos)
  
 * Learn some framework or library like [jQuery](http://jquery.com/), [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue.JS](https://vuejs.org/), [Backbone.JS](http://backbonejs.org/), [underscore](http://underscorejs.org/), [AngularJS](https://angularjs.org/), [Ember](http://emberjs.com/), [Knockout.JS](http://knockoutjs.com/), etc. 
 * [Try building a ToDo App using one of these libraries](http://todomvc.com/)
 * Get to know [Node.JS](http://nodejs.org/) and start building apps. 
- * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
- * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
+  * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
+  * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
 * Subscribe to Newsletters and stay up to date with JS and Node. *(See section `3.8 NEWSLETTERS`)*
 * Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](#gulp).
 * Start building cross-platform Desktop Applications using HTML/CSS/JavaScript in [Electron.JS](https://electronjs.org/) or [Node-Webkit](https://nwjs.io/).
