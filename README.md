@@ -74,7 +74,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 ### 2. SUGGESTED CODING RULES AND BEST PRACTICES
 
-* Always use `var` when declaring a variable
+* Always use `let` or `const` when declaring variables. Avoid using `var`.
 * [Code using `"use strict"`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * [Always use semicolons.](http://bonsaiden.github.io/JavaScript-Garden/#core.semicolon) // [**Not using semicolons??? Lonley Island uses them everyday**](https://www.youtube.com/watch?v=M94ii6MVilw)
 * [Prefer using `===` over `==`](http://bonsaiden.github.io/JavaScript-Garden/#types.equality) 
