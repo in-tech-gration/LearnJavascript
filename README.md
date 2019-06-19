@@ -427,7 +427,7 @@ Azat Mardan | [Twitter](https://twitter.com/azat_co) | |
 Alex Castrounis | [Twitter](https://twitter.com/innoarchitech) | [Blog](http://www.innoarchitech.com/) |
 Aria Stewart | [Twitter](https://twitter.com/aredridel) | [Blog](http://dinhe.net/~aredridel/) |
 Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) | [Blog](http://ariya.ofilabs.com/) | [YouTube](https://www.youtube.com/user/ariyahidayat)
-Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) |	|
+Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) | [Blog](http://2ality.com/) |
 Andrea Giammarchi | [Twitter](http://twitter.com/WebReflection) | [Blog](http://webreflection.blogspot.gr/) |
 Angus Croll | [Twitter](http://twitter.com/angusTweets) | [Blog](http://javascriptweblog.wordpress.com/) |
 Béla Varga | [Twitter](https://twitter.com/netzzwerg) | |
