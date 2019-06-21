@@ -100,6 +100,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 #### 3.1 BEGINNER RESOURCES
 
+* [**JavaScript First Steps** | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
 * [JavaScript the Right Way](https://github.com/braziljs/js-the-right-way)
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
 * [Javascript: BEST PRACTICES PART 1, *by Christian Heilmann*](http://www.thinkful.com/learn/javascript-best-practices-1/)
