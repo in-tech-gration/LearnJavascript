@@ -264,6 +264,8 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > VIDEOS
 
+* [Express.js Tutorial: Build RESTful APIs with Node and Express | Mosh](https://www.youtube.com/watch?v=pKd0Rpw7O48)
+* [Node.js Tutorial for Beginners: Learn Node in 1 Hour | Mosh](https://www.youtube.com/watch?v=TlB_eWDSMt4)
 * [NodeTuts: Node.JS Video Tutorials](http://nodetuts.com/)
 * [Node.JS videos @ egghead.io](https://egghead.io/technologies/node)
 
