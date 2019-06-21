@@ -7,8 +7,6 @@ Contributors:
 
 Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
 
-![Alt text](/img/2017-JS.png)
-
 ### LEARNING
 
 * Understand [type coercion](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md#coercion)
