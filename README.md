@@ -515,6 +515,14 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
  * [**The Little Book on CoffeeScript**](http://arcturo.github.io/library/coffeescript/)
  * [**CoffeeScript: The Good Parts**, By Azat Mardan](https://qconnewyork.com/ny2014/system/files/presentation-slides/CoffeeScript-The-Good-Parts.pdf)
 
+##### 3.11.2 TYPESCRIPT
+
+ * [TypeScript](https://www.typescriptlang.org/)
+
+##### 3.11.3 ELM
+
+ * [Elm](https://elm-lang.org/)
+ 
 ------
 
 ![Alt text](/img/javascript-please-work.jpg "JavaScript please work")
