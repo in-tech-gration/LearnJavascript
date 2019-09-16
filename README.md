@@ -89,14 +89,11 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 *The difference between JavaScript and JavaScript with __use strict__*
 ![Alt text](/img/usestrict.jpg "Make a difference by coding with use strict")
 
-<details>
-	<summary>
-		<h4>ECMASCRIPT 6 | ES2015 [ UPDATED ]<h4>
-	</summary>
-	<p><a href="https://scrimba.com/g/ges6"><strong>Learn modern JavaScript</strong> | Scrimba Interactive Screencasts | 54min</a></p>
-	<p><a href="https://scrimba.com/g/gintrotoes6"><strong>Introduction to ES6+</strong> | Scrimba Interactive Screencasts | 67min</a></p>
-	<p><a href="https://ponyfoo.com/articles/es6"><strong>ES6 Overview in 350 Bullet Points</strong></a></p>
-	<p><a href="https://github.com/lukehoban/es6features"><strong>Overview of ECMAScript 6 features</strong></a></p>
+<details><summary><h4>ECMASCRIPT 6 | ES2015 [ UPDATED ]<h4></summary>
+<p><a href="https://scrimba.com/g/ges6"><strong>Learn modern JavaScript</strong> | Scrimba Interactive Screencasts | 54min</a></p>
+<p><a href="https://scrimba.com/g/gintrotoes6"><strong>Introduction to ES6+</strong> | Scrimba Interactive Screencasts | 67min</a></p>
+<p><a href="https://ponyfoo.com/articles/es6"><strong>ES6 Overview in 350 Bullet Points</strong></a></p>
+<p><a href="https://github.com/lukehoban/es6features"><strong>Overview of ECMAScript 6 features</strong></a></p>
 </details>
 
 ### 3. RESOURCES
