@@ -536,15 +536,16 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
  * [**The Little Book on CoffeeScript**](http://arcturo.github.io/library/coffeescript/)
  * [**CoffeeScript: The Good Parts**, By Azat Mardan](https://qconnewyork.com/ny2014/system/files/presentation-slides/CoffeeScript-The-Good-Parts.pdf)
 
-##### 3.11.2 TYPESCRIPT
+##### 3.11.2 TYPESCRIPT [ UPDATED ]
 
  * [TypeScript](https://www.typescriptlang.org/)
  * [**TypeScript Tutorial for Angular and React Developers** | Mosh | YouTube video | 52min ](https://www.youtube.com/watch?v=NjN00cM18Z4)
  * [**TypeScript Tutorial** by Derek Banas | YouTube video | 49min ](https://www.youtube.com/watch?v=-PR_XqW9JJU)
 
-##### 3.11.3 ELM
-
- * [Elm](https://elm-lang.org/)
+<details>
+	<summary><strong>3.11.3 ELM</strong></summary>
+	<p><a href="https://elm-lang.org/">Elm</a></p>
+</details>
  
 ------
 
