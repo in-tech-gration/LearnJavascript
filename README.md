@@ -160,8 +160,13 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [A Couple of Quick Tips for JavaScript Optimization](https://mondaybynoon.com/a-couple-of-quick-tips-for-javascript-optimization/)
 * [CSS TRIGGERS](http://csstriggers.com/)
 
-> TAMING <a href="#async" id="async">THE ASYNCHRONOUS NATURE OF JAVASCRIPT</a>
+> TAMING <a href="#async" id="async">THE ASYNCHRONOUS NATURE OF JAVASCRIPT</a> [ UPDATED ]
 
+* [**Asynchronous JavaScript: From Callback Hell to Async and Await**](https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial)
+* [**Promises, async/await @ JavaScript.info**](https://javascript.info/async)
+* [**Async JS Crash Course - Callbacks, Promises, Async Await** YouTube video by Traversy Media | 25min ](https://www.youtube.com/watch?v=PoRJizFvM7s)
+* [**async / await in JavaScript - What, Why and How - Fun Fun Function** YouTube video | 24min](https://www.youtube.com/watch?v=568g8hxJJp4)
+* [**Asynchronous JavaScript with async/await**](https://egghead.io/courses/asynchronous-javascript-with-async-await)
 * [**JavaScript Goes Asynchronous (and It’s Awesome)**](http://www.sitepoint.com/javascript-goes-asynchronous-awesome/)
 * [**Write Better JavaScript with Promises**, By Landon Schropp](http://davidwalsh.name/write-javascript-promises)
 * [**The Evolution of Asynchronous JavaScript**](https://blog.risingstack.com/asynchronous-javascript/)
@@ -273,10 +278,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 > HOSTING PLATFORMS
 
+* [Heroku](https://www.heroku.com/)
 * [Modulus](https://modulus.io/)
 * [Nitrous.IO](https://www.nitrous.io/)
 * [Cloud9](https://c9.io/)
-* [Heroku](https://www.heroku.com/)
 * [OpenShift](https://www.openshift.com/)
 * [NodeJitsu](https://www.nodejitsu.com/)
 * [NodeGear](https://nodegear.com/)
@@ -320,9 +325,13 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [A tidy repository of jQuery plugins, *by @psnka*](http://unheap.com/)
 
-##### 3.4.3 ANGULAR JS
+##### 3.4.3 ANGULAR & ANGULAR JS [ UPDATED ]
 
-> TUTORIALS
+> TUTORIALS: ANGULAR
+
+* [**Angular Tutorial for Beginners: Learn Angular from Scratch** | Mosh | YouTube video | 2h](https://www.youtube.com/watch?v=k5E2AVpwsko)
+
+> TUTORIALS: ANGULARJS
 
 * [3 Reasons to Choose AngularJS for Your Next Project](http://code.tutsplus.com/tutorials/3-reasons-to-choose-angularjs-for-your-next-project--net-28457)
 * [Comprehensive Beginner’s Guide to AngularJS](http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/)
@@ -339,7 +348,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Speeding up AngularJS apps with simple optimizations](http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135)
 * [Optimizing AngularJS: 1200ms to 35ms](http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/)
 
-> VIDEOS
+> VIDEOS: ANGULARJS
 
 * [AngularJS Fundamentals In 60-ish Minutes, *by Dan Wahlin*](https://www.youtube.com/watch?v=i9MHigUZKEM) 
 * [AngularJS videos @ egghead.io](https://egghead.io/technologies/angularjs)
@@ -357,8 +366,10 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [Learn Knockout.JS](http://learn.knockoutjs.com/)
 
-##### 3.4.5 REACT.JS
+##### 3.4.5 REACT.JS [ UPDATED ]
 
+* [**React Tutorial - Learn React - React Crash Course [2019]** YouTube video | 2h 25min ](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+* [**Introduction to React** YouTube video by Le Wagon | 1h 53min](https://www.youtube.com/watch?v=_ZTT9kw3PIE)
 * [Learn React in 48 interactive screencasts](https://scrimba.com/g/glearnreact)
 * [Getting Started With React](http://www.tysoncadenhead.com/blog/getting-started-with-react)
 
@@ -516,6 +527,8 @@ Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.c
 ##### 3.11.2 TYPESCRIPT
 
  * [TypeScript](https://www.typescriptlang.org/)
+ * [**TypeScript Tutorial for Angular and React Developers** | Mosh | YouTube video | 52min ](https://www.youtube.com/watch?v=NjN00cM18Z4)
+ * [**TypeScript Tutorial** by Derek Banas | YouTube video | 49min ](https://www.youtube.com/watch?v=-PR_XqW9JJU)
 
 ##### 3.11.3 ELM
 
