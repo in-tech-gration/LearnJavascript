@@ -89,11 +89,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 *The difference between JavaScript and JavaScript with __use strict__*
 ![Alt text](/img/usestrict.jpg "Make a difference by coding with use strict")
 
-<details><summary><h4>ECMASCRIPT 6 | ES2015 [ UPDATED ]<h4></summary>
-<p><a href="https://scrimba.com/g/ges6"><strong>Learn modern JavaScript</strong> | Scrimba Interactive Screencasts | 54min</a></p>
-<p><a href="https://scrimba.com/g/gintrotoes6"><strong>Introduction to ES6+</strong> | Scrimba Interactive Screencasts | 67min</a></p>
-<p><a href="https://ponyfoo.com/articles/es6"><strong>ES6 Overview in 350 Bullet Points</strong></a></p>
-<p><a href="https://github.com/lukehoban/es6features"><strong>Overview of ECMAScript 6 features</strong></a></p>
+<details>
+	<summary><strong>ECMASCRIPT 6 | ES2015 [ UPDATED ]</strong></summary>
+	<p><a href="https://scrimba.com/g/ges6"><strong>Learn modern JavaScript</strong> | Scrimba Interactive Screencasts | 54min</a></p>
+	<p><a href="https://scrimba.com/g/gintrotoes6"><strong>Introduction to ES6+</strong> | Scrimba Interactive Screencasts | 67min</a></p>
+	<p><a href="https://ponyfoo.com/articles/es6"><strong>ES6 Overview in 350 Bullet Points</strong></a></p>
+	<p><a href="https://github.com/lukehoban/es6features"><strong>Overview of ECMAScript 6 features</strong></a></p>
 </details>
 
 ### 3. RESOURCES
@@ -324,9 +325,11 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [Backbone.js Tutorial for Beginners, by *Thomas Davis*](https://www.youtube.com/watch?v=FZSjvWtUxYk)
 * [**Jeremy Ashkenas - Taking JavaScript Seriously with Backbone.js**](https://www.youtube.com/watch?v=4udR30JYenA)
 
-##### 3.4.2 JQUERY
+<details>
+	<summary><strong>3.4.2 JQUERY</strong></summary>
+	<p><a href="http://unheap.com/">A tidy repository of jQuery plugins, <em>by @psnka</em></a></p>
+</details>
 
-* [A tidy repository of jQuery plugins, *by @psnka*](http://unheap.com/)
 
 ##### 3.4.3 ANGULAR & ANGULAR JS [ UPDATED ]
 
@@ -361,13 +364,19 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
 
-##### 3.4.4 EMBER 
+<details>
+    <summary>
+        <strong>3.4.4 EMBER</strong>
+    </summary>
+    <p><a href="https://www.youtube.com/watch?v=L3sYt8PPHyI">Ember.js introduction by Kasper Tidemann</a> [<strong>VIDEO</strong>]</p> 
+</details> 
 
-* [Ember.js introduction by Kasper Tidemann](https://www.youtube.com/watch?v=L3sYt8PPHyI) [**VIDEO**]
-
-##### 3.4.5 KNOCKOUT JS
-
-* [Learn Knockout.JS](http://learn.knockoutjs.com/)
+<details>
+    <summary>
+        <strong>3.4.5 KNOCKOUT JS</strong>
+    </summary>
+    <p><a href="http://learn.knockoutjs.com/">Learn Knockout.JS</a></p> 
+</details> 
 
 ##### 3.4.5 REACT.JS [ UPDATED ]
 
