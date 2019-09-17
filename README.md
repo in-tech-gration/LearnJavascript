@@ -188,6 +188,14 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [ESLINT Linter](http://eslint.org/)
 * [JSCS](https://www.npmjs.org/package/jscs)
 
+<details>
+	<summary><strong>&gt; REGULAR EXPRESSIONS [ UPDATED ]</strong></summary
+	<p><a href="https://www.youtube.com/watch?v=VrT3TRDDE4M">Regular Expressions in JavaScript - #1 REGEX ULTRA BASICS | YouTube Video | 23min </a></p>
+	<p><a href="https://www.youtube.com/watch?v=bgBWp9EIlMM" >Regular Expressions - Enough to be Dangerous | YouTube Video | 15min</a></p>
+	<p><a href="https://www.youtube.com/watch?v=ZfQFUJhPqMM">Learn Regular Expressions (Regex) - Crash Course for Beginners @freeCodeCamp | YouTube Video | 45min</a></p>
+	<p><a href="https://scrimba.com/g/gregularexpressions">Learn Regular Expressions | Interactive Screencases @ Scrimba | 48min</a></p>
+</details>
+
 > ADVANCED
 
 * [JavaScript language advanced Tips & Tricks](https://code.google.com/p/jslibs/wiki/JavascriptTips)
