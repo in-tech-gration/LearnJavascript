@@ -176,20 +176,26 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [**The Evolution of Asynchronous JavaScript**](https://blog.risingstack.com/asynchronous-javascript/)
 * [**Javascript Async Control Flow**, By KENNY KAYE | 20 OCTOBER 2015](https://kaye.us/javascript-async-control-flow/)
 
-> DEBUGGING
-
-* [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
-* [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
-
-> LINTERS
-
-* [JSLINT](http://www.jslint.com/)
-* [JSHINT Linter](http://www.jshint.com/)
-* [ESLINT Linter](http://eslint.org/)
-* [JSCS](https://www.npmjs.org/package/jscs)
+<details>
+	<summary><strong>DEBUGGING</strong></summary
+	<ul>
+	<li><a href="https://developer.chrome.com/devtools/docs/javascript-debugging">Debugging JavaScript</a></li>
+	<li><a href="https://developer.chrome.com/devtools/docs/commandline-api">Chrome DevTools Command Line API Reference</a></li>
+	</ul>
+</details>
 
 <details>
-	<summary><strong>&gt; REGULAR EXPRESSIONS [ UPDATED ]</strong></summary
+	<summary><strong>LINTERS</strong></summary
+	<ul>
+	<li><a href="http://www.jslint.com/">JSLINT</a></li>
+	<li><a href="http://www.jshint.com/">JSHINT Linter</a></li>
+	<li><a href="http://eslint.org/">ESLINT Linter</a></li>
+	<li><a href="https://www.npmjs.org/package/jscs">JSCS</a></li>
+	</ul>
+</details>
+
+<details>
+	<summary><strong>REGULAR EXPRESSIONS [ UPDATED ]</strong></summary
 	<p><a href="https://www.youtube.com/watch?v=VrT3TRDDE4M">Regular Expressions in JavaScript - #1 REGEX ULTRA BASICS | YouTube Video | 23min </a></p>
 	<p><a href="https://www.youtube.com/watch?v=bgBWp9EIlMM" >Regular Expressions - Enough to be Dangerous | YouTube Video | 15min</a></p>
 	<p><a href="https://www.youtube.com/watch?v=ZfQFUJhPqMM">Learn Regular Expressions (Regex) - Crash Course for Beginners @freeCodeCamp | YouTube Video | 45min</a></p>
