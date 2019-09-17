@@ -85,6 +85,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * Use [JSHint](http://www.jshint.com/) / [JSLint](http://www.jslint.com/)
  * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
  * [Interactive code linting framework for Sublime Text 3](https://github.com/SublimeLinter/SublimeLinter3)
+ * [Study and apply Software Principles such as **DRY**, **SOLID**, **KISS**, etc.](https://dev.to/pluralsight/my-5-favorite-software-design-principles-4ech)
 
 *The difference between JavaScript and JavaScript with __use strict__*
 ![Alt text](/img/usestrict.jpg "Make a difference by coding with use strict")
