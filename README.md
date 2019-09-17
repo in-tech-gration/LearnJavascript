@@ -459,54 +459,285 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
  * [Node Weekly](http://nodeweekly.com/)
  * [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
 
-#### 3.9 DEVELOPERS (TWITTER, BLOGS)
-
-DEVELOPER  | TWITTER | BLOG | VIDEO CHANNEL
-------------- | ------------- | ------------- | -------------
-Addy Osmani | [Twitter](http://twitter.com/addyosmani) | [Blog](http://addyosmani.com/blog/) |
-Azat Mardan | [Twitter](https://twitter.com/azat_co) | |
-Alex Castrounis | [Twitter](https://twitter.com/innoarchitech) | [Blog](http://www.innoarchitech.com/) |
-Aria Stewart | [Twitter](https://twitter.com/aredridel) | [Blog](http://dinhe.net/~aredridel/) |
-Ariya Hidayat | [Twitter](http://twitter.com/ariyahidayat) | [Blog](http://ariya.ofilabs.com/) | [YouTube](https://www.youtube.com/user/ariyahidayat)
-Axel Rauschmayer | [Twitter](http://twitter.com/rauschma) | [Blog](http://2ality.com/) |
-Andrea Giammarchi | [Twitter](http://twitter.com/WebReflection) | [Blog](http://webreflection.blogspot.gr/) |
-Angus Croll | [Twitter](http://twitter.com/angusTweets) | [Blog](http://javascriptweblog.wordpress.com/) |
-Béla Varga | [Twitter](https://twitter.com/netzzwerg) | |
-Ben Alman | [Twitter](https://twitter.com/cowboy) | [Blog](http://benalman.com/) |
-Ben Cherry | [Twitter](https://twitter.com/bcherry) | [Blog](http://www.adequatelygood.com/) |
-Brendan Eich | [Twitter](http://twitter.com/BrendanEich) | [Blog](http://brendaneich.com/) |
-Christian Heilmann | [Twitter](http://twitter.com/codepo8) | [Blog](http://christianheilmann.com/) |
-Cody Lindley | [Twitter](https://twitter.com/codylindley) | [Blog](http://blog.codylindley.com/) |
-David Flanagan | [Twitter](http://twitter.com/__DavidFlanagan) | [Blog](http://davidflanagan.com/) |
-David Walsh | [Twitter](http://twitter.com/davidwalshblog) | [Blog](http://davidwalsh.name/) |
-Dion Almaer | [Twitter](https://twitter.com/dalmaer) | [Blog](http://almaer.com/blog/) |
-Douglas Crockford | | [Blog](http://javascript.crockford.com/) |
-Dean Edwards | | [Blog](http://dean.edwards.name/weblog/) |
-Dmitry Baranovskiy | [Twitter](https://twitter.com/DmitryBaranovsk) | [Blog](http://dmitry.baranovskiy.com/) |
-Dustin Diaz | [Twitter](https://twitter.com/ded) | [Blog](http://www.dustindiaz.com/) |
-Eric Elliott | [Twitter](https://twitter.com/_ericelliott) | |
-Ilya Grigorik | [Twitter](http://twitter.com/igrigorik) | |
-Jeremy Ashkenas | [Twitter](http://twitter.com/jashkenas) | [Blog]() |
-John Resig | [Twitter](http://twitter.com/jeresig) | [Blog](http://ejohn.org/category/blog/) |
-Juriy Zaytsev | [Twitter](https://twitter.com/kangax) | [Blog](http://perfectionkills.com/) |
-James Coglan | [Twitter](https://twitter.com/jcoglan) | [Blog](https://blog.jcoglan.com/) |
-John-David Dalton | [Twitter](https://twitter.com/jdalton) | [Blog](http://allyoucanleet.com/) |
-James Padolsey | [Twitter](https://twitter.com/padolsey) | [Blog](http://james.padolsey.com/) |
-Kyle Simpson | [Twitter](https://twitter.com/getify) | [Blog](http://getify.me/) |
-Lucas Smith | [Twitter](https://twitter.com/ls_n) | |
-Michael Bolin | [Twitter](https://twitter.com/bolinfest) | [Blog](http://blog.bolinfest.com/) |
-Nicholas Zakas | [Twitter](http://twitter.com/slicknet) | [Blog](http://www.nczonline.net/) |
-Pamela Fox | [Twitter](https://twitter.com/pamelafox) | [Blog](http://blog.pamelafox.org/) |
-Paul Irish | [Twitter](http://twitter.com/paul_irish) | [Blog](http://paulirish.com/) |
-Peter van der Zee | [Twitter](https://twitter.com/kuvos) | [Blog](http://qfox.nl/weblog) |
-Peter Michaux | | [Blog](http://peter.michaux.ca/) |
-Rebecca Murphey | [Twitter](http://twitter.com/rmurphey) | [Blog](http://rmurphey.com/) |
-Remy Sharp | [Twitter](http://twitter.com/rem) | [Blog](http://remysharp.com/) |
-Rey Bango | [Twitter](https://twitter.com/reybango) | [Blog](http://blog.reybango.com/) |
-Stoyan Stefanov | [Twitter](Stoyan Stefanov) | [Blog](http://www.phpied.com/) |
-Thomas Fuchs | [Twitter](https://twitter.com/thomasfuchs) | [Blog](http://mir.aculo.us/) |
-Oliver Steele | [Twitter](https://twitter.com/osteele) | [Blog](http://www.osteele.com/) |
-Yehuda Katz | [Twitter](https://twitter.com/wycats) | [Blog](http://yehudakatz.com/) |
+<details>
+	<summary><strong>3.9 DEVELOPERS (TWITTER, BLOGS)</strong></summary>
+	<table>
+	<thead>
+	<tr>
+	<th>DEVELOPER</th>
+	<th>TWITTER</th>
+	<th>BLOG</th>
+	<th>VIDEO CHANNEL</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>Addy Osmani</td>
+	<td><a href="http://twitter.com/addyosmani">Twitter</a></td>
+	<td><a href="http://addyosmani.com/blog/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Azat Mardan</td>
+	<td><a href="https://twitter.com/azat_co">Twitter</a></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Alex Castrounis</td>
+	<td><a href="https://twitter.com/innoarchitech">Twitter</a></td>
+	<td><a href="http://www.innoarchitech.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Aria Stewart</td>
+	<td><a href="https://twitter.com/aredridel">Twitter</a></td>
+	<td><a href="http://dinhe.net/~aredridel/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Ariya Hidayat</td>
+	<td><a href="http://twitter.com/ariyahidayat">Twitter</a></td>
+	<td><a href="http://ariya.ofilabs.com/">Blog</a></td>
+	<td><a href="https://www.youtube.com/user/ariyahidayat">YouTube</a></td>
+	</tr>
+	<tr>
+	<td>Axel Rauschmayer</td>
+	<td><a href="http://twitter.com/rauschma">Twitter</a></td>
+	<td><a href="http://2ality.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Andrea Giammarchi</td>
+	<td><a href="http://twitter.com/WebReflection">Twitter</a></td>
+	<td><a href="http://webreflection.blogspot.gr/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Angus Croll</td>
+	<td><a href="http://twitter.com/angusTweets">Twitter</a></td>
+	<td><a href="http://javascriptweblog.wordpress.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Béla Varga</td>
+	<td><a href="https://twitter.com/netzzwerg">Twitter</a></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Ben Alman</td>
+	<td><a href="https://twitter.com/cowboy">Twitter</a></td>
+	<td><a href="http://benalman.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Ben Cherry</td>
+	<td><a href="https://twitter.com/bcherry">Twitter</a></td>
+	<td><a href="http://www.adequatelygood.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Brendan Eich</td>
+	<td><a href="http://twitter.com/BrendanEich">Twitter</a></td>
+	<td><a href="http://brendaneich.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Christian Heilmann</td>
+	<td><a href="http://twitter.com/codepo8">Twitter</a></td>
+	<td><a href="http://christianheilmann.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Cody Lindley</td>
+	<td><a href="https://twitter.com/codylindley">Twitter</a></td>
+	<td><a href="http://blog.codylindley.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>David Flanagan</td>
+	<td><a href="http://twitter.com/__DavidFlanagan">Twitter</a></td>
+	<td><a href="http://davidflanagan.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>David Walsh</td>
+	<td><a href="http://twitter.com/davidwalshblog">Twitter</a></td>
+	<td><a href="http://davidwalsh.name/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Dion Almaer</td>
+	<td><a href="https://twitter.com/dalmaer">Twitter</a></td>
+	<td><a href="http://almaer.com/blog/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Douglas Crockford</td>
+	<td></td>
+	<td><a href="http://javascript.crockford.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Dean Edwards</td>
+	<td></td>
+	<td><a href="http://dean.edwards.name/weblog/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Dmitry Baranovskiy</td>
+	<td><a href="https://twitter.com/DmitryBaranovsk">Twitter</a></td>
+	<td><a href="http://dmitry.baranovskiy.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Dustin Diaz</td>
+	<td><a href="https://twitter.com/ded">Twitter</a></td>
+	<td><a href="http://www.dustindiaz.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Eric Elliott</td>
+	<td><a href="https://twitter.com/_ericelliott">Twitter</a></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Ilya Grigorik</td>
+	<td><a href="http://twitter.com/igrigorik">Twitter</a></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Jeremy Ashkenas</td>
+	<td><a href="http://twitter.com/jashkenas">Twitter</a></td>
+	<td><a href="">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>John Resig</td>
+	<td><a href="http://twitter.com/jeresig">Twitter</a></td>
+	<td><a href="http://ejohn.org/category/blog/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Juriy Zaytsev</td>
+	<td><a href="https://twitter.com/kangax">Twitter</a></td>
+	<td><a href="http://perfectionkills.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>James Coglan</td>
+	<td><a href="https://twitter.com/jcoglan">Twitter</a></td>
+	<td><a href="https://blog.jcoglan.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>John-David Dalton</td>
+	<td><a href="https://twitter.com/jdalton">Twitter</a></td>
+	<td><a href="http://allyoucanleet.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>James Padolsey</td>
+	<td><a href="https://twitter.com/padolsey">Twitter</a></td>
+	<td><a href="http://james.padolsey.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Kyle Simpson</td>
+	<td><a href="https://twitter.com/getify">Twitter</a></td>
+	<td><a href="http://getify.me/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Lucas Smith</td>
+	<td><a href="https://twitter.com/ls_n">Twitter</a></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Michael Bolin</td>
+	<td><a href="https://twitter.com/bolinfest">Twitter</a></td>
+	<td><a href="http://blog.bolinfest.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Nicholas Zakas</td>
+	<td><a href="http://twitter.com/slicknet">Twitter</a></td>
+	<td><a href="http://www.nczonline.net/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Pamela Fox</td>
+	<td><a href="https://twitter.com/pamelafox">Twitter</a></td>
+	<td><a href="http://blog.pamelafox.org/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Paul Irish</td>
+	<td><a href="http://twitter.com/paul_irish">Twitter</a></td>
+	<td><a href="http://paulirish.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Peter van der Zee</td>
+	<td><a href="https://twitter.com/kuvos">Twitter</a></td>
+	<td><a href="http://qfox.nl/weblog">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Peter Michaux</td>
+	<td></td>
+	<td><a href="http://peter.michaux.ca/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Rebecca Murphey</td>
+	<td><a href="http://twitter.com/rmurphey">Twitter</a></td>
+	<td><a href="http://rmurphey.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Remy Sharp</td>
+	<td><a href="http://twitter.com/rem">Twitter</a></td>
+	<td><a href="http://remysharp.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Rey Bango</td>
+	<td><a href="https://twitter.com/reybango">Twitter</a></td>
+	<td><a href="http://blog.reybango.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Stoyan Stefanov</td>
+	<td>[Twitter](Stoyan Stefanov)</td>
+	<td><a href="http://www.phpied.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Thomas Fuchs</td>
+	<td><a href="https://twitter.com/thomasfuchs">Twitter</a></td>
+	<td><a href="http://mir.aculo.us/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Oliver Steele</td>
+	<td><a href="https://twitter.com/osteele">Twitter</a></td>
+	<td><a href="http://www.osteele.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td>Yehuda Katz</td>
+	<td><a href="https://twitter.com/wycats">Twitter</a></td>
+	<td><a href="http://yehudakatz.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	</tbody>
+	</table>
+</details>
 
 #### 3.10 TOOLS
 
