@@ -52,7 +52,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
   * [Philip Roberts: Help, I'm stuck in an event-loop: How JavaScript actually works](http://vimeo.com/96425312)
 
 * Study some of the modern APIs: [WebRTC](https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC), [File API](https://developer.mozilla.org/en-US/docs/Web/API/File), [Blob API](https://developer.mozilla.org/en-US/docs/Web/API/Blob), etc. 
-* Master `Regular Expressions`. 
+* [Master `Regular Expressions`](#regex). 
 * Get in the habit of testing. **(Crucial!)**. [QUnit](http://qunitjs.com/) is a good starting point. 
 * Subscribe to these great YouTube channels and watch every video you can:
 
@@ -195,7 +195,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 	</ul>
 </details>
 
-<details>
+<details name="regex">
 	<summary><strong>REGULAR EXPRESSIONS [ UPDATED ]</strong></summary
 	<p><a href="https://www.youtube.com/watch?v=VrT3TRDDE4M">Regular Expressions in JavaScript - #1 REGEX ULTRA BASICS | YouTube Video | 23min </a></p>
 	<p><a href="https://www.youtube.com/watch?v=bgBWp9EIlMM" >Regular Expressions - Enough to be Dangerous | YouTube Video | 15min</a></p>
