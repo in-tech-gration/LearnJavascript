@@ -11,6 +11,11 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 
 * Understand [type coercion](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch2.md)
 * Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
+
+  Here are two really good posts explaining scope and hoisting:
+  * [JavaScript Visualized: Hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h), By Lydia Hallie
+  * [JavaScript Visualized: Scope (Chain)](https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd), By Lydia Hallie
+ 
 * Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/), and [**OLOO**: Objects Linked to Other Objects](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md)
 * Understand `callbacks`, `IIFEs` and [`asynchronicity`](https://github.com/kostasx/LearnJavascript#async) 
 * Study the source code of popular libraries: [jQuery](http://jquery.com/), [underscore](http://underscorejs.org/), etc. 
@@ -657,6 +662,12 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 	<td><a href="https://twitter.com/ls_n">Twitter</a></td>
 	<td></td>
 	<td></td>
+	</tr>
+	<tr>
+	<td>Lydia Hallie</td>
+	<td><a href="">Twitter</a></td>
+	<td><a href="">Blog</a></td>
+	<td><a href="https://www.youtube.com/channel/UC4EWKIKdKiDtAscQ9BIXwUw">YouTube</a></td>
 	</tr>
 	<tr>
 	<td>Michael Bolin</td>
