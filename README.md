@@ -3,10 +3,6 @@ LearnJavascript: A list of resources
 
 This list originated from this [discussion](http://www.linkedin.com/groupItem?view=&gid=121615&item=5909742634301140992&type=member&commentID=5909826380652113920&trk=eml-ntf-hero-like-my-discussion-cmt&midToken=AQG2dgaKId8xLA&fromEmail=fromEmail&ut=2sQj9Dud2coCo1#commentID_5909826380652113920) on LinkedIn's Javascript group.
 
-Contributors:
-
-Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
-
 ### LEARNING
 
 * Understand [type coercion](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch2.md)
@@ -404,6 +400,30 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 * [**Introduction to React** YouTube video by Le Wagon | 1h 53min](https://www.youtube.com/watch?v=_ZTT9kw3PIE)
 * [Learn React in 48 interactive screencasts](https://scrimba.com/g/glearnreact)
 * [Getting Started With React](http://www.tysoncadenhead.com/blog/getting-started-with-react)
+* [**Started with React** - An Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
+* [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+* [(YouTube) Learn React - React Crash Course [2019] - React Tutorial with Examples | Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+* [How to Learn React — A roadmap from beginner to advanced (2018)](https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/)
+* [React 101 - Learn how to build 3 practical React components from scratch!](https://ihatetomatoes.net/get-react-101/)
+* [Learn React for free](https://scrimba.com/g/glearnreact)
+* [Learn React in 10 tweets (with hooks)](https://twitter.com/chrisachard/status/1175022111758442497)
+* [Introduction to React by Le Wagon [Video]](https://www.youtube.com/watch?v=_ZTT9kw3PIE)
+* [React.JS @ Reddit](https://www.reddit.com/r/reactjs)
+* [What I wish I knew when I started to work with React.js](https://medium.freecodecamp.org/what-i-wish-i-knew-when-i-started-to-work-with-react-js-3ba36107fd13)
+* [Create React App: How to Update to New Versions?](https://create-react-app.dev/docs/updating-to-new-releases/)
+* [React Routing: Quick Start](https://reacttraining.com/react-router/web/guides/quick-start)
+* [React Routing: Difference between exact path and route path](https://stackoverflow.com/questions/49162311/react-difference-between-route-exact-path-and-route-path)
+* [React Routing: A Bluffer's Information to React Router V4 – FreeCodeCamp](https://epeak.info/2019/03/26/a-bluffers-information-to-react-router-v4-freecodecamp-org/)
+* [React Hooks: Thinking in React Hooks](https://wattenberger.com/blog/react-hooks)
+* [State Management: Using the native Context API (React 16.3+)](https://reactjs.org/docs/context.html)
+* [State Management: What is the Context API? (NetNinja Video)](https://www.youtube.com/watch?v=XkBB3pPY3t8)
+* [State Management: Introducing the React Context API - YouTube](https://www.youtube.com/watch?v=yzQ_XulhQFw)
+* [State Management: Simple example using Context API](https://codesandbox.io/s/reactjs-context-api-peflc)
+* [State Management: The PubSub Pattern](http://robertmarkbramprogrammer.blogspot.com/2019/02/using-pubsubjs-in-react.html)
+* [State Management: The PubSub Pattern: Demo](https://codesandbox.io/s/reactjs-pubsub-fjwdj)
+* [State Management: Using Flux for unidirectional data flow](https://facebook.github.io/flux/)
+* [State Management: Redux](https://react-redux.js.org/)
+* [State Management: MobX](https://mobx.js.org/)
 
 #### 3.5 BOOKS
 
@@ -807,3 +827,7 @@ Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for s
 ------
 
 ![Alt text](/img/javascript-please-work.jpg "JavaScript please work")
+
+#### Contributors
+
+Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
