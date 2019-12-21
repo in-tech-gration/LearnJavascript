@@ -4,6 +4,7 @@ LearnJavascript: A list of resources
 This list originated from this [discussion](http://www.linkedin.com/groupItem?view=&gid=121615&item=5909742634301140992&type=member&commentID=5909826380652113920&trk=eml-ntf-hero-like-my-discussion-cmt&midToken=AQG2dgaKId8xLA&fromEmail=fromEmail&ut=2sQj9Dud2coCo1#commentID_5909826380652113920) on LinkedIn's Javascript group.
 
 ![Alt text](/img/When-in-Rome.jpg "When in Rome Image")
+*(Quote by the lovely [MPJ](https://twitter.com/mpjme?lang=en))*
 
 ### LEARNING
 
