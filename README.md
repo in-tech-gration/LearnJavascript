@@ -87,7 +87,7 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 * [Avoid using `eval()`](http://bonsaiden.github.io/JavaScript-Garden/#core.eval)
 * Pass functions instead of strings to setTimeout or setInterval, as this triggers eval() internally. 
 * Use [JSHint](http://www.jshint.com/) / [JSLint](http://www.jslint.com/)
-  * If you are using [VSCode](https://code.visualstudio.com/) you can add the following comment at the top of your code to enable type checking: `//@ts-check` ([See screenshot](https://github.com/kostasx/LearnJavascript#tscheck))  
+  * If you are using [VSCode](https://code.visualstudio.com/) you can add the following comment at the top of your code to enable type checking: `//@ts-check` ([See screenshot](https://github.com/kostasx/LearnJavascript/blob/master/README.md#tscheck))  
   * [Inline lint highlighting for the Sublime Text 2 editor](https://github.com/SublimeLinter/SublimeLinter-for-ST2)
   * [Interactive code linting framework for Sublime Text 3](https://github.com/SublimeLinter/SublimeLinter3)
 * [Study and apply Software Principles such as **DRY**, **SOLID**, **KISS**, etc.](https://dev.to/pluralsight/my-5-favorite-software-design-principles-4ech)
@@ -830,6 +830,7 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 
 ------
 <a href="#tscheck" id="tscheck">Using Type Checking in VSCode</a>
+
 ![Alt text](/img/ts-check.jpg "Type Checking in JavaScript")
 
 ------
