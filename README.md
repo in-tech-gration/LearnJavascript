@@ -23,6 +23,7 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
   Here are 2 great videos on the subject by Paul Irish: 
   * [10 Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=i_qE1iAmjFg)
   * [11 More Things I Learned from the jQuery Source](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
+* Read (_or preferably buy_) every single book of the excellent [**You Don't Know JS**](https://github.com/getify/You-Dont-Know-JS) series by [Kyle simpson](https://twitter.com/getify) **[MUST READ]**
 * Watch every video by Douglas Crockford.
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
 * Get a really good understanding of [closures](http://bonsaiden.github.io/JavaScript-Garden/#function.closures) and [this](http://bonsaiden.github.io/JavaScript-Garden/#function.this) 
