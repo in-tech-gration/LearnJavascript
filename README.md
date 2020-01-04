@@ -110,6 +110,7 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 
 * [**Introduction to JavaScript** | Scrimba Interactive Screencasts | 69min ](https://scrimba.com/g/gintrotojavascript)
 * [**JavaScript First Steps** | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
+* [**What Is JavaScript Made Of?**](https://overreacted.io/what-is-javascript-made-of/)
 * [JavaScript the Right Way](https://github.com/braziljs/js-the-right-way)
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
 * [Javascript: BEST PRACTICES PART 1, *by Christian Heilmann*](http://www.thinkful.com/learn/javascript-best-practices-1/)
