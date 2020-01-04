@@ -144,6 +144,8 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 
 > APIs
 
+* [**Web APIs**](https://developer.mozilla.org/en-US/docs/Web/API)
+* [A presentation about several HTML5 APIs](http://eventloop.gr/frontend/html5/apis.html#/) (Contains useful links, code and resources in the slides)
 * [Screen Orientation API](http://www.sitepoint.com/introducing-screen-orientation-api/)
 
 #### 3.2 GENERAL
