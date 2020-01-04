@@ -39,8 +39,8 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 * Read some books. You can find some great books for JS on the BOOKS section of this list.
 * Learn how to debug your JS code. Here are some good links as a starting point:
 
- [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
- [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
+  * [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
+  * [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
 
 * Study JavaScript Patterns and Anti-Patterns:
 
