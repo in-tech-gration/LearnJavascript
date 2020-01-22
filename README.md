@@ -110,6 +110,7 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 #### 3.1 BEGINNER RESOURCES [ UPDATED ]
 
 * [**Introduction to JavaScript** | Scrimba Interactive Screencasts | 69min ](https://scrimba.com/g/gintrotojavascript)
+* [**Just JavaScript** Course By Dan Abramov and Maggie Appleton](https://justjavascript.com/)
 * [**JavaScript First Steps** | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
 * [**What Is JavaScript Made Of?**](https://overreacted.io/what-is-javascript-made-of/)
 * [JavaScript the Right Way](https://github.com/braziljs/js-the-right-way)
@@ -590,6 +591,13 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 	<td><a href="http://blog.codylindley.com/">Blog</a></td>
 	<td></td>
 	</tr>
+	<tr>
+	<td>Dan Abramov</td>
+	<td><a href="https://twitter.com/dan_abramov">Twitter</a></td>
+	<td><a href="https://overreacted.io/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
 	<tr>
 	<td>David Flanagan</td>
 	<td><a href="http://twitter.com/__DavidFlanagan">Twitter</a></td>
