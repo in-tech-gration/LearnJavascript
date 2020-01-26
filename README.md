@@ -697,8 +697,8 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 	<tr>
 	<td>Lin Clark</td>
 	<td><a href="https://twitter.com/linclark?lang=en">Twitter</a></td>
-	<td><a href="https://hacks.mozilla.org/author/lclarkmozilla-com/">Articles by Lin Clark at Mozilla Hacks</a></td>
-	<td><a href="https://code-cartoons.com/@linclark">Medium</a></td>
+	<td><a href="https://hacks.mozilla.org/author/lclarkmozilla-com/">Articles at Mozilla Hacks</a> / <a href="https://code-cartoons.com/@linclark">Medium</a></td>
+	<td></td>
 	</tr>
 	<tr>
 	<td>Lucas Smith</td>
