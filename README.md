@@ -326,31 +326,42 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [JavaScripting](http://www.javascripting.com/)
 * [Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things](https://github.com/sorrycc/awesome-javascript)
 
-##### 3.4.1 BACKBONE.JS
+<details>
+	<summary><strong>3.4.1 BACKBONE.JS</strong></summary>
+	<p><a href=""></a></p>
+	<ul>
+	<li class="has-line-data" data-line-start="0" data-line-end="1"><a href="https://miguelmota.com/blog/getting-started-with-backbonejs/"><strong>Getting Started with Backbone.js</strong>, By Miguel Mota</a></li>
+	<li class="has-line-data" data-line-start="1" data-line-end="2"><a href="http://www.korenlc.com/backbone-js-tutorial-getting-started-with-backbone/"><strong>Getting Started with Backbone</strong>, by Koren Leslie Cohen</a></li>
+	<li class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://github.com/instanceofpro/awesome-backbone/blob/master/README.md"><strong>Awesome Backbone</strong> List of Resources</a></li>
+	<li class="has-line-data" data-line-start="3" data-line-end="4"><a href="http://www.codebeerstartups.com/2012/12/introduction-to-backbone-js-and-setting-up-an-working-environment/">Introduction to Backbone Js and Setting Up an Working Environment – Learning Backbone Js</a></li>
+	<li class="has-line-data" data-line-start="4" data-line-end="5"><a href="http://code.tutsplus.com/tutorials/single-page-todo-application-with-backbonejs--cms-21417">Single Page ToDo Application With Backbone.js</a></li>
+	<li class="has-line-data" data-line-start="5" data-line-end="6"><a href="https://github.com/addyosmani/backbone-fundamentals">Developing Backbone.js Applications, <em>by Addy Osmani</em></a></li>
+	<li class="has-line-data" data-line-start="6" data-line-end="7"><a href="http://tutorialzine.com/2013/04/services-chooser-backbone-js/">Your First Backbone.js App – Service Chooser, <em>by Martin Angelov</em></a></li>
+	<li class="has-line-data" data-line-start="7" data-line-end="8"><a href="https://github.com/ccoenraets/nodecellar">Sample application built with Backbone.js, Twitter Bootstrap, Node.js, Express, MongoDB, by <em>Christophe Coenraets</em></a></li>
+	<li class="has-line-data" data-line-start="8" data-line-end="10"><a href="http://www.toptal.com/backbone-js/top-8-common-backbone-js-developer-mistakes">Top 8 Common Backbone.js Developer Mistakes, By Mahmub Ridwan</a></li>
+	</ul>
+	<blockquote>
+	<p class="has-line-data" data-line-start="10" data-line-end="11">CODE</p>
+	</blockquote>
+	<ul>
+	<li class="has-line-data" data-line-start="12" data-line-end="14"><a href="https://github.com/azat-co/super-simple-backbone-starter-kit">Super Simple Backbone Starter Kit and Boilerplate</a></li>
+	</ul>
+	<blockquote>
+	<p class="has-line-data" data-line-start="14" data-line-end="15">BOOKS</p>
+	</blockquote>
+	<ul>
+	<li class="has-line-data" data-line-start="16" data-line-end="18"><a href="http://addyosmani.github.io/backbone-fundamentals/">Developing Backbone.js Applications, <em>By Addy Osmani</em></a></li>
+	</ul>
+	<blockquote>
+	<p class="has-line-data" data-line-start="18" data-line-end="19">VIDEOS</p>
+	</blockquote>
+	<ul>
+	<li class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://www.youtube.com/watch?v=4t0n5k0X7ow">Backbone.js Video Tutorials on YouTube, by <em>Moshfegh Hamedani</em></a></li>
+	<li class="has-line-data" data-line-start="21" data-line-end="22"><a href="https://www.youtube.com/watch?v=FZSjvWtUxYk">Backbone.js Tutorial for Beginners, by <em>Thomas Davis</em></a></li>
+	<li class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://www.youtube.com/watch?v=4udR30JYenA"><strong>Jeremy Ashkenas - Taking JavaScript Seriously with Backbone.js</strong></a></li>
+	</ul>
+</details>
 
-* [**Getting Started with Backbone.js**, By Miguel Mota](https://miguelmota.com/blog/getting-started-with-backbonejs/)
-* [**Getting Started with Backbone**, by Koren Leslie Cohen](http://www.korenlc.com/backbone-js-tutorial-getting-started-with-backbone/)
-* [**Awesome Backbone** List of Resources](https://github.com/instanceofpro/awesome-backbone/blob/master/README.md)
-* [Introduction to Backbone Js and Setting Up an Working Environment – Learning Backbone Js](http://www.codebeerstartups.com/2012/12/introduction-to-backbone-js-and-setting-up-an-working-environment/)
-* [Single Page ToDo Application With Backbone.js](http://code.tutsplus.com/tutorials/single-page-todo-application-with-backbonejs--cms-21417)
-* [Developing Backbone.js Applications, *by Addy Osmani*](https://github.com/addyosmani/backbone-fundamentals)
-* [Your First Backbone.js App – Service Chooser, *by Martin Angelov*](http://tutorialzine.com/2013/04/services-chooser-backbone-js/)
-* [Sample application built with Backbone.js, Twitter Bootstrap, Node.js, Express, MongoDB, by *Christophe Coenraets*](https://github.com/ccoenraets/nodecellar)
-* [Top 8 Common Backbone.js Developer Mistakes, By Mahmub Ridwan](http://www.toptal.com/backbone-js/top-8-common-backbone-js-developer-mistakes)
-
-> CODE
-
-* [Super Simple Backbone Starter Kit and Boilerplate](https://github.com/azat-co/super-simple-backbone-starter-kit)
-
-> BOOKS
-
-* [Developing Backbone.js Applications, *By Addy Osmani*](http://addyosmani.github.io/backbone-fundamentals/)
-
-> VIDEOS
-
-* [Backbone.js Video Tutorials on YouTube, by *Moshfegh Hamedani*](https://www.youtube.com/watch?v=4t0n5k0X7ow)
-* [Backbone.js Tutorial for Beginners, by *Thomas Davis*](https://www.youtube.com/watch?v=FZSjvWtUxYk)
-* [**Jeremy Ashkenas - Taking JavaScript Seriously with Backbone.js**](https://www.youtube.com/watch?v=4udR30JYenA)
 
 <details>
 	<summary><strong>3.4.2 JQUERY</strong></summary>
