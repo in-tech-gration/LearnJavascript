@@ -11,9 +11,10 @@ This list originated from this [discussion](http://www.linkedin.com/groupItem?vi
 * Understand [type coercion](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch2.md)
 * Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 
-  Here are two really good posts explaining scope and hoisting:
+  Here are some really good resources explaining scope and hoisting:
   * [JavaScript Visualized: Hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h), By [Lydia Hallie](https://github.com/lydiahallie)
   * [JavaScript Visualized: Scope (Chain)](https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd), By [Lydia Hallie](https://github.com/lydiahallie)
+  * [**Scope in JavaScript** - HTTP 203](https://www.youtube.com/watch?v=5LEuJNLfLN0)
  
 * Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/), and [**OLOO**: Objects Linked to Other Objects](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md)
   * [**JavaScript Visualized: Prototypal Inheritance**](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co)
