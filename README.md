@@ -419,6 +419,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 ##### 3.4.5 REACT.JS [ UPDATED ]
 
 * [**React Tutorial - Learn React - React Crash Course [2019]** YouTube video | 2h 25min ](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+* [**The React Cheatsheet for 2020**  (+ real-world examples)](https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/)
 * [**Introduction to React** YouTube video by Le Wagon | 1h 53min](https://www.youtube.com/watch?v=_ZTT9kw3PIE)
 * [Learn React in 48 interactive screencasts](https://scrimba.com/g/glearnreact)
 * [Getting Started With React](http://www.tysoncadenhead.com/blog/getting-started-with-react)
