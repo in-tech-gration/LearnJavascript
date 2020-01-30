@@ -503,6 +503,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### 3.8 NEWSLETTERS
 
+ * [**https://justjavascript.com/** By Dan Abramov](https://justjavascript.com/)
  * [JavaScript Weekly](http://javascriptweekly.com/) 
  * [A Drip of JavaScript](http://designpepper.com/a-drip-of-javascript/)
  * [Node Weekly](http://nodeweekly.com/)
