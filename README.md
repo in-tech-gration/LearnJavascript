@@ -29,10 +29,13 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Watch every video by [Douglas Crockford](https://www.youtube.com/results?search_query=douglas+crockford).
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
 * Get a really good understanding of [closures](http://bonsaiden.github.io/JavaScript-Garden/#function.closures) and [this](http://bonsaiden.github.io/JavaScript-Garden/#function.this) 
+  * [**Understanding Functions and 'this'** By Bryan Hughes](https://www.youtube.com/watch?v=AOSYY1_np_4)
+
 * Study performance and code optimization
 
   Here is a good article by Nicholas Zakas: 
   * [10 Javascript Performance Boosting Tips](http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas)
+  * [**The cost of JavaScript in 2019** By Addy Osmani](https://v8.dev/blog/cost-of-javascript-2019)
 
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
 * Check [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/).
