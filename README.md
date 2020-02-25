@@ -476,6 +476,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [**Started with React** - An Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
 * [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 * [(YouTube) Learn React - React Crash Course [2019] - React Tutorial with Examples | Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+* [**Understand State vs Props by relating it to Plain JS functions**](https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react#answer-50229738)
 * [How to Learn React — A roadmap from beginner to advanced (2018)](https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/)
 * [React 101 - Learn how to build 3 practical React components from scratch!](https://ihatetomatoes.net/get-react-101/)
 * [Learn React for free](https://scrimba.com/g/glearnreact)
