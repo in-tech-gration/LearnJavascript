@@ -255,9 +255,10 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 #### 3.3 NODE
 
 <details>
-    <summary><strong>BEGINNERS</strong></summary>
+	<summary>BEGINNERS <strong><em>(Updated)</em></strong></summary>
     <br>
         <ul>
+ 	    <li><a href="https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1">THE BEGINNER’S GUIDE: Understanding Node.js & Express.js fundamentals</a></li>
             <li><a href="https://github.com/substack/stream-adventure"><strong>Stream Adventure:</strong> Go on an educational stream adventure!</a></li>
             <li><a href="https://github.com/finnp/test-anything"><strong>test-anything:</strong> Learn to test anything with TAP</a></li>
             <li><a href="http://code.tutsplus.com/tutorials/node-js-for-beginners--net-26314">Node.js for Beginnersby Maciej Sopyło</a></li>
@@ -280,7 +281,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 
 <details>
-    <summary><strong>EXPRESS.JS</strong></summary>
+    <summary>EXPRESS.JS</summary>
     <br>
     <ul>
         <li><a href="http://modernweb.com/2013/11/11/express-js-fundamentals/">Express.js Fundamentals</a></li>
@@ -299,7 +300,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 
 <details>
-    <summary><strong>ADVANCED</strong></summary>
+    <summary>ADVANCED</summary>
     <br>
     <ul>
         <li><a href="http://modernweb.com/2014/06/23/using-node-js-in-production/">Using Node.js in Production</a></li>
@@ -313,7 +314,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 
 <details>
-    <summary><strong>BOOKS</strong></summary>
+    <summary>BOOKS</summary>
     <br>
     <ul>
         <li><a href="http://chimera.labs.oreilly.com/books/1234000001808/index.html">Node: Up and Running, <em>by Tom Hughes-Croucher and Mike Wilson</em></a></li>
@@ -323,19 +324,24 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 
 <details>
-    <summary><strong>VIDEOS</strong></summary>
+    <summary>VIDEOS <strong><em>(Updated)</em></strong></summary>
     <br>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=pKd0Rpw7O48">Express.js Tutorial: Build RESTful APIs with Node and Express | Mosh</a></li>
         <li><a href="https://www.youtube.com/watch?v=TlB_eWDSMt4">Node.js Tutorial for Beginners: Learn Node in 1 Hour | Mosh</a></li>
         <li><a href="http://nodetuts.com/">NodeTuts: Node.JS Video Tutorials</a></li>
         <li><a href="https://egghead.io/technologies/node">Node.JS videos @ egghead.io</a></li>
+
+	<li><a href="https://www.youtube.com/watch?v=qIWNoJv4Lyc">Practical Mini-Projects in Node.js - Umar Hansa<a/></li>
+        <li><a href="https://www.youtube.com/watch?v=RF6Dzwwpduo">Deploying Node.js App With PM2<a/></li>
+        <li><a href="https://www.youtube.com/watch?v=69E5xmF8j-o">Alexandre Strzelewicz: Production Applications with PM2 - JSConf.Asia 2015
+<a/></li>
     </ul>
 </details>   
 
 
 <details>
-    <summary><strong>TESTING CODE</strong></summary>
+    <summary>TESTING CODE</summary>
     <br>
     <ul>
         <li><a href="runnable.com">Runnable.com</a></li>
@@ -343,7 +349,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 </details>   
 
 <details>
-    <summary><strong>HOSTING PLATFORMS</strong></summary>
+    <summary>HOSTING PLATFORMS</summary>
     <br>
     <ul>
         <li><a href="https://www.heroku.com/">Heroku</a></li>
