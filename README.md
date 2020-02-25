@@ -6,6 +6,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 ![Alt text](/img/When-in-Rome.jpg "When in Rome Image")
 *(Quote by the lovely [MPJ](https://twitter.com/mpjme?lang=en))*
 
+**About me**: [GitHub](https://github.com/kostasx/) | [Twitter](https://twitter.com/kostas_mns) | [StackOverflow](https://stackoverflow.com/users/4861760/kostasx) | [LinkedIn](https://www.linkedin.com/in/kostas-minaidis/) | [PlethoraThemes](https://plethorathemes.com/author/kostasx/)
+
 ### LEARNING
 
 * Understand [type coercion](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch2.md)
@@ -331,7 +333,6 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
         <li><a href="https://www.youtube.com/watch?v=TlB_eWDSMt4">Node.js Tutorial for Beginners: Learn Node in 1 Hour | Mosh</a></li>
         <li><a href="http://nodetuts.com/">NodeTuts: Node.JS Video Tutorials</a></li>
         <li><a href="https://egghead.io/technologies/node">Node.JS videos @ egghead.io</a></li>
-
 	<li><a href="https://www.youtube.com/watch?v=qIWNoJv4Lyc">Practical Mini-Projects in Node.js - Umar Hansa<a/></li>
         <li><a href="https://www.youtube.com/watch?v=RF6Dzwwpduo">Deploying Node.js App With PM2<a/></li>
         <li><a href="https://www.youtube.com/watch?v=69E5xmF8j-o">Alexandre Strzelewicz: Production Applications with PM2 - JSConf.Asia 2015
