@@ -6,7 +6,11 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 ![Alt text](/img/When-in-Rome.jpg "When in Rome Image")
 *(Quote by the lovely [MPJ](https://twitter.com/mpjme?lang=en))*
 
+---
+
 **About me**: [GitHub](https://github.com/kostasx/) | [Twitter](https://twitter.com/kostas_mns) | [StackOverflow](https://stackoverflow.com/users/4861760/kostasx) | [LinkedIn](https://www.linkedin.com/in/kostas-minaidis/) | [PlethoraThemes](https://plethorathemes.com/author/kostasx/)
+
+---
 
 ### LEARNING
 
