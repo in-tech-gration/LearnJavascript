@@ -11,10 +11,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Understand [type coercion](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch2.md)
 * Get a good understaning of `Functions`, [`Scope` and `Hoisting`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 
-  Here are some really good resources explaining scope and hoisting:
-  * [JavaScript Visualized: Hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h), By [Lydia Hallie](https://github.com/lydiahallie)
-  * [JavaScript Visualized: Scope (Chain)](https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd), By [Lydia Hallie](https://github.com/lydiahallie)
-  * [**Scope in JavaScript** - HTTP 203](https://www.youtube.com/watch?v=5LEuJNLfLN0)
+  - Understand exactly how non-primitive types are [passed to functions as arguments](http://dmitrysoshnikov.com/ecmascript/chapter-8-evaluation-strategy/#call-by-value).
+
+  - Here are some really good resources explaining scope and hoisting:
+    * [JavaScript Visualized: Hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h), By [Lydia Hallie](https://github.com/lydiahallie)
+    * [JavaScript Visualized: Scope (Chain)](https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd), By [Lydia Hallie](https://github.com/lydiahallie)
+    * [**Scope in JavaScript** - HTTP 203](https://www.youtube.com/watch?v=5LEuJNLfLN0)
  
 * Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/), and [**OLOO**: Objects Linked to Other Objects](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md)
   * [**JavaScript Visualized: Prototypal Inheritance**](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co)
@@ -252,76 +254,109 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### 3.3 NODE
 
-> BEGINNERS
+<details>
+    <summary><strong>BEGINNERS</strong></summary>
+    <br>
+        <ul>
+            <li><a href="https://github.com/substack/stream-adventure"><strong>Stream Adventure:</strong> Go on an educational stream adventure!</a></li>
+            <li><a href="https://github.com/finnp/test-anything"><strong>test-anything:</strong> Learn to test anything with TAP</a></li>
+            <li><a href="http://code.tutsplus.com/tutorials/node-js-for-beginners--net-26314">Node.js for Beginnersby Maciej Sopyło</a></li>
+            <li><a href="http://nodeschool.io/">Node School</a></li>
+            <li><a href="http://code.tutsplus.com/articles/resources-to-get-you-up-to-speed-in-nodejs--cms-21431">Resources to Get You Up to Speed in Node.js</a></li>
+            <li><a href="http://sub.watchmecode.net/getting-started-with-nodejs-installing-and-writing-your-first-code/">Getting Started With NodeJS: Installing And Writing Your First Code</a></li>
+            <li><a href="http://www.choskim.me/understanding-module-exports-and-exports-in-node-js/">UNDERSTANDING MODULE.EXPORTS AND EXPORTS IN NODE.JS</a></li>
+            <li><a href="http://code.tutsplus.com/tutorials/introduction-to-the-mean-stack--cms-19918">Introduction to the MEAN Stack</a></li>
+            <li><a href="http://nodeguide.com/beginner.html">Felix's Node.js Beginners Guide</a></li>
+            <li><a href="http://scottksmith.com/blog/2014/06/25/8-npm-tips-for-better-node-development/">8 NPM Tips for Better Node Development</a></li>
+            <li><a href="http://cruft.io/posts/node-command-line-utilities/">Command-line utilities with Node.js</a></li>
+            <li><a href="http://dailyjs.com/2014/06/05/mailin/">Receiving Emails with Node</a></li>
+            <li><a href="https://stormpath.com/blog/build-a-killer-node-dot-js-client-for-your-rest-plus-json-api/">Build a Killer Node.js Client for Your REST+JSON API</a></li>
+            <li><a href="http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/">Beer Locker: Building a RESTful API With Node - Passport</a></li>
+            <li><a href="http://www.algoworks.com/blog/most-popular-node-js-frameworks-for-app-development/">Most Popular Node.js Frameworks for App Development</a></li>
+            <li><a href="http://www.sitepoint.com/10-tips-make-node-js-web-app-faster/">10 Tips to Make Your Node.js Web App Faster</a></li>
+            <li><a href="http://www.learnallthenodes.com/">LEARN ALL THE NODES: SCREENCASTS EXPLORING, EXPLAINING, AND EXPANDING THE WORLD OF NODE.JS</a></li>
+        </ul>
+</details>   
 
-* [**Stream Adventure:** Go on an educational stream adventure!](https://github.com/substack/stream-adventure)
-* [**test-anything:** Learn to test anything with TAP](https://github.com/finnp/test-anything)
-* [Node.js for Beginnersby Maciej Sopyło](http://code.tutsplus.com/tutorials/node-js-for-beginners--net-26314)
-* [Node School](http://nodeschool.io/)
-* [Resources to Get You Up to Speed in Node.js](http://code.tutsplus.com/articles/resources-to-get-you-up-to-speed-in-nodejs--cms-21431)
-* [Getting Started With NodeJS: Installing And Writing Your First Code](http://sub.watchmecode.net/getting-started-with-nodejs-installing-and-writing-your-first-code/)
-* [UNDERSTANDING MODULE.EXPORTS AND EXPORTS IN NODE.JS](http://www.choskim.me/understanding-module-exports-and-exports-in-node-js/)
-* [Introduction to the MEAN Stack](http://code.tutsplus.com/tutorials/introduction-to-the-mean-stack--cms-19918)
-* [Felix's Node.js Beginners Guide](http://nodeguide.com/beginner.html)
-* [8 NPM Tips for Better Node Development](http://scottksmith.com/blog/2014/06/25/8-npm-tips-for-better-node-development/)
-* [Command-line utilities with Node.js](http://cruft.io/posts/node-command-line-utilities/)
-* [Receiving Emails with Node](http://dailyjs.com/2014/06/05/mailin/)
-* [Build a Killer Node.js Client for Your REST+JSON API](https://stormpath.com/blog/build-a-killer-node-dot-js-client-for-your-rest-plus-json-api/)
-* [Beer Locker: Building a RESTful API With Node - Passport](http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/)
-* [Most Popular Node.js Frameworks for App Development](http://www.algoworks.com/blog/most-popular-node-js-frameworks-for-app-development/)
-* [10 Tips to Make Your Node.js Web App Faster](http://www.sitepoint.com/10-tips-make-node-js-web-app-faster/)
-* [LEARN ALL THE NODES: SCREENCASTS EXPLORING, EXPLAINING, AND EXPANDING THE WORLD OF NODE.JS](http://www.learnallthenodes.com/)
 
-> EXPRESS.JS
+<details>
+    <summary><strong>EXPRESS.JS</strong></summary>
+    <br>
+    <ul>
+        <li><a href="http://modernweb.com/2013/11/11/express-js-fundamentals/">Express.js Fundamentals</a></li>
+        <li><a href="http://modernweb.com/2014/04/07/the-basics-of-express-routes/">The Basics of Express Routes</a></li>
+        <li><a href="http://blog.modulus.io/learning-express-four">LEARNING EXPRESS 4</a></li>
+        <li><a href="http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/">Creating a REST API using Node.js, Express, and MongoDB</a></li>
+        <li><a href="http://benaugarten.com/blog/2013/01/31/restful-a-better-rest-api-using-node-dot-js-with-express/">Restful: A Better REST API Using Node.js With Express</a></li>
+        <li><a href="http://strongloop.com/strongblog/using-express-js-for-apis/">Using Express.js for APIs</a></li>
+        <li><a href="">Build a Complete MVC Website With ExpressJS</a></li>
+        <li><a href="http://blog.ragingflame.co.za/2012/6/28/simple-form-handling-with-express-and-nodemailer">Simple form handling with Express and Nodemailer</a></li>
+        <li><a href="http://blogs.telerik.com/backendservices/posts/13-11-21/form-validation-with-expressjs">Form Validation With ExpressJS</a></li>
+        <li><a href="http://webapplog.com/migrating-express-js-3-x-to-4-x-middleware-route-and-other-changes/">Migrating Express.js 3.x to 4.x: Middleware, Route and Other Changes</a></li>
+        <li><a href="http://webapplog.com/intro-to-express-js-parameters-error-handling-and-other-middleware/">Intro to Express.js: Parameters, Error Handling and Other Middleware</a></li>
+    </ul>
+</details>   
 
-* [Express.js Fundamentals](http://modernweb.com/2013/11/11/express-js-fundamentals/)
-* [The Basics of Express Routes](http://modernweb.com/2014/04/07/the-basics-of-express-routes/)
-* [LEARNING EXPRESS 4](http://blog.modulus.io/learning-express-four)
-* [Creating a REST API using Node.js, Express, and MongoDB](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
-* [Restful: A Better REST API Using Node.js With Express](http://benaugarten.com/blog/2013/01/31/restful-a-better-rest-api-using-node-dot-js-with-express/)
-* [Using Express.js for APIs](http://strongloop.com/strongblog/using-express-js-for-apis/)
-* [Build a Complete MVC Website With ExpressJS]()
-* [Simple form handling with Express and Nodemailer](http://blog.ragingflame.co.za/2012/6/28/simple-form-handling-with-express-and-nodemailer)
-* [Form Validation With ExpressJS](http://blogs.telerik.com/backendservices/posts/13-11-21/form-validation-with-expressjs)
-* [Migrating Express.js 3.x to 4.x: Middleware, Route and Other Changes](http://webapplog.com/migrating-express-js-3-x-to-4-x-middleware-route-and-other-changes/)
-* [Intro to Express.js: Parameters, Error Handling and Other Middleware](http://webapplog.com/intro-to-express-js-parameters-error-handling-and-other-middleware/)
 
-> ADVANCED
+<details>
+    <summary><strong>ADVANCED</strong></summary>
+    <br>
+    <ul>
+        <li><a href="http://modernweb.com/2014/06/23/using-node-js-in-production/">Using Node.js in Production</a></li>
+        <li><a href="http://blog.carbonfive.com/2014/06/02/node-js-in-production/">Node.js in Production</a></li>
+        <li><a href="https://medium.com/@garychambers108/scaling-node-js-with-recluster-f04dd346108c">Scaling Node.js with recluster</a></li>
+        <li><a href="http://strongloop.com/strongblog/comparison-tools-to-automate-restarting-node-js-server-after-code-changes-forever-nodemon-nodesupervisor-nodedev/">Comparison: Tools to Automate Restarting Node.js Server After Code Changes</a></li>
+        <li><a href="http://www.joyent.com/developers/node/design/errors">Error Handling in Node.js</a></li>
+        <li><a href="http://blog.ragingflame.co.za/2013/5/31/using-nodejs-to-join-audio-files">Using Node.js to join audio files</a></li>
+    </ul>
+</details>   
 
-* [Using Node.js in Production](http://modernweb.com/2014/06/23/using-node-js-in-production/)
-* [Node.js in Production](http://blog.carbonfive.com/2014/06/02/node-js-in-production/)
-* [Scaling Node.js with recluster](https://medium.com/@garychambers108/scaling-node-js-with-recluster-f04dd346108c)
-* [Comparison: Tools to Automate Restarting Node.js Server After Code Changes](http://strongloop.com/strongblog/comparison-tools-to-automate-restarting-node-js-server-after-code-changes-forever-nodemon-nodesupervisor-nodedev/)
-* [Error Handling in Node.js](http://www.joyent.com/developers/node/design/errors)
-* [Using Node.js to join audio files](http://blog.ragingflame.co.za/2013/5/31/using-nodejs-to-join-audio-files)
 
-> BOOKS
+<details>
+    <summary><strong>BOOKS</strong></summary>
+    <br>
+    <ul>
+        <li><a href="http://chimera.labs.oreilly.com/books/1234000001808/index.html">Node: Up and Running, <em>by Tom Hughes-Croucher and Mike Wilson</em></a></li>
+        <li><a href="http://www.nodebeginner.org/">The Node Beginner Book</a></li>
+    </ul>
+</details>   
 
-* [Node: Up and Running, *by Tom Hughes-Croucher and Mike Wilson*](http://chimera.labs.oreilly.com/books/1234000001808/index.html)
-* [The Node Beginner Book](http://www.nodebeginner.org/)
 
-> VIDEOS
+<details>
+    <summary><strong>VIDEOS</strong></summary>
+    <br>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=pKd0Rpw7O48">Express.js Tutorial: Build RESTful APIs with Node and Express | Mosh</a></li>
+        <li><a href="https://www.youtube.com/watch?v=TlB_eWDSMt4">Node.js Tutorial for Beginners: Learn Node in 1 Hour | Mosh</a></li>
+        <li><a href="http://nodetuts.com/">NodeTuts: Node.JS Video Tutorials</a></li>
+        <li><a href="https://egghead.io/technologies/node">Node.JS videos @ egghead.io</a></li>
+    </ul>
+</details>   
 
-* [Express.js Tutorial: Build RESTful APIs with Node and Express | Mosh](https://www.youtube.com/watch?v=pKd0Rpw7O48)
-* [Node.js Tutorial for Beginners: Learn Node in 1 Hour | Mosh](https://www.youtube.com/watch?v=TlB_eWDSMt4)
-* [NodeTuts: Node.JS Video Tutorials](http://nodetuts.com/)
-* [Node.JS videos @ egghead.io](https://egghead.io/technologies/node)
 
-> TESTING CODE
+<details>
+    <summary><strong>TESTING CODE</strong></summary>
+    <br>
+    <ul>
+        <li><a href="runnable.com">Runnable.com</a></li>
+    </ul>
+</details>   
 
-* [Runnable.com](runnable.com)
-
-> HOSTING PLATFORMS
-
-* [Heroku](https://www.heroku.com/)
-* [Modulus](https://modulus.io/)
-* [Nitrous.IO](https://www.nitrous.io/)
-* [Cloud9](https://c9.io/)
-* [OpenShift](https://www.openshift.com/)
-* [NodeJitsu](https://www.nodejitsu.com/)
-* [NodeGear](https://nodegear.com/)
-* [AppFog](https://www.appfog.com/)
-* [Codio.io](https://codio.com/)
+<details>
+    <summary><strong>HOSTING PLATFORMS</strong></summary>
+    <br>
+    <ul>
+        <li><a href="https://www.heroku.com/">Heroku</a></li>
+        <li><a href="https://modulus.io/">Modulus</a></li>
+        <li><a href="https://www.nitrous.io/">Nitrous.IO</a></li>
+        <li><a href="https://c9.io/">Cloud9</a></li>
+        <li><a href="https://www.openshift.com/">OpenShift</a></li>
+        <li><a href="https://www.nodejitsu.com/">NodeJitsu</a></li>
+        <li><a href="https://nodegear.com/">NodeGear</a></li>
+        <li><a href="https://www.appfog.com/">AppFog</a></li>
+        <li><a href="https://codio.com/">Codio.io</a></li>
+    </ul>
+</details>   
 
 #### 3.4 FRAMEWORKS AND LIBRARIES
 
@@ -651,6 +686,13 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td><a href="https://twitter.com/DmitryBaranovsk">Twitter</a></td>
 	<td><a href="http://dmitry.baranovskiy.com/">Blog</a></td>
 	<td></td>
+	</tr>
+	<tr>
+	<tr>
+	<td>Dmitry Soshnikov</td>
+	<td><a href="https://twitter.com/DmitrySoshnikov">Twitter</a></td>
+	<td><a href="http://dmitrysoshnikov.com/">Blog</a></td>
+	<td><a href="https://www.youtube.com/channel/UC15UOu9F157NAXGL9dHc4TQ">YouTube</a></td>
 	</tr>
 	<tr>
 	<td>Dustin Diaz</td>
