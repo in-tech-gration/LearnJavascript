@@ -146,6 +146,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [JavaScript DevDocs](http://devdocs.io/javascript/)
 * [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [**How to Become a Great JavaScript Developer***](http://blog.ustunozgur.com/javascript/programming/books/videos/2015/06/17/how_to_be_a_great_javascript_software_developer.html)
+* [FAQ for comp.lang.javascript](http://pointedears.de/scripts/faq/cljs/#FAQ2_9)
 
 > COURSES
 
