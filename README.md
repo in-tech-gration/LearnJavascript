@@ -484,6 +484,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [Learn React in 10 tweets (with hooks)](https://twitter.com/chrisachard/status/1175022111758442497)
 * [Introduction to React by Le Wagon [Video]](https://www.youtube.com/watch?v=_ZTT9kw3PIE)
 * [React.JS @ Reddit](https://www.reddit.com/r/reactjs)
+* [**React Component Patterns by Michael Chan**](https://www.youtube.com/watch?v=YaZg8wg39QQ)
 * [What I wish I knew when I started to work with React.js](https://medium.freecodecamp.org/what-i-wish-i-knew-when-i-started-to-work-with-react-js-3ba36107fd13)
 * [Create React App: How to Update to New Versions?](https://create-react-app.dev/docs/updating-to-new-releases/)
 * [React Routing: Quick Start](https://reacttraining.com/react-router/web/guides/quick-start)
