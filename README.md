@@ -287,6 +287,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
         </ul>
 </details>   
 
+<!-- E X P R E S S . J S  -->
 
 <details>
     <summary>EXPRESS.JS</summary>
@@ -306,6 +307,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
+<!-- A D V A N C E D -->
 
 <details>
     <summary>ADVANCED</summary>
@@ -320,6 +322,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
+<!-- B O O K S -->
 
 <details>
     <summary>BOOKS</summary>
@@ -330,6 +333,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
+<!-- V I D E O S -->
 
 <details>
     <summary>VIDEOS <strong><em>(Updated)</em></strong></summary>
@@ -346,6 +350,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
+<!-- T E S T I N G -->
 
 <details>
     <summary>TESTING CODE</summary>
@@ -354,6 +359,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
         <li><a href="runnable.com">Runnable.com</a></li>
     </ul>
 </details>   
+
+<!-- H O S T I N G -->
 
 <details>
     <summary>HOSTING PLATFORMS</summary>
@@ -371,12 +378,29 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
-#### 3.4 FRAMEWORKS AND LIBRARIES
+<!-- C E R T I F I C A T E S -->
 
-> LISTS
+<details>
+    <summary>CERTIFICATES</summary>
+    <br>
+    <ul>
+	    <li><a href="https://training.linuxfoundation.org/certification/jsnsd/"><strong>OpenJS Node.js Services Developer (JSNSD)</strong> (Cost: $300)</a></li>
+	    <li><a href="https://training.linuxfoundation.org/certification/jsnad/"><strong>OpenJS Node.js Application Developer (JSNAD)</strong> (Cost: $300)</a></li>
+    </ul>
+</details>   
 
-* [JavaScripting](http://www.javascripting.com/)
-* [Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things](https://github.com/sorrycc/awesome-javascript)
+<!-- F R A M E W O R K  A N D  L I B R A R I E S -->
+
+<h4>3.4 FRAMEWORKS AND LIBRARIES</h4>
+
+<blockquote>
+    <p>LISTS</p>
+</blockquote>
+
+<ul>
+    <li><a href="http://www.javascripting.com/">JavaScripting</a></li>
+    <li><a href="https://github.com/sorrycc/awesome-javascript">Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things</a></li>
+</ul>
 
 <details>
 	<summary><strong>3.4.1 BACKBONE.JS</strong></summary>
@@ -420,39 +444,67 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<p><a href="http://unheap.com/">A tidy repository of jQuery plugins, <em>by @psnka</em></a></p>
 </details>
 
+<!-- A N G U L A R -->
 
-##### 3.4.3 ANGULAR & ANGULAR JS [ UPDATED ]
+<h5>3.4.3 ANGULAR &amp; ANGULAR JS [ UPDATED ]</h5>
 
-> TUTORIALS: ANGULAR
+<details>
+	<summary>ANGULAR</summary>
+	<br/>
+	<blockquote>
+	  <p>TUTORIALS: ANGULAR</p>
+	</blockquote>
 
-* [**Angular Tutorial for Beginners: Learn Angular from Scratch** | Mosh | YouTube video | 2h](https://www.youtube.com/watch?v=k5E2AVpwsko)
+	<ul>
+	    <li><a href="https://www.youtube.com/watch?v=k5E2AVpwsko"><strong>Angular Tutorial for Beginners: Learn Angular from Scratch</strong> | Mosh | YouTube video | 2h</a></li>
+	</ul>
+<details>
 
-> TUTORIALS: ANGULARJS
+<!-- A N G U L A R J S -->
 
-* [3 Reasons to Choose AngularJS for Your Next Project](http://code.tutsplus.com/tutorials/3-reasons-to-choose-angularjs-for-your-next-project--net-28457)
-* [Comprehensive Beginner’s Guide to AngularJS](http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/)
-* [Recipes with Angular.js](http://fdietz.github.io/recipes-with-angular-js/)
-* [AngularJS for Absolute Beginners, *by David East*](http://medialoot.com/blog/angularjs-for-absolute-beginners/)
-* [Learn AngularJS With These 5 Practical Examples](http://tutorialzine.com/2013/08/learn-angularjs-5-examples/)
-* [How to Learn AngularJS - Your AngularJS Sherpa](http://www.ng-newsletter.com/posts/how-to-learn-angular.html)
-* [ANGULARJS: SHOPPING LIST APPLICATION](http://return-true.com/2013/06/angularjs-shopping-list-application-part-1/)
-* [Building a Spreadsheet in 20 Minutes with Angular.js, *by David Graunke*](http://thomasstreet.com/blog/legacy/spreadsheet.html)
-* [Learning AngularJS by Example – The Customer Manager Application](http://weblogs.asp.net/dwahlin/learning-angularjs-by-example-the-customer-manager-application)
-* [Web Spreadsheet in 99 lines using Angular](https://github.com/audreyt/500lines/blob/master/spreadsheet/chapter.md)
-* [Fun with AngularJS!](http://devgirl.org/2013/03/21/fun-with-angularjs/)
-* [AngularJS Cheat Sheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
-* [Speeding up AngularJS apps with simple optimizations](http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135)
-* [Optimizing AngularJS: 1200ms to 35ms](http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/)
+<details>
+	<summary>ANGULAR.JS</summary>
+	<br/>
+	<blockquote>
+	    <p>TUTORIALS: ANGULARJS</p>
+	</blockquote>
+	<ul>
+	    <li><a href="http://code.tutsplus.com/tutorials/3-reasons-to-choose-angularjs-for-your-next-project--net-28457">3 Reasons to Choose AngularJS for Your Next Project</a></li>
+	    <li><a href="http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/">Comprehensive Beginner’s Guide to AngularJS</a></li>
+	    <li><a href="http://fdietz.github.io/recipes-with-angular-js/">Recipes with Angular.js</a></li>
+	    <li><a href="http://medialoot.com/blog/angularjs-for-absolute-beginners/">AngularJS for Absolute Beginners, <em>by David East</em></a></li>
+	    <li><a href="http://tutorialzine.com/2013/08/learn-angularjs-5-examples/">Learn AngularJS With These 5 Practical Examples</a></li>
+	    <li><a href="http://www.ng-newsletter.com/posts/how-to-learn-angular.html">How to Learn AngularJS - Your AngularJS Sherpa</a></li>
+	    <li><a href="http://return-true.com/2013/06/angularjs-shopping-list-application-part-1/">ANGULARJS: SHOPPING LIST APPLICATION</a></li>
+	    <li><a href="http://thomasstreet.com/blog/legacy/spreadsheet.html">Building a Spreadsheet in 20 Minutes with Angular.js, <em>by David Graunke</em></a></li>
+	    <li><a href="http://weblogs.asp.net/dwahlin/learning-angularjs-by-example-the-customer-manager-application">Learning AngularJS by Example – The Customer Manager Application</a></li>
+	    <li><a href="https://github.com/audreyt/500lines/blob/master/spreadsheet/chapter.md">Web Spreadsheet in 99 lines using Angular</a></li>
+	    <li><a href="http://devgirl.org/2013/03/21/fun-with-angularjs/">Fun with AngularJS!</a></li>
+	    <li><a href="http://www.cheatography.com/proloser/cheat-sheets/angularjs/">AngularJS Cheat Sheet</a></li>
+	    <li><a href="http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135">Speeding up AngularJS apps with simple optimizations</a></li>
+	    <li><a href="http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/">Optimizing AngularJS: 1200ms to 35ms</a></li>
+	</ul>
 
-> VIDEOS: ANGULARJS
+	<blockquote>
+	    <p>VIDEOS: ANGULARJS</p>
+	</blockquote>
 
-* [AngularJS Fundamentals In 60-ish Minutes, *by Dan Wahlin*](https://www.youtube.com/watch?v=i9MHigUZKEM) 
-* [AngularJS videos @ egghead.io](https://egghead.io/technologies/angularjs)
-* [Introduction to Angular.js in 50 Examples, *by Curran Kelleher*](https://www.youtube.com/watch?v=TRrL5j3MIvo)
+	<ul>
+	    <li><a href="https://www.youtube.com/watch?v=i9MHigUZKEM">AngularJS Fundamentals In 60-ish Minutes, <em>by Dan Wahlin</em></a></li>
+	    <li><a href="https://egghead.io/technologies/angularjs">AngularJS videos @ egghead.io</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=TRrL5j3MIvo">Introduction to Angular.js in 50 Examples, <em>by Curran Kelleher</em></a></li>
+	</ul>
 
-> NEWSLETTERS
+	<blockquote>
+	    <p>NEWSLETTERS</p>
+	</blockquote>
 
-* [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
+	<ul>
+	    <li><a href="http://www.ng-newsletter.com/">ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web</a></li>
+	</ul>
+<details>
+
+<!-- E M B E R -->
 
 <details>
     <summary>
