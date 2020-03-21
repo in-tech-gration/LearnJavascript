@@ -454,7 +454,6 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<blockquote>
 	  <p>TUTORIALS: ANGULAR</p>
 	</blockquote>
-
 	<ul>
 	    <li><a href="https://www.youtube.com/watch?v=k5E2AVpwsko"><strong>Angular Tutorial for Beginners: Learn Angular from Scratch</strong> | Mosh | YouTube video | 2h</a></li>
 	</ul>
@@ -484,21 +483,17 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	    <li><a href="http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135">Speeding up AngularJS apps with simple optimizations</a></li>
 	    <li><a href="http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/">Optimizing AngularJS: 1200ms to 35ms</a></li>
 	</ul>
-
 	<blockquote>
 	    <p>VIDEOS: ANGULARJS</p>
 	</blockquote>
-
 	<ul>
 	    <li><a href="https://www.youtube.com/watch?v=i9MHigUZKEM">AngularJS Fundamentals In 60-ish Minutes, <em>by Dan Wahlin</em></a></li>
 	    <li><a href="https://egghead.io/technologies/angularjs">AngularJS videos @ egghead.io</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=TRrL5j3MIvo">Introduction to Angular.js in 50 Examples, <em>by Curran Kelleher</em></a></li>
 	</ul>
-
 	<blockquote>
 	    <p>NEWSLETTERS</p>
 	</blockquote>
-
 	<ul>
 	    <li><a href="http://www.ng-newsletter.com/">ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web</a></li>
 	</ul>
