@@ -94,6 +94,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 * Always use `let` or `const` when declaring variables. Avoid using `var`.
 * [Code using `"use strict"`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
+* If you are using [VSCode Editor](https://code.visualstudio.com/) add the `//@ts-check` comment at the top of your code for an extra layer of checks via  [TypeScript Linter](https://raw.githubusercontent.com/kostasx/LearnJavascript/master/img/ts-check.jpg)
 * [Always use semicolons.](http://bonsaiden.github.io/JavaScript-Garden/#core.semicolon) // [**Not using semicolons??? Lonely Island uses them everyday**](https://www.youtube.com/watch?v=M94ii6MVilw)
 * [Prefer using `===` over `==`](http://bonsaiden.github.io/JavaScript-Garden/#types.equality) 
 * Always use curly braces 
