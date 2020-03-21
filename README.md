@@ -79,7 +79,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   * [CascadiaJS](https://www.youtube.com/user/cascadiajs)
   * [JSConf](https://www.youtube.com/user/jsconfeu/videos)
  
-* Learn some framework or library like [jQuery](http://jquery.com/), [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue.JS](https://vuejs.org/), [Backbone.JS](http://backbonejs.org/), [underscore](http://underscorejs.org/), [AngularJS](https://angularjs.org/), [Ember](http://emberjs.com/), [Knockout.JS](http://knockoutjs.com/), etc. 
+* Learn some framework or library like [jQuery](http://jquery.com/), [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue.JS](https://vuejs.org/), [SVELTE](https://svelte.dev/), [Backbone.JS](http://backbonejs.org/), [underscore](http://underscorejs.org/), [AngularJS](https://angularjs.org/), [Ember](http://emberjs.com/), [Knockout.JS](http://knockoutjs.com/), etc. 
 * [Try building a ToDo App using one of these libraries](http://todomvc.com/)
 * Get to know [Node.JS](http://nodejs.org/) and start building apps. 
   * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
@@ -458,7 +458,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<ul>
 	    <li><a href="https://www.youtube.com/watch?v=k5E2AVpwsko"><strong>Angular Tutorial for Beginners: Learn Angular from Scratch</strong> | Mosh | YouTube video | 2h</a></li>
 	</ul>
-<details>
+</details>
 
 <!-- A N G U L A R J S -->
 
@@ -502,7 +502,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<ul>
 	    <li><a href="http://www.ng-newsletter.com/">ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web</a></li>
 	</ul>
-<details>
+</details>
 
 <!-- E M B E R -->
 
