@@ -12,6 +12,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ---
 
+<!-- L E A R N I N G -->
+
 ### LEARNING
 
 * Understand [type coercion](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch2.md)
@@ -150,8 +152,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [**How to Become a Great JavaScript Developer***](http://blog.ustunozgur.com/javascript/programming/books/videos/2015/06/17/how_to_be_a_great_javascript_software_developer.html)
 * [FAQ for comp.lang.javascript](http://pointedears.de/scripts/faq/cljs/)
 
-> COURSES
+> COURSES [ UPDATED ]
 
+* [**Deep Dive Into Modern Web Development** | Full Stack course by The University of Helsinki ](https://fullstackopen.com/en/)
 * [CodeCombat: Learn to Code by Playing a Game](http://codecombat.com/)
 * [Javascript for Beginners, Udemy **PAID COURSE**](https://www.udemy.com/beginning-javascript/)
 
