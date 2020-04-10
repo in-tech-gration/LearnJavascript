@@ -87,7 +87,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   * Try running server-side JS code usign `Node.JS` on [Runnable.com](http://runnable.com/)
   * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
 * Subscribe to Newsletters and stay up to date with JS and Node. *(See section `3.8 NEWSLETTERS`)*
-* Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](#gulp).
+* Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](#gulp) and/or learn how to use [npm scripts](https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/).
 * Start building cross-platform Desktop Applications using HTML/CSS/JavaScript in [Electron.JS](https://electronjs.org/) or [Node-Webkit](https://nwjs.io/).
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 * Code using a [Style Guide](https://github.com/airbnb/javascript). 
