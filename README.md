@@ -523,40 +523,51 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     <p><a href="http://learn.knockoutjs.com/">Learn Knockout.JS</a></p> 
 </details> 
 
-##### 3.4.5 REACT.JS [ UPDATED ]
+<!-- R E A C T -->
 
-* [**React Tutorial - Learn React - React Crash Course [2019]** YouTube video | 2h 25min ](https://www.youtube.com/watch?v=Ke90Tje7VS0)
-  * [**Quick React.JS Overview** (Part of the video above)](https://www.youtube.com/embed/Ke90Tje7VS0/?start=75&end=286)
-* [**The React Cheatsheet for 2020**  (+ real-world examples)](https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/)
-* [**Introduction to React** YouTube video by Le Wagon | 1h 53min](https://www.youtube.com/watch?v=_ZTT9kw3PIE)
-* [Learn React in 48 interactive screencasts](https://scrimba.com/g/glearnreact)
-* [Getting Started With React](http://www.tysoncadenhead.com/blog/getting-started-with-react)
-* [**Started with React** - An Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
-* [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
-* [(YouTube) Learn React - React Crash Course [2019] - React Tutorial with Examples | Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
-* [**Understand State vs Props by relating it to Plain JS functions**](https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react#answer-50229738)
-* [How to Learn React — A roadmap from beginner to advanced (2018)](https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/)
-* [React 101 - Learn how to build 3 practical React components from scratch!](https://ihatetomatoes.net/get-react-101/)
-* [Learn React for free](https://scrimba.com/g/glearnreact)
-* [Learn React in 10 tweets (with hooks)](https://twitter.com/chrisachard/status/1175022111758442497)
-* [Introduction to React by Le Wagon [Video]](https://www.youtube.com/watch?v=_ZTT9kw3PIE)
-* [React.JS @ Reddit](https://www.reddit.com/r/reactjs)
-* [**React Component Patterns by Michael Chan**](https://www.youtube.com/watch?v=YaZg8wg39QQ)
-* [What I wish I knew when I started to work with React.js](https://medium.freecodecamp.org/what-i-wish-i-knew-when-i-started-to-work-with-react-js-3ba36107fd13)
-* [Create React App: How to Update to New Versions?](https://create-react-app.dev/docs/updating-to-new-releases/)
-* [React Routing: Quick Start](https://reacttraining.com/react-router/web/guides/quick-start)
-* [React Routing: Difference between exact path and route path](https://stackoverflow.com/questions/49162311/react-difference-between-route-exact-path-and-route-path)
-* [React Routing: A Bluffer's Information to React Router V4 – FreeCodeCamp](https://epeak.info/2019/03/26/a-bluffers-information-to-react-router-v4-freecodecamp-org/)
-* [React Hooks: Thinking in React Hooks](https://wattenberger.com/blog/react-hooks)
-* [State Management: Using the native Context API (React 16.3+)](https://reactjs.org/docs/context.html)
-* [State Management: What is the Context API? (NetNinja Video)](https://www.youtube.com/watch?v=XkBB3pPY3t8)
-* [State Management: Introducing the React Context API - YouTube](https://www.youtube.com/watch?v=yzQ_XulhQFw)
-* [State Management: Simple example using Context API](https://codesandbox.io/s/reactjs-context-api-peflc)
-* [State Management: The PubSub Pattern](http://robertmarkbramprogrammer.blogspot.com/2019/02/using-pubsubjs-in-react.html)
-* [State Management: The PubSub Pattern: Demo](https://codesandbox.io/s/reactjs-pubsub-fjwdj)
-* [State Management: Using Flux for unidirectional data flow](https://facebook.github.io/flux/)
-* [State Management: Redux](https://react-redux.js.org/)
-* [State Management: MobX](https://mobx.js.org/)
+<details>
+  <summary>
+       <strong>3.4.6 REACT.JS</strong> [ UPDATED ]
+  </summary>
+  <br/>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=Ke90Tje7VS0"><strong>React Tutorial - Learn React - React Crash Course [2019]</strong> YouTube video | 2h 25min </a>
+        <ul>
+            <li><a href="https://www.youtube.com/embed/Ke90Tje7VS0/?start=75&amp;end=286"><strong>Quick React.JS Overview</strong> (Part of the video above)</a></li>
+        </ul>
+    </li>
+    <li><a href="https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/"><strong>The React Cheatsheet for 2020</strong>  (+ real-world examples)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=_ZTT9kw3PIE"><strong>Introduction to React</strong> YouTube video by Le Wagon | 1h 53min</a></li>
+    <li><a href="https://scrimba.com/g/glearnreact">Learn React in 48 interactive screencasts</a></li>
+    <li><a href="http://www.tysoncadenhead.com/blog/getting-started-with-react">Getting Started With React</a></li>
+    <li><a href="https://www.taniarascia.com/getting-started-with-react/"><strong>Started with React</strong> - An Overview and Walkthrough</a></li>
+    <li><a href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React</a></li>
+    <li><a href="https://www.youtube.com/watch?v=Ke90Tje7VS0">(YouTube) Learn React - React Crash Course [2019] - React Tutorial with Examples | Mosh</a></li>
+    <li><a href="https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react#answer-50229738"><strong>Understand State vs Props by relating it to Plain JS functions</strong></a></li>
+    <li><a href="https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/">How to Learn React — A roadmap from beginner to advanced (2018)</a></li>
+    <li><a href="https://ihatetomatoes.net/get-react-101/">React 101 - Learn how to build 3 practical React components from scratch!</a></li>
+    <li><a href="https://scrimba.com/g/glearnreact">Learn React for free</a></li>
+    <li><a href="https://twitter.com/chrisachard/status/1175022111758442497">Learn React in 10 tweets (with hooks)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=_ZTT9kw3PIE">Introduction to React by Le Wagon [Video]</a></li>
+    <li><a href="https://www.reddit.com/r/reactjs">React.JS @ Reddit</a></li>
+    <li><a href="https://www.youtube.com/watch?v=YaZg8wg39QQ"><strong>React Component Patterns by Michael Chan</strong></a></li>
+    <li><a href="https://medium.freecodecamp.org/what-i-wish-i-knew-when-i-started-to-work-with-react-js-3ba36107fd13">What I wish I knew when I started to work with React.js</a></li>
+    <li><a href="https://create-react-app.dev/docs/updating-to-new-releases/">Create React App: How to Update to New Versions?</a></li>
+    <li><a href="https://reacttraining.com/react-router/web/guides/quick-start">React Routing: Quick Start</a></li>
+    <li><a href="https://stackoverflow.com/questions/49162311/react-difference-between-route-exact-path-and-route-path">React Routing: Difference between exact path and route path</a></li>
+    <li><a href="https://epeak.info/2019/03/26/a-bluffers-information-to-react-router-v4-freecodecamp-org/">React Routing: A Bluffer's Information to React Router V4 – FreeCodeCamp</a></li>
+    <li><a href="https://wattenberger.com/blog/react-hooks">React Hooks: Thinking in React Hooks</a></li>
+    <li><a href="https://reactjs.org/docs/context.html">State Management: Using the native Context API (React 16.3+)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=XkBB3pPY3t8">State Management: What is the Context API? (NetNinja Video)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=yzQ_XulhQFw">State Management: Introducing the React Context API - YouTube</a></li>
+    <li><a href="https://codesandbox.io/s/reactjs-context-api-peflc">State Management: Simple example using Context API</a></li>
+    <li><a href="http://robertmarkbramprogrammer.blogspot.com/2019/02/using-pubsubjs-in-react.html">State Management: The PubSub Pattern</a></li>
+    <li><a href="https://codesandbox.io/s/reactjs-pubsub-fjwdj">State Management: The PubSub Pattern: Demo</a></li>
+    <li><a href="https://facebook.github.io/flux/">State Management: Using Flux for unidirectional data flow</a></li>
+    <li><a href="https://react-redux.js.org/">State Management: Redux</a></li>
+    <li><a href="https://mobx.js.org/">State Management: MobX</a></li>
+</ul>	
+</details> 
 
 #### 3.5 BOOKS
 
