@@ -445,7 +445,11 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <details>
 	<summary><strong>3.4.2 JQUERY</strong></summary>
-	<p><a href="http://unheap.com/">A tidy repository of jQuery plugins, <em>by @psnka</em></a></p>
+	<br/>
+	<ul>
+	  <li><a href="https://www.youtube.com/playlist?list=PLqGj3iMvMa4KOekRWjjajinzlRK879Ksn">Learn jQuery in 15 minutes</a></li>
+	  <li><a href="http://unheap.com/">A tidy repository of jQuery plugins, <em>by @psnka</em></a></li>
+	</ul>
 </details>
 
 <!-- A N G U L A R -->
