@@ -947,6 +947,10 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ##### 3.10.2 BUILD TOOLS / TASK RUNNERS
 
+###### <a name="npm-scripts"></a>npm 
+
+* [Introduction to NPM Scripts](https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/)
+
 ###### <a name="grunt"></a>GRUNT 
 
 * [An Introduction To Grunt](http://code.tutsplus.com/articles/an-introduction-to-grunt--wp-34728)
