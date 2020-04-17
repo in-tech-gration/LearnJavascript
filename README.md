@@ -652,15 +652,15 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [5 Minutes of JavaScript](http://five-js.envylabs.com/)
 
 
-<!-- 3.8  NEWSLETTERS -->
+<!-- 3.8  N E W S L E T T E R S -->
 
 <details>
   <summary>
-       <strong>3.6 ONLINE BOOKS</strong>
+       <strong>3.8 NEWSLETTERS</strong>
   </summary>
   <br/>
   <ul>
-    <li><a href="https://justjavascript.com/"><strong>https://justjavascript.com/</strong> By Dan Abramov</a></li>
+    <li><a href="https://justjavascript.com/"><strong>https://justjavascript.com/</strong> By Dan Abramov</a> [ HIGHLY RECOMMENDED ]</li>
     <li><a href="http://javascriptweekly.com/">JavaScript Weekly</a></li>
     <li><a href="http://designpepper.com/a-drip-of-javascript/">A Drip of JavaScript</a></li>
     <li><a href="http://nodeweekly.com/">Node Weekly</a></li>
