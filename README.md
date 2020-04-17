@@ -600,16 +600,24 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
    </ul>
 </details>
 
-#### 3.6 ONLINE BOOKS
+<!-- O N L I N E  B O O K S -->
 
- * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/javascript-for-cats.pdf) **(Free PDF)**
- * [Eloquent Javascript, *by Marijn Haverbeke*](http://eloquentjavascript.net/)	**(Free Online Version)**
- * [Speaking JavaScript: An In-Depth Guide for Programmers, by *Dr. Axel Rauschmayer*](http://speakingjs.com/) **(Free Online Version)**
- * [JavaScript Essentials](http://www.techotopia.com/index.php/JavaScript_Essentials)
- * [Oh My JS: The Best JavaScript Articles, *by Azat Mardan*](https://leanpub.com/ohmyjs)
- * [Understanding ECMAScript 6, *by Nicholas Zakas*](https://leanpub.com/understandinges6/read)
- * [JavaScript Enlightenment](http://www.javascriptenlightenment.com/)
- * [You Don't Know JS: A JavaScript book series](https://github.com/getify/You-Dont-Know-JS)
+<details>
+  <summary>
+       <strong>3.6 ONLINE BOOKS</strong>
+  </summary>
+  <br/>
+  <ul>
+    <li><a href="http://jsforcats.com/javascript-for-cats.pdf">JavaScript For Cats, <em>by Max Ogden</em></a> <strong>(Free PDF)</strong></li>
+    <li><a href="http://eloquentjavascript.net/">Eloquent Javascript, <em>by Marijn Haverbeke</em></a>	<strong>(Free Online Version)</strong></li>
+    <li><a href="http://speakingjs.com/">Speaking JavaScript: An In-Depth Guide for Programmers, by <em>Dr. Axel Rauschmayer</em></a> <strong>(Free Online Version)</strong></li>
+    <li><a href="http://www.techotopia.com/index.php/JavaScript_Essentials">JavaScript Essentials</a></li>
+    <li><a href="https://leanpub.com/ohmyjs">Oh My JS: The Best JavaScript Articles, <em>by Azat Mardan</em></a></li>
+    <li><a href="https://leanpub.com/understandinges6/read">Understanding ECMAScript 6, <em>by Nicholas Zakas</em></a></li>
+    <li><a href="http://www.javascriptenlightenment.com/">JavaScript Enlightenment</a></li>
+    <li><a href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JS: A JavaScript book series</a></li>
+  </ul>
+</details>
 
 #### 3.7 VIDEO & AUDIO
 
