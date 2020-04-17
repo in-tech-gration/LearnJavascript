@@ -29,8 +29,18 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/), and [**OLOO**: Objects Linked to Other Objects](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md)
   * [**JavaScript Visualized: Prototypal Inheritance**](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co)
   * [**Marcus Phillips: Secrets and Lies about JavaScript classes** (Low-quality video but definitely worth watching)](https://www.youtube.com/watch?v=_JJgSbuj5VI)
-* Understand `callbacks`, `IIFEs` and [`asynchronicity`](https://github.com/kostasx/LearnJavascript#async) 
-  * [**Asynchronous Programming** (Excellend post)](https://eloquentjavascript.net/11_async.html)
+* Make sure to understand **callbacks**, **IIFEs** and [**asynchronicity**](https://github.com/kostasx/LearnJavascript#async) as they are some of the most commonly encountered and crucial concepts in JS 
+  * Callbacks in JavaScript:
+    * [Callbacks in JavaScript](https://zellwk.com/blog/callbacks/)
+    * [Callback function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+    * [JavaScript: What the heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
+  * Immediately Invoked Function Expression (IIFEs):
+    * [IIFE (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
+    * [Immediately Invoked Function Expression - Beau teaches JavaScript](https://www.youtube.com/watch?v=3cbiZV4H22c)
+    * [The IIFE Pattern (Video by Kyle Simpson)](https://frontendmasters.com/courses/javascript-foundations/iife-pattern/)
+  * Asynchronous Programming in JavaScript:
+    * [**Asynchronous Programming** (Excellent post)](https://eloquentjavascript.net/11_async.html)
+    * [**JavaScript Visualized: Promises & Async/Await** (Excellent post)](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)
 * Study the source code of popular libraries: [jQuery](http://jquery.com/), [underscore](http://underscorejs.org/), etc. 
 
   Here are 2 great videos on the subject by Paul Irish: 
