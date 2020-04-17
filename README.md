@@ -615,7 +615,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     <li><a href="https://leanpub.com/ohmyjs">Oh My JS: The Best JavaScript Articles, <em>by Azat Mardan</em></a></li>
     <li><a href="https://leanpub.com/understandinges6/read">Understanding ECMAScript 6, <em>by Nicholas Zakas</em></a></li>
     <li><a href="http://www.javascriptenlightenment.com/">JavaScript Enlightenment</a></li>
-    <li><a href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JS: A JavaScript book series</a></li>
+    <li><a href="https://github.com/getify/You-Dont-Know-JS"><strong>You Don't Know JS: A JavaScript book series</strong></a>[ HIGHLY RECOMMENDED ]</li>
   </ul>
 </details>
 
