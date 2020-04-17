@@ -582,15 +582,23 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 </ul>	
 </details> 
 
-#### 3.5 BOOKS
+<!-- B O O K S -->
 
- * [**YDKJS: You-Dont-Know-JS**, A book series on JavaScript by Kyle Simpson](https://github.com/getify/You-Dont-Know-JS)
- * [JavaScript: The Good Parts, *by Douglas Crockford*](http://shop.oreilly.com/product/9780596517748.do)
- * [JavaScript, The Definitive Guide, *by David Flanagan*](http://shop.oreilly.com/product/9780596805531.do)
- * [High Performance JavaScript, *by Nicolas Zakas*](http://shop.oreilly.com/product/9780596802806.do)
- * [Secrets of the JavaScript Ninja, *by John Resig*](http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/)
- * [Programming JavaScript Applications, *by Eric Elliot*](http://learn-javascript.ericelliott.me/programming-javascript-applications/)
- * [Professional JavaScript for Web Developers *by Nicolas Zakas*](http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-3rd-Edition.productCd-1118222199.html)
+<details>
+  <summary>
+       <strong>3.5 BOOKS</strong>
+  </summary>
+  <br/>
+  <ul>
+    <li><a href="https://github.com/getify/You-Dont-Know-JS"><strong>YDKJS: You-Dont-Know-JS</strong>, A book series on JavaScript by Kyle Simpson</a></li>
+    <li><a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts, <em>by Douglas Crockford</em></a></li>
+    <li><a href="http://shop.oreilly.com/product/9780596805531.do">JavaScript, The Definitive Guide, <em>by David Flanagan</em></a></li>
+    <li><a href="http://shop.oreilly.com/product/9780596802806.do">High Performance JavaScript, <em>by Nicolas Zakas</em></a></li>
+    <li><a href="http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/">Secrets of the JavaScript Ninja, <em>by John Resig</em></a></li>
+    <li><a href="http://learn-javascript.ericelliott.me/programming-javascript-applications/">Programming JavaScript Applications, <em>by Eric Elliot</em></a></li>
+    <li><a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-3rd-Edition.productCd-1118222199.html">Professional JavaScript for Web Developers <em>by Nicolas Zakas</em></a></li>
+   </ul>
+</details>
 
 #### 3.6 ONLINE BOOKS
 
