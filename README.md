@@ -651,13 +651,25 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [The Origin of Javascript with Brendan Eich](http://javascriptjabber.com/124-jsj-the-origin-of-javascript-with-brendan-eich/)
 * [5 Minutes of JavaScript](http://five-js.envylabs.com/)
 
-#### 3.8 NEWSLETTERS
 
- * [**https://justjavascript.com/** By Dan Abramov](https://justjavascript.com/)
- * [JavaScript Weekly](http://javascriptweekly.com/) 
- * [A Drip of JavaScript](http://designpepper.com/a-drip-of-javascript/)
- * [Node Weekly](http://nodeweekly.com/)
- * [ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web](http://www.ng-newsletter.com/)
+<!-- 3.8  NEWSLETTERS -->
+
+<details>
+  <summary>
+       <strong>3.6 ONLINE BOOKS</strong>
+  </summary>
+  <br/>
+  <ul>
+    <li><a href="https://justjavascript.com/"><strong>https://justjavascript.com/</strong> By Dan Abramov</a></li>
+    <li><a href="http://javascriptweekly.com/">JavaScript Weekly</a></li>
+    <li><a href="http://designpepper.com/a-drip-of-javascript/">A Drip of JavaScript</a></li>
+    <li><a href="http://nodeweekly.com/">Node Weekly</a></li>
+    <li><a href="http://www.ng-newsletter.com/">ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web</a></li>
+  </ul>
+</details>
+
+
+<!-- 3.9  D E V E L O P E R S -->
 
 <details>
 	<summary><strong>3.9 DEVELOPERS (TWITTER, BLOGS)</strong></summary>
