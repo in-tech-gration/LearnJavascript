@@ -196,6 +196,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [JavaScript and the Browser: Under the Hood, *by Ariya Hidayat*](https://speakerdeck.com/ariya/javascript-and-the-browser-under-the-hood)
 * [JSdo It: Share JavaScript, HTML5 and CSS.](http://jsdo.it/)
 
+> ES6 (EcmaScript 2015)
+
+* [A tutorial to JavaScript Arrow Functions **(Flavio Copes)**](https://flaviocopes.com/javascript-arrow-functions/)
+* [Arrow functions, the basics **(JavaScript.info)**](https://javascript.info/arrow-functions-basics)
+* [Arrow functions revisited **(JavaScript.info)**](https://javascript.info/arrow-functions) 
+
 > PERFORMANCE
 
 * [JavaScript Performance Analysis: Keeping the Big Picture, *by Ariya Hidayat*](http://calendar.perfplanet.com/2013/javascript-performance-big-picture/)
