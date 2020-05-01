@@ -1039,27 +1039,38 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### 3.11 JAVASCRIPT COMPILED LANGUAGES
 
-##### 3.11.1 COFFEESCRIPT
+<details>
+	<summary>3.11.1 COFFEESCRIPT</summary>
+	<br/>
+	<ul>
+	    <li><a href="http://coffeescript.org/"><strong>CoffeeScript</strong> Official site</a></li>
+	    <li><a href="http://hardrockcoffeescript.org/"><strong>Hard Rock CoffeeScript</strong></a></li>
+	    <li><a href="http://amix.dk/blog/post/19612"><strong>CoffeeScript: The beautiful way to write JavaScript</strong>, By Amir Salihefendic</a></li>
+	</ul>
+	<blockquote>
+	    <p>TOOLS</p>
+	</blockquote>
+	<ul>
+	    <li><a href="https://github.com/gokmen/coffeepad"><strong>CoffeePad</strong>: CoffeeScript editor in your browser</a></li>
+	</ul>
+	<blockquote>
+	    <p>VIDEOS</p>
+	</blockquote>
+	<ul>
+	    <li><a href="https://www.youtube.com/watch?v=DspYurD75Ns"><strong>Rise of the Transpilers</strong> by Jeremy Ashkenas</a></li>
+	</ul>
+	<blockquote>
+	    <p>BOOKS</p>
+	</blockquote>
+	<ul>
+	    <li><a href="https://coffeescript-cookbook.github.io/"><strong>CoffeeScript Cookbook</strong></a></li>
+	    <li><a href="https://leanpub.com/coffeescript-ristretto/read"><strong>CoffeeScript Ristretto</strong></a></li>
+	    <li><a href="http://autotelicum.github.io/Smooth-CoffeeScript/"><strong>Smooth CoffeeScript</strong></a></li>
+	    <li><a href="http://arcturo.github.io/library/coffeescript/"><strong>The Little Book on CoffeeScript</strong></a></li>
+	    <li><a href="https://qconnewyork.com/ny2014/system/files/presentation-slides/CoffeeScript-The-Good-Parts.pdf"><strong>CoffeeScript: The Good Parts</strong>, By Azat Mardan</a></li>
+	</ul>
+<details>
 
- * [**CoffeeScript** Official site](http://coffeescript.org/)
- * [**Hard Rock CoffeeScript**](http://hardrockcoffeescript.org/)
- * [**CoffeeScript: The beautiful way to write JavaScript**, By Amir Salihefendic](http://amix.dk/blog/post/19612)
-
-> TOOLS
-
-* [**CoffeePad**: CoffeeScript editor in your browser](https://github.com/gokmen/coffeepad)
-
-> VIDEOS
-
-* [**Rise of the Transpilers** by Jeremy Ashkenas](https://www.youtube.com/watch?v=DspYurD75Ns)
-
-> BOOKS
-
- * [**CoffeeScript Cookbook**](https://coffeescript-cookbook.github.io/)
- * [**CoffeeScript Ristretto**](https://leanpub.com/coffeescript-ristretto/read)
- * [**Smooth CoffeeScript**](http://autotelicum.github.io/Smooth-CoffeeScript/)
- * [**The Little Book on CoffeeScript**](http://arcturo.github.io/library/coffeescript/)
- * [**CoffeeScript: The Good Parts**, By Azat Mardan](https://qconnewyork.com/ny2014/system/files/presentation-slides/CoffeeScript-The-Good-Parts.pdf)
 
 ##### 3.11.2 TYPESCRIPT [ UPDATED ]
 
