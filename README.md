@@ -98,6 +98,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   * Install [Node.JS](http://nodejs.org/) locally and start experimenting.
 * Subscribe to Newsletters and stay up to date with JS and Node. *(See section `3.8 NEWSLETTERS`)*
 * Become familiar with a Task Manager like [Grunt](http://gruntjs.com/) or [Gulp](#gulp) and/or learn how to use [npm scripts](https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/).
+* Learn how to use Module Bundlers like [WebPack](https://webpack.js.org/), [Parcel](https://parceljs.org/), [Browserify](http://browserify.org/) and [other](#build_tools).
 * Start building cross-platform Desktop Applications using HTML/CSS/JavaScript in [Electron.JS](https://electronjs.org/) or [Node-Webkit](https://nwjs.io/).
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 * Code using a [Style Guide](https://github.com/airbnb/javascript). 
@@ -223,6 +224,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [**The Evolution of Asynchronous JavaScript**](https://blog.risingstack.com/asynchronous-javascript/)
 * [**Javascript Async Control Flow**, By KENNY KAYE | 20 OCTOBER 2015](https://kaye.us/javascript-async-control-flow/)
 
+
+<!-- D E B U G G I N G -->
+
 <details>
 	<summary><strong>DEBUGGING</strong></summary
 	<ul>
@@ -230,6 +234,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<li><a href="https://developer.chrome.com/devtools/docs/commandline-api">Chrome DevTools Command Line API Reference</a></li>
 	</ul>
 </details>
+
+
+<!-- L I N T E R S -->
 
 <details>
 	<summary><strong>LINTERS</strong></summary
@@ -240,6 +247,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<li><a href="https://www.npmjs.org/package/jscs">JSCS</a></li>
 	</ul>
 </details>
+
+<!-- R E G U L A R  E X P R E S S I O N S -->
 
 <details name="regex">
 	<summary><strong>REGULAR EXPRESSIONS [ UPDATED ]</strong></summary
@@ -382,7 +391,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- H O S T I N G -->
 
-<details>
+<details id="hosting">
     <summary>HOSTING PLATFORMS</summary>
     <br>
     <ul>
@@ -400,7 +409,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- C E R T I F I C A T E S -->
 
-<details>
+<details id="certificates">
     <summary>CERTIFICATES</summary>
     <br>
     <ul>
@@ -458,6 +467,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	</ul>
 </details>
 
+<!-- J Q U E R Y -->
 
 <details>
 	<summary><strong>3.4.2 JQUERY</strong></summary>
@@ -532,12 +542,15 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     <p><a href="https://www.youtube.com/watch?v=L3sYt8PPHyI">Ember.js introduction by Kasper Tidemann</a> [<strong>VIDEO</strong>]</p> 
 </details> 
 
+<!-- K N O C K O U T  J S -->
+
 <details>
     <summary>
         <strong>3.4.5 KNOCKOUT JS</strong>
     </summary>
     <p><a href="http://learn.knockoutjs.com/">Learn Knockout.JS</a></p> 
 </details> 
+
 
 <!-- R E A C T -->
 
@@ -989,21 +1002,40 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
  * [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
 
-##### 3.10.2 BUILD TOOLS / TASK RUNNERS
+<!-- B U I L D  T O O L S -->
 
-###### <a name="npm-scripts"></a>npm 
-
-* [Introduction to NPM Scripts](https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/)
-
-###### <a name="grunt"></a>GRUNT 
-
-* [An Introduction To Grunt](http://code.tutsplus.com/articles/an-introduction-to-grunt--wp-34728)
-* [Setting Up Grunt For Your Next Project](http://code.tutsplus.com/articles/an-introduction-to-grunt--wp-34728)
-
-###### <a name="gulp"></a>GULP
-
-* [Gulp](http://gulpjs.com/)
-* [LEARNING GULP: GETTING STARTED WITH THE FRONT END FACTORY](http://hmphry.com/gulp/)
+<details id="build_tools">
+	<summary><strong>3.10.2 BUILD TOOLS / TASK RUNNERS / MODULE BUNDLERS</strong></summary>
+	<br/>
+	<ul>
+		<li>
+			<strong id="webpack" name="webpack">webpack</strong>
+			<ul>
+				<li><a href="https://webpack.js.org/">webpack</a></li>
+				<li><a href="https://www.youtube.com/watch?v=fPjJW_34W84">Tara Ojo - Streamline your code with webpack - jsday 2019</a></li>
+			</ul>
+		</li>
+		<li>
+			<strong id="npm-scripts" name="npm-scripts">NPM SCRIPTS</strong>
+			<ul>
+				<li><a href="https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/">Introduction to NPM Scripts</a></li>
+			</ul>
+		</li>
+		<li>
+			<strong d="grunt" name="grunt">GRUNT</strong>
+			<ul>
+				<li><a href="http://code.tutsplus.com/articles/an-introduction-to-grunt--wp-34728">An Introduction To Grunt</a></li>
+			</ul>
+		</li>
+		<li>
+			<strong id="gulp" name="gulp">GULP</strong>
+			<ul>
+				<li><a href="http://gulpjs.com/">Gulp</a></li>
+				<li><a href="http://hmphry.com/gulp/">LEARNING GULP: GETTING STARTED WITH THE FRONT END FACTORY</a></li>
+			</ul>
+		</li>
+	</ul>
+</details>
 
 #### 3.11 JAVASCRIPT COMPILED LANGUAGES
 
