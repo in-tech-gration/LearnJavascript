@@ -1069,8 +1069,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	    <li><a href="http://arcturo.github.io/library/coffeescript/"><strong>The Little Book on CoffeeScript</strong></a></li>
 	    <li><a href="https://qconnewyork.com/ny2014/system/files/presentation-slides/CoffeeScript-The-Good-Parts.pdf"><strong>CoffeeScript: The Good Parts</strong>, By Azat Mardan</a></li>
 	</ul>
-<details>
-
+</details>
 
 ##### 3.11.2 TYPESCRIPT [ UPDATED ]
 
