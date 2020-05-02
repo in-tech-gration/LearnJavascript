@@ -215,6 +215,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 > TAMING <a href="#async" id="async">THE ASYNCHRONOUS NATURE OF JAVASCRIPT</a> [ UPDATED ]
 
 * [**Asynchronous JavaScript: From Callback Hell to Async and Await**](https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial)
+* [**Promises** YouTube video by MPJ (Fun Fun Function) | 17min ](https://www.youtube.com/watch?v=2d7s3spWAzo)
 * [**Promises, async/await @ JavaScript.info**](https://javascript.info/async)
 * [**Async JS Crash Course - Callbacks, Promises, Async Await** YouTube video by Traversy Media | 25min ](https://www.youtube.com/watch?v=PoRJizFvM7s)
 * [**async / await in JavaScript - What, Why and How - Fun Fun Function** YouTube video | 24min](https://www.youtube.com/watch?v=568g8hxJJp4)
