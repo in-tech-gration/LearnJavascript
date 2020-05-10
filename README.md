@@ -142,6 +142,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [**JavaScript First Steps** | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
 * [**What Is JavaScript Made Of?**](https://overreacted.io/what-is-javascript-made-of/)
 * [JavaScript the Right Way](https://github.com/braziljs/js-the-right-way)
+* [**JavaScript Basics** A quick introduction to basic and important concepts of JavaScript](https://fkling.github.io/jsbasics/)
 * [JavaScript For Cats, *by Max Ogden*](http://jsforcats.com/)
 * [Javascript: BEST PRACTICES PART 1, *by Christian Heilmann*](http://www.thinkful.com/learn/javascript-best-practices-1/)
 * [JavaScript Guide, MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
