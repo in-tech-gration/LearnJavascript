@@ -977,6 +977,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td></td>
 	</tr>
 	<tr>
+	<td>Tania Rascia</td>
+	<td>[Twitter](https://twitter.com/taniarascia)</td>
+	<td><a href="https://www.taniarascia.com/">Blog</a></td>
+	<td></td>
+	</tr>
+	<tr>
 	<td>Thomas Fuchs</td>
 	<td><a href="https://twitter.com/thomasfuchs">Twitter</a></td>
 	<td><a href="http://mir.aculo.us/">Blog</a></td>
