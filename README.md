@@ -972,13 +972,13 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	</tr>
 	<tr>
 	<td>Stoyan Stefanov</td>
-	<td>[Twitter](Stoyan Stefanov)</td>
+	<td><a href="https://twitter.com/stoyanstefanov?lang=en">Twitter</a></td>
 	<td><a href="http://www.phpied.com/">Blog</a></td>
 	<td></td>
 	</tr>
 	<tr>
 	<td>Tania Rascia</td>
-	<td>[Twitter](https://twitter.com/taniarascia)</td>
+	<td><a href="https://twitter.com/taniarascia">Twitter</a></td>
 	<td><a href="https://www.taniarascia.com/">Blog</a></td>
 	<td></td>
 	</tr>
