@@ -26,6 +26,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     * [JavaScript Visualized: Scope (Chain)](https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd), By [Lydia Hallie](https://github.com/lydiahallie)
     * [**Scope in JavaScript** - HTTP 203](https://www.youtube.com/watch?v=5LEuJNLfLN0)
  
+* Understand how `undefined` and `null` behave and how [they differ](https://2ality.com/2021/01/undefined-null-revisited.html). 
 * Study `Objects`, [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/), and [**OLOO**: Objects Linked to Other Objects](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md)
   * [**JavaScript Visualized: Prototypal Inheritance**](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co)
   * [**Marcus Phillips: Secrets and Lies about JavaScript classes** (Low-quality video but definitely worth watching)](https://www.youtube.com/watch?v=_JJgSbuj5VI)
