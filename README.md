@@ -859,6 +859,13 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td></td>
 	</tr>
 	<tr>
+	<td>Jake Archibald</td>
+	<td><a href="http://twitter.com/jaffathecake">Twitter</a></td>
+	<td><a href="https://jakearchibald.com/">Blog</a></td>
+	<td><a href="https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9">YouTube</a></td>
+	</tr>
+	<tr>
+	<tr>
 	<td>Jeremy Ashkenas</td>
 	<td><a href="http://twitter.com/jashkenas">Twitter</a></td>
 	<td><a href="">Blog</a></td>
