@@ -51,6 +51,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Watch every video by [Douglas Crockford](https://www.youtube.com/results?search_query=douglas+crockford).
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
 * Get a really good understanding of [closures](http://bonsaiden.github.io/JavaScript-Garden/#function.closures) and [this](http://bonsaiden.github.io/JavaScript-Garden/#function.this) 
+  * [**JavaScript the Hard Parts: Closures, Scope, and Execution Context** (Student Approved Resource)](https://www.youtube.com/watch?v=ZVXrJ4dnUxM)
   * [**Understanding Functions and 'this'** By Bryan Hughes](https://www.youtube.com/watch?v=AOSYY1_np_4)
 
 * Study performance and code optimization
@@ -1109,5 +1110,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 ![Alt text](/img/javascript-please-work.jpg "JavaScript please work")
 
 #### Contributors
+
+A big thanks to [Richard Barnes](https://github.com/FenderStrat85) for suggesting the video **JavaScript the Hard Parts: Closures, Scope, and Execution Context**.
 
 Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
