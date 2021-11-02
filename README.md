@@ -689,6 +689,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     <li><a href="http://designpepper.com/a-drip-of-javascript/">A Drip of JavaScript</a></li>
     <li><a href="http://nodeweekly.com/">Node Weekly</a></li>
     <li><a href="http://www.ng-newsletter.com/">ng-newsletter: The free, weekly newsletter of the best AngularJS content on the web</a></li>
+    <li><a href="https://umaar.com/">Developer Tips by Umar</a> [ HIGHLY RECOMMENDED ]</li>
+    <li><a href="http://esnextnews.com/">ES.next News - The latest in JavaScript and cross-platform tools</a></li>
   </ul>
 </details>
 
@@ -1003,6 +1005,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td><a href="https://twitter.com/osteele">Twitter</a></td>
 	<td><a href="http://www.osteele.com/">Blog</a></td>
 	<td></td>
+	</tr>
+	<tr>
+	<td>Umar Hansa</td>
+	<td><a href="https://twitter.com/umaar">Twitter</a></td>
+	<td><a href="https://umaar.com/">Blog</a></td>
+	<td><a href="https://www.youtube.com/c/UmarHansa">YouTube</a></td>
 	</tr>
 	<tr>
 	<td>Yehuda Katz</td>
