@@ -905,6 +905,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td></td>
 	</tr>
 	<tr>
+	<td>Kent C. Dodds (If you are learning React, you definitely want to follow this person)</td>
+	<td><a href="https://twitter.com/kentcdodds">Twitter</a></td>
+	<td><a href="https://kentcdodds.com/blog">Blog</a></td>
+	<td><a href="https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw">YouTube</a></td>
+	</tr>
+	<tr>
 	<td>Kyle Simpson</td>
 	<td><a href="https://twitter.com/getify">Twitter</a></td>
 	<td><a href="http://getify.me/">Blog</a></td>
