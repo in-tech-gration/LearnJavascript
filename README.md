@@ -697,7 +697,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- 3.9  D E V E L O P E R S -->
 
-<details>
+<details id="developers-to-follow">
 	<summary><strong>3.9 DEVELOPERS (TWITTER, BLOGS)</strong></summary>
 	<table>
 	<thead>
@@ -711,8 +711,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<tbody>
 	<tr>
 	<td>Addy Osmani</td>
-	<td><a href="http://twitter.com/addyosmani">Twitter</a></td>
-	<td><a href="http://addyosmani.com/blog/">Blog</a></td>
+	<td><a href="https://twitter.com/addyosmani">Twitter</a></td>
+	<td><a href="https://addyosmani.com/blog/">Blog</a></td>
 	<td></td>
 	</tr>
 	<tr>
@@ -724,37 +724,44 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<tr>
 	<td>Alex Castrounis</td>
 	<td><a href="https://twitter.com/innoarchitech">Twitter</a></td>
-	<td><a href="http://www.innoarchitech.com/">Blog</a></td>
+	<td><a href="https://www.innoarchitech.com/">Blog</a></td>
 	<td></td>
 	</tr>
 	<tr>
 	<td>Aria Stewart</td>
 	<td><a href="https://twitter.com/aredridel">Twitter</a></td>
-	<td><a href="http://dinhe.net/~aredridel/">Blog</a></td>
+	<td><a href="https://dinhe.net/~aredridel/">Blog</a></td>
 	<td></td>
 	</tr>
 	<tr>
 	<td>Ariya Hidayat</td>
-	<td><a href="http://twitter.com/ariyahidayat">Twitter</a></td>
-	<td><a href="http://ariya.ofilabs.com/">Blog</a></td>
+	<td><a href="https://twitter.com/ariyahidayat">Twitter</a></td>
+	<td><a href="https://ariya.ofilabs.com/">Blog</a></td>
 	<td><a href="https://www.youtube.com/user/ariyahidayat">YouTube</a></td>
 	</tr>
 	<tr>
+	<tr>
+	<td>Asim Hussain</td>
+	<td><a href="https://twitter.com/jawache">Twitter</a></td>
+	<td><a href="https://asim.dev/">Blog</a></td>
+	<td><a href="https://www.youtube.com/jawache">YouTube</a></td>
+	</tr>
+	<tr>
 	<td>Axel Rauschmayer</td>
-	<td><a href="http://twitter.com/rauschma">Twitter</a></td>
-	<td><a href="http://2ality.com/">Blog</a></td>
+	<td><a href="https://twitter.com/rauschma">Twitter</a></td>
+	<td><a href="https://2ality.com/">Blog</a></td>
 	<td></td>
 	</tr>
 	<tr>
 	<td>Andrea Giammarchi</td>
-	<td><a href="http://twitter.com/WebReflection">Twitter</a></td>
-	<td><a href="http://webreflection.blogspot.gr/">Blog</a></td>
+	<td><a href="https://twitter.com/WebReflection">Twitter</a></td>
+	<td><a href="https://webreflection.blogspot.gr/">Blog</a></td>
 	<td></td>
 	</tr>
 	<tr>
 	<td>Angus Croll</td>
-	<td><a href="http://twitter.com/angusTweets">Twitter</a></td>
-	<td><a href="http://javascriptweblog.wordpress.com/">Blog</a></td>
+	<td><a href="https://twitter.com/angusTweets">Twitter</a></td>
+	<td><a href="https://javascriptweblog.wordpress.com/">Blog</a></td>
 	<td></td>
 	</tr>
 	<tr>
