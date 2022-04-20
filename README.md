@@ -804,7 +804,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td>Dan Abramov</td>
 	<td><a href="https://twitter.com/dan_abramov">Twitter</a></td>
 	<td><a href="https://overreacted.io/">Blog</a></td>
-	<td></td>
+	<td><a href="https://www.youtube.com/c/DanAbramov8">YouTube</a></td>
 	</tr>
 	<tr>
 	<tr>
