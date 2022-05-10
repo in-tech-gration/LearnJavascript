@@ -574,6 +574,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"><strong>ReactJS Tutorial for Beginners</strong> [YouTube Playlist]</a>
     </li>
     <li><a href="https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/"><strong>The React Cheatsheet for 2020</strong>  (+ real-world examples)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=f2mMOiCSj5c"><strong>Deconstructing React (⭐⭐⭐⭐⭐ Pure gold!)</strong> Tejas Kumar | 40min</a></li> 
     <li><a href="https://www.youtube.com/watch?v=_ZTT9kw3PIE"><strong>Introduction to React</strong> YouTube video by Le Wagon | 1h 53min</a></li>
     <li><a href="https://scrimba.com/g/glearnreact">Learn React in 48 interactive screencasts</a></li>
     <li><a href="http://www.tysoncadenhead.com/blog/getting-started-with-react">Getting Started With React</a></li>
