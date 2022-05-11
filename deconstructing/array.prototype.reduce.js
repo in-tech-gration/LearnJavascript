@@ -47,6 +47,7 @@ function averageNumbers( acc, val, index, arr ){
 // const res = [10,20,30].myReduce( averageNumbers );
 // console.log("avg", res);
 
+
 // 8) ArrayOfArrays => FlatArray
 // const arr = [[1,2],[3,4],[5]];
 // const flatten = ( acc, val, index, arr )=>{
@@ -57,6 +58,7 @@ function averageNumbers( acc, val, index, arr ){
 // }
 // const flatArray = reduce( arr, flatten, [] );
 // console.log( flatArray ); //=> [1,2,3,4,5];
+
 
 // 7) 
 function reduce( array, transformFn, initialValue ){
@@ -100,12 +102,15 @@ function reduce( array, transformFn, initialValue ){
 // const sum = reduce( nums, summingUpNumbers, 0 );
 // console.log( sum );
 
-// 5) Reduce:
+
+// 5) Reduce: Pseudo Code / Pattern
+
 // 1) Accept an Array as an input
 // 2) Initialize an Accumulator with some value (or none)
 // 3) Iterate over Array values
-// 5) Modify Accumulator based on each value from the Array
-// 6) Return the Accumulator
+// 4) Modify Accumulator based on each value from the Array
+// 5) Return the Accumulator
+
 
 // 4) ArrayOfArrays => FlatArray
 // const arr = [[1,2],[3,4],[5]]; // => [1,2,3,4,5]
@@ -123,6 +128,7 @@ function reduce( array, transformFn, initialValue ){
 // const result = reduce( arr );
 // console.log( result );
 
+
 // 3) ArrayOfNumbers => Average
 // const nums = [ 10, 20, 30 ];
 // function reduce( array ){
@@ -139,6 +145,7 @@ function reduce( array, transformFn, initialValue ){
 // const avg = reduce( nums );
 // console.log( avg );
 
+
 // 2) ArrayOfNumbers => SumOfNumbers
 // const nums = [ 10, 20, 30 ];
 // function reduce( array ){
@@ -151,6 +158,7 @@ function reduce( array, transformFn, initialValue ){
 // }
 // const result = reduce( nums );
 // console.log( result ); //=> 60
+
 
 // 1) Number => String
 // function reduce( number ){
