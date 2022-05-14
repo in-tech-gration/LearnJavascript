@@ -51,6 +51,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Watch every video by [Douglas Crockford](https://www.youtube.com/results?search_query=douglas+crockford).
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
 * Get a really good understanding of [closures](http://bonsaiden.github.io/JavaScript-Garden/#function.closures) and [this](http://bonsaiden.github.io/JavaScript-Garden/#function.this) 
+  * [**JavaScript Closures are Super Simple!** (YouTube Video: 16 min)](https://www.youtube.com/watch?v=2cRjcXwsG0I)
   * [**JavaScript the Hard Parts: Closures, Scope, and Execution Context** (Student Approved Resource)](https://www.youtube.com/watch?v=ZVXrJ4dnUxM)
   * [**Understanding Functions and 'this'** By Bryan Hughes](https://www.youtube.com/watch?v=AOSYY1_np_4)
 
