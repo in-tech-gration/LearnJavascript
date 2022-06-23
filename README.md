@@ -1088,6 +1088,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ##### 3.11.2 TYPESCRIPT [ UPDATED ]
 
+ * [Understanding TypeScript’s type notation (**Probably the best resource to begin with TS**)](https://2ality.com/2018/04/type-notation-typescript.html)
  * [TypeScript](https://www.typescriptlang.org/)
  * [**TypeScript Tutorial for Angular and React Developers** | Mosh | YouTube video | 52min ](https://www.youtube.com/watch?v=NjN00cM18Z4)
  * [**TypeScript Tutorial** by Derek Banas | YouTube video | 49min ](https://www.youtube.com/watch?v=-PR_XqW9JJU)
