@@ -767,6 +767,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td></td>
 	</tr>
 	<tr>
+	<td>Basarat Alisyed</td>
+	<td><a href="https://twitter.com/basarat">Twitter</a></td>
+	<td><a href="https://basarat.com/">Blog</a></td>
+	<td><a href="https://www.youtube.com/c/BasaratAli">YouTube</a></td>
+	</tr>
+	<tr>
 	<td>Béla Varga</td>
 	<td><a href="https://twitter.com/netzzwerg">Twitter</a></td>
 	<td></td>
@@ -1080,6 +1086,13 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### 3.11 JAVASCRIPT COMPILED LANGUAGES
 
+##### 3.11.2 TYPESCRIPT [ UPDATED ]
+
+ * [TypeScript](https://www.typescriptlang.org/)
+ * [**TypeScript Tutorial for Angular and React Developers** | Mosh | YouTube video | 52min ](https://www.youtube.com/watch?v=NjN00cM18Z4)
+ * [**TypeScript Tutorial** by Derek Banas | YouTube video | 49min ](https://www.youtube.com/watch?v=-PR_XqW9JJU)
+ * [**Advanced TypeScript Tutorials** by Basarat Ali Syed on YouTube](https://www.youtube.com/playlist?list=PLYvdvJlnTOjF6aJsWWAt7kZRJvzw-en8B)
+
 <details>
 	<summary>3.11.1 COFFEESCRIPT</summary>
 	<br/>
@@ -1111,12 +1124,6 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	    <li><a href="https://qconnewyork.com/ny2014/system/files/presentation-slides/CoffeeScript-The-Good-Parts.pdf"><strong>CoffeeScript: The Good Parts</strong>, By Azat Mardan</a></li>
 	</ul>
 </details>
-
-##### 3.11.2 TYPESCRIPT [ UPDATED ]
-
- * [TypeScript](https://www.typescriptlang.org/)
- * [**TypeScript Tutorial for Angular and React Developers** | Mosh | YouTube video | 52min ](https://www.youtube.com/watch?v=NjN00cM18Z4)
- * [**TypeScript Tutorial** by Derek Banas | YouTube video | 49min ](https://www.youtube.com/watch?v=-PR_XqW9JJU)
 
 <details>
 	<summary><strong>3.11.3 ELM</strong></summary>
