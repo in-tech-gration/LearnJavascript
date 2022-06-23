@@ -767,7 +767,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td></td>
 	</tr>
 	<tr>
-	<td>Basarat Alisyed</td>
+	<td>Basarat Ali Syed</td>
 	<td><a href="https://twitter.com/basarat">Twitter</a></td>
 	<td><a href="https://basarat.com/">Blog</a></td>
 	<td><a href="https://www.youtube.com/c/BasaratAli">YouTube</a></td>
