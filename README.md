@@ -791,6 +791,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td></td>
 	</tr>
 	<tr>
+	<td>Ben Lesh</td>
+	<td><a href="https://twitter.com/BenLesh">Twitter</a></td>
+	<td><a href="https://benlesh.com/">Blog</a></td>
+	<td><a href="https://www.youtube.com/results?search_query=ben+lesh">YouTube</a></td>
+	</tr>
+	<tr>
 	<td>Brendan Eich</td>
 	<td><a href="http://twitter.com/BrendanEich">Twitter</a></td>
 	<td><a href="http://brendaneich.com/">Blog</a></td>
