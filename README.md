@@ -426,9 +426,16 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- NODE | RESOURCES -->
 
-##### Resources
+<details id="node-resources">
+    <summary>RESOURCES</summary>
+    <br>
+    <ul>
+	    <!-- <li><a href=""><strong>TITLE</strong></a></li> -->
+	    <li><a href="https://node.dev/"><strong>Node.dev: Your latest Node.js content, news and updates in one place.</strong></a></li>
+    </ul>
+</details>   
 
-- [Node.dev: Your latest Node.js content, news and updates in one place.](https://node.dev/)
+---
 
 <!-- F R A M E W O R K  A N D  L I B R A R I E S -->
 
