@@ -322,7 +322,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
         </ul>
 </details>   
 
-<!-- E X P R E S S . J S  -->
+<!-- NODE | E X P R E S S . J S  -->
 
 <details>
     <summary>EXPRESS.JS</summary>
@@ -342,7 +342,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
-<!-- A D V A N C E D -->
+<!-- NODE | A D V A N C E D -->
 
 <details>
     <summary>ADVANCED</summary>
@@ -357,7 +357,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
-<!-- B O O K S -->
+<!-- NODE | B O O K S -->
 
 <details>
     <summary>BOOKS</summary>
@@ -368,7 +368,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
-<!-- V I D E O S -->
+<!-- NODE | V I D E O S -->
 
 <details>
     <summary>VIDEOS <strong><em>(Updated)</em></strong></summary>
@@ -385,7 +385,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
-<!-- T E S T I N G -->
+<!-- NODE | T E S T I N G -->
 
 <details>
     <summary>TESTING CODE</summary>
@@ -395,7 +395,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
-<!-- H O S T I N G -->
+<!-- NODE | H O S T I N G -->
 
 <details id="hosting">
     <summary>HOSTING PLATFORMS</summary>
@@ -413,7 +413,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     </ul>
 </details>   
 
-<!-- C E R T I F I C A T E S -->
+<!-- NODE | C E R T I F I C A T E S -->
 
 <details id="certificates">
     <summary>CERTIFICATES</summary>
@@ -423,6 +423,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	    <li><a href="https://training.linuxfoundation.org/certification/jsnad/"><strong>OpenJS Node.js Application Developer (JSNAD)</strong> (Cost: $300)</a></li>
     </ul>
 </details>   
+
+<!-- NODE | RESOURCES -->
+
+##### Resources
+
+- [Node.dev: Your latest Node.js content, news and updates in one place.](https://node.dev/)
 
 <!-- F R A M E W O R K  A N D  L I B R A R I E S -->
 
