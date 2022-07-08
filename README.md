@@ -72,10 +72,11 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   * [Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
   * [Chrome DevTools Command Line API Reference](https://developer.chrome.com/devtools/docs/commandline-api)
 
-* Study JavaScript Patterns and Anti-Patterns:
+* Study general Software Design Patterns along with JavaScript-specific Patterns and Anti-Patterns:
 
   * [Learning JavaScript Design Patterns, Addy Osmani](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
   * [Javascript Patterns, moderated by *Shi Chuan*](http://shichuan.github.io/javascript-patterns/)
+  * [Frontend architecture: Decoupling apps from frameworks (DevFest 2019)](https://www.youtube.com/watch?v=jmcx3b78V8s)
 
 * Understand the Single Threaded Process & Event Loop. 
 
