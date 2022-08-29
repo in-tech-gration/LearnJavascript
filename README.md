@@ -449,6 +449,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 <ul>
     <li><a href="http://www.javascripting.com/">JavaScripting</a></li>
     <li><a href="https://github.com/sorrycc/awesome-javascript">Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things</a></li>
+    <li><a href="https://kandi.openweaver.com/explore/javascript">Explore JavaScript: Discover & find a curated list of popular & new libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi</a></li>
 </ul>
 
 <details>
