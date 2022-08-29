@@ -447,7 +447,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 </blockquote>
 
 <ul>
-    <li><a href="http://www.javascripting.com/">JavaScripting</a></li>
+    <!-- <li><a href="http://www.javascripting.com/">JavaScripting</a></li> -->
     <li><a href="https://github.com/sorrycc/awesome-javascript">Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things</a></li>
 </ul>
 
