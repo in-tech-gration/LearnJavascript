@@ -694,6 +694,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- 3.8  N E W S L E T T E R S -->
 
+### 3.8 NEWSLETTERS
+
 <details>
   <summary>
        <strong>3.8 NEWSLETTERS</strong>
@@ -712,6 +714,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 
 <!-- 3.9  D E V E L O P E R S -->
+
+### 3.9 DEVELOPERS
 
 <details id="developers-to-follow">
 	<summary><strong>3.9 DEVELOPERS (TWITTER, BLOGS)</strong></summary>
