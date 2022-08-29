@@ -8,6 +8,32 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ---
 
+### Table of Contents (wip)  
+
+- [1. Learning](#learning)
+- [2. Suggested Coding Rules & Best Practices](#2-suggested-coding-rules-and-best-practices)
+- [3. Resources](#3-resources)
+	- [3.1 Beginner Resources](#31-beginner-resources--updated)
+		- [3.1.1 Courses](#311-courses--updated)
+		- [3.1.2 Testing Code](#312-testing-code)
+		- [3.1.3 APIs](#313-apis)
+	- [3.2 General Resources](#32-general)
+	- [Functional Programming](#functional-programming-reading)
+		- [Reading](#functional-programming-reading)
+		- [Video](#functional-programming-video)
+		- [Video](#functional-programming-libraries)
+	- [3.3 Node.JS](#33-nodejs)
+	- [3.4 Frameworks & Libraries](#34-frameworks-and-libraries)
+	- [3.5 Books](#35-books)
+	- [3.6 Online Books](#36-online-books)
+	- [3.7 Video & Audio](#37-video--audio)	
+	- [3.8 Newsletters](#38-newsletters)
+	- [3.9 Developers](#39-developers)
+	- [work in progres...](#)
+- [Contributors](#contributors)
+
+---
+
 **About me**: [GitHub](https://github.com/kostasx/) | [Twitter](https://twitter.com/kostas_mns) | [StackOverflow](https://stackoverflow.com/users/4861760/kostasx) | [LinkedIn](https://www.linkedin.com/in/kostas-minaidis/) | [PlethoraThemes](https://plethorathemes.com/author/kostasx/)
 
 ---
@@ -169,19 +195,19 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [**How to Become a Great JavaScript Developer***](http://blog.ustunozgur.com/javascript/programming/books/videos/2015/06/17/how_to_be_a_great_javascript_software_developer.html)
 * [FAQ for comp.lang.javascript](http://pointedears.de/scripts/faq/cljs/)
 
-> COURSES [ UPDATED ]
+##### 3.1.1 COURSES [ UPDATED ]
 
 * [**Deep Dive Into Modern Web Development** | Full Stack course by The University of Helsinki ](https://fullstackopen.com/en/)
 * [CodeCombat: Learn to Code by Playing a Game](http://codecombat.com/)
 * [Javascript for Beginners, Udemy **PAID COURSE**](https://www.udemy.com/beginning-javascript/)
 
-> TESTING CODE
+##### 3.1.2 TESTING CODE
 
 * [JSBin](http://jsbin.com/)
 * [JSFiddle](http://jsfiddle.net/)
 • [16 ONLINE JS EDITORS](http://codecondo.com/16-online-javascript-editors-for-web-developers/)
 
-> APIs
+##### 3.1.3 APIs
 
 * [**Web APIs**](https://developer.mozilla.org/en-US/docs/Web/API)
 * [A presentation about several HTML5 APIs](http://eventloop.gr/frontend/html5/apis.html#/) (Contains useful links, code and resources in the slides)
@@ -234,8 +260,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- D E B U G G I N G -->
 
-<details>
-	<summary><strong>DEBUGGING</strong></summary
+<details id="debugging">
+	<summary><strong>DEBUGGING</strong></summary>
 	<ul>
 	<li><a href="https://developer.chrome.com/devtools/docs/javascript-debugging">Debugging JavaScript</a></li>
 	<li><a href="https://developer.chrome.com/devtools/docs/commandline-api">Chrome DevTools Command Line API Reference</a></li>
@@ -273,7 +299,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [MetaJS: Visualize JavaScript AST Execution](http://int3.github.io/metajs/)
 * [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
-> FUNCTIONAL PROGRAMMING: **READING**
+#### FUNCTIONAL PROGRAMMING: **READING**
 
 * [**An Intro to Functional Programming Concepts in JavaScript**, By Thomas Collardeau ](https://medium.com/@collardeau/intro-to-functional-programming-concepts-in-javascript-b0650773139c#.8bp7dkyvm)
 * [**Why Curry Helps**, By Hugh FD Jackson](https://hughfdjackson.com/javascript/why-curry-helps/)
@@ -282,7 +308,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [**Functional Programming**, By Scott Sauyet](http://scott.sauyet.com/Javascript/Talk/FunctionalProgramming/)
 * [Ramda + ramda-fantasy REPL](https://github.com/hemanth/ramda-repl)
 
-> FUNCTIONAL PROGRAMMING: **VIDEO**
+#### FUNCTIONAL PROGRAMMING: **VIDEO**
 
 * [**Intro to Recursion - Refactoring to a Pure Function**, By Shanon Osbourne](https://egghead.io/lessons/javascript-intro-to-recursion-the-problem)
 * [**Functional programming and curry cooking in JS** By Stefanie Schirmer | JSConf EU 2015**](https://www.youtube.com/watch?v=6Qx5ZAbfqjo)
@@ -290,13 +316,13 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [**Pure, functional JavaScript**, By Christian Johansen](https://vimeo.com/43382919)
 * [**Lenses Quick n' Dirty: Functional Lenses in javascript**, By Brian Lonsdorf](https://vimeo.com/104807358)
 
-> FUNCTIONAL PROGRAMMING: **LIBRARIES**
+#### FUNCTIONAL PROGRAMMING: **LIBRARIES**
 
 * [**Ramda.JS**](http://ramdajs.com/)
 * [**Lodash.JS**](https://lodash.com/)
 * [**Underscore.JS**](http://underscorejs.org/)
 
-#### 3.3 NODE
+#### 3.3 NODEJS
 
 <details>
 	<summary>BEGINNERS <strong><em>(Updated)</em></strong></summary>
@@ -355,6 +381,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
         <li><a href="http://strongloop.com/strongblog/comparison-tools-to-automate-restarting-node-js-server-after-code-changes-forever-nodemon-nodesupervisor-nodedev/">Comparison: Tools to Automate Restarting Node.js Server After Code Changes</a></li>
         <li><a href="http://www.joyent.com/developers/node/design/errors">Error Handling in Node.js</a></li>
         <li><a href="http://blog.ragingflame.co.za/2013/5/31/using-nodejs-to-join-audio-files">Using Node.js to join audio files</a></li>
+		<li><a href="https://github.com/NationalBankBelgium/REST-API-Design-Guide"><strong>REST API Design Guide (National Bank of Belgium)</strong></a></li>
     </ul>
 </details>   
 
@@ -399,18 +426,22 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 <!-- NODE | H O S T I N G -->
 
 <details id="hosting">
-    <summary>HOSTING PLATFORMS</summary>
+    <summary>HOSTING PLATFORMS <strong><em>(Updated)</em></strong></summary>
     <br>
     <ul>
         <li><a href="https://www.heroku.com/">Heroku</a></li>
-        <li><a href="https://modulus.io/">Modulus</a></li>
-        <li><a href="https://www.nitrous.io/">Nitrous.IO</a></li>
-        <li><a href="https://c9.io/">Cloud9</a></li>
+        <li><a href="https://www.cyclic.sh/">Cyclic.sh</a></li>
+        <li><a href="https://c9.io/">Amazon AWS/Cloud9</a></li>
         <li><a href="https://www.openshift.com/">OpenShift</a></li>
+        <li><a href="https://www.digitalocean.com/?refcode=725ed759a97e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste">Digital Ocean <em>(promo)</em></a></li>
+        <!-- Deprecated:
+		<li><a href="https://modulus.io/">Modulus</a></li> 
+        <li><a href="https://www.nitrous.io/">Nitrous.IO</a></li>
         <li><a href="https://www.nodejitsu.com/">NodeJitsu</a></li>
         <li><a href="https://nodegear.com/">NodeGear</a></li>
         <li><a href="https://www.appfog.com/">AppFog</a></li>
         <li><a href="https://codio.com/">Codio.io</a></li>
+		-->
     </ul>
 </details>   
 
@@ -440,7 +471,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- F R A M E W O R K  A N D  L I B R A R I E S -->
 
-<h4>3.4 FRAMEWORKS AND LIBRARIES</h4>
+#### 3.4 FRAMEWORKS AND LIBRARIES
 
 <blockquote>
     <p>LISTS</p>
@@ -624,9 +655,11 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- B O O K S -->
 
+#### 3.5 **BOOKS**
+
 <details>
   <summary>
-       <strong>3.5 BOOKS</strong>
+       <strong>See Books</strong>
   </summary>
   <br/>
   <ul>
@@ -642,9 +675,11 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- O N L I N E  B O O K S -->
 
+#### 3.6 **ONLINE BOOKS**
+
 <details>
   <summary>
-       <strong>3.6 ONLINE BOOKS</strong>
+       <strong>See Online Books</strong>
   </summary>
   <br/>
   <ul>
