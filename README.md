@@ -135,6 +135,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Start building cross-platform Desktop Applications using HTML/CSS/JavaScript in [Electron.JS](https://electronjs.org/) or [Node-Webkit](https://nwjs.io/).
 * Follow some of the masters on Twitter. *(See `section 3.6` of the RESOURCES section)*
 * Code using a [Style Guide](https://github.com/airbnb/javascript). 
+* [And, of course, you definitely need to learn **TypeScript**!](#3112-typescript--updated)
 
 ### 2. SUGGESTED CODING RULES AND BEST PRACTICES
 
