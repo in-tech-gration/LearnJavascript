@@ -605,7 +605,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- R E A C T -->
 
-<details>
+<details open>
   <summary>
        <strong>3.4.6 REACT.JS</strong> [ UPDATED ]
   </summary>
@@ -641,15 +641,37 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     <li><a href="https://stackoverflow.com/questions/49162311/react-difference-between-route-exact-path-and-route-path">React Routing: Difference between exact path and route path</a></li>
     <li><a href="https://epeak.info/2019/03/26/a-bluffers-information-to-react-router-v4-freecodecamp-org/">React Routing: A Bluffer's Information to React Router V4 – FreeCodeCamp</a></li>
     <li><a href="https://wattenberger.com/blog/react-hooks">React Hooks: Thinking in React Hooks</a></li>
-    <li><a href="https://reactjs.org/docs/context.html">State Management: Using the native Context API (React 16.3+)</a></li>
-    <li><a href="https://www.youtube.com/watch?v=XkBB3pPY3t8">State Management: What is the Context API? (NetNinja Video)</a></li>
-    <li><a href="https://www.youtube.com/watch?v=yzQ_XulhQFw">State Management: Introducing the React Context API - YouTube</a></li>
-    <li><a href="https://codesandbox.io/s/reactjs-context-api-peflc">State Management: Simple example using Context API</a></li>
-    <li><a href="http://robertmarkbramprogrammer.blogspot.com/2019/02/using-pubsubjs-in-react.html">State Management: The PubSub Pattern</a></li>
-    <li><a href="https://codesandbox.io/s/reactjs-pubsub-fjwdj">State Management: The PubSub Pattern: Demo</a></li>
-    <li><a href="https://facebook.github.io/flux/">State Management: Using Flux for unidirectional data flow</a></li>
-    <li><a href="https://react-redux.js.org/">State Management: Redux</a></li>
-    <li><a href="https://mobx.js.org/">State Management: MobX</a></li>
+	<li>
+	  <strong>State Management</strong>
+	  <ul>
+		<li><a href="https://reactjs.org/docs/context.html">Using the native Context API (React 16.3+)</a></li>
+		<li><a href="https://www.youtube.com/watch?v=XkBB3pPY3t8">What is the Context API? (NetNinja Video)</a></li>
+		<li><a href="https://www.youtube.com/watch?v=yzQ_XulhQFw">Introducing the React Context API - YouTube</a></li>
+		<li><a href="https://codesandbox.io/s/reactjs-context-api-peflc">Simple example using Context API</a></li>
+		<li><a href="http://robertmarkbramprogrammer.blogspot.com/2019/02/using-pubsubjs-in-react.html">The PubSub Pattern</a></li>
+		<li><a href="https://codesandbox.io/s/reactjs-pubsub-fjwdj">The PubSub Pattern: Demo</a></li>
+		<li><a href="https://facebook.github.io/flux/">Using Flux for unidirectional data flow</a></li>
+		<li>
+		  <strong>Redux</strong>
+		  <ul>
+			<li>
+				<a href="https://redux.js.org/">Redux</a>
+			</li>
+			<li>
+				<a href="https://react-redux.js.org/">React Redux</a>
+			</li>
+			<li>
+				<a href="React Redux Tutorial">⭐ React Redux for Beginners (YouTube Series)</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/watch?v=sfpvI6DQAWM">Redux Origins: The History Behind the Popular Library</a>
+			</li>
+		  </ul>
+		</li>
+		<li><a href="https://mobx.js.org/">MobX</a></li>
+	  </ul>
+	</li>
+
 </ul>	
 </details> 
 
