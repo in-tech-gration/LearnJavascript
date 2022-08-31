@@ -605,7 +605,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- R E A C T -->
 
-<details open>
+<details>
   <summary>
        <strong>3.4.6 REACT.JS</strong> [ UPDATED ]
   </summary>
