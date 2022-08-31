@@ -30,6 +30,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	- [3.8 Newsletters](#38-newsletters)
 	- [3.9 Developers](#39-developers)
 	- [work in progres...](#)
+	- [3.10 Tools](#310-tools)
+	- [3.11 JS Compiled Languages](#311-javascript-compiled-languages)
+
 - [Contributors](#contributors)
 
 ---
@@ -1174,6 +1177,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
  * [**TypeScript Tutorial for Angular and React Developers** | Mosh | YouTube video | 52min ](https://www.youtube.com/watch?v=NjN00cM18Z4)
  * [**TypeScript Tutorial** by Derek Banas | YouTube video | 49min ](https://www.youtube.com/watch?v=-PR_XqW9JJU)
  * [**Advanced TypeScript Tutorials** by Basarat Ali Syed on YouTube](https://www.youtube.com/playlist?list=PLYvdvJlnTOjF6aJsWWAt7kZRJvzw-en8B)
+ * [⭐ An interactive TypeScript tutorial for beginners](https://github.com/total-typescript/beginners-typescript-tutorial)
+ * [Matt's Advanced TypeScript workshop](https://github.com/total-typescript/advanced-typescript-workshop)
+
 
 <details>
 	<summary>3.11.1 COFFEESCRIPT</summary>
