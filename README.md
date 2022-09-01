@@ -232,6 +232,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [JavaScript the Right Way](http://jstherightway.org/)
 * [JavaScript and the Browser: Under the Hood, *by Ariya Hidayat*](https://speakerdeck.com/ariya/javascript-and-the-browser-under-the-hood)
 * [JSdo It: Share JavaScript, HTML5 and CSS.](http://jsdo.it/)
+* [Explore JavaScript: Popular and new libraries, top authors and trending discussions](https://kandi.openweaver.com/explore/javascript)
 
 > ES6 (EcmaScript 2015)
 
