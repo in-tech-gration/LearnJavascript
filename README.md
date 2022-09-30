@@ -753,6 +753,11 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [The Origin of Javascript with Brendan Eich](http://javascriptjabber.com/124-jsj-the-origin-of-javascript-with-brendan-eich/)
 * [5 Minutes of JavaScript](http://five-js.envylabs.com/)
 
+##### 3.7.3 AUDIO > PODCASTS
+
+* [CoRecursive: The Stories Behind The Code](https://corecursive.com/)
+* [CaSE: Conversations about Software Engineering](https://www.case-podcast.org/)
+
 
 <!-- 3.8  N E W S L E T T E R S -->
 
@@ -1181,7 +1186,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
  * [**Advanced TypeScript Tutorials** by Basarat Ali Syed on YouTube](https://www.youtube.com/playlist?list=PLYvdvJlnTOjF6aJsWWAt7kZRJvzw-en8B)
  * [⭐ An interactive TypeScript tutorial for beginners](https://github.com/total-typescript/beginners-typescript-tutorial)
  * [Matt's Advanced TypeScript workshop](https://github.com/total-typescript/advanced-typescript-workshop)
-
+ * [🎙️ Podcast: **Using TypeScript Like A Pro**, Chris Krycho](https://corecursive.com/034-chris-krycho-typescript/)
 
 <details>
 	<summary>3.11.1 COFFEESCRIPT</summary>
