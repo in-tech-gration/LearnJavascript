@@ -8,7 +8,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ---
 
-### Table of Contents (wip)  
+### Table of Contents (work in progress)  
 
 - [1. Learning](#learning)
 - [2. Suggested Coding Rules & Best Practices](#2-suggested-coding-rules-and-best-practices)
@@ -24,6 +24,12 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 		- [Video](#functional-programming-libraries)
 	- [3.3 Node.JS](#33-nodejs)
 	- [3.4 Frameworks & Libraries](#34-frameworks-and-libraries)
+		- [3.4.1 Backbone.js](#backbonejs)
+		- [3.4.2 jQuery](#)
+		- [3.4.3 Angular & AngularJS](#)
+		- [3.4.4 Ember](#)
+		- [3.4.5 Knockout.js](#)
+		- [3.4.6 React.js](#)
 	- [3.5 Books](#35-books)
 	- [3.6 Online Books](#36-online-books)
 	- [3.7 Video & Audio](#37-video--audio)	
@@ -487,7 +493,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     <li><a href="https://github.com/sorrycc/awesome-javascript">Awesome JavaScript: A collection of awesome browser-side JavaScript libraries, resources and shiny things</a></li>
 </ul>
 
-<details>
+<details id="backbonejs">
 	<summary><strong>3.4.1 BACKBONE.JS</strong></summary>
 	<p><a href=""></a></p>
 	<ul>
@@ -545,7 +551,55 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	  <p>TUTORIALS: ANGULAR</p>
 	</blockquote>
 	<ul>
-	    <li><a href="https://www.youtube.com/watch?v=k5E2AVpwsko"><strong>Angular Tutorial for Beginners: Learn Angular from Scratch</strong> | Mosh | YouTube video | 2h</a></li>
+	    <li>
+			<a href="https://angular.io/">
+				<strong>The Official Angular Website</strong>
+			</a>
+		</li>
+	    <li>
+			<a href="https://angular.io/guide/glossary">
+				<strong>Angular Glossary</strong>
+			</a>
+		</li>
+	    <li>
+			<a href="https://ultimatecourses.com/blog/category/angular">
+				<strong>Angular Blog at Ultimate Courses</strong>
+			</a>
+		</li>
+	    <li>
+			<a href="https://angular-university.io/">
+				<strong>Angular University</strong>
+			</a>
+		</li>
+	    <li>
+			<a href="https://www.freecodecamp.org/news/want-to-learn-angular-heres-our-free-33-part-course-by-dan-wahlin-fc2ff27ab451/">
+				<strong>Learn Angular in this free 33-part course by Angular-expert Dan Wahlin</strong>
+			</a>
+		</li>
+	    <li>
+			<a href="https://angular-templates.io/tutorials/about/learn-angular-from-scratch-step-by-step">
+				<strong>Learning Angular: What is Angular?</strong>
+			</a>
+		</li>
+	    <li>
+			<a href="https://www.youtube.com/playlist?list=PL-TLnxxt_AVGz9wRWkCajUkcH5zfa9JKP">
+				<strong>Angular: From Theory To Practice</strong> by Asim Hussain
+			</a>
+		</li>
+	    <li>
+			<a href="https://www.youtube.com/watch?v=Fdf5aTYRW0E">
+				<strong>Angular Crash Course - Traversy Media 2019</strong> | (84min)
+			</a>
+		</li>
+	    <li>
+			<a href="https://www.youtube.com/watch?v=k5E2AVpwsko"><strong>Angular Tutorial for Beginners: Learn Angular from Scratch</strong> | Mosh | YouTube video | 2h</a>
+		</li>
+	    <li>
+			<a href="https://medium.com/@abampakos"><strong>The Blog of Aristeidis Bampakos (Angular Google Developer Expert and Award winning author)</strong></a>
+		</li>
+	    <li>
+			<a href="https://www.youtube.com/playlist?list=PL0vfts4VzfNjsTV_6i9a9iczMnthWqHzM"><strong>Angular YouTube Playlist by FireShip</strong></a>
+		</li>
 	</ul>
 </details>
 
