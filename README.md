@@ -97,7 +97,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   * [**The cost of JavaScript in 2019** By Addy Osmani](https://v8.dev/blog/cost-of-javascript-2019)
 
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
-* Check [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/).
+* Check the _(archived version)_ of an old but good resource: [JavaScript Garden](https://web.archive.org/web/20160528154422/https://bonsaiden.github.io/JavaScript-Garden/).
 
 	**JavaScript Garden** *is a growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.*
 
