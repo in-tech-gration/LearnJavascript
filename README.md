@@ -155,7 +155,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Comment your code
 * [Avoid/Reduce global variables](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * Avoid using `with()` 
-* [Avoid using `eval()`](http://bonsaiden.github.io/JavaScript-Garden/#core.eval)
+* [Avoid using `eval()`](https://dev.to/spukas/everything-wrong-with-javascript-eval-35on)
 * Pass functions instead of strings to setTimeout or setInterval, as this triggers eval() internally. 
 * Use [JSHint](http://www.jshint.com/) / [JSLint](http://www.jslint.com/)
   * If you are using [VSCode](https://code.visualstudio.com/) you can add the following comment at the top of your code to enable type checking: `//@ts-check` ([See screenshot](https://github.com/kostasx/LearnJavascript/blob/master/README.md#tscheck))  
