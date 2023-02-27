@@ -807,11 +807,22 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [The Origin of Javascript with Brendan Eich](http://javascriptjabber.com/124-jsj-the-origin-of-javascript-with-brendan-eich/)
 * [5 Minutes of JavaScript](http://five-js.envylabs.com/)
 
-##### 3.7.3 AUDIO > PODCASTS
+##### 3.7.3 AUDIO > PODCASTS 📻
 
+* [JavaScript Jabber](https://podcasts.apple.com/us/podcast/javascript-jabber/id1237401284)
+* [React Round Up](https://topenddevs.com/podcasts/react-round-up)
+* [20MinuteJS](https://20minjs.com/)
+* [Kent C Dodds](https://kentcdodds.com/calls)
+* [SyntaxFM](https://syntax.fm/)
+* [StackOverflow Podcast](https://stackoverflow.blog/podcast/)
+* [The Web Platform Podcast](https://thewebplatformpodcast.com/)
+* [Software Engineering Radio](https://www.se-radio.net/)
+* [IEEE Computing Conversations](https://www.youtube.com/playlist?list=PL4660FB7F523B1770)
+* [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
 * [CoRecursive: The Stories Behind The Code](https://corecursive.com/)
 * [CaSE: Conversations about Software Engineering](https://www.case-podcast.org/)
-
+* [Code Newbie Podcast](https://www.codenewbie.org/podcast)
+* [Three Devs and a Maybe](https://threedevsandamaybe.com/)
 
 <!-- 3.8  N E W S L E T T E R S -->
 
