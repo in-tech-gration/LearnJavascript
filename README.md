@@ -1307,3 +1307,5 @@ A big thanks to:
 - [Richard Barnes](https://github.com/FenderStrat85) for suggesting the video **JavaScript the Hard Parts: Closures, Scope, and Execution Context**.
 
 Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
+
+**Questions? Ideas? Please check out the [Discussions](https://github.com/kostasx/LearnJavascript/discussions) section!**
