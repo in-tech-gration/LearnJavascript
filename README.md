@@ -97,7 +97,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   * [**The cost of JavaScript in 2019** By Addy Osmani](https://v8.dev/blog/cost-of-javascript-2019)
 
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
-* Check [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/).
+* Check the _(archived version)_ of an old but good resource: [JavaScript Garden](https://web.archive.org/web/20160528154422/https://bonsaiden.github.io/JavaScript-Garden/).
 
 	**JavaScript Garden** *is a growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.*
 
@@ -155,7 +155,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Comment your code
 * [Avoid/Reduce global variables](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * Avoid using `with()` 
-* [Avoid using `eval()`](http://bonsaiden.github.io/JavaScript-Garden/#core.eval)
+* [Avoid using `eval()`](https://dev.to/spukas/everything-wrong-with-javascript-eval-35on)
 * Pass functions instead of strings to setTimeout or setInterval, as this triggers eval() internally. 
 * Use [JSHint](http://www.jshint.com/) / [JSLint](http://www.jslint.com/)
   * If you are using [VSCode](https://code.visualstudio.com/) you can add the following comment at the top of your code to enable type checking: `//@ts-check` ([See screenshot](https://github.com/kostasx/LearnJavascript/blob/master/README.md#tscheck))  
@@ -807,11 +807,22 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [The Origin of Javascript with Brendan Eich](http://javascriptjabber.com/124-jsj-the-origin-of-javascript-with-brendan-eich/)
 * [5 Minutes of JavaScript](http://five-js.envylabs.com/)
 
-##### 3.7.3 AUDIO > PODCASTS
+##### 3.7.3 AUDIO > PODCASTS 📻
 
+* [JavaScript Jabber](https://podcasts.apple.com/us/podcast/javascript-jabber/id1237401284)
+* [React Round Up](https://topenddevs.com/podcasts/react-round-up)
+* [20MinuteJS](https://20minjs.com/)
+* [Kent C Dodds](https://kentcdodds.com/calls)
+* [SyntaxFM](https://syntax.fm/)
+* [StackOverflow Podcast](https://stackoverflow.blog/podcast/)
+* [The Web Platform Podcast](https://thewebplatformpodcast.com/)
+* [Software Engineering Radio](https://www.se-radio.net/)
+* [IEEE Computing Conversations](https://www.youtube.com/playlist?list=PL4660FB7F523B1770)
+* [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
 * [CoRecursive: The Stories Behind The Code](https://corecursive.com/)
 * [CaSE: Conversations about Software Engineering](https://www.case-podcast.org/)
-
+* [Code Newbie Podcast](https://www.codenewbie.org/podcast)
+* [Three Devs and a Maybe](https://threedevsandamaybe.com/)
 
 <!-- 3.8  N E W S L E T T E R S -->
 
@@ -1290,6 +1301,11 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### Contributors
 
-A big thanks to [Richard Barnes](https://github.com/FenderStrat85) for suggesting the video **JavaScript the Hard Parts: Closures, Scope, and Execution Context**.
+A big thanks to:
+
+- [Terence Grover](https://github.com/TerenceGrover) for spotting broken links and suggesting new ones
+- [Richard Barnes](https://github.com/FenderStrat85) for suggesting the video **JavaScript the Hard Parts: Closures, Scope, and Execution Context**.
 
 Kudos to **[Dimitrios Michalakos](http://gr.linkedin.com/in/dmichalakos)** for suggesting the `Understand the Single Threaded Process & Event Loop` section and providing me with the links.
+
+**Questions? Ideas? Please check out the [Discussions](https://github.com/kostasx/LearnJavascript/discussions) section!**
