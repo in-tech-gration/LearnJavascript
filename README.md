@@ -85,7 +85,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Read (_or preferably buy_) every single book of the excellent [**You Don't Know JS**](https://github.com/getify/You-Dont-Know-JS) series by [Kyle simpson](https://twitter.com/getify) **[MUST READ]**
 * Watch every video by [Douglas Crockford](https://www.youtube.com/results?search_query=douglas+crockford).
 * Take the full course ['JavaScript The Good Parts'](http://frontendmasters.com/courses/javascript-the-good-parts/#toc) by Douglas Crockford on [Front End Masters](http://frontendmasters.com)
-* Get a really good understanding of [closures](http://bonsaiden.github.io/JavaScript-Garden/#function.closures) and [this](http://bonsaiden.github.io/JavaScript-Garden/#function.this) 
+* Get a really good understanding of [closures](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html#function.closures) and [this](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html#function.this) 
   * [**JavaScript Closures are Super Simple!** (YouTube Video: 16 min)](https://www.youtube.com/watch?v=2cRjcXwsG0I)
   * [**JavaScript the Hard Parts: Closures, Scope, and Execution Context** (Student Approved Resource)](https://www.youtube.com/watch?v=ZVXrJ4dnUxM)
   * [**Understanding Functions and 'this'** By Bryan Hughes](https://www.youtube.com/watch?v=AOSYY1_np_4)
@@ -97,7 +97,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   * [**The cost of JavaScript in 2019** By Addy Osmani](https://v8.dev/blog/cost-of-javascript-2019)
 
 * Check every tip on the [A Drip of JavaScript](http://designpepper.com/js-drip-archive/) list and subscribe to it.
-* Check the _(archived version)_ of an old but good resource: [JavaScript Garden](https://web.archive.org/web/20160528154422/https://bonsaiden.github.io/JavaScript-Garden/).
+* Check the _(archived version)_ of an old but good resource: [JavaScript Garden](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html).
 
 	**JavaScript Garden** *is a growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes and subtle bugs, as well as performance issues and bad practices, that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language.*
 
@@ -148,9 +148,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * Always use `let` or `const` when declaring variables. Avoid using `var`.
 * [Code using `"use strict"`](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
 * If you are using [VSCode Editor](https://code.visualstudio.com/) add the `//@ts-check` comment at the top of your code for an extra layer of checks via  [TypeScript Linter](https://raw.githubusercontent.com/kostasx/LearnJavascript/master/img/ts-check.jpg)
-* [Always use semicolons.](http://bonsaiden.github.io/JavaScript-Garden/#core.semicolon) // [**Not using semicolons??? Lonely Island uses them everyday**](https://www.youtube.com/watch?v=M94ii6MVilw)
+* [Always use semicolons.](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html#core.semicolon) // [**Not using semicolons??? Lonely Island uses them everyday**](https://www.youtube.com/watch?v=M94ii6MVilw)
   * [Here's a little bit of **advice for the semicolon haters** (by Ben Alman)](http://benalman.com/news/2013/01/advice-javascript-semicolon-haters/)
-* [Prefer using `===` over `==`](http://bonsaiden.github.io/JavaScript-Garden/#types.equality) 
+* [Prefer using `===` over `==`](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html#types.equality) 
 * Always use curly braces 
 * Comment your code
 * [Avoid/Reduce global variables](http://justinchmura.com/2014/08/20/become-a-better-javascript-developer/) 
@@ -226,7 +226,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 #### 3.2 GENERAL
 
 * [Essential JavaScript Links,A curated list by Eric Elliott and friends](https://github.com/ericelliott/essential-javascript-links)
-* [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
+* [JavaScript Garden](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html)
 * [Learn JavaScript Essentials (for all skill levels), by Eric Elliott](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2)
 * [JavaScript, The Right Way](http://www.jstherightway.org/)
 * [Learn Javascript resources on MDN](https://developer.mozilla.org/en/learn/javascript)
