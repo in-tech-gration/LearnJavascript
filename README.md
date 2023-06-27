@@ -225,20 +225,19 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### 3.2 GENERAL
 
+* [**Learn Javascript resources on MDN**](https://developer.mozilla.org/en/learn/javascript)
 * [Essential JavaScript Links,A curated list by Eric Elliott and friends](https://gist.github.com/ericelliott/d576f72441fc1b27dace/0cee592f8f8b7eae39c4b3851ae92b00463b67b9)
 * [JavaScript Garden](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html)
 * [Learn JavaScript Essentials (for all skill levels), by Eric Elliott](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2)
-* [JavaScript, The Right Way](http://www.jstherightway.org/)
-* [Learn Javascript resources on MDN](https://developer.mozilla.org/en/learn/javascript)
+* [JavaScript, The Right Way](https://www.jstherightway.org/)
 * [Dos and Donts: Best Practices When Learning JavaScript](https://www.youtube.com/watch?v=zILmbcIYnfw)
-* [The site of Dr. Axel Rauschmayer](http://www.2ality.com/)
-* [David Walsh's Blog](http://davidwalsh.name/)
-* [DailyJS](http://dailyjs.com/)
+* [The site of Dr. Axel Rauschmayer](https://www.2ality.com/)
+* [David Walsh's Blog](https://davidwalsh.name/)
 * [Understand JavaScript Closures With Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
-* [JavaScript the Right Way](http://jstherightway.org/)
 * [JavaScript and the Browser: Under the Hood, *by Ariya Hidayat*](https://speakerdeck.com/ariya/javascript-and-the-browser-under-the-hood)
 * [JSdo It: Share JavaScript, HTML5 and CSS.](http://jsdo.it/)
 * [Explore JavaScript: Popular and new libraries, top authors and trending discussions](https://kandi.openweaver.com/explore/javascript)
+* [DailyJS](https://medium.com/dailyjs)
 
 > ES6 (EcmaScript 2015)
 
@@ -1303,6 +1302,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 A big thanks to:
 
+- [Peddi Anurag](https://github.com/AnuragAnalog) for spotting broken links
 - [Terence Grover](https://github.com/TerenceGrover) for spotting broken links and suggesting new ones
 - [Richard Barnes](https://github.com/FenderStrat85) for suggesting the video **JavaScript the Hard Parts: Closures, Scope, and Execution Context**.
 
