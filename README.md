@@ -225,7 +225,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### 3.2 GENERAL
 
-* [Essential JavaScript Links,A curated list by Eric Elliott and friends](https://github.com/ericelliott/essential-javascript-links)
+* [Essential JavaScript Links,A curated list by Eric Elliott and friends](https://gist.github.com/ericelliott/d576f72441fc1b27dace/0cee592f8f8b7eae39c4b3851ae92b00463b67b9)
 * [JavaScript Garden](https://kostasx.github.io/LearnJavascript/external/JavaScript-Garden/index.html)
 * [Learn JavaScript Essentials (for all skill levels), by Eric Elliott](https://medium.com/javascript-scene/learn-javascript-b631a4af11f2)
 * [JavaScript, The Right Way](http://www.jstherightway.org/)
