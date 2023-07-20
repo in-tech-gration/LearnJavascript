@@ -29,7 +29,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 		- [3.4.3 Angular & AngularJS](#)
 		- [3.4.4 Ember](#)
 		- [3.4.5 Knockout.js](#)
-		- [3.4.6 React.js](#)
+		- [3.4.6 React.js](#reactjs)
 	- [3.5 Books](#35-books)
 	- [3.6 Online Books](#36-online-books)
 	- [3.7 Video & Audio](#37-video--audio)	
@@ -664,9 +664,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 <!-- R E A C T -->
 
-<details>
+<details id="reactjs">
   <summary>
-       <strong>3.4.6 REACT.JS</strong> [ UPDATED ]
+       <strong>3.4.6 REACT.JS &amp; Redux</strong> [ UPDATED ]
   </summary>
   <br/>
   <ul>
