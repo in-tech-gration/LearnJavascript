@@ -720,7 +720,22 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 				<a href="https://react-redux.js.org/">React Redux</a>
 			</li>
 			<li>
-				<a href="React Redux Tutorial">⭐ React Redux for Beginners (YouTube Series)</a>
+				<a href="https://code-cartoons.com/articles/a-cartoon-intro-to-redux/">A cartoon intro to Redux by @linclark</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK">⭐ React Redux for Beginners by Codevolution</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/playlist?list=PLfNd7po_IV0GTfQb8RJirrt83BFMF-Lj0">⭐ Redux by Valentino Gagliardi (YouTube Playlist)</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/watch?v=sX3KeP7v7Kg">Easy Redux Tutorial: Adding Redux to a Simple React App (14')</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3">React Redux Toolkit Playlist</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/watch?v=iBUJVy8phqw">Redux Tutorial (with Redux Toolkit)</a>
 			</li>
 			<li>
 				<a href="https://www.youtube.com/watch?v=sfpvI6DQAWM">Redux Origins: The History Behind the Popular Library</a>
