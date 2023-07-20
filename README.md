@@ -1318,6 +1318,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 A big thanks to:
 
+- [Mary Richelle](https://github.com/MaryRichelle) for reminding me to update the Redux section and fix some broken links
 - [Peddi Anurag](https://github.com/AnuragAnalog) for spotting broken links
 - [Terence Grover](https://github.com/TerenceGrover) for spotting broken links and suggesting new ones
 - [Richard Barnes](https://github.com/FenderStrat85) for suggesting the video **JavaScript the Hard Parts: Closures, Scope, and Execution Context**.
