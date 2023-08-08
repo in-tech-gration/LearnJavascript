@@ -1,4 +1,4 @@
-# Related Video "Εισαγωγή στην TypeScript"
+# Σημειώσεις & διορθώσεις για το video "Εισαγωγή στην TypeScript"
 
 URL: [https://www.youtube.com/watch?v=Er_a-NwKMws](https://www.youtube.com/watch?v=Er_a-NwKMws)
 
