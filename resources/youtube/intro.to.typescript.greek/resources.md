@@ -48,3 +48,7 @@ class Premium implements ISpecial /* NOT: implements IPAccount*/ {
 const premium = new Premium(100, "golden");
 // premium has an inferred type `Premium` which in turn implements `ISpecial`
 ```
+
+## Timestamp: 01:18:55
+
+The correct syntax for the type on the 3rd example should be `object[]` and not `{}[]`
