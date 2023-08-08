@@ -1,3 +1,7 @@
+# Related Video "Εισαγωγή στην TypeScript"
+
+URL: [https://www.youtube.com/watch?v=Er_a-NwKMws](https://www.youtube.com/watch?v=Er_a-NwKMws)
+
 ## Fixing the `premium` type issue ("golden" | "bronze") (Timestamp: 01:10:15)
 
 ```ts
