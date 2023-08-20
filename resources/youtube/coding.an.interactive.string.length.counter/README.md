@@ -1,6 +1,6 @@
 # Coding an Interactive String Length Counter in JavaScript
 
-Code accompanying this YouTube video: []()
+Code accompanying this YouTube video: [Coding an Interactive String Counter in JavaScript (Beginner)](https://youtu.be/tw4IBxkOQ40)
 
 ---
 Created: 20/08/2023
