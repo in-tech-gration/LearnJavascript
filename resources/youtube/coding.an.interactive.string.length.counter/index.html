@@ -97,6 +97,39 @@
       <div id="index"></div>
     </section>
     <p>Console output: <span id="length"></span></p>
+
+    <script>
+        // Define variables:
+        const stringEl = document.getElementById("str");
+        const charsEl  = document.getElementById("chars");
+        const indexEl  = document.getElementById("index");
+        const lenEl    = document.getElementById("length");
+        const str      = stringEl.textContent;
+
+        // Define functions:
+        function render( text ){
+          
+          const strArray = text.split("");
+          charsEl.innerHTML = "";
+          indexEl.innerHTML = "";
+          
+          strArray.forEach( (char,index) =>{
+            charsEl.innerHTML += `<span>${char}</span>`
+            indexEl.innerHTML += `<span>${index+1}</span>`
+          });
+          lenEl.textContent = strArray.length;
+        
+        }
+
+        // Run our code:
+        render( str );
+        
+        stringEl.addEventListener("input", e =>{
+          // console.log(e.type, e.target, e.target.textContent);
+          const value = e.target.textContent;
+          render( value );
+        })
+    </script>    
   
   </main>
 </body>
