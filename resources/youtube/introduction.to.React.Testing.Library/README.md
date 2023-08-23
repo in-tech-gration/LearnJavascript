@@ -72,3 +72,4 @@ describe("App Component", () => {
 By using `renderResult.unmount()` in the `afterEach()` hook, you ensure that the component is unmounted and removed from the virtual DOM after each test is executed. This guarantees a clean slate for each test and prevents any interference or side effects between test cases.
 
 Remember to always clean up after your tests, especially when rendering components in a `beforeAll()` or `beforeEach()` hook. Failing to do so might lead to test interdependencies or unexpected behavior.
+
