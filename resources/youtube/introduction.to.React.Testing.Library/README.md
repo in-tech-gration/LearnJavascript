@@ -6,7 +6,7 @@
 
 ---
 
-## Ερωτήσεις σχετικές με το βίντεο ["Εισαγωγή στο Testing στην React με React Testing Library"](https://youtu.be/57YuRPiULXc):
+## Ερωτήσεις: 
 
 ***Σε ποιες περιπτώσεις μπορεί να σπάσει το `render(<Component/>)` call μέσα στα tests της React Testing Library;***
 
