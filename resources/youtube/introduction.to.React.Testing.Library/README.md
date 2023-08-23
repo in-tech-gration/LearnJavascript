@@ -31,3 +31,4 @@ You should use `getByTestId` in RTL when:
 4. **Decoupling Testing from Implementation Details**: When testing, you want to focus on the functionality and behavior of your components rather than the specific implementation details. `getByTestId` helps decouple the testing logic from the implementation details, making your tests more maintainable.
 
 Remember to use `data-testid` attributes judiciously and avoid overusing them, especially when other querying methods like `getByText`, `getByRole`, or `getByPlaceholderText` can serve the purpose effectively. Using `getByTestId` sparingly helps maintain the intent and readability of your tests.
+
