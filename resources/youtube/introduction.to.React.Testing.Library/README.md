@@ -1,4 +1,12 @@
-# Ερωτήσεις σχετικές με το βίντεο ["Εισαγωγή στο Testing στην React με React Testing Library"](https://youtu.be/57YuRPiULXc):
+# Ερωτήσεις και σημειώσεις σχετικές με το βίντεο ["Εισαγωγή στο Testing στην React με React Testing Library"](https://youtu.be/57YuRPiULXc):
+
+## Resources and References:
+
+[Setup and Teardown: beforeEach(), afterEach(), beforeAll(), afterAll()](https://jestjs.io/docs/setup-teardown)
+
+---
+
+## Ερωτήσεις σχετικές με το βίντεο ["Εισαγωγή στο Testing στην React με React Testing Library"](https://youtu.be/57YuRPiULXc):
 
 ***Σε ποιες περιπτώσεις μπορεί να σπάσει το `render(<Component/>)` call μέσα στα tests της React Testing Library;***
 
