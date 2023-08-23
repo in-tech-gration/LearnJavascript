@@ -1,4 +1,4 @@
-# Ερωτήσεις:
+# Ερωτήσεις σχετικές με το βίντεο ["Εισαγωγή στο Testing στην React με React Testing Library"](https://youtu.be/57YuRPiULXc):
 
 ***Σε ποιες περιπτώσεις μπορεί να σπάσει το `render(<Component/>)` call μέσα στα tests της React Testing Library;***
 
@@ -32,3 +32,43 @@ You should use `getByTestId` in RTL when:
 
 Remember to use `data-testid` attributes judiciously and avoid overusing them, especially when other querying methods like `getByText`, `getByRole`, or `getByPlaceholderText` can serve the purpose effectively. Using `getByTestId` sparingly helps maintain the intent and readability of your tests.
 
+---
+
+**Ποιές είναι μερικές καλές πρακτικές κατά τη χρήση των beforeAll() και beforeEach();**
+
+To clean up a `render(<App />)` call that was included in the `beforeAll()` hook, you need to ensure that you unmount the rendered component after each test to avoid interference between tests. You can achieve this by using the `afterEach()` hook to perform the cleanup.
+
+In React Testing Library, the `render()` function returns a `RenderResult` object that contains the component, as well as a function called `unmount()`, which can be used to unmount the rendered component and clean up the virtual DOM.
+
+Here's how you can do it:
+
+```jsx
+describe("App Component", () => {
+  let renderResult; // Declare a variable to hold the RenderResult
+
+  beforeAll(() => {
+    renderResult = render(<App />);
+  });
+
+  afterEach(() => {
+    // Unmount the rendered component after each test
+    renderResult.unmount();
+  });
+
+  test("should display the word 'test'", () => {
+    // Test logic
+    // The component is already rendered, and you can interact with it
+  });
+
+  test("should increment the count when the button is clicked", () => {
+    // Test logic
+    // The component is already rendered, and you can interact with it
+  });
+
+  // Add more tests as needed for other scenarios
+});
+```
+
+By using `renderResult.unmount()` in the `afterEach()` hook, you ensure that the component is unmounted and removed from the virtual DOM after each test is executed. This guarantees a clean slate for each test and prevents any interference or side effects between test cases.
+
+Remember to always clean up after your tests, especially when rendering components in a `beforeAll()` or `beforeEach()` hook. Failing to do so might lead to test interdependencies or unexpected behavior.
