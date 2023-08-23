@@ -1,5 +1,7 @@
 # Ερωτήσεις και σημειώσεις σχετικές με το βίντεο ["Εισαγωγή στο Testing στην React με React Testing Library"](https://youtu.be/57YuRPiULXc):
 
+Remember: **Always break your tests!**
+
 ## Resources and References:
 
 [Setup and Teardown: beforeEach(), afterEach(), beforeAll(), afterAll()](https://jestjs.io/docs/setup-teardown)
