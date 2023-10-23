@@ -927,84 +927,83 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 				<td><a href="https://webreflection.blogspot.gr/">Blog</a></td>
 				<td></td>
 			</tr>
+			<tr>
+				<td>Angus Croll</td>
+				<td><a href="https://twitter.com/angusTweets">Twitter</a></td>
+				<td><a href="https://javascriptweblog.wordpress.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Basarat Ali Syed</td>
+				<td><a href="https://twitter.com/basarat">Twitter</a></td>
+				<td><a href="https://basarat.com/">Blog</a></td>
+				<td><a href="https://www.youtube.com/c/BasaratAli">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Béla Varga</td>
+				<td><a href="https://twitter.com/netzzwerg">Twitter</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Ben Alman</td>
+				<td><a href="https://twitter.com/cowboy">Twitter</a></td>
+				<td><a href="http://benalman.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Ben Cherry</td>
+				<td><a href="https://twitter.com/bcherry">Twitter</a></td>
+				<td><a href="http://www.adequatelygood.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Ben Lesh</td>
+				<td><a href="https://twitter.com/BenLesh">Twitter</a></td>
+				<td><a href="https://benlesh.com/">Blog</a></td>
+				<td><a href="https://www.youtube.com/results?search_query=ben+lesh">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Brendan Eich</td>
+				<td><a href="http://twitter.com/BrendanEich">Twitter</a></td>
+				<td><a href="http://brendaneich.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Christian Heilmann</td>
+				<td><a href="http://twitter.com/codepo8">Twitter</a></td>
+				<td><a href="http://christianheilmann.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Cody Lindley</td>
+				<td><a href="https://twitter.com/codylindley">Twitter</a></td>
+				<td><a href="http://blog.codylindley.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Dan Abramov</td>
+				<td><a href="https://twitter.com/dan_abramov">Twitter</a></td>
+				<td><a href="https://overreacted.io/">Blog</a></td>
+				<td><a href="https://www.youtube.com/c/DanAbramov8">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>David Flanagan</td>
+				<td><a href="http://twitter.com/__DavidFlanagan">Twitter</a></td>
+				<td><a href="http://davidflanagan.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>David Walsh</td>
+				<td><a href="http://twitter.com/davidwalshblog">Twitter</a></td>
+				<td><a href="http://davidwalsh.name/">Blog</a></td>
+				<td></td>
+			</tr>
 		</tbody>
 	</table>
 </details>
 
 <!--
-	<tr>
-	<td>Angus Croll</td>
-	<td><a href="https://twitter.com/angusTweets">Twitter</a></td>
-	<td><a href="https://javascriptweblog.wordpress.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Basarat Ali Syed</td>
-	<td><a href="https://twitter.com/basarat">Twitter</a></td>
-	<td><a href="https://basarat.com/">Blog</a></td>
-	<td><a href="https://www.youtube.com/c/BasaratAli">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Béla Varga</td>
-	<td><a href="https://twitter.com/netzzwerg">Twitter</a></td>
-	<td></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Ben Alman</td>
-	<td><a href="https://twitter.com/cowboy">Twitter</a></td>
-	<td><a href="http://benalman.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Ben Cherry</td>
-	<td><a href="https://twitter.com/bcherry">Twitter</a></td>
-	<td><a href="http://www.adequatelygood.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Ben Lesh</td>
-	<td><a href="https://twitter.com/BenLesh">Twitter</a></td>
-	<td><a href="https://benlesh.com/">Blog</a></td>
-	<td><a href="https://www.youtube.com/results?search_query=ben+lesh">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Brendan Eich</td>
-	<td><a href="http://twitter.com/BrendanEich">Twitter</a></td>
-	<td><a href="http://brendaneich.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Christian Heilmann</td>
-	<td><a href="http://twitter.com/codepo8">Twitter</a></td>
-	<td><a href="http://christianheilmann.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Cody Lindley</td>
-	<td><a href="https://twitter.com/codylindley">Twitter</a></td>
-	<td><a href="http://blog.codylindley.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Dan Abramov</td>
-	<td><a href="https://twitter.com/dan_abramov">Twitter</a></td>
-	<td><a href="https://overreacted.io/">Blog</a></td>
-	<td><a href="https://www.youtube.com/c/DanAbramov8">YouTube</a></td>
-	</tr>
-	<tr>
-	<tr>
-	<td>David Flanagan</td>
-	<td><a href="http://twitter.com/__DavidFlanagan">Twitter</a></td>
-	<td><a href="http://davidflanagan.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>David Walsh</td>
-	<td><a href="http://twitter.com/davidwalshblog">Twitter</a></td>
-	<td><a href="http://davidwalsh.name/">Blog</a></td>
-	<td></td>
-	</tr>
 	<tr>
 	<td>Dion Almaer</td>
 	<td><a href="https://twitter.com/dalmaer">Twitter</a></td>
