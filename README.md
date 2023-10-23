@@ -865,6 +865,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ### 3.9 DEVELOPERS
 
+<!--
 <details id="developers-to-follow">
 	<summary><strong>3.9 DEVELOPERS (TWITTER, BLOGS)</strong></summary>
 	<table>
@@ -1213,6 +1214,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	</tbody>
 	</table>
 </details>
+-->
 
 #### 3.10 TOOLS
 
