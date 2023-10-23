@@ -1218,12 +1218,14 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ##### 3.10.1 GIT
 
- * [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
+* [Introduction to GitHub, youTube video *by Curran Kelleher*](https://www.youtube.com/watch?v=Q6HbQRWAMM4) 
 
 <!-- B U I L D  T O O L S -->
 
 <details id="build_tools">
-	<summary><strong>3.10.2 BUILD TOOLS / TASK RUNNERS / MODULE BUNDLERS</strong></summary>
+	<summary>
+		<strong>3.10.2 BUILD TOOLS / TASK RUNNERS / MODULE BUNDLERS</strong>
+	</summary>
 	<br/>
 	<ul>
 		<li>
@@ -1301,7 +1303,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 </details>
 
 <details>
-	<summary><strong>3.11.3 ELM</strong></summary>
+	<summary>
+		<strong>3.11.3 ELM</strong>
+	</summary>
 	<p><a href="https://elm-lang.org/">Elm</a></p>
 </details>
 
