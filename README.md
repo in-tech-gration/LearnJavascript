@@ -166,7 +166,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [Study and apply Software Principles such as **DRY**, **SOLID**, **KISS**, etc.](https://dev.to/pluralsight/my-5-favorite-software-design-principles-4ech)
 
 *The difference between JavaScript and JavaScript with __use strict__*
-![Alt text](/img/usestrict.jpg "Make a difference by coding with use strict")
+![Alt text](./img/usestrict.jpg "Make a difference by coding with use strict")
 
 <details>
 	<summary><strong>ECMASCRIPT 6 | ES2015 [ UPDATED ]</strong></summary>
@@ -180,9 +180,9 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 #### 3.1 BEGINNER RESOURCES [ UPDATED ]
 
-* [**Introduction to JavaScript** | Scrimba Interactive Screencasts | 69min ](https://scrimba.com/g/gintrotojavascript)
+* [**Introduction to JavaScript** \| Scrimba Interactive Screencasts \| 69min ](https://scrimba.com/g/gintrotojavascript)
 * [**Just JavaScript** Course By Dan Abramov and Maggie Appleton](https://justjavascript.com/)
-* [**JavaScript First Steps** | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
+* [**JavaScript First Steps** \| MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
 * [**What Is JavaScript Made Of?**](https://overreacted.io/what-is-javascript-made-of/)
 * [JavaScript the Right Way](https://github.com/braziljs/js-the-right-way)
 * [**JavaScript Basics** A quick introduction to basic and important concepts of JavaScript](https://fkling.github.io/jsbasics/)
@@ -210,7 +210,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ##### 3.1.1 COURSES [ UPDATED ]
 
-* [**Deep Dive Into Modern Web Development** | Full Stack course by The University of Helsinki ](https://fullstackopen.com/en/)
+* [**Deep Dive Into Modern Web Development** \| Full Stack course by The University of Helsinki ](https://fullstackopen.com/en/)
 * [CodeCombat: Learn to Code by Playing a Game](http://codecombat.com/)
 * [Javascript for Beginners, Udemy **PAID COURSE**](https://www.udemy.com/beginning-javascript/)
 
@@ -260,15 +260,15 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 > TAMING <a href="#async" id="async">THE ASYNCHRONOUS NATURE OF JAVASCRIPT</a> [ UPDATED ]
 
 * [**Asynchronous JavaScript: From Callback Hell to Async and Await**](https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial)
-* [**Promises** YouTube video by MPJ (Fun Fun Function) | 17min ](https://www.youtube.com/watch?v=2d7s3spWAzo)
+* [**Promises** YouTube video by MPJ (Fun Fun Function) \| 17min ](https://www.youtube.com/watch?v=2d7s3spWAzo)
 * [**Promises, async/await @ JavaScript.info**](https://javascript.info/async)
-* [**Async JS Crash Course - Callbacks, Promises, Async Await** YouTube video by Traversy Media | 25min ](https://www.youtube.com/watch?v=PoRJizFvM7s)
-* [**async / await in JavaScript - What, Why and How - Fun Fun Function** YouTube video | 24min](https://www.youtube.com/watch?v=568g8hxJJp4)
+* [**Async JS Crash Course - Callbacks, Promises, Async Await** YouTube video by Traversy Media \| 25min ](https://www.youtube.com/watch?v=PoRJizFvM7s)
+* [**async / await in JavaScript - What, Why and How - Fun Fun Function** YouTube video \| 24min](https://www.youtube.com/watch?v=568g8hxJJp4)
 * [**Asynchronous JavaScript with async/await**](https://egghead.io/courses/asynchronous-javascript-with-async-await)
 * [**JavaScript Goes Asynchronous (and It’s Awesome)**](http://www.sitepoint.com/javascript-goes-asynchronous-awesome/)
 * [**Write Better JavaScript with Promises**, By Landon Schropp](http://davidwalsh.name/write-javascript-promises)
 * [**The Evolution of Asynchronous JavaScript**](https://blog.risingstack.com/asynchronous-javascript/)
-* [**Javascript Async Control Flow**, By KENNY KAYE | 20 OCTOBER 2015](https://kaye.us/javascript-async-control-flow/)
+* [**Javascript Async Control Flow**, By KENNY KAYE \| 20 OCTOBER 2015](https://kaye.us/javascript-async-control-flow/)
 
 
 <!-- D E B U G G I N G -->
