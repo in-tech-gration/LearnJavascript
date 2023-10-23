@@ -1,0 +1,1525 @@
+<!DOCTYPE html><html lang="by"><head><title>JavaScript Garden</title><meta charset="utf-8"><meta name="description" content="Мануал па недахопаў і дзівосах JavaScript"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" href="/JavaScript-Garden/favicon.ico?v=2"><link rel="stylesheet" href="../style/garden.css" media="all"><link rel="stylesheet" href="../style/print.css" media="print"><!--[if lt IE 9]>
+<script src="javascript/html5.js"></script>
+<![endif]--></head><body><!-- Navigation--><nav id="nav_main"><div><ul><li class="active"><a href="/JavaScript-Garden/by" title="JavaScript Garden">by</a></li><li><a href="/JavaScript-Garden/" title="JavaScript Garden">en</a></li><li><a href="/JavaScript-Garden/es" title="Jardín de JavaScript">es</a></li><li><a href="/JavaScript-Garden/fi" title="JavaScript-puutarha">fi</a></li><li><a href="/JavaScript-Garden/fr" title="Le Jardin de JavaScript">fr</a></li><li><a href="/JavaScript-Garden/hu" title="JavaScript Garden">hu</a></li><li><a href="/JavaScript-Garden/it" title="JavaScript Garden">it</a></li><li><a href="/JavaScript-Garden/ja" title="JavaScript Garden">ja</a></li><li><a href="/JavaScript-Garden/ko" title="JavaScript Garden">ko</a></li><li><a href="/JavaScript-Garden/pl" title="JavaScript Garden">pl</a></li><li><a href="/JavaScript-Garden/ptbr" title="JavaScript Garden">ptbr</a></li><li><a href="/JavaScript-Garden/ru" title="JavaScript Гарден">ru</a></li><li><a href="/JavaScript-Garden/tr" title="JavaScript Garden">tr</a></li><li><a href="/JavaScript-Garden/zh" title="JavaScript 秘密花园">zh</a></li><li><a href="/JavaScript-Garden/zhtw" title="JavaScript Garden">zhtw</a></li></ul><a id="top" href="#intro" title="Back to top">#top</a><a id="hide_menu" class="tablet">Hide Menu</a></div><ul><li class="nav_intro"><h1><a href="#intro">Уводзіны</a></h1><ul></ul></li><li class="nav_object"><h1><a href="#object">Аб'екты</a></h1><ul><li><a href="#object.general">Выкарыстанне і ўласцівасці аб&#39;ектаў</a></li><li><a href="#object.prototype">Прататып</a></li><li><a href="#object.hasownproperty">Метад <code>hasOwnProperty</code></a></li><li><a href="#object.forinloop">Цыкл <code>for in</code></a></li></ul></li><li class="nav_function"><h1><a href="#function">Функцыі</a></h1><ul><li><a href="#function.general">Выразы і аб&#39;яўленне функцый</a></li><li><a href="#function.this">Як працуе <code>this</code></a></li><li><a href="#function.closures">Замыканні і спасылкі</a></li><li><a href="#function.arguments">Аб&#39;ект <code>arguments</code></a></li><li><a href="#function.constructors">Канструктары</a></li><li><a href="#function.scopes">Зоны бачнасці і прасторы імёнаў</a></li></ul></li><li class="nav_array"><h1><a href="#array">Масівы</a></h1><ul><li><a href="#array.general">Ітэрацыі па масівам і ўласцівасці</a></li><li><a href="#array.constructor">Канструктар <code>Array</code></a></li></ul></li><li class="nav_types"><h1><a href="#types">Тыпы</a></h1><ul><li><a href="#types.equality">Роўнасць і параўнанне</a></li><li><a href="#types.typeof">Аператар <code>typeof</code></a></li><li><a href="#types.instanceof">Аператар <code>instanceof</code></a></li><li><a href="#types.casting">Прывядзенне тыпаў</a></li></ul></li><li class="nav_core"><h1><a href="#core">Ядро</a></h1><ul><li><a href="#core.eval">Чаму не варта выкарыстоўваць <code>eval</code></a></li><li><a href="#core.undefined"><code>undefined</code> і <code>null</code></a></li><li><a href="#core.semicolon">Аўтаматычная ўстаўка кропкі з коскай</a></li><li><a href="#core.delete">Аператар <code>delete</code></a></li></ul></li><li class="nav_other"><h1><a href="#other">Рэшта</a></h1><ul><li><a href="#other.timeouts"><code>setTimeout</code> і <code>setInterval</code></a></li></ul></li></ul></nav><!-- Mobile navigation--><nav id="nav_mobile"><a id="nav_prev_section" href="#">prev section<span class="nav_section_name">section name</span></a><a id="nav_next_section" href="#">next section<span class="nav_section_name">section name</span></a><a id="show_menu">show menu</a></nav><!-- Sections--><section id="intro"><!-- Introduction--><header id="intro.intro"><h1>Уводзіны</h1></header><!-- Articles--><article id="intro.index"><h2>Уступ</h2><div><p><strong>JavaScript Garden</strong> гэта растучы набор дакументацыі аб найбольш
+цікавых частках мовы праграмавання JavaScript. Ён дае парады аб тым як прадухіліць
+частыя і непрадказальныя памылкі, а таксама праблемы з хуткасцю выконвання і
+дрэннымі практыкамі, якія праграмісты, не з&#39;яўляючыяся экспертамі у JavaScript
+маглі сустрэць падчас сваіх пошукаў у глыбіні мовы.</p>
+<p>JavaScript Garden <strong>не</strong> ставіць сваёй мэтай навучыць вас мове JavaScript. Былыя
+веды мовы рэкамендаваныя, каб вы змаглі зразумець пытанні разглядаемыя ў гэтым
+мануале. Каб зразумець базавыя рэчы мовы, калі ласка прачытайце цудоўны <a href="https://developer.mozilla.org/en/JavaScript/Guide">мануал</a>
+у сетцы распрацоўшчыкаў Mozilla.</p>
+<h2 id="-">Аўтары</h2>
+<p>Гэты мануал - праца двух выбітных карыстальнікаў <a href="http://stackoverflow.com/">Stack Overflow</a> , <a href="http://stackoverflow.com/users/170224/ivo-wetzel">Ivo Wetzel</a>
+(Тэкст) і <a href="http://stackoverflow.com/users/313758/yi-jiang">Zhang Yi Jiang</a> (Дызайн).</p>
+<p>На дадзены момант падтрымліваецца <a href="http://truffles.me.uk">Tim Ruffles</a>.</p>
+<h2 id="-">Удзельнікі</h2>
+<ul>
+<li>Зашмат каб пералічыць тут, <a href="https://github.com/BonsaiDen/JavaScript-Garden/graphs/contributors">паглядзіце спіс</a>.</li>
+</ul>
+<h2 id="-">Хостынг</h2>
+<p>JavaScript Garden хосціцца на GitHub, але <a href="http://cramerdev.com/">Cramer Development</a> падтрымлівае нас
+люстэркам на <a href="http://javascriptgarden.info/">JavaScriptGarden.info</a>. У Беларускамоўнай версіі таксама ёсць
+сваё <a href="http://it-na-move.github.io/JavaScript-Garden/">люстэрка на GitHub</a></p>
+<h2 id="-">Пераклад</h2>
+<p>Перакладзена на Беларускую мову супольнасцю <a href="https://github.com/it-na-move">it-mova</a>.</p>
+<h2 id="-">Ліцэнзія</h2>
+<p>JavaScript Garden апублікаваны пад <a href="https://github.com/BonsaiDen/JavaScript-Garden/blob/next/LICENSE">MIT ліцэнзіяй</a> і хосціцца на
+<a href="https://github.com/it-na-move/JavaScript-Garden/">GitHub</a>. Калі вы знойдзеце апячатку або памылку - <a href="https://github.com/it-na-move/JavaScript-Garden/issues">пазначце памылку</a> або
+адпраўце pull request у сховішча. Вы таксама можаце знайсці нас у
+<a href="http://chat.stackoverflow.com/rooms/17/javascript">JavaScript room</a> на чаце Stack Overflow.</p>
+</div></article></section><section id="object"><!-- Introduction--><header id="object.intro"><h1>Аб'екты</h1></header><!-- Articles--><article id="object.general"><h2>Выкарыстанне і ўласцівасці аб&#39;ектаў</h2><div><p>Усё ў JavaScript дзейнічае як аб&#39;ект, апроч двух выключэнняў — гэта
+<a href="#core.undefined"><code>null</code></a> і <a href="#core.undefined"><code>undefined</code></a>.</p>
+<pre><code>false.toString(); // &#39;false&#39;
+[1, 2, 3].toString(); // &#39;1,2,3&#39;
+
+function Foo(){}
+Foo.bar = 1;
+Foo.bar; // 1</code></pre>
+<p>Часта распрацоўшчыкі думаюць, што лічбавыя літэралы не могуць быць выкарыстаны як
+аб&#39;екты. Гэта праз тое, што сінтаксічны аналізатар JavaScript стараецца прывесці
+<em>натацыю кропка</em> пасля нумара да літэрала з плаваючай кропкай.</p>
+<pre><code>2.toString(); // уздымае SyntaxError</code></pre>
+<p>Ёсць некалькі падыходаў, якія могуць дазволіць выкарыстаць лікавыя літэралы як
+аб&#39;екты&#39;.</p>
+<pre><code>2..toString(); // другая кропка распазнаецца слушна
+2 .toString(); // заўважце прабел з лева ад кропкі
+(2).toString(); // 2 распазнаецца першым чынам</code></pre>
+<h3 id="-">Аб&#39;ект як тып дадзеных</h3>
+<p>Аб&#39;екты ў JavaScript таксама могуць быць выкарыстаныя як <a href="http://en.wikipedia.org/wiki/Hashmap"><em>хэш-табліцы</em></a>; яны ў асноўным
+складаюцца з іменаваных уласцівасцяў з адпаведнымі значэннямі.</p>
+<p>Выкарыстоўваючы натацыю літэрала аб&#39;екта — <code>{}</code> — магчыма стварыць
+просты аб&#39;ект. Гэты новы аб&#39;ект <a href="#object.prototype">пашырае</a> <code>Object.prototype</code> і
+не мае <a href="#object.hasownproperty">сваіх уласцівасцяў</a> якія былі б вызначыныя.</p>
+<pre><code>var foo = {}; // новы пусты аб&#39;ект
+
+// новы аб&#39;ект з уласціваццю &#39;test&#39;, якая мае значэнне 12
+var bar = {test: 12};</code></pre>
+<h3 id="-">Доступ да ўласцівасцяў</h3>
+<p>Доступ да ўласцівасцяў аб&#39;екта можа быць здейснены двумя спосабамі, праз кропкавую
+натацыю або натацыю з квадратнымі дужкамі.</p>
+<pre><code>var foo = {name: &#39;кацяня&#39;}
+foo.name; // кацяня
+foo[&#39;name&#39;]; // кацяня
+
+var get = &#39;name&#39;;
+foo[get]; // кацяня
+
+foo.1234; // SyntaxError
+foo[&#39;1234&#39;]; // працуе</code></pre>
+<p>Натацыі працуюць амаль што ідэнтычна, з адзінай розніцай у тым, што
+натацыя з квадратнымі дужкамі дазваляе дынамічную устаноўку ўласцівасцяў і
+выкарыстанне імёнаў уласцівасцяў, якія інакш прывялі б да сінтаксічных памылак.</p>
+<h3 id="-">Выдаленне ўласцівасцяў</h3>
+<p>Адзіны спосаб выдаліць уласціваць з аб&#39;екта — гэта выкарыстаць аператар <code>delete</code>;
+пазначэнне уласціваці як <code>undefined</code> або <code>null</code> толькі прыбірае
+<em>значэнне</em> звязанае з уласцівацю, але не <em>ключ</em>.</p>
+<pre><code>var obj = {
+    bar: 1,
+    foo: 2,
+    baz: 3
+};
+obj.bar = undefined;
+obj.foo = null;
+delete obj.baz;
+
+for(var i in obj) {
+    if (obj.hasOwnProperty(i)) {
+        console.log(i, &#39;&#39; + obj[i]);
+    }
+}</code></pre>
+<p>Вышэй прыведзены код вывядзе <code>bar undefined</code> і <code>foo null</code> — толькі <code>baz</code> быў
+выдалены і таму адсутнічае ў вывадзе.</p>
+<h3 id="-">Натацыя ключэй</h3>
+<pre><code>var test = {
+    &#39;case&#39;: &#39;Я ключавое слова, таму я павінна быць пазначана як радок&#39;,
+    delete: &#39;Я таксама ключавое слова, таму і я&#39; // уздымае SyntaxError
+};</code></pre>
+<p>Уласцівасці аб&#39;ектаў могуць быць пазначаныя як сімваламі, так і ў выглядзе радкоў.
+Праз яшчэ адну хібу сінтаксічнага аналізатара JavaScript, вышэй прыведзены код
+кіне <code>SyntaxError</code> у весіях ранейшых за ECMAScript 5.</p>
+<p>Гэта памылка ўздымаецца праз тое, што <code>delete</code> - гэта <em>ключавое слова</em>; такім чынам,
+яно мае быць пазначана як <em>літэрал радка</em> каб забяспечыць, што яно будзе какрэктна
+інтэрпрэтавана старымі рухавікамі JavaScript.</p>
+</div></article><article id="object.prototype"><h2>Прататып</h2><div><p>JavaScript не прадастаўляе класічную мадэль спадкаемства; замест гэтага, ён
+выкарыстоўвае <em>прататыпную</em> мадэль.</p>
+<p>Негледзячы на тое, што гэта лічыцца адной з слабасцяў JavaScript, мадэль
+прататыпнага спадкаемства больш эфэктыўная за класічную.
+Напрыклад, даволі трывіальна пабудаваць класічную мадэль паверх прататыпнай мадэлі,
+у той час як адваротнае было б значна больш складаным.</p>
+<p>JavaScript гэта адзіная шырока выкарыстоўваемая мова, якая падтрымлівае
+прататыпнае спадкаемства, таму можа спатрэбіцца час, каб прызвычаіцца да гэтай мадэлі.</p>
+<p>Першая вялікая розніца заключаецца ў тым, што JavaScript выкастроўвае <em>прататыпныя
+ланужкі</em>.</p>
+<aside>
+<p><strong>Заўвага:</strong> простае выкарыстоўванне <code>Bar.prototype = Foo.prototype</code> прывядзе
+да таго, што абодва аб&#39;екта будуць выкарыстоўваць <strong>той жа</strong> прататып.
+Такім чынам, змены ў прататыпе любога з аб&#39;ектаў паўплываюць на прататып іншага,
+што звычайна не ёсць пажаданым эфэктам.</p>
+</aside>
+<pre><code>function Foo() {
+    this.value = 42;
+}
+Foo.prototype = {
+    method: function() {}
+};
+
+function Bar() {}
+
+// Пазначае прататыпам Bar новы асобнік Foo
+Bar.prototype = new Foo();
+Bar.prototype.foo = &#39;Hello World&#39;;
+
+// Упэнімся, што Bar з&#39;яўляецца дзейсным канструктарам
+Bar.prototype.constructor = Bar;
+
+var test = new Bar(); // стварае новы асобнік Bar
+
+// Выніковы ланцужок прататыпаў
+test [instance of Bar]
+    Bar.prototype [instance of Foo]
+        { foo: &#39;Hello World&#39;, value: 42 }
+        Foo.prototype
+            { method: ... }
+            Object.prototype
+          { toString: ... /* і г.д. */ }</code></pre>
+<p>У вышэй прыведзеным кодзе аб&#39;ект <code>test</code> атрымае спадчыну і ад <code>Bar.prototype</code>,
+і ад <code>Foo.prototype</code>; такім чынам, ён будзе мець доступ да функцыі <code>method</code>, якая
+вызначана ў <code>Foo</code>. А таксама доступ да ўласцівасці <code>value</code>
+<strong>аднаго унікальнага асобніка</strong> <code>Foo</code>, які з&#39;яўляецца яго прататыпам. Важна заўважыць,
+што <code>new Bar()</code> <strong>не</strong> стварае новы асобнік <code>Foo</code>, але выкарыстоўвае функцыю,
+пазначаную яго прататыпам; такім чынам, усе асобнікі <code>Bar</code> будуць выкарыстоўваць
+<strong>тую ж</strong> уласціваць <code>value</code>.</p>
+<aside>
+<p><strong>Заўвага:</strong> <strong>не</strong> выкарыстоўвайце <code>Bar.prototype = Foo</code>, бо гэта будзе
+ўказваць не на прататып <code>Foo</code>, а на аб&#39;ект фукцыі <code>Foo</code>. Таму ланцужок
+прататыпаў будзе праходзіць праз <code>Function.prototype</code>, а не <code>Foo.prototype</code>;
+па гэтай прычыне <code>method</code> не будзе прысутнічаць у ланцужку прататыпаў.</p>
+</aside>
+<h3 id="-">Пошук уласцівасцяў</h3>
+<p>Калі адбываецца зварот да ўласцівасці, JavaScript пройдзе па ўсім
+ланцужку прататыпаў <strong>уверх</strong> да таго моманту, як знойдзе ўласціваць з запытаным імем.</p>
+<p>У той момант, калі дасягнуты верх ланцужка - а менавіта <code>Object.prototype</code> - і ўсё яшчэ
+не знойдзена адпаведная ўласцівасць, будзе вернута значэнне <a href="#core.undefined">undefined</a>.</p>
+<h3 id="-prototype">Уласцівасць prototype</h3>
+<p>Нягледзячы на тое, што ўласцівасць prototype выкарыстоўваецца мовай, каб пабудаваць
+ланцужок прататыпаў, магчыма прызначыць яму <strong>любое</strong> значэнне. Аднак, прызначэнне
+прымітываў будузе праігнараваным.</p>
+<pre><code>function Foo() {}
+Foo.prototype = 1; // без эфекту</code></pre>
+<p>Прызначэнне аб&#39;ектаў, як паказана ў прыкладзе вышэй, будзе працаваць, і дазволіць
+дынамічна ствараць ланцужкі прататыпаў.</p>
+<h3 id="-">Хуткасць выканання</h3>
+<p>Пошук уласцівасцяў, якія знаходзяцца высока ў ланцужку прататыпаў, можа
+негатыўна адбіцца на хуткасці выканання, і гэта можа быць прыкметным у кодзе, у якім
+чыннік хуткасці крытычны. У выпадку спробы доступа да неіснуючых уласцівасцяў
+будзе пройдзены ўвесь ланцужок прататыпаў.</p>
+<p>У дадатак, пры <a href="#object.forinloop">ітэрацыі</a> па ўласцівасцях аб&#39;екта
+<strong>кожная</strong> уласціваць, што ёсць у ланцужку прататыпаў будзе апрацавана.</p>
+<h3 id="-">Расшырэнне ўбудаваных прататыпаў</h3>
+<p>Адна з дрэнных магчымасцяў, што сустракаецца даволі часта — расшырэнне прататыпа
+<code>Object.prototype</code> або аднаго з іншых убудаваных тыпаў.</p>
+<p>Такая практыка называецца <a href="http://en.wikipedia.org/wiki/Monkey_patch">monkey patching</a> і парушае <em>інкапсуляцыю</em>. Хаця
+папулярныя фрэймворкі, такія як <a href="http://prototypejs.org/">Prototype</a> шырока выкарыстоўваюць гэтую
+мачымасць, няма добрых матываў для нагрувашчвання ўбудаваных тыпаў дадатковай
+<em>нестандартнай</em> функцыянальнасцю.</p>
+<p><strong>Адзіным</strong> добрым матывам расшырэння убудаваных прататыпаў — гэта дадаванне функцыянала,
+што з&#39;явіўся у новых рухавіках JavaScript; напрыклад, <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array/forEach"><code>Array.forEach</code></a>.</p>
+<h3 id="-">У завяршэнне</h3>
+<p><strong>Вельмі важна</strong> разумець, як працуе мадэль прататыпнага спадкаемства да таго, як
+пісаць код, які яе выкарыстоўвае. Таксама сачыце за даўжынёй ланцужка прататыпаў
+і драбіце іх, калі ёсць магчымасць, каб пазбегнуць праблем з прадукцыйнасцю.
+Таксама ўбудаваныя прататыпы <strong>ніколі</strong> не павінны расшырацца, акрамя як для
+таго, каб падтрымаць новыя магчымасці JavaScript.</p>
+</div></article><article id="object.hasownproperty"><h2>Метад <code>hasOwnProperty</code></h2><div><p>Каб праверыць, ці ёсць у аб&#39;екта ўласцівасць, вызначаная ў <em>ім самім</em>, а не дзе-небудзь
+у яго <a href="#object.prototype">ланцужку прататыпаў</a>, неабходна выкарыстаць метад
+<code>hasOwnProperty</code>, які ўсе аб&#39;екты ўспадкоўваюць ад <code>Object.prototype</code>.</p>
+<aside>
+<p><strong>Заўвага:</strong> <strong>недастаткова</strong> праверыць, ці значэнне уласцівасці — <code>undefined</code>.
+Уласцівасць можа існаваць, але яе значэнне было пазначана як <code>undefined</code>.</p>
+</aside>
+<p><code>hasOwnProperty</code> — адзіная функцыя ў JavaScript, якая дазваляе атрымаць уласцівасці
+аб&#39;екта <strong>без</strong> зварота да ланцужка прататыпаў.</p>
+<pre><code>// Сапсуем Object.prototype
+Object.prototype.bar = 1;
+var foo = {goo: undefined};
+
+foo.bar; // 1
+&#39;bar&#39; in foo; // true
+
+foo.hasOwnProperty(&#39;bar&#39;); // false
+foo.hasOwnProperty(&#39;goo&#39;); // true</code></pre>
+<p>Толькі <code>hasOwnProperty</code> дасць правільны чаканы вынік. Паглядзіце секцыю аб
+<a href="#object.forinloop">цыкле <code>for in</code></a> для падрабязнейшых звестак аб тым, як
+выкарыстоўваць <code>hasOwnProperty</code> падчас ітэрацыі па ўласцівасцях аб&#39;екта.</p>
+<h3 id="-hasownproperty-"><code>hasOwnProperty</code> як уласцівасць</h3>
+<p>JavaScript не абараняе ўласцівасць <code>hasOwnProperty</code>; такім чынам, ёсць верагоднасць
+што ў аб&#39;екта можа быць уласцівасць з такім імем, неабходна выкарыстаць
+<em>знешні</em> <code>hasOwnProperty</code> для карэктнага выніку.</p>
+<pre><code>var foo = {
+    hasOwnProperty: function() {
+        return false;
+    },
+    bar: &#39;Тут жывуць драконы&#39;
+};
+
+foo.hasOwnProperty(&#39;bar&#39;); // заўсёды верне false
+
+// выкарыстайце hasOwnProperty іншага аб&#39;екта
+// і перадайце foo у якасці this
+({}).hasOwnProperty.call(foo, &#39;bar&#39;); // true
+
+// Такасама магчыма выкарыстаць hasOwnProperty з Object.prototype
+Object.prototype.hasOwnProperty.call(foo, &#39;bar&#39;); // true</code></pre>
+<h3 id="-">Заключэнне</h3>
+<p>Выкарыстоўванне <code>hasOwnProperty</code> ёсць <strong>адзіным</strong> надзейным спосабам, каб
+праверыць існаванне ўласцівасці ў аб&#39;екце. Рэкамендуецца выкарыстоўваць
+<code>hasOwnProperty</code> пры ітэрацыі па ўласцівасцях аб&#39;екта, як апісана ў секцыі
+<a href="#object.forinloop">цыкла <code>for in</code> </a>.</p>
+</div></article><article id="object.forinloop"><h2>Цыкл <code>for in</code></h2><div><p>Як і аператар <code>in</code>, цыкл <code>for in</code> праходзіць па ўсім ланцужку прататыпаў
+пры ітэрацыі па ўласцівасцях аб&#39;екта.</p>
+<aside>
+<p><strong>Заўвага:</strong> Цыкл <code>for in</code> <strong>не</strong> ітэруе па уласцівасцях, у якіх атрыбут
+<code>enumerable</code> мае значэнне <code>false</code>; напрыклад, уласцівасць <code>length</code>
+масіва (Array).</p>
+</aside>
+<pre><code>// Атруцім Object.prototype
+Object.prototype.bar = 1;
+
+var foo = {moo: 2};
+for(var i in foo) {
+    console.log(i); // вывядзе і bar і moo
+}</code></pre>
+<p>Праз тое, што немагчыма памяняць паводзіны самаго цыкла <code>for in</code>, неабходна фільтраваць
+непажаданыя ўласцівасці аб&#39;екта ўнутры цыкла. У версіях ECMAScript 3 і пазней,
+гэта можна зрабіць праз метад <a href="#object.hasownproperty"><code>hasOwnProperty</code></a>.</p>
+<p>Пачынаючы з ECMAScript 5, <code>Object.defineProperty</code> можа быць выкарыстана з
+<code>enumerable</code> роўным <code>false</code>, каб дадаць уласцівасці аб&#39;екту такім чынам, што яны
+не будуць пералічаны. У такім выпадку было б справядлівым меркаваць, што любая
+<code>enumerable</code> уласціваць была дададзена адмыслова і прапусціць <code>hasOwnProperty</code>, бо
+гэта робіць код больш шматслоўным і цяжэйшым для чытання. У бібліятэчным кодзе
+<code>hasOwnProperty</code> мае быць усё роўна выкарыстаны, бо не варта рабіць здагадкі аб
+тым, якія <code>enumerable</code> уласцівасці могуць пражываць у ланцужку прататыпаў.</p>
+<aside>
+<p><strong>Заўвага:</strong> праз тое, што <code>for in</code> заўсёды праходзіць праз увесць ланцужок прататыпаў,
+ён будзе працаваць усё марудней з кожным новым слоем спадкаемства.</p>
+</aside>
+<h3 id="-hasownproperty-">Выкарыстоўванне <code>hasOwnProperty</code> для фільтрацыі</h3>
+<pre><code>// возьмем foo з прыкладу
+for(var i in foo) {
+    if (foo.hasOwnProperty(i)) {
+        console.log(i);
+    }
+}</code></pre>
+<p>Гэта адзіная правільная версія выкарыстоўвання цыкла. Дзякуючы выкарыстоўванню
+<code>hasOwnProperty</code>, быдзе выведзена <strong>толькі</strong> <code>moo</code>.
+Калі прыбраць <code>hasOwnProperty</code>, код будзе схільны да памылак у выпадку, калі
+натыўныя прататыпы — напрыклад, <code>Object.prototype</code> — былі змененыя.</p>
+<p>У новых версіях ECMAScript уласцівасці, пазначаныя як не enumerable, могуць быць
+вызначыныя праз <code>Object.defineProperty</code>, змяншаючы рызыку ітэрацыі праз іх без
+выкарыстання <code>hasOwnProperty</code>. Тым не менш, трэба быць уважлівым пры выкарыстанні
+старых бібліятэк, такіх як <a href="http://www.prototypejs.org/">Prototype</a>, якая не выкарыстроўвае новымя магчымасці
+ECMAScript.
+Пры выкарыстоўванні гэтай бібліятэкі, цыклы <code>for in</code>, якія не выкарыстоўваюць
+<code>hasOwnProperty</code>, гарантавана не будуць працаваць.</p>
+<h3 id="-">У заключэнне</h3>
+<p>Рэкамендавана <strong>заўсёды</strong> выкарыстоўваць <code>hasOwnProperty</code> як у ECMAScript 3 або
+ніжэй, так і ў бібліятэчным кодзе. У гэтых асяродках ніколі не варта рабіць
+здагадкі аб тым, быў зменены натыўны прататып ці не. Пачынаючы з ECMAScript 5,
+<code>Object.defineProperty</code> дазваляе пазначаць уласцівасці як не <code>enumerable</code> і прапускаць
+выкарыстоўванне <code>hasOwnProperty</code> у кодзе праграмы.</p>
+</div></article></section><section id="function"><!-- Introduction--><header id="function.intro"><h1>Функцыі</h1></header><!-- Articles--><article id="function.general"><h2>Выразы і аб&#39;яўленне функцый</h2><div><p>У JavaScript функцыі таксама з&#39;яўляюцца аб&#39;ектамі. Гэта значыць іх можна перадаваць
+і прысвойваць як і любыя іншыя аб&#39;екты. Адзін, часта выкарыстоўваемы варыянт,
+гэтай магчымасці - перадача <em>ананімнага метада</em> як функцыі зваротнага выкліку
+іншай, магчыма асінхроннай функцыі.</p>
+<h3 id="-function-">Аб&#39;яўленне <code>function</code></h3>
+<pre><code>function foo() {}</code></pre>
+<p>У вышэй прыведзеным прыкладзе функцыя <a href="#function.scopes">уздымаецца</a> перад тым
+як пачынаецца выконванне праграмы; Такім чынам, яна даступная <em>паўсюль</em> у зоне
+бачнасці, у якой яна была <em>аб&#39;яўлена</em>, нават калі выклік адбываецца да фактычнага
+аб&#39;яўлення ў кодзе.</p>
+<pre><code>foo(); // Працуе, бо функцыя будзе створана да выконвання кода
+function foo() {}</code></pre>
+<h3 id="-function-"><code>function</code> як выраз</h3>
+<pre><code>var foo = function() {};</code></pre>
+<p>У гэтым прыкладзе пераменнай <code>foo</code> прысвойваецца <em>ананімная</em> функцыя.</p>
+<pre><code>foo; // &#39;undefined&#39;
+foo(); // уздыме TypeError
+var foo = function() {};</code></pre>
+<p>Праз тое, што <code>var</code> - гэта аб&#39;яўленне якое уздымае імя пераменнай <code>foo</code> перад тым
+як код будзе выкананы, <code>foo</code> будзе ўжо аб&#39;яўленым калі ён пачне выконвацца.</p>
+<p>Але так як прысвойванні адбываюцца толькі пад час выконвання, значэнне <code>foo</code>
+будзе змоўчанным (<a href="#core.undefined">undefined</a>) да выконвання адпаведнага кода.</p>
+<h3 id="-">Выразы з іменаванымі функцыямі</h3>
+<p>Яшчэ адзін выбітны выпадак - прысвойванне іменавай функцыі.</p>
+<pre><code>var foo = function bar() {
+    bar(); // працуе
+}
+bar(); // ReferenceError</code></pre>
+<p>Тут, <code>bar</code> не даступны ў знешнім скоўпе, бо функцыя толькі прысвойваецца пераменнай
+<code>foo</code>; аднак, унутры <code>bar</code>, імя даступнае. Так адбываецца праз асаблівасці працы
+з <a href="#function.scopes">прастранствамі імён</a> у JavaScript - імя функцыі <em>заўсёды</em>
+даступнае ў лакальным скоўпе функцыі.</p>
+</div></article><article id="function.this"><h2>Як працуе <code>this</code></h2><div><p>У JavaScript <code>this</code> азначае канцэптуальна іншую рэч, чым у іншых мовах праграмавання.
+Існуе роўна <strong>пяць</strong> варыянтаў таго, да чаго можа быць прывязана <code>this</code>.</p>
+<h3 id="-">Глабальна зона бачнасці</h3>
+<pre><code>this;</code></pre>
+<p>Калі <code>this</code> выкарыстоўваецца ў глабальнай зоне бачнасці - яна спасылаецца на <em>глабальны</em> аб&#39;ект</p>
+<h3 id="-">Выклік функцыі</h3>
+<pre><code>foo();</code></pre>
+<p>Тут, <code>this</code> усё яшчэ спасылаецца на <em>глабальны</em> аб&#39;ект.</p>
+<aside>
+<p><strong>Заўвага для ES5:</strong> У строгім рэжыме, паняцця глабальнасці <strong>больш не існуе</strong>.
+<code>this</code> у такім выпадку будзе мець значэнне <code>undefined</code>.</p>
+</aside>
+<h3 id="-">Выклік метада</h3>
+<pre><code>test.foo();</code></pre>
+<p>У гэтым выпадку, <code>this</code> будзе спасылацца на аб&#39;ект <code>test</code>.</p>
+<h3 id="-">Выклік канструктара</h3>
+<pre><code>new foo();</code></pre>
+<p>Выклік функцыі, перад якім прысутнічае ключавое слова <code>new</code>, выступае ў якасці
+<a href="#function.constructors">канструктара</a>. Унутры функцыі, <code>this</code> будзе спасылацца
+на <em>новаствораны</em> аб&#39;ект.</p>
+<h3 id="-this-">Яўная ўстаноўка <code>this</code></h3>
+<pre><code>function foo(a, b, c) {}
+
+var bar = {};
+foo.apply(bar, [1, 2, 3]); // масіў разгорнецца ў ніжэйпрыведзенае
+foo.call(bar, 1, 2, 3); // вынікам будзе a = 1, b = 2, c = 3</code></pre>
+<p>Пры выкарыстоўванні метадаў <code>call</code> або <code>apply</code> з <code>Function.prototype</code>, значэнню
+<code>this</code> унутры выкліканай функцыі <strong>яўна прысвойваецца</strong> значэнне першага
+аргумента адпаведнага выкліка функцыі.</p>
+<p>Як вынік, у вышэйпрыведзеным прыкладзе <em>правіла метада</em> <strong>не</strong> працуе, і <code>this</code>
+унутры <code>foo</code> будзе мець значэнне <code>bar</code>.</p>
+<aside>
+<p><strong>Заўвага:</strong> <code>this</code> <strong>не можа</strong> быць выкарыстаны як спасылка ўнутры літэрала
+<code>Object</code>. Таму ў кодзе <code>var obj = {me: this}</code> <code>me</code> <strong>не</strong> будзе спасылацца на
+<code>obj</code>, бо <code>this</code> прывязваецца толькі па пяці вышэйапісаных правілах.</p>
+</aside>
+<h3 id="-">Магчымыя пасткі</h3>
+<p>Не гледзячы на тое, што большасць гэтых прыкладаў лагічныя, першы можна лічыць
+яшчэ адным недаглядам мовы, бо ён <strong>ніколі</strong> не мае практычнага прымянення.</p>
+<pre><code>Foo.method = function() {
+    function test() {
+        // this спасылаецца на глабальны аб&#39;ект
+    }
+    test();
+};</code></pre>
+<p>Памылковым меркаваннем будзе тое, што <code>this</code> унутры <code>test</code> будзе спасылацца на
+<code>Foo</code>; Але на самрэч <strong>гэта не так</strong>.</p>
+<p>Каб атрымаць доступ да <code>Foo</code> з цела <code>test</code>, вы можаце стварыць лакальную
+пераменную унутры <code>метада</code> што будзе спасылацца на <code>Foo</code>.</p>
+<pre><code>Foo.method = function() {
+    var self = this;
+    function test() {
+        // Тут выкарыстоўвайце self замест this
+    }
+    test();
+};</code></pre>
+<p><code>self</code> гэта звычайнае імя пераменнай, але яно часта выкарыстоўваецца для спасылкі
+на знешні <code>this</code>. У камбінацыі з <a href="#function.closures">замыканнямі</a>, яно можа быць
+выкарыстана для перадачы <code>this</code> навокал.</p>
+<p>У ECMAScript 5 можна выкарыстаць метад <code>bind</code> у камбінацыі з ананімнай функцыяй,
+дзеля таго каб атрымаць аналагічны вынік.</p>
+<pre><code>Foo.method = function() {
+    var test = function() {
+        // this цяпер спасылаецца на Foo
+    }.bind(this);
+    test();
+};</code></pre>
+<h3 id="-">Прысвойванне метадаў</h3>
+<p>Яшчэ адна рэч якая <strong>не</strong> працуе ў JavaScript - гэта стварэнне псэўданімаў функцый,
+то бок <strong>прысвойванне</strong> значэння метада пераменнай.</p>
+<pre><code>var test = someObject.methodTest;
+test();</code></pre>
+<p>Паводле першага правіла, <code>test</code> цяпер працуе як звычайны выклік функцыі;
+адпаведна, <code>this</code> унутры больш не будзе спасылацца на <code>someObject</code>.</p>
+<p>Поздняе звязванне <code>this</code> можа падацца дрэннай ідэяй, але насамрэч якраз дзякуючы
+гэтаму працуе <a href="#object.prototype">спадкаемства прататыпаў</a>.</p>
+<pre><code>function Foo() {}
+Foo.prototype.method = function() {};
+
+function Bar() {}
+Bar.prototype = Foo.prototype;
+
+new Bar().method();</code></pre>
+<p>Калі выклікаецца <code>method</code> новага экзэмпляра <code>Bar</code>, <code>this</code> будзе спасылацца на гэты
+экзэмпляр.</p>
+</div></article><article id="function.closures"><h2>Замыканні і спасылкі</h2><div><p>Адна з найбольш магутных магчымасцяў JavaScript — магчымасць ствараць <em>замыканні</em>.
+Зона бачнасці замыканняў <strong>заўсёды</strong> мае доступ да знешняй зоны бачнасці, у якой
+замыканне было аб&#39;яўлена. З той прычыны, што ў JavaScript адзіны механізм працы
+з зонай бачнасці — гэта <a href="#function.scopes">зоны бачнасці функцыі</a>, усе функцыі
+выступаюць у якасці замыканняў.</p>
+<h3 id="-">Эмуляцыя прыватных пераменных</h3>
+<pre><code>function Counter(start) {
+    var count = start;
+    return {
+        increment: function() {
+            count++;
+        },
+
+        get: function() {
+            return count;
+        }
+    }
+}
+
+var foo = Counter(4);
+foo.increment();
+foo.get(); // 5</code></pre>
+<p>Тут <code>Counter</code> вяртае <strong>два</strong> замыканні: функцыю <code>increment</code> і функцыю <code>get</code>.
+Абедзьве функцыі маюць <strong>спасылку</strong> на зону бачнасці <code>Counter</code> і таму заўсёды
+маюць доступ да пераменнай <code>count</code>, што была аб&#39;яўлена ў гэтай зоне бачнасці.</p>
+<h3 id="-">Якім чынам гэта працуе</h3>
+<p>З той прычыны, што ў JavaScript немагчыма спасылацца або прысвойваць зоны бачнасці,
+<strong>немагчыма</strong> атрымаць доступ да пераменнай <code>count</code> звонку. Адзіны спосаб
+узаемадзейнічаць з ім — выкарыстоўваць два замыканні.</p>
+<pre><code>var foo = new Counter(4);
+foo.hack = function() {
+    count = 1337;
+};</code></pre>
+<p>Вышэйпрыведзены код <strong>не</strong> памяняе значэнне пераменнай <code>count</code> у зоне бачнасці
+<code>Counter</code>, бо <code>foo.hack</code> не быў аб&#39;яўлены у <strong>гэтай</strong> зоне бачнасці. Замест гэтага
+ён створыць або перазапіша <em>глабальную</em> пераменную <code>count</code>.</p>
+<h3 id="-">Замыканні ўнутры цыклаў</h3>
+<p>Частая памылка - выкарыстанне замыканняў унутры цыклаў, як быццам бы яны капіруюць
+значэнне пераменнай індэксу цыкла.</p>
+<pre><code>for(var i = 0; i &lt; 10; i++) {
+    setTimeout(function() {
+        console.log(i);  
+    }, 1000);
+}</code></pre>
+<p>Вышэйпрыведзены код <strong>не</strong> выведзе нумары ад <code>0</code> да <code>9</code>, ён проста выведзе
+нумар <code>10</code> дзесяць разоў.</p>
+<p><em>Ананімная</em> функцыя захоўвае <strong>спасылку</strong> на <code>i</code>. У той час, калі функцыя <code>console.log</code>
+выклікаецца, <code>цыкл for</code> ужо адпрацаваў, а значэнне <code>i</code> ўжо стала <code>10</code>.</p>
+<p>Каб атрымаць пажаданыя паводзіны, неабходна стварыць <strong>копію</strong> значэння <code>i</code>.</p>
+<h3 id="-">Як абыйсці праблемы спасылкі</h3>
+<p>Каб стварыць копію значэння пераменнай індэкса цыкла, лепшы спосаб — стварэнне
+<a href="#function.scopes">ананімнай абгорткі</a>.</p>
+<pre><code>for(var i = 0; i &lt; 10; i++) {
+    (function(e) {
+        setTimeout(function() {
+            console.log(e);  
+        }, 1000);
+    })(i);
+}</code></pre>
+<p>Знешняя ананімная функцыя выконваецца імгненна з <code>i</code> ў якасці першага аргумента
+і атрымае копію <strong>значэння</strong> <code>i</code> ў якасці параметра <code>e</code>.</p>
+<p>Ананімная функцыя, што перадаецца метаду <code>setTimeout</code>, цяпер мае спасылку на
+<code>e</code>, чыё значэнне <strong>не</strong> мяняецца на працягу цыкла.</p>
+<p>Яшчэ адзін спосаб атрымаць такі вынік — вяртаць функцыю з ананімнай абгорткі,
+што будзе паводзіць сябе такім жа чынам, як і папярэдні прыклад.</p>
+<pre><code>for(var i = 0; i &lt; 10; i++) {
+    setTimeout((function(e) {
+        return function() {
+            console.log(e);
+        }
+    })(i), 1000)
+}</code></pre>
+<p>Яшчэ адзін папулярны спосаб дасягнуць гэтага — дадаць яшчэ адзін аргумент выкліку
+функцыі <code>setTimeout</code>, якая перадасць агрумент функцыі зваротнага выкліку.</p>
+<pre><code>for(var i = 0; i &lt; 10; i++) {
+    setTimeout(function(e) {
+        console.log(e);  
+    }, 1000, i);
+}</code></pre>
+<p>Некаторыя старыя асяродкі JS (Internet Explorer 9 і ніжэй) не падтрымліваюць
+гэтую магчымасць.</p>
+<p>Таксама магчыма выканаць гэта выкарыстоўваючы <code>.bind</code>, якая можа звязаць
+<code>this</code> і аргументы функцыі. Ніжэйпрыведзены прыклад працуе як папярэднія.</p>
+<pre><code>for(var i = 0; i &lt; 10; i++) {
+    setTimeout(console.log.bind(console, i), 1000);
+}</code></pre>
+</div></article><article id="function.arguments"><h2>Аб&#39;ект <code>arguments</code></h2><div><p>У зоне бачнасці любой функцыі JavaScript ёсць доступ да адмысловай пераменнай
+<code>arguments</code>. Гэтая пераменная утрымлівае спіс усіх аргументаў, што былі
+перададзеныя функцыі.</p>
+<aside>
+<p><strong>Заўвага:</strong> У выпадку, калі <code>arguments</code> ужо быў створаны ўнутры зоны бачнасці
+функцыі праз выраз <code>var</code>, або з&#39;яўляецца фармальным параметрам,
+аб&#39;ект <code>arguments</code> не будзе створаны.</p>
+</aside>
+<p>Аб&#39;ект <code>arguments</code> <strong>не з&#39;яўляецца</strong> спадкаемцам <code>Array</code>. Ён мае падабенствы
+з масівам, напрыклад уласцівасць <code>length</code>. Але ён не ўспадкоўвае <code>Array.prototype</code>,
+а ўяўляе з сябе <code>Object</code>.</p>
+<p>Таму <strong>не</strong>магчыма выклікаць стандартныя метады <code>push</code>, <code>pop</code> або <code>slice</code>
+у аб&#39;екта <code>arguments</code>. Тым не менш, ітэрацыя з звычайным цыклам <code>for</code> працуе карэктна.
+Неабходна канвертаваць яго ў сапраўдны аб&#39;ект <code>Array</code>, каб прымяніць стандартныя
+метады масіваў.</p>
+<h3 id="-">Канвертацыя ў масіў</h3>
+<p>Ніжэйпрыведезны код верне новы масіў, які будзе ўтрымліваць усе элементы аб&#39;екта
+<code>arguments</code>.</p>
+<pre><code>Array.prototype.slice.call(arguments);</code></pre>
+<p>Такая канвертацыя <strong>марудная</strong>, яе <strong>не рэкамендуецца</strong> выкарыстоўваць у крытычных
+у плане прадукцыйнасці частках кода.</p>
+<h3 id="-arguments-">Перадача <code>arguments</code></h3>
+<p>Ніжэй прадстаўлены рэкамендаваны спосаб перадачы аргументаў з адной функцыі ў іншую.</p>
+<pre><code>function foo() {
+    bar.apply(null, arguments);
+}
+function bar(a, b, c) {
+    // тут робім што-небудзь
+}</code></pre>
+<p>Яшчэ адзін прыём — гэта выкарыстанне <code>call</code> і <code>apply</code> разам, каб ператварыць метады,
+што выкарыстоўваюць значэнне <code>this</code> як і свае аргументы, у звычайныя функцыі,
+што выкарыстоўваюць толькі аргументы.</p>
+<pre><code>function Person(first, last) {
+  this.first = first;
+  this.last = last;
+}
+
+Person.prototype.fullname = function(joiner, options) {
+  options = options || { order: &quot;western&quot; };
+  var first = options.order === &quot;western&quot; ? this.first : this.last;
+  var last =  options.order === &quot;western&quot; ? this.last  : this.first;
+  return first + (joiner || &quot; &quot;) + last;
+};
+
+// Ствараем незвязаную версію &quot;fullname&quot;, што можа быць выкарыстана з любым
+// аб&#39;ектам, які мае ўласцівасці &#39;first&#39; і &#39;last&#39;, перададзеным у якасці
+// першага параметра. Гэтую абгортку не трэба будзе мяняць, калі колькасць або
+// парадак аргументаў fullname зменяцца.
+Person.fullname = function() {
+  // Result: Person.prototype.fullname.call(this, joiner, ..., argN);
+  return Function.call.apply(Person.prototype.fullname, arguments);
+};
+
+var grace = new Person(&quot;Grace&quot;, &quot;Hopper&quot;);
+
+// &#39;Grace Hopper&#39;
+grace.fullname();
+
+// &#39;Turing, Alan&#39;
+Person.fullname({ first: &quot;Alan&quot;, last: &quot;Turing&quot; }, &quot;, &quot;, { order: &quot;eastern&quot; });</code></pre>
+<h3 id="-">Фармальныя параметры і індэксы аргументаў</h3>
+<p>Аб&#39;ект <code>arguments</code> стварае <em>гэтэр</em> і <em>сэтэр</em> як да кожнай са сваіх уласцівасцяў,
+так і да фармальных параметраў функцыі.</p>
+<p>У выніку змена значэння фармальнага параметра зменіць таксама адпаведную ўласцівасць
+аб&#39;екта <code>arguments</code>, і наадварот.</p>
+<pre><code>function foo(a, b, c) {
+    arguments[0] = 2;
+    a; // 2
+
+    b = 4;
+    arguments[1]; // 4
+
+    var d = c;
+    d = 9;
+    c; // 3
+}
+foo(1, 2, 3);</code></pre>
+<h3 id="-">Міфы і праўда аб прадукцыйнасці</h3>
+<p>Адзінае, калі <code>arguments</code> не ствараецца, — гэта калі ёсць фармальны аргумент функцыі
+або пераменная ўнутры яе з такім іменем. Не важна, выкарыстоўваюцца яны ці не.</p>
+<p>Як <em>гэтэры</em>, так і <em>сэтэры</em> ствараюцца <strong>заўсёды</strong>, таму іх выкарыстоўванне не
+мае амаль ніякага ўплыву на прадукцыйнасць.</p>
+<aside>
+<p><strong>Заўвага для ES5:</strong> <em>гэтэры</em> і <em>сэтэры</em> не ствараюцца ў строгім рэжыме.</p>
+</aside>
+<p>Тым не менш, ёсць адна рэч, якая можа жахліва знізіць прадукцыйнасць у сучасных
+рухавіках JavaScript — гэта выкарыстанне <code>arguments.callee</code>.</p>
+<pre><code>function foo() {
+    arguments.callee; // робім што-небудзь з функцыяй foo
+    arguments.callee.caller; // і з функцыяй, якая выклікала foo
+}
+
+function bigLoop() {
+    for(var i = 0; i &lt; 100000; i++) {
+        foo(); // Звычайна ўстаўляецца...
+    }
+}</code></pre>
+<p>У вышэйпрыведзеным кодзе <code>foo</code> больш не можа быць <a href="http://en.wikipedia.org/wiki/Inlining">устаўлена</a>, бо ёй трэба
+ведаць аб сабе і аб функцыі, што яе выклікала. Гэта не толькі знішчае павышэнне
+прадукцыйнасці, якое магло адбыцца дзякуючы ўстаўцы, але і парушае інкапсуляцыю, бо
+функцыя цяпер залежыць ад спецыфічнага кантэксту, які яе выклікае.</p>
+<p>Выкарыстоўванне <code>arguments.callee</code> або яго ўласцівасцяў <strong>вельмі непажадана</strong>.</p>
+<aside>
+<p><strong>Заўвага для ES5:</strong> У строгім рэжыме <code>arguments.callee</code> кіне памылку <code>TypeError</code>,
+бо яго выкарыстанне аб&#39;яўлена састарэлым.</p>
+</aside>
+</div></article><article id="function.constructors"><h2>Канструктары</h2><div><p>Канструктары ў JavaScript таксама адрозніваюцца ад большасці іншых моваў. Любы
+выклік функцыі, якому папярэднічае ключавое слова <code>new</code> з&#39;яўляецца канструктарам.</p>
+<p>Унутры канструктара (выкліканай функцыі) - значэнне <code>this</code> спасылаецца на
+новаствораны аб&#39;ект. <a href="#object.prototype">Прататыпам</a> <strong>новага</strong>
+аб&#39;екта прызначаецца <code>prototype</code> функцыі, што была выклікана ў якасці канструктара.</p>
+<p>У выпадку, калі выкліканая функцыя не вяртае яўнага значэння праз <code>return</code>, будзе
+не яўна вернута значэнне <code>this</code>, то бок новы аб&#39;ект.</p>
+<pre><code>function Person(name) {
+    this.name = name;
+}
+
+Person.prototype.logName = function() {
+    console.log(this.name);
+};
+
+var sean = new Person();</code></pre>
+<p>У гэтым прыкладзе <code>Person</code> выклікаецца ў якасці канструктара, адпаведна <code>prototype</code>
+створанага аб&#39;екта будзе прывязаны да <code>Person.prototype</code>.</p>
+<p>Вярнуць яўнае значэнне праз <code>return</code>, можна <strong>толькі</strong> калі гэта значэнне - <code>Object</code>.</p>
+<pre><code>function Car() {
+    return &#39;ford&#39;;
+}
+new Car(); // новы аб&#39;ект, не &#39;ford&#39;
+
+function Person() {
+    this.someValue = 2;
+
+    return {
+        name: &#39;Charles&#39;
+    };
+}
+new Person(); // вяртае аб&#39;ект ({name:&#39;Charles&#39;}), які не ўтрымлівае someValue</code></pre>
+<p>Калі ключавое слова <code>new</code> прапушчана, функцыя <strong>не</strong> верне аб&#39;ект.</p>
+<pre><code>function Pirate() {
+    // пазначыць значэнне ў глабальным аб&#39;екце!
+    this.hasEyePatch = true;
+}
+var somePirate = Pirate(); // somePirate == undefined</code></pre>
+<p>Гэты прыклад можа спрацаваць у некаторых выпадках, праз тое як працуе
+<a href="#function.this"><code>this</code></a> у JavaScript. Значэннем <code>this</code> тут будзе
+<em>глабальны аб&#39;ект</em>.</p>
+<h3 id="-">Фабрыкі</h3>
+<p>Каб мець магчымасць прапусціць ключавое слова <code>new</code>, канструктар функцыі мае яўна
+вяртаць значэнне.</p>
+<pre><code>function Robot() {
+    var color = &#39;gray&#39;;
+    return {
+        getColor: function() {
+            return color;
+        }
+    }
+}
+
+new Robot();
+Robot();</code></pre>
+<p>Абодва выклікі <code>Robot</code> вернуць тое ж самае, новы аб&#39;ект, які мае ўласцівасць
+<code>getColor</code>, што з&#39;яўляецца <a href="#function.closures">замыканнем</a>.</p>
+<p>Таксама варта адзначыць, што выклік <code>new Robot()</code> <strong>не</strong> ўплывае на прататып
+вернутага аб&#39;екта. Хаця прататып будзе прызначаны новастворанаму аб&#39;екту, <code>Robot</code>
+ніколі не верне гэты аб&#39;ект.</p>
+<p>У прыкладзе вышэй, няма розніцы паміж выклікам функцыі з аператарам <code>new</code> або
+без яго.</p>
+<h3 id="-">Стварэнне новых аб&#39;ектаў з выкарыстаннем фабрык</h3>
+<p>Часта рэкамендуюць <strong>не</strong> выкарыстоўваць <code>new</code> бо забыўшыся выкарыстаць яго, можна
+стварыць памылку.</p>
+<p>Каб стварыць новы аб&#39;ект, лепш выкарыстоўваць фабрыку і стварыць новы аб&#39;ект
+<em>унутры фабрыкі</em>.</p>
+<pre><code>function CarFactory() {
+    var car = {};
+    car.owner = &#39;nobody&#39;;
+
+    var milesPerGallon = 2;
+
+    car.setOwner = function(newOwner) {
+        this.owner = newOwner;
+    }
+
+    car.getMPG = function() {
+        return milesPerGallon;
+    }
+
+    return car;
+}</code></pre>
+<p>Хоць гэты прыклад і спрацуе негледзячы на забытае <code>new</code>, і бясспрэчна выкарыстоўвае
+<a href="#function.closures">прыватныя пераменныя</a>, ён мае некалькі недахопаў.</p>
+<ol>
+<li>Ён выкарыстоўвае больш памяці, бо функцыі створаных аб&#39;ектаў <strong>не</strong> захоўваюццца
+у прататыпе, а ствараюцца на нова для кожнага аб&#39;екта.</li>
+<li>Каб эмуляваць спадкаемства, фабрыка мае скапіраваць метады іншага аб&#39;екта, або
+пазначыць прататыпам новага аб&#39;екта стары.</li>
+<li>Разрыў ланцужка прататыпаў, проста па прычыне забытага ключавога слова <code>new</code>,
+не адпавядае духу мовы JavaScript.</li>
+</ol>
+<h3 id="-">У заключэнне</h3>
+<p>Негледзячы на тое, што прапушчанае <code>new</code> можа выліцца ў памылку, гэта <strong>не</strong>
+прычына адмовіцца ад выкарыстання прататыпаў. У выніку лепш высвятліць якое рашэнне
+больш адпавядае патрабаванням праграмы. Асабліва важна выбраць пэўны стыль і
+<strong>паслядоўна</strong> выкарыстоўваць яго.</p>
+</div></article><article id="function.scopes"><h2>Зоны бачнасці і прасторы імёнаў</h2><div><p>Негледзячы на тое, што JavaScript добра працуе з сінтаксісам фігурных дужак для
+блокаў, у ім <strong>няма</strong> падтрымкі блочнай зоны бачнасці; усё што ёсць на гэты конт
+у мове - <em>зона бачнасці функцыі</em>.</p>
+<pre><code>function test() { // зона бачнасці
+    for(var i = 0; i &lt; 10; i++) { // не зона бачнасці
+        // лічым
+    }
+    console.log(i); // 10
+}</code></pre>
+<aside>
+<p><strong>Заўвага:</strong> Калі не выкарыстана ў прысвойванні, аператары return або аргуменце
+функцыі, натацыя <code>{...}</code> будзе інтэрпрэтавана як блочны выраз, а <strong>не</strong> як літэрал
+аб&#39;екта. Гэта з&#39;ява, сумесна з <a href="#core.semicolon">аўтаматычнай устаўкай коскі з кропкай</a>,
+можа прывесці да хітрых памылак.</p>
+</aside>
+<p>Таксама JavaScript не падтрымлівае выразныя прасторы імёнаў, усё аб&#39;яўляецца ў
+агульнадаступнай прасторы імёнаў.</p>
+<p>Для кожнай спасылкі на пераменную, JavaScript пойдзе ўверх па ўсіх зонах бачнасці,
+пакуль не знойдзе яе. У выпадку, калі ён дойдзе да глабальнай прасторы імён і ўсё
+яшчэ не знойдзе неабходнае імя, ён уздыме <code>ReferenceError</code>.</p>
+<h3 id="-">Атрута глабальнымі пераменнымі</h3>
+<pre><code>// скрыпт A
+foo = &#39;42&#39;;
+
+// скрыпт B
+var foo = &#39;42&#39;</code></pre>
+<p>Вышэйпрыведзеныя скрыпты маюць <strong>розныя</strong> вынікі. Скрыпт A аб&#39;яўляе пераменную
+<code>foo</code> у <em>глабальнай</em> зоне бачнасці, скрыпт B аб&#39;яўляе <code>foo</code> у <em>актуальнай</em> зоне
+бачнасці.</p>
+<p>Паўторымся, гэта абсалютна <strong>не</strong> <em>той жа самы вынік</em>: не выкарыстоўваенне <code>var</code>
+можа мець сур&#39;ёзныя наступствы.</p>
+<pre><code>// глабальная зона бачнасці
+var foo = 42;
+function test() {
+    // лакальная зона бачнасці
+    foo = 21;
+}
+test();
+foo; // 21</code></pre>
+<p>З-за таго, што аператар <code>var</code> прапушчаны ўнутры функцыі <code>test</code>, значэнне <code>foo</code>
+у глабальнай прасторы імён будзе перазапісаным. Хаця першапачаткова гэта можа
+падацца невялікай праблемай, не выкарыстоўванне <code>var</code> у кодзе на тысячы радкоў,
+прывядзе да жахлівых, цяжкіх для адладкі памылак.</p>
+<pre><code>// глабальная прастора імёнаў
+for(var i = 0; i &lt; 10; i++) {
+    subLoop();
+}
+
+function subLoop() {
+    // прастора імёнаў subLoop
+    for(i = 0; i &lt; 10; i++) { // аператар var прапушчаны
+        // робім чароўныя рэчы!
+    }
+}</code></pre>
+<p>Знешні цыкл скончыцца пасля першага выкліка <code>subLoop</code>, бо <code>subLoop</code> перазапісвае
+глабальную пераменную <code>i</code>. Выкарыстоўваючы <code>var</code> для другога цыкла <code>for</code> можна
+было б пазбегнуць памылкі. <strong>Ніколі</strong> не прапускайце аператар <code>var</code>, акрамя
+выпадкаў, калі змена дадзеных у знешняй зоне бачнасці ёсць <em>пажаданым вынікам</em>.</p>
+<h3 id="-">Лакальныя пераменныя</h3>
+<p>Адзіная крыніца лакальных пераменных у JavaScript гэта параметры <a href="#function.general">функцыі</a>
+і пераменныя аб&#39;яўленыя праз аператар <code>var</code>.</p>
+<pre><code>// глабальная зона бачнасці
+var foo = 1;
+var bar = 2;
+var i = 2;
+
+function test(i) {
+    // лакальная зона бачнасці функцыі test
+    i = 5;
+
+    var foo = 3;
+    bar = 4;
+}
+test(10);</code></pre>
+<p><code>foo</code> і <code>i</code> гэта лакальныя пераменныя унутры зоны бачнасці функцыі <code>test</code>,
+а вось прызначэнне <code>bar</code> перазапіша глабальныю пераменную з тым жа іменем.</p>
+<h3 id="-">Падыманне</h3>
+<p>JavaScript <strong>падымае</strong> аб&#39;яўленні. Гэта азначае, што абодва аб&#39;яўленні аператараў
+<code>var</code> і <code>function</code> падымуцца на верх іх зоны бачнасці.</p>
+<pre><code>bar();
+var bar = function() {};
+var someValue = 42;
+
+test();
+function test(data) {
+    if (false) {
+        goo = 1;
+
+    } else {
+        var goo = 2;
+    }
+    for(var i = 0; i &lt; 100; i++) {
+        var e = data[i];
+    }
+}</code></pre>
+<p>Вышэйпрыведзены код трансфармуецца перад пачаткам выконвання. JavaScript падымае
+аператары <code>var</code>, як і аб&#39;яўленне <code>function</code>, наверх бліжэйшай зоны бачнасці.</p>
+<pre><code>// аператар var перамяшчаецца сюды
+var bar, someValue; // па змоўчванню - &#39;undefined&#39;
+
+// аб&#39;яўленне функцыі таксама падымаецца наверх
+function test(data) {
+    var goo, i, e; // адсутная блочная зона бачнасці перайшла сюды
+    if (false) {
+        goo = 1;
+
+    } else {
+        goo = 2;
+    }
+    for(i = 0; i &lt; 100; i++) {
+        e = data[i];
+    }
+}
+
+bar(); // падае з TypeError бо ўсё яшчэ &#39;undefined&#39;
+someValue = 42; // прысвойванні не падымаюцца
+bar = function() {};
+
+test();</code></pre>
+<p>Адсутнасць блочнай зоны бачнасці не толькі падыме аператар <code>var</code> па-за межы цыкла
+і яго цела, але таскама зробіць вынік некаторых канструкцый <code>if</code> не-інтуітыўным.</p>
+<p>Хоць у арыгінальным кодзе падаецца што канструкцыя <code>if</code> змяняе <em>глабальную
+пераменную</em> <code>goo</code>, на дадзены момант гэта мяняе <em>лакальную пераменную</em> - пасля
+таго, як было прыменена падыманне.</p>
+<p>Без ведаў аб <em>падыманні</em>, можна падумаць што код ніжэй кіне <code>ReferenceError</code>.</p>
+<pre><code>// правярае ці было SomeImportantThing праініцыалізавана
+if (!SomeImportantThing) {
+    var SomeImportantThing = {};
+}</code></pre>
+<p>Але канешне, гэта працуе праз тое, што аператар <code>var</code> быў падняты на верх
+глабальнай <em>зоны бачнасці</em>.</p>
+<pre><code>var SomeImportantThing;
+
+// тут нейкі код можа ініцыалізаваць SomeImportantThing, або не
+
+// тут у гэтым можна ўпэўніцца
+if (!SomeImportantThing) {
+    SomeImportantThing = {};
+}</code></pre>
+<h3 id="-">Парадак доступу да пераменных</h3>
+<p>Усе зоны бачнасці ў JavaScript, уключаючы <em>глабальную зону бачнасці</em>, маюць
+адмысловае імя <a href="#function.this"><code>this</code></a>, аб&#39;яўленае ўнутры іх, якое спасылаецца
+на <em>актуальны аб&#39;ект</em>.</p>
+<p>Зоны бачнасці функцый таксама маюць імя <a href="#function.arguments"><code>arguments</code></a>,
+аб&#39;яўленае ў іх, якое спасылаецца на аргументы, што былі перададзеныя ў функцыю.</p>
+<p>Напрыклад, калі паспрабаваць атрымаць доступ да пераменнай <code>foo</code> унутры зоны
+бачнасці функцыі, JavaScript будзе шукаць імя ў наступным парадку:</p>
+<ol>
+<li>У выпадку калі прысутнічае канструкцыя <code>var foo</code> у актуальнай зоне бачнасці,
+ёна і выкарыстоўваецца.</li>
+<li>Калі параметр функцыі мае імя <code>foo</code>, ён будзе выкарыстаны.</li>
+<li>Калі сама функцыя называецца <code>foo</code>, яна будзе выкарыстана.</li>
+<li>Пераходзіць у знешнюю зону бачнасці, і пачынае з пункта <strong>#1</strong>.</li>
+</ol>
+<aside>
+<p><strong>Заўвага:</strong> Наява параметра названага <code>arguments</code> <strong>перадухіліць</strong> стварэнне
+параметра <code>arguments</code> па змоўчванні.</p>
+</aside>
+<h3 id="-">Прасторы імёнаў</h3>
+<p>Вялікая праблема, звязаная з выкарыстоўваннем глабальнай прасторы імёнаў, гэта
+высокая верагоднасць перасячэння імёнаў пераменных. У JavaScript, гэта праблема
+можа быць лёгка пазбегнута праз выкарыстанне <em>ананімных абгортак</em>.</p>
+<pre><code>(function() {
+    // аўтаномная &quot;прастора імён&quot;
+
+    window.foo = function() {
+        // адкрытае замыканне
+    };
+
+})(); // імгненнае выкананне функцыі</code></pre>
+<p>Ананімныя функцыі з&#39;яўляюцца <a href="#function.general">выразамі</a>; таму каб быць выкліканымі,
+яны спачатку маюць быць ацэненымі.</p>
+<pre><code>( // ацэньваем функцыю ўнутры дужак
+function() {}
+) // вяртаем аб&#39;ект функцыі
+() // выклік выніку ацэнкі</code></pre>
+<p>Ёсць і іншыя спосабы ацаніць і імгненна выклікаць выраз функцыі, хаця яны і
+адрозніваюцца па сінтаксісу, паводзяць сябе аднолькава.</p>
+<pre><code>// Яшчэ некалькі спосабаў наўпрост выклікаць функцыю
+!function(){}()
++function(){}()
+(function(){}());
+// і так далей...</code></pre>
+<h3 id="-">Заключэнне</h3>
+<p>Рэкамендуецца заўсёды выкарыстоўваць <em>ананімную абгортку</em> каб інкапсуліраваць код
+у яго асабістай прасторы імёнаў. Гэта не толькі абараняе код ад перасячэння імёнаў,
+але і дапамагае падзяляць праграму на модулі.</p>
+<p>Таксама выкарыстанне глабальных пераменных лічыцца <strong>дрэннай практыкай</strong>. <strong>Любое</strong>
+іх выкарыстоўванне - прыкмета дрэнна напісанага кода, схільнага да памылак, і цяжага
+ў падтрымцы.</p>
+</div></article></section><section id="array"><!-- Introduction--><header id="array.intro"><h1>Масівы</h1></header><!-- Articles--><article id="array.general"><h2>Ітэрацыі па масівам і ўласцівасці</h2><div><p>Хоць масівы ў JavaScript — аб&#39;екты, няма добрых падставаў для таго, каб
+выкарыстоўваць <a href="#object.forinloop">цыкл <code>for in</code></a> для ітэрацыі па масівах.
+Фактычна, ёсць шэраг добрых падстаў <strong>супраць</strong> гэтага.</p>
+<aside>
+<p><strong>Заўвага:</strong> масівы JavaScript <strong>не</strong> <em>асацыятыўныя масівы</em>. JavaScript мае
+<a href="#object.general">аб&#39;екты</a> для структуры ключ-значэнне. Але калі асацыятыўныя
+масівы <strong>захоўваюць</strong> парадак, аб&#39;екты — <strong>не</strong>.</p>
+</aside>
+<p>З той прычыны, што цыкл <code>for in</code> пералічвае ўсе ўласцівасці, якія ёсць у ланцужку прататыпаў,
+і таму, што адзіны спосаб выключыць гэтыя значэнні — <a href="#object.hasownproperty"><code>hasOwnProperty</code></a>,
+ітэрацыя атрымліваецца ў <strong>20 разоў</strong> марудней за звычайны цыкл <code>for</code>.</p>
+<h3 id="-">Ітэрацыя</h3>
+<p>Для таго, каб атрымаць найлепшую прадукцыйнасць у ітэрацыі па масіву, лепш
+выкарыстаць класічны цыкл <code>for</code>.</p>
+<pre><code>var list = [1, 2, 3, 4, 5, ...... 100000000];
+for(var i = 0, l = list.length; i &lt; l; i++) {
+    console.log(list[i]);
+}</code></pre>
+<p>У вышэйпрыведзеным прыкладзе ёсць яшчэ адзін прыём, з дапамогай якога можна кэшаваць
+памер масіва: <code>l = list.length</code>.</p>
+<p>Негледзячы на тое, што ўласцівасць <code>length</code> вызначана ў самім масіве, пошук
+гэтай уласцівасці накладвае выдаткі на пошук пры кожнай ітэрацыі цыкла. І хоць
+новыя рухавікі JavaScript <strong>могуць</strong> прымяніць аптымізацыю у гэтым выпадку, няма
+магчымасці дакладна ведаць, ці будзе код выкананы на гэтых новых рухавіках.</p>
+<p>Фактычна, адсутнасць кэшавання можа зрабіць выкананне цыкла <strong>ў два разы больш
+марудным</strong>, чым з кэшаваным &#39;length&#39;.</p>
+<h3 id="-length-">Уласцівасць <code>length</code></h3>
+<p>Хоць <em>гэтэр</em> уласцівасці <code>length</code> проста вяртае колькасць элементаў, што
+знаходзяцца у масіве, <em>сэтэр</em> можа быць выкарыстаны для <strong>абразання</strong> масіва.</p>
+<pre><code>var arr = [1, 2, 3, 4, 5, 6];
+arr.length = 3;
+arr; // [1, 2, 3]
+
+arr.length = 6;
+arr.push(4);
+arr; // [1, 2, 3, undefined, undefined, undefined, 4]</code></pre>
+<p>Прысвойванне ўласцівасці &#39;length&#39; меншага значэння абразае масіў. Прысваенне большага
+значэнне створыць разрэджаны масіў.</p>
+<h3 id="-">У заключэнне</h3>
+<p>Для лепшай прадукцыйнасці рэкамендуецца заўсёды выкарыстоўваць звычайны цыкл <code>for</code>,
+і кэшаваць уласціваць <code>length</code>. Выкарыстоўванне <code>for in</code> для ітэрацыі па масіву —
+прыкмета дрэнна напісанага коду, схільнага да памылак і дрэннай прадукцыйнасці.</p>
+</div></article><article id="array.constructor"><h2>Канструктар <code>Array</code></h2><div><p>Праз тое, што канструктар <code>Array</code> неадназначна апрацоўвае свае параметры,
+крайне рэкамендуецца выкарыстоўваць літэрал - <code>[]</code> - для стварэння масіваў.</p>
+<pre><code>[1, 2, 3]; // Вынік: [1, 2, 3]
+new Array(1, 2, 3); // Вынік: [1, 2, 3]
+
+[3]; // Вынік: [3]
+new Array(3); // Вынік: []
+new Array(&#39;3&#39;) // Вынік: [&#39;3&#39;]</code></pre>
+<p>У выпадку, калі канструктару <code>Array</code> перадаецца толькі адзін параметр, і калі гэты
+аргумент тыпу <code>Number</code>, канструктар верне <em>разрэджаны</em> масіў, які мае уласціваць
+<code>length</code> са значэннем аргумента. Варта адзначыць, што такім чынам будзе зменена
+<strong>толькі</strong> значэнне ўласцівасці <code>length</code> масіва; індэксы масіва не будуць
+праініцыялізаваныя.</p>
+<pre><code>var arr = new Array(3);
+arr[1]; // undefined
+1 in arr; // false, індэкс не праініцыялізаваны</code></pre>
+<p>Магчымасць загадзя вызначыць даўжыню масіва карысна толькі ў рэдкіх выпадках,
+напрыклад, паўтор радка без выкарыстання цыкла.</p>
+<pre><code>new Array(count + 1).join(stringToRepeat);</code></pre>
+<h3 id="-">У заключэнне</h3>
+<p>Літэралы маюць перавагі над канструктарам Array. Яны карацейшыя, маюць больш чысты
+сінтаксіс і робяць код больш чытэльным.</p>
+</div></article></section><section id="types"><!-- Introduction--><header id="types.intro"><h1>Тыпы</h1></header><!-- Articles--><article id="types.equality"><h2>Роўнасць і параўнанне</h2><div><p>У JavaScript роўнасць значэнняў аб&#39;ектаў можна вызначыць двумя спосабамі.</p>
+<h3 id="-">Аператар роўнасці</h3>
+<p>Аператар роўнасці складаецца з двух сімвалаў &#39;роўна&#39;: <code>==</code></p>
+<p>JavaScript мае <em>слабую тыпізацыю</em>. Гэта значыць што аператар роўнасці
+<strong>прыводзіць</strong> тыпы аб&#39;ектаў, каб параўнаць іх.</p>
+<pre><code>&quot;&quot;           ==   &quot;0&quot;           // false
+0            ==   &quot;&quot;            // true
+0            ==   &quot;0&quot;           // true
+false        ==   &quot;false&quot;       // false
+false        ==   &quot;0&quot;           // true
+false        ==   undefined     // false
+false        ==   null          // false
+null         ==   undefined     // true
+&quot; \t\r\n&quot;    ==   0             // true</code></pre>
+<p>Вышэй прыведзеная табліца паказвае вынікі прывядзення тыпаў, і гэта галоўная прычына
+па якой выкаростоўванне <code>==</code> лічыцца дрэннай практыкай. Яно прыводзіць да памылак
+якія цяжка адсачыць праз складаны механізм прывядзення тыпаў.</p>
+<p>Акрамя гэтага, прывядзенне тыпаў таксама ўплывае на вытворчасць;
+напрыклад, радок мае быць ператвораны ў нумар, перад тым як быць параўнаным з
+іншым нумарам.</p>
+<h3 id="-">Аператар строгай роўнасці</h3>
+<p>Аператар строгай роўнасці складаецца з <strong>трох</strong> сімвалаў &#39;роўна&#39;: <code>===</code>.</p>
+<p>Ён дзейнічае як звычайны аператар роўнасці, за выключэннем таго, што строгая
+роўнасць <strong>не</strong> прыводзіць аперанды да агульнага тыпу.</p>
+<pre><code>&quot;&quot;           ===   &quot;0&quot;           // false
+0            ===   &quot;&quot;            // false
+0            ===   &quot;0&quot;           // false
+false        ===   &quot;false&quot;       // false
+false        ===   &quot;0&quot;           // false
+false        ===   undefined     // false
+false        ===   null          // false
+null         ===   undefined     // false
+&quot; \t\r\n&quot;    ===   0             // false</code></pre>
+<p>Вышэй прыведзеныя вынікі значна больш зразумелыя і даюць магчымасць хутчэй выявіць
+памылкі ў кодзе. Гэта паляпшае код, а таксама дае прырост вытворчасці, у выпадку
+калі аперанды розных тыпаў.</p>
+<h3 id="-">Параўнанне аб&#39;ектаў</h3>
+<p>Хоць абодва аператар <code>==</code> і <code>===</code> называюцца аператарамі <strong>роўнасці</strong>, яны паводзяць
+сабе па рознаму калі хоць адзін аперанд тыпа <code>Object</code>.</p>
+<pre><code>{} === {};                   // false
+new String(&#39;foo&#39;) === &#39;foo&#39;; // false
+new Number(10) === 10;       // false
+var foo = {};
+foo === foo;                 // true</code></pre>
+<p>Тут абодва аператанда параўноўваюцца на <strong>ідэнтычнасць</strong>, а <strong>не</strong> на роўнасць;
+то бок будзе праверана, ці з&#39;яўляюцца яны адным <strong>экзэмплярам</strong> аб&#39;екта. Гэтак жа,
+як <code>is</code> у Python, або параўнанне ўказальнікаў у C.</p>
+<h3 id="-">У заключэнне</h3>
+<p>Настойліва рэкамендуецца выкарыстоўваць толькі аператар <strong>строгай роўнасці</strong>.
+У выпадку, калі тыпы маюць быць прыведзеныя, гэта варта рабіць <a href="#types.casting">яўна</a>,
+а не пакідаць іх на сумленні складаных правілаў прывядзення мовы праграмавання.</p>
+</div></article><article id="types.typeof"><h2>Аператар <code>typeof</code></h2><div><p>Аператар <code>typeof</code> (разам з <a href="#types.instanceof"><code>instanceof</code></a>) магчыма найбольшая
+хіба мовы JavaScript, таму што ён амаль што <strong>цалкам зламаны</strong>.</p>
+<p>Хаця <code>instanceof</code> усё яшчэ мае абмежаванае ўжыванне, <code>typeof</code> можа быць выкарыстаны
+толькі з адной мэтай, і гэта дарэчы <strong>не</strong> праверка тыпа.</p>
+<aside>
+<p><strong>Заўвага:</strong> Хаця для выкліка <code>typeof</code> можна выкарыстаць сінтаксіс функцыі, то бок
+<code>typeof(obj)</code>, гэта не выклік функцыі. Дужкі будуць апрацоўвацца нармальна
+і вернутае значэнне будзе выкарыстана як аперанд аператара <code>typeof</code>.
+<strong>Не існуе</strong> функцыі <code>typeof</code>.</p>
+</aside>
+<h3 id="-javascript">Табліца тыпаў JavaScript</h3>
+<pre><code>Значэнне            Клас       Тып
+-------------------------------------
+&quot;foo&quot;               String     string
+new String(&quot;foo&quot;)   String     object
+1.2                 Number     number
+new Number(1.2)     Number     object
+true                Boolean    boolean
+new Boolean(true)   Boolean    object
+new Date()          Date       object
+new Error()         Error      object
+[1,2,3]             Array      object
+new Array(1, 2, 3)  Array      object
+new Function(&quot;&quot;)    Function   function
+/abc/g              RegExp     object (function in Nitro/V8)
+new RegExp(&quot;meow&quot;)  RegExp     object (function in Nitro/V8)
+{}                  Object     object
+new Object()        Object     object</code></pre>
+<p>У вышэй прыведзенай табыліцы, <em>Тып</em> паказвае значэнне вернутае аператарам <code>typeof</code>.
+Як можна пабачыць, гэта значэнне абсалютна не кансістэнтнае.</p>
+<p><em>Клас</em> паказвае значэнне ўнутраннай уласцівасці <code>[[Class]]</code> аб&#39;екта.</p>
+<aside>
+<p><strong>З спецыфікацыі:</strong> значэнне <code>[[Class]]</code> можа быць быць адным з наступных
+радкоў. <code>Arguments</code>, <code>Array</code>, <code>Boolean</code>, <code>Date</code>, <code>Error</code>,
+<code>Function</code>, <code>JSON</code>, <code>Math</code>, <code>Number</code>, <code>Object</code>, <code>RegExp</code>, <code>String</code>.</p>
+</aside>
+<h3 id="-">Клас аб&#39;екта</h3>
+<p>Адзіны спосаб атрымаць значэнне <code>[[Class]]</code> аб&#39;екта - выклікаць метад <code>Object.prototype.toString</code>.
+Ён верне радок у наступным фармаце: <code>&#39;[object &#39; + valueOfClass + &#39;]&#39;</code>, напрыклад
+<code>[object String]</code> або <code>[object Array]</code>:</p>
+<pre><code>function is(type, obj) {
+    var clas = Object.prototype.toString.call(obj).slice(8, -1);
+    return obj !== undefined &amp;&amp; obj !== null &amp;&amp; clas === type;
+}
+
+is(&#39;String&#39;, &#39;test&#39;); // true
+is(&#39;String&#39;, new String(&#39;test&#39;)); // true</code></pre>
+<p>У вышэйпрыведзеным прыкладзе, <code>Object.prototype.toString</code> выклікаецца са значэннем
+<a href="#function.this">this</a> пазначаным як аб&#39;ект чыё значэнне <code>[[Class]]</code> мае быць
+атрыманым.</p>
+<aside>
+<p><strong>Заўвага для ES5:</strong> у ECMAScript 5, для зручнасці, значэнне <code>Object.prototype.toString</code>
+для <code>null</code> і <code>undefined</code> было <strong>зменена</strong> з <code>Object</code> на <code>Null</code> і
+<code>Undefined</code> адпаведна.</p>
+</aside>
+<h3 id="-">Праверка вызначанасці пераменных</h3>
+<pre><code>typeof foo !== &#39;undefined&#39;</code></pre>
+<p>Вышэйпрыведзены код праверыць ці было вызначана <code>foo</code>; просты зварот да пераменнай
+прывядзе да <code>ReferenceError</code>. Гэта адзінае для чаго карысны <code>typeof</code>.</p>
+<h3 id="-">У заключэнне</h3>
+<p>Каб праверыць тып аб&#39;екта, настойліва рэкамендуецца выкарыстоўваць
+<code>Object.prototype.toString</code> - гэта адзіны надзейны спосаб.
+Як паказана ў вышэйпрыведзенай табліцы, некаторыя значэнні вернутыя аператарам
+<code>typeof</code> не вызначаныя ў спецыфікацыі; такім чынам, яны могуць быць рознымі ў
+розных рэалізацыях.</p>
+<p>Акрамя як для праверкі вызначанасці пераменнай, <code>typeof</code> мае быць пазбегнуты.</p>
+</div></article><article id="types.instanceof"><h2>Аператар <code>instanceof</code></h2><div><p>Аператар <code>instanceof</code> параўноўвае канструктары двух аперандаў. Гэта карысна толькі
+для параўнання аб&#39;ектаў не ўбудаваных тыпаў. Выкарыстоўванне на ўбудаваных тыпах не
+мае сэнсу, як і <a href="#types.typeof">аператар typeof</a>.</p>
+<h3 id="-">Параўнанне адвольных аб&#39;ектаў</h3>
+<pre><code>function Foo() {}
+function Bar() {}
+Bar.prototype = new Foo();
+
+new Bar() instanceof Bar; // true
+new Bar() instanceof Foo; // true
+
+// Калі толькі прысвоім Bar.prototype аб&#39;ект функцыі Foo,
+// але не самаго экзэмпляра Foo
+Bar.prototype = Foo;
+new Bar() instanceof Foo; // false</code></pre>
+<h3 id="-instanceof-">Выкарыстоўванне <code>instanceof</code> з убудаванымі тыпамі</h3>
+<pre><code>new String(&#39;foo&#39;) instanceof String; // true
+new String(&#39;foo&#39;) instanceof Object; // true
+
+&#39;foo&#39; instanceof String; // false
+&#39;foo&#39; instanceof Object; // false</code></pre>
+<p>Варта адзначыць, што <code>instanceof</code> не працуе на аб&#39;ектах, якія паходзяць з розных
+кантэкстаў JavaScript (напрыклад, розных дакументаў у web-браузеры), бо іх канструктары
+насамрэч не будуць канструктарамі тых самых аб&#39;ектаў.</p>
+<h3 id="-">У заключэнне</h3>
+<p>Аператар <code>instanceof</code> мае быць выкарыстаны <strong>толькі</strong> для працы з аб&#39;ектамі не
+ўбудаваных тыпаў якія паходзяць з аднаго кантэкста JavaScript. Як і ў выпадку з
+<a href="#types.typeof">аператарам <code>typeof</code></a>, трэба <strong>пазбягаць</strong> любога іншага яго выкарыстання.</p>
+</div></article><article id="types.casting"><h2>Прывядзенне тыпаў</h2><div><p>JavaScript - <em>слаба тыпізаваная</em> мова, таму <em>прывядзенне тыпаў</em> адбываецца
+<strong>паўсюль</strong> дзе магчыма.</p>
+<pre><code>// Гэтыя равенствы - праўдзівыя
+new Number(10) == 10; // аб&#39;ект тыпа Number пераўтвараецца у
+                      // лікавы прымітыў, праз няяўны выклік
+                      // метада Number.prototype.valueOf
+
+10 == &#39;10&#39;;           // Strings пераўтвараецца ў Number
+10 == &#39;+10 &#39;;         // Троху вар&#39;яцтва з радкамі
+10 == &#39;010&#39;;          // і яшчэ
+isNaN(null) == false; // null пераўтвараецца ў 0
+                      // які вядома ж не NaN
+
+// Гэтыя равенствы - ілжывыя
+10 == 010;
+10 == &#39;-10&#39;;</code></pre>
+<aside>
+<p><strong>Заўвага для ES5:</strong> Лічбавыя літэралы, што пачынаюцца з <code>0</code> інтэрпрэтуюцца як
+васьмірычныя (Base 8). Падтрымка васьмірычнай сістэмы была <strong>прыбраная</strong> у
+ECMAScript 5 strict mode.</p>
+</aside>
+<p>Каб пазбегнуць вышэйпрыведзеных праблемаў, <strong>настойліва</strong> ракамендуецца выкарыстоўваць
+<a href="#types.equality">аператар строгай роўнасці</a>. Зрэшты, хоць гэта і пазбаўляе ад
+многіх распаўсюджаных праблемаў, існуе яшчэ шмат праблемаў, які ўзнікаюць праз
+слабую тыпізацыю JavaScript.</p>
+<h3 id="-">Канструктары ўбудаваных тыпаў</h3>
+<p>Канструктары ўбудаваных тыпаў, напрыклад, <code>Number</code> і <code>String</code> паводзяць сябе
+па рознаму, у залежнасці ад таго, выклікаюцца яны з ключавым словам <code>new</code> або без яго.</p>
+<pre><code>new Number(10) === 10;     // False, Object і Number
+Number(10) === 10;         // True, Number і Number
+new Number(10) + 0 === 10; // True, праз неяўнае прывядзенне</code></pre>
+<p>Выкарыстанне ўбудаванага тыпу, такога як <code>Number</code> у якасці канструкта створыць новы
+экзэмпляр аб&#39;екта <code>Number</code>, але пры адсутнасці ключавога слова <code>new</code> функцыя
+<code>Number</code> будзе паводзіць сябе як канвертар.</p>
+<p>У дадатак, выкарытоўванне літэралаў, або значэнняў якія не з&#39;яўляюцца аб&#39;ектамі
+прывядзе да дадатковых прывядзенняў тыпаў.</p>
+<p>Лепшы варыянт - гэта <strong>яўнае</strong> прывядзенне да аднаго з трох магчымых тыпаў.</p>
+<h3 id="-">Прывядзенне да радка</h3>
+<pre><code>&#39;&#39; + 10 === &#39;10&#39;; // true</code></pre>
+<p>Праз даданне да значэння пустога радка, яно лёгка прыводзіцца да радка.</p>
+<h3 id="-">Прывядзенне да лікавага тыпу</h3>
+<pre><code>+&#39;10&#39; === 10; // true</code></pre>
+<p>Выкарыстоўваючы <strong>унарны</strong> аператар плюс, магчыма пераўтварыць значэнне ў нумар.</p>
+<h3 id="-">Прывядзенне да булевага тыпу</h3>
+<p>Выкарыстоўваючы аператар <strong>адмаўленне (!)</strong> двойчы, значэнне можна прыведзена
+да лагічнага (булевага) тыпу.</p>
+<pre><code>!!&#39;foo&#39;;   // true
+!!&#39;&#39;;      // false
+!!&#39;0&#39;;     // true
+!!&#39;1&#39;;     // true
+!!&#39;-1&#39;     // true
+!!{};      // true
+!!true;    // true</code></pre>
+</div></article></section><section id="core"><!-- Introduction--><header id="core.intro"><h1>Ядро</h1></header><!-- Articles--><article id="core.eval"><h2>Чаму не варта выкарыстоўваць <code>eval</code></h2><div><p>Функцыя <code>eval</code> выконвае радок JavaScript коду ў лакальнай зоне бачнасці.</p>
+<pre><code>var number = 1;
+function test() {
+    var number = 2;
+    eval(&#39;number = 3&#39;);
+    return number;
+}
+test(); // 3
+number; // 1</code></pre>
+<p>Тым не менш, <code>eval</code> выконваецца ў лакальнай прасторы імён толькі ў тым выпадку, калі
+яна была выклікана наўпрост <em>і</em> імя выкліканай функцыі — <code>eval</code>.</p>
+<pre><code>var number = 1;
+function test() {
+    var number = 2;
+    var copyOfEval = eval;
+    copyOfEval(&#39;number = 3&#39;);
+    return number;
+}
+test(); // 2
+number; // 3</code></pre>
+<p>Лепш пазбягаць выкарыстоўвання <code>eval</code>. 99,9% яе «выкарыстанняў» можа быць дасягнута
+<strong>без</strong> яе.</p>
+<h3 id="-eval-">Схаваны <code>eval</code></h3>
+<p>Абедзве <a href="#other.timeouts">функцыі тайм-аўты</a> <code>setTimeout</code> і <code>setInterval</code> могуць
+прымаць радок у якасці першага аргумента. Гэты радок будзе <strong>заўсёды</strong> выконвацца
+ў глабальнай прасторы імёнаў, бо <code>eval</code> не выклікаецца наўпрост у дадзеным выпадку.</p>
+<h3 id="-">Праблемы з бяспекаю</h3>
+<p>Таксама <code>eval</code> мае праблемы з бяспекаю, бо ён выконвае <strong>любы</strong> перададзены код.
+Таму яе <strong>ніколі</strong> не варта выкарыстоўваць з радкамі, што паходзяць з ненадзейных
+крыніцаў.</p>
+<h3 id="-">Заключэнне</h3>
+<p>Лепш ніколі не выкарыстоўваць <code>eval</code>. Любы код, што выкарыстоўвае яе, спрэчны ў
+плане якасці, карэктнасці, прадукцыйнасці і бяспекі. Калі для таго, каб нешта
+працавала, патрэбны <code>eval</code>, <strong>не</strong> трэба прымаць гэта рашэнне ў першую чаргу.
+<em>Лепшым рашэннем</em> будзе тое, што не будзе выкарыстоўваць <code>eval</code>.</p>
+</div></article><article id="core.undefined"><h2><code>undefined</code> і <code>null</code></h2><div><p>JavaScript мае два розныя значэнні для &#39;нічога&#39; - гэта <code>null</code> і <code>undefined</code>, пры
+гэтым апошняе больш карыснае.</p>
+<h3 id="-undefined-">Значэнне <code>undefined</code></h3>
+<p><code>undefined</code> — гэта тып з роўна адным значэннем: <code>undefined</code>.</p>
+<p>Мова таксама аб&#39;яўляе глабальную пераменную, што мае значэнне <code>undefined</code>; Гэта
+пераменная таксама называецца <code>undefined</code>. Тым не менш, гэта пераменная, а <strong>не</strong>
+канстанта, ці ключавое слова. Гэта азначае, што яе <em>значэнне</em> можа быць
+з лёгкасцю перазапісаным.</p>
+<aside>
+<p><strong>Заўвага для ES5:</strong> у ECMAScript 5 <code>undefined</code> <strong>больш</strong> <em>нельга запісваць</em> у
+строгім рэжыме, але гэта імя можа ўся яшчэ быць перакрыта праз выкарыстанне
+функцыі з іменем <code>undefined</code>.</p>
+</aside>
+<p>Ніжэй пералічаныя некалькі выпадкаў, калі вяртаецца <code>undefined</code>:</p>
+<ul>
+<li>Доступ да (немадыфікаванай) глабальнай пераменнай <code>undefined</code>.</li>
+<li>Доступ да аб&#39;яўленай, <em>але яшчэ не</em> ініцыалізаванай пераменнай.</li>
+<li>Няяўна вернутае значэнне функцыі праз адсутнасць аператара <code>return</code>.</li>
+<li>З аператара <code>return</code>, які нічога яўна не вяртае.</li>
+<li>У выніку пошуку неіснуючай уласцівасці аб&#39;екта.</li>
+<li>Параметры функцыі, якім яўна не было прысвоена значэнне.</li>
+<li>Усё, чаму было прысвоена значэнне <code>undefined</code>.</li>
+<li>Любы выраз у форме <code>void(expression)</code>.</li>
+</ul>
+<h3 id="-undefined-">Апрацоўка зменаў значэння <code>undefined</code></h3>
+<p>З той прычыны, што глабальная пераменная <code>undefined</code> утрымлівае толькі копію
+актуальнага <em>значэння</em> <code>undefined</code>, прысвойванне ёй новага значэння <strong>не</strong> мяняе
+значэнне <em>тыпа</em> <code>undefined</code>.</p>
+<p>Таксама для таго, каб параўнаць што-небудзь з значэннем <code>undefined</code>, спачатку
+трэба атрымаць значэнне <code>undefined</code>.</p>
+<p>Звыклая тэхніка абароны ад магчымага перазапісвання пераменнай <code>undefined</code> —
+дадатковы параметр у <a href="#function.scopes">ананімнай абгортцы</a>, што выкарыстоўвае
+адсутны аргумент.</p>
+<pre><code>var undefined = 123;
+(function(something, foo, undefined) {
+    // цяпер undefined у лакальнай зоне бачнасці
+    // зноў спасылаецца на значэнне `undefined`
+
+})(&#39;Hello World&#39;, 42);</code></pre>
+<p>Гэтага ж выніку можна дасягнуць праз аб&#39;яўленне ўнутры абгорткі.</p>
+<pre><code>var undefined = 123;
+(function(something, foo) {
+    var undefined;
+    ...
+
+})(&#39;Hello World&#39;, 42);</code></pre>
+<p>Адзіная розніца ў тым, што гэта апошняя версія будзе большай на 4 байты пры
+мініфікацыі, а ў першым унутры ананімнай абгорткі не будзе аператара <code>var</code>.</p>
+<h3 id="-null-">Выкарыстоўванне <code>null</code></h3>
+<p>Хаця <code>undefined</code> у кантэксце мовы JavaScript у асноўным выкарыстоўваецца ў сэнсе
+традыйнага <em>null</em>, сам <code>null</code> (і літэрал і тып) з&#39;яўляецца яшчэ адным тыпам дадзеных.</p>
+<p>Выкарыстоўваецца ў некаторых унутранных механізмах JavaScript (напрыклад аб&#39;яўленне
+канца ланцужка прататыпаў пазначаючы <code>Foo.prototype = null</code>), але амаль што ва ўсіх
+выпадках ён можа быць заменены на <code>undefined</code>.</p>
+</div></article><article id="core.semicolon"><h2>Аўтаматычная ўстаўка кропкі з коскай</h2><div><p>Хаця JavaScript мае C-падобны сінтакс, ён <strong>не</strong> прымушае выкарыстоўваць кропку
+з коскай у кодзе, таму ёсць магчымасць прапускаць іх.</p>
+<p>Але JavaScript — не мова без кропак з коскай. Насамрэч яны патрэбны ёй, каб разумець
+зыходны код. Таму парсер JavaScript <strong>аўтаматычна</strong> ўстаўляе іх паўсюль, дзе
+сустракае памылку адсутнасці кропкі з коскай.</p>
+<pre><code>var foo = function() {
+} // памылка разбора, парсер чакаў кропку з коскай
+test()</code></pre>
+<p>Адбываецца ўстаўка, парсер спрабуе зноў.</p>
+<pre><code>var foo = function() {
+}; // памылкі няма, парсер працягвае
+test()</code></pre>
+<p>Аўтаматычная ўстаўка кропкі з коскай лічыцца адной з <strong>найвялікшых</strong> архітэктурных
+памылак у мове, бо <em>можа</em> змяніць паводзіны кода.</p>
+<h3 id="-">Як яно працуе</h3>
+<p>Ніжэйпрыведзены код не мае кропак з коскай, таму парсер вырашае дзе іх уставіць.</p>
+<pre><code>(function(window, undefined) {
+    function test(options) {
+        log(&#39;testing!&#39;)
+
+        (options.list || []).forEach(function(i) {
+
+        })
+
+        options.value.test(
+            &#39;long string to pass here&#39;,
+            &#39;and another long string to pass&#39;
+        )
+
+        return
+        {
+            foo: function() {}
+        }
+    }
+    window.test = test
+
+})(window)
+
+(function(window) {
+    window.someLibrary = {}
+
+})(window)</code></pre>
+<p>Ніжэй — вынік гульні парсера ў адгадванне.</p>
+<pre><code>(function(window, undefined) {
+    function test(options) {
+
+        // Не ўстаўлена, радкі былі аб&#39;яднаныя
+        log(&#39;testing!&#39;)(options.list || []).forEach(function(i) {
+
+        }); // &lt;- устаўлена
+
+        options.value.test(
+            &#39;long string to pass here&#39;,
+            &#39;and another long string to pass&#39;
+        ); // &lt;- устаўлена
+
+        return; // &lt;- устаўлена, разбіў аператар return на два блока
+        { // парсер лічыць гэты блок асобным
+            foo: function() {}
+        }; // &lt;- устаўлена
+    }
+    window.test = test; // &lt;- устаўлена
+
+// Радкі зноў аб&#39;ядналіся
+})(window)(function(window) {
+    window.someLibrary = {}; // &lt;- устаўлена
+
+})(window); //&lt;- устаўлена</code></pre>
+<aside>
+<p><strong>Заўвага:</strong> Парсер JavaScript не апрацоўвае &quot;карэктна&quot; аператар return, калі
+пасля яго пачынаецца новы радок. Магчыма прычына і не ў аўтаматычнай устаўцы
+кропак з коскай, але гэта, тым не менш, непажаданы эфект.</p>
+</aside>
+<p>Парсер кардынальна памяняў паводзіны кода. У пэўных выпадках ён прымае <strong>памылковыя
+рашэнні</strong>.</p>
+<h3 id="-">Вядучыя дужкі</h3>
+<p>У выпадку вядучай дужкі парсер <strong>не</strong> уставіць кропку з коскай.</p>
+<pre><code>log(&#39;testing!&#39;)
+(options.list || []).forEach(function(i) {})</code></pre>
+<p>Гэты код ператворыцца ў радок.</p>
+<pre><code>log(&#39;testing!&#39;)(options.list || []).forEach(function(i) {})</code></pre>
+<p><strong>Вельмі</strong> верагодна, што <code>log</code> <strong>не</strong> вяртае функцыю; Таму вышэйпрыведзены
+код справакуе <code>TypeError</code> з заявай, што <code>undefined</code> не з&#39;яўляецца функцыяй.</p>
+<h3 id="-">Заключэнне</h3>
+<p>Крайне рэкамендуецца <strong>ніколі</strong> не прапускаць кропку з коскай. Таксама заўсёды
+рэкамендуецца ставіць дужкі на той жа лініі, што і адпаведныя канструкцыі, і ніколі
+не прапускаць іх у аднарадковых канструкцыях <code>if</code> / <code>else</code>. Гэтыя меры не толькі
+павысяць кансістэнтнасць кода, але таксама прадухіляць ад таго, што парсер
+JavaScript зменіць паводзіны кода.</p>
+</div></article><article id="core.delete"><h2>Аператар <code>delete</code></h2><div><p>У JavaScript <em>немагчыма</em> выдаліць глабальныя пераменныя, функцыі і некаторыя іншыя
+рэчы, што маюць атрыбут <code>DontDelete</code>.</p>
+<h3 id="-">Глабальны код і код функцый.</h3>
+<p>Калі пераменная або функцыя аб&#39;яўленыя ў глабальнай зоне бачнасці, або <a href="#function.scopes">зоне бачнасці
+функцыі</a> то яна будзе ўласцівасцю або аб&#39;екта актывацыі, або
+глабальнай зоны бачнасці. Такія ўласцівасці маюць набор атрыбутаў, адзін з іх —
+<code>DontDelete</code>. Пераменныя і функцыі, аб&#39;яўленыя ў глабальнай зоне бачнасці і зоне
+бачнасці функцыі, заўсёды ствараюцца з уласцівасцю <code>DontDelete</code>, а таму не могуць
+быць выдаленыя.</p>
+<pre><code>// глабальная пераменная:
+var a = 1; // мае ўласцівасць DontDelete
+delete a; // false
+a; // 1
+
+// звычайная функцыя:
+function f() {} // мае ўласціваць DontDelete
+delete f; // false
+typeof f; // &quot;function&quot;
+
+// перапрызначэнне не дапамагае:
+f = 1;
+delete f; // false
+f; // 1</code></pre>
+<h3 id="-">Яўна прызначаныя ўласцівасці</h3>
+<p>Яўна прызначаныя ўласцівасці могуць быць лёгка выдаленыя.</p>
+<pre><code>// яўна прызначаныя ўласцівасці:
+var obj = {x: 1};
+obj.y = 2;
+delete obj.x; // true
+delete obj.y; // true
+obj.x; // undefined
+obj.y; // undefined</code></pre>
+<p>У вышэйпрыведзеным прыкладзе, <code>obj.x</code> і <code>obj.y</code> могуць быць выдаленыя, бо не маюць
+атрыбута <code>DontDelete</code>. Таму і прыкад ніжэй працуе:</p>
+<pre><code>// Гэта працуе правільна, акрамя IE:
+var GLOBAL_OBJECT = this;
+GLOBAL_OBJECT.a = 1;
+a === GLOBAL_OBJECT.a; // true — глабальная пераменная
+delete GLOBAL_OBJECT.a; // true
+GLOBAL_OBJECT.a; // undefined</code></pre>
+<p>Гэта прыём, каб выдаліць <code>a</code>. <a href="#function.this"><code>this</code></a> спасылаецца на глабальны
+аб&#39;ект, і мы яўна аб&#39;яўляем пераменную <code>a</code> як яго ўласцівасць, што дазваляе нам
+выдаліць яе.</p>
+<p>IE (прынамсі 6-8) мае хібы, таму вышэйпрыведзены код там працаваць не будзе.</p>
+<h3 id="-">Аргументы функцый і ўбудаваныя ўласцівасці</h3>
+<p>Звычайныя аргументы функцыі, <a href="#function.arguments">аб&#39;ект <code>arguments</code></a>, а таксама
+убудаваныя ўласцівасці таксама маюць атрыбут <code>DontDelete</code>.</p>
+<pre><code>// аргументы функцыі і ўласцівасці:
+(function (x) {
+
+  delete arguments; // false
+  typeof arguments; // &quot;object&quot;
+
+  delete x; // false
+  x; // 1
+
+  function f(){}
+  delete f.length; // false
+  typeof f.length; // &quot;number&quot;
+
+})(1);</code></pre>
+<h3 id="-">У заключэнне</h3>
+<p>Аператар <code>delete</code> часта паводзіць сябе нечакана, таму адзінае надзейнае выкарыстанне
+<code>delete</code> — выдаленне яўна прызначаных уласцівасцяў.</p>
+</div></article></section><section id="other"><!-- Introduction--><header id="other.intro"><h1>Рэшта</h1></header><!-- Articles--><article id="other.timeouts"><h2><code>setTimeout</code> і <code>setInterval</code></h2><div><p>Дзякуючы асінхроннасці JavaScript магчыма запланаваць выкананне функцыі з дапамогай 
+метадаў <code>setTimeout</code> і <code>setInterval</code>.</p>
+<aside>
+<p><strong>Заўвага:</strong> Таймаўты <strong>не</strong> з&#39;яўляюцца часткай стандарта ECMAScript. Яны былі
+распрацаваны ў <a href="http://www.nczonline.net/blog/2009/09/29/web-definitions-dom-ajax-and-more/" title="Web definitions: DOM, Ajax, and more">BOM, ці DOM Узровень 0</a>, якія ніколі не былі аб&#39;яўлены ці
+задакументаваны фармальна. Да гэтага часу няма рэкамендацыйных спецыфікацый,
+аднак, у дадзены момант яны стандартызаваны ў <a href="http://www.w3.org/TR/2014/WD-html5-20140617/webappapis.html#timers" title="6 Web application APIs - HTML5">HTML5</a>. У сувязі з гэтым 
+рэалізацыя можа адрознівацца ў залежнасці ад браўзера і рухавіка</p>
+</aside>
+<pre><code>function foo() {}
+var id = setTimeout(foo, 1000); // вяртае Number &gt; 0</code></pre>
+<p>Калі функцыя <code>setTimeout</code> выклікана, яна вяртае ID таймаўта і плануе выкананне 
+<code>foo</code> <strong>прыблізна</strong> праз тысячу мілісекунд. 
+<code>foo</code> будзе выканана <strong>аднойчы</strong>.</p>
+<p>Улічваючы вырашэнні таймера рухавіка Javascript, які выконвае код,
+аднапаточнасць JavaScript і тое, што іншы код, які выконваецца
+можа блакаваць паток, <strong>нельга</strong> быць упэўненым, што вы атрымаеце затрымку,
+пазначанаю ў выкліку <code>setTimeout</code>.</p>
+<p>Функцыя, якая была перададзена як першы параметр, будзе выклікана 
+<em>глабальным аб&#39;ектам</em>, гэта азначае, што <a href="#function.this"><code>this</code></a> унутры выкліканай функцыі 
+спасылаецца на глабальны аб&#39;ект.</p>
+<pre><code>function Foo() {
+    this.value = 42;
+    this.method = function() {
+        // this спасылаецца на глабальны аб&#39;ект
+        console.log(this.value); // выведзе undefined
+    };
+    setTimeout(this.method, 500);
+}
+new Foo();</code></pre>
+<aside>
+<p><strong>Заўвага:</strong> Так як <code>setTimeout</code> прымае <strong>функцыю</strong> як першы параметр,
+распаўсюджанай з&#39;яўляецца памылка выкарыстоўвання <code>setTimeout(foo(), 1000)</code>, у гэтым выпадку 
+будзе выкарыстоўвацца <strong>вернутае значэнне</strong> выкліка <code>foo</code>, а <strong>не</strong> <code>foo</code>. Гэта, у большасці выпадкаў, 
+маўклівая памылка, так як калі функцыя вяртае <code>undefined</code>, <code>setTimeout</code> 
+<strong>не</strong> выклікае памылкі.</p>
+</aside>
+<h3 id="-setinterval-">Паслядоўныя выклікі з дапамогай <code>setInterval</code></h3>
+<p>У той час калі <code>setTimeout</code> выконвае функцыю толькі адзін раз, <code>setInterval</code> - як бачна з назвы - 
+выконвае функцыю <strong>кожныя</strong> <code>X</code> milliseconds, але яе выкарыстанне не пажадана.</p>
+<p>Код, які выконваецца, блакуе выклік з таймаўтам, у той час <code>setInterval</code> будзе 
+планаваць выклікі зададзенай функцыі. Гэта можа, асабліва з маленькімі інтэрваламі,
+прывесці да стварэння чаргі выклікаў функцый.</p>
+<pre><code>function foo(){
+    // нешта, што блакуе на 1 секунду
+}
+setInterval(foo, 100);</code></pre>
+<p>У прыведзеным кодзе <code>foo</code> будзе выклікана аднойчы і заблакуе выкананне на адну секунду.</p>
+<p>У той час калі <code>foo</code> блакуе код, <code>setInterval</code> будзе планаваць наступныя яе выклікі
+А калі выкананне <code>foo</code> скончана, ужо <strong>дзесяць</strong> наступных выклікаў будуць чакаць выканання.</p>
+<h3 id="-">Праца з магчыма блакуючым кодам</h3>
+<p>Найбольш простае і кіруемае рашэнне гэта выкарыстоўваць <code>setTimeout</code> унутры самой функцыі.</p>
+<pre><code>function foo(){
+    // нешта, што блакуе на 1 секунду
+    setTimeout(foo, 100);
+}
+foo();</code></pre>
+<p>Гэты падыход не толькі інкапсулюе выклік <code>setTimeout</code>, але таксама прадухіляе
+стварэнне чаргі выклікаў і дае дадатковы кантроль. Цяпер <code>foo</code> можа сама вырашыць 
+хоча яна выконвацца яшчэ раз ці не.</p>
+<h3 id="-">Ручная чыстка таймаўтаў</h3>
+<p>Чыстка таймаўтаў і інтэрвалаў здзяйсняецца перадачай адпаведнага ID у
+<code>clearTimeout</code> або <code>clearInterval</code>, гледзячы якая <code>set</code> функцыя была выкарыстана
+да гэтага.</p>
+<pre><code>var id = setTimeout(foo, 1000);
+clearTimeout(id);</code></pre>
+<h3 id="-">Чыстка ўсіх таймаўтаў</h3>
+<p>Так як няма ўбудаванага метада для выдалення ўсіх таймаўтаў і/або інтэрвалаў, 
+для гэтага неабходна выкарыстоўваць брутфорс.</p>
+<pre><code>// выдаліць &quot;усе&quot; таймаўты
+for(var i = 1; i &lt; 1000; i++) {
+    clearTimeout(i);
+}</code></pre>
+<p>Але могуць быць таймаўты, якія не закрануты гэтым адвольным нумарам.
+Іншы шлях ажыццяўлення гэтага - прыняць, што ID таймаўта павялічваецца на
+адзін пасля кожнага выкліку <code>setTimeout</code>.</p>
+<pre><code>// выдаліць &quot;усе&quot; таймаўты
+var biggestTimeoutId = window.setTimeout(function(){}, 1),
+i;
+for(i = 1; i &lt;= biggestTimeoutId; i++) {
+    clearTimeout(i);
+}</code></pre>
+<p>Не гледзячы на тое, што зараз гэта працуе на ўсіх асноўных браўзерах, тое, што ID
+павінны быць арганізаваны такім шляхам не пазначана ў спецыфікацыі і можа змяніцца. Таму 
+замест гэтага рэкамендуецца сачыць за ўсімі ID таймаўтаў, каб яны маглі быць выдалены паасобку.</p>
+<h3 id="-eval-">Схаванае выкарыстанне <code>eval</code></h3>
+<p><code>setTimeout</code> і <code>setInterval</code> таксама могуць прымаць радок у якасці першага параметра.
+Гэту магчымасць <strong>ніколі</strong> не трэба выкарыстоўваць, бо ўнутрана вызываецца <code>eval</code>.</p>
+<aside>
+<p><strong>Заўвага:</strong> Дакладны механізм работы пры перадачы радка можа адрозніваецца ў
+розных JavaScript рэалізацыях. Напрыклад, JScript ад Microsoft выкарыстоўвае
+канструктар <code>Function</code> замест <code>eval</code>.</p>
+</aside>
+<pre><code>function foo() {
+    // будзе выклікана
+}
+
+function bar() {
+    function foo() {
+        // ніколі не будзе выклікана
+    }
+    setTimeout(&#39;foo()&#39;, 1000);
+}
+bar();</code></pre>
+<p>Паколькі <code>eval</code> не выклікана <a href="#core.eval">напрамую</a>, радок, які перададзены 
+<code>setTimeout</code> будзе выкананы ў <em>глабальным скоўпе</em>; такім чынам, не будзе выкарыстана 
+лакальная пераменная <code>foo</code> са скоўпа <code>bar</code>.</p>
+<p>Адсюль вынікае рэкамендацыя <strong>не</strong> выкарыстоўваць радок для перадачы аргументаў у
+функцыю, якая будзе вызывацца адной з таймаўт функцый. </p>
+<pre><code>function foo(a, b, c) {}
+
+// НІКОЛІ так не рабіце
+setTimeout(&#39;foo(1, 2, 3)&#39;, 1000)
+
+// Замест выкарыстоўвайце ананімныя функцыі
+setTimeout(function() {
+    foo(1, 2, 3);
+}, 1000)</code></pre>
+<aside>
+<p><strong>Заўвага:</strong> Нягледзячы на тое, што сінтаксіс <code>setTimeout(foo, 1000, 1, 2, 3)</code> можна выкарыстоўваць,
+гэта не рэкамендуецца, так як можа прывесці да 
+непрыкметных памылак пры выкарыстанні з <a href="#function.this">метадамі</a>.
+Больш таго, сінтаксіс можа не працаваць у некаторых рэалізацыях JavaScript.
+Напрыклад, Internet Explorer ад Microsoft  <a href="3"><strong>не</strong> перадае аргументы напрамую зваротнаму выкліку</a>.</p>
+</aside>
+<h3 id="-">У заключэнне</h3>
+<p>Радок <strong>ніколі</strong> не павінен быць выкарыстаны як параметр <code>setTimeout</code> ці 
+<code>setInterval</code>. Відавочны знак <strong>сапраўды</strong> благога кода гэта калі функцыя, якая будзе выклікана, 
+патрабуе аргументы. Трэба перадаваць <em>ананімную функцыю</em>, якая будзе адказваць за
+выклік патрэбнай функцыі.</p>
+<p>Больш таго, трэба пазбягаць выкарыстання <code>setInterval</code>, таму што яе планавальнік не блакуецца 
+выкананнем JavaScript.</p>
+</div></article></section><!-- Footer--><footer><p>Copyright &copy;. Built with
+|<a href="http://nodejs.org/"> Node.js</a> using a<a href="https://github.com/visionmedia/jade/"> jade</a> template.</p></footer><script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script><script src="../javascript/prettify.js"></script><script src="../javascript/garden.js"></script></body></html>

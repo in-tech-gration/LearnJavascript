@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PubNub</title>
+    <script src=http://cdn.pubnub.com/pubnub.min.js></script>
+    <!-- Instantiate PubNub -->
+    <script type="text/javascript">
+
+        var PUBNUB_demo = PUBNUB.init({
+            publish_key   : 'Your Publish Key',
+            subscribe_key : 'Your Subscribe Key'
+        });
+
+    </script>
+</head>
+<body>
+
+<input id="input" placeholder="you-chat-here" />
+<div id="box"></div>
+
+<script>
+(function(){
+
+        var box     = PUBNUB.$('box');
+        var input   = PUBNUB.$('input');
+        var channel = 'chat';
+
+        PUBNUB.subscribe({
+            channel  : channel,
+            callback : function(text,res,channel) { 
+                box.innerHTML = (''+text).replace( /[<>]/g, '' ) + '<br>' + box.innerHTML 
+            }
+        });
+
+        PUBNUB.bind( 'keyup', input, function(e) {
+            (e.keyCode || e.charCode) === 13 && PUBNUB.publish({
+                channel: channel, message: input.value, x: (input.value='')
+            });
+        });
+
+
+})();
+</script>
+</body>
+</html>

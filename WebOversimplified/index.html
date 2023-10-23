@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Node.JS | The Web Oversimplified | Social Hackers Academy</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Kosmas Pouianou, Kostas Minaidis">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="./libs/revealjs/css/reveal.css">
+		<link rel="stylesheet" href="./libs/revealjs/css/theme/black-sha.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="./libs/revealjs/lib/css/monokai-sublime-sha.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? './libs/revealjs/css/print/pdf.css' : './libs/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+			.reveal .block-center {
+				margin: 0 auto;
+			}
+			.reveal img.img-clean {
+				border: none;
+				background: transparent;
+				display: block;
+				box-shadow: none;
+			}
+			.reveal .two_columns {
+				display: flex;
+				justify-content: center;				
+			}
+			.reveal .col_one,
+			.reveal .col_two {
+    			padding: 0 40px;
+			}
+			.reveal .subs .col_one, 
+			.reveal .subs .col_two {
+			    padding: 0 100px;
+			}
+			.reveal .fullclear {
+				margin: 0;
+				padding: 0;
+			}
+			.reveal .font-half {
+				font-size: 0.5em;
+			}
+			.reveal .slides section .fragment.highlight-orange,
+			.reveal .slides section .fragment.highlight-current-orange {
+			  opacity: 1;
+			  visibility: inherit; 
+			}
+
+			.reveal .slides section .fragment.highlight-orange.visible {
+			  color: #F7BE2C; 
+			}
+
+			.reveal .slides section .fragment.highlight-current-orange.current-fragment {
+			  color: #F7BE2C; 
+			}
+			.reveal .lightblue {
+				color: #3ca1e6;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<!-- INTRO -->
+				<section>
+					<h1>Node.JS 101</h1>
+					<h3 class="colorful">101 Course | Week 01</h3>
+					<p>Complementary Material</p>
+					<p>
+						<small>By <a href="https://github.com/kostasx">Kostas Minaidis</a></small>
+					</p>
+				</section>
+
+				<!-- SRC :: Recapping Part I -->   
+				<section>
+					<h2>The Web</h2>
+					<p>(Oversimplified)</p>
+					<p>
+						<small>Understanding: <span class="colorful">https://domain.com:80/index.html</span></small>
+					</p>
+					<ul class="small">
+						<li>Web Servers &amp; HTTP</li>
+						<li>IP Addresses &amp; DNS</li>
+						<li>Port Addresses</li>
+						<li>Delivering Content</li>
+					</ul>
+				</section>
+
+				<!-- SRC :: WEB SERVERS & HTTP -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Web Servers &amp; HTTP</h2>
+						<h3 class="fragment">Oversimplified</h3>
+					</section>
+
+					<!-- WHAT IS A WEB SERVER -->
+					<section>
+
+						<p>What is a <strong class="colorful">Web Server</strong>?</p>
+						<div class="fragment">
+							<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="">
+							<small class="Dfragment">A computer,<strong class="colorful"></strong> just like yours<span class="colorful">*</span>,<br/>holding files and running programs.</small>
+						</div>
+						<small class="fragment">A server is <span class="colorful">always</span> connected to the Internet.</small>
+						<br/>
+						<small class="fragment"><span class="colorful">* 
+						well, somewhat more powerful than your laptop...</span></small>
+					</section>
+
+					<!-- NETWORK COMMUNICATION -->
+					<section>
+
+						<p>Let's talk!</p>
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="Dfragment">
+									Server
+								</small><br/>
+								<small class="fragment">
+									<strong class="colorful">Hello!</strong>
+								</small>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="Dfragment">
+									Your Computer
+								</small><br/>
+								<small class="fragment">
+									<strong class="colorful">Hi!</strong>
+								</small>
+							</div>	
+						</div>
+
+						<small class="fragment">Your computer can communicate<br/>with Internet servers, through various <span class="colorful">protocols*</span></small>
+
+					</section>
+
+				</section>
+
+				<!-- PROTOCOLS -->
+				<section data-transition="slide" data-background="#F7BE2C" data-background-transition="zoom">
+
+					<h2>Internet Protocols!</h2>
+					<p class="fragment">(Don't be afraid of the term.)</p>
+					<small class="fragment">You can think of protocols as a way for computers to speak<br/>with other computers on a network such as the Internet.</small>
+					<br/><br/>
+					<small class="fragment">...much like people talk to each other in different languages<br/>(english, greek, arabic, etc.).</small>
+					<br/><br/>
+					<small class="fragment">Your Web browser uses the HTTP protocol to talk to Web servers.</small>
+
+				</section>
+
+				<!-- HTTP -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Let's talk HTTP</h2>
+						<h3 class="fragment">Web Browsers &amp; Web Servers</h3>
+					</section>
+
+					<section>
+
+						<p class="fullclear" style="font-size:0.6em;"><span class="colorful">https://</span>domain.com:80/index.html</p>
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-apache.png" alt="" />
+								<small class="Dfragment">
+									Web Server<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*A Server, holding and serving web pages.</span><br/>( It can 'talk' HTTP )</small>
+								</small><br/>
+								<small>
+									<strong class="colorful">&nbsp;</strong>
+								</small>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
+								<small class="Dfragment">
+									Your Web Browser<span class="colorful">*</span>
+									<br/>
+									<small><span class="colorful">*Software that fetches and displays web pages.</span><br/>( It can 'talk' HTTP too )</small>
+								</small><br/>
+							</div>	
+						</div>
+
+						<small class="fragment">
+							&lt;--[ <span class="colorful">GET</span> /index.html ]--
+						</small>
+						<br/>
+						<small class="font-half fragment">
+							The Web Browser, requests the <span class="colorful">index.html</span> file<br/>from the Web Server using a simple HTTP command: <span class="colorful">GET</span>
+						</small>
+						<br/>
+						<small class="fragment" style="margin-top: 10px;">
+							--[ <span class="colorful">index.html</span> ]--&gt;
+						</small>
+						<br/>
+						<small class="font-half fragment">
+							The Web Server, responds by sending the <span class="colorful">index.html</span><br/>file to the Web Browser, which in turn renders<br/>and displays the web page to the user.
+						</small>
+
+					</section>
+				</section>
+
+				<!-- DNS & IPs -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Let me call you!</h2>
+						<h3 class="fragment">IP Addresses &amp; Domain Name Servers</h3>
+						<p class="fullclear fragment" style="font-size:0.6em;">https://<span class="colorful">domain.com</span>:80/index.html</p>
+					</section>
+
+
+					<!-- HOW MOBILE PHONES CALL EACH OTHER -->
+					<section>
+
+						<p>Computers on the Internet contact each other much like our mobile phones.</p>
+						<small class="fragment">Each mobile device is using a unique phone number<br/>which enables it to place and receive calls.</small>
+						<div class="two_columns fragment">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/smartphone.png" alt="" />
+								<small class="fragment highlight-orange">6912345678</small>
+								<div class="fragment">"Hello!"</div>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/smartphone.png" alt="" />
+								<small class="fragment highlight-orange">6987654321</small>
+								<div class="fragment">"Hi there!"</div>
+							</div>
+						</div>
+
+					</section>
+
+					<!-- HOW COMPUTERS CALL EACH OTHER -->
+					<section>
+
+						<p>Instead of telephone numbers, computers use Internet Protocol (IP) Addresses.</p>
+						<div class="two_columns">
+							<div class="col_one">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="fragment highlight-orange">196.168.0.10</small>
+								<div class="fragment">"Hello!"</div>
+							</div>
+							<div class="col_two">
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop.png" alt="" />
+								<small class="fragment highlight-orange">196.168.0.23</small>
+								<div class="fragment">"Hi there!"</div>
+							</div>
+						</div>
+
+					</section>
+
+					<!-- HOW MOBILE PHONES USE CONTACTS -->
+					<section>
+
+						<small>Since it's pretty hard to remember all<br/>those phone numbers, we tend to use Contacts...</small>
+						<div class="two_columns fragment">
+							<div class="col_one">
+								<p>Bob</p>
+								<small style="color:hotpink;">6912345678</small>
+								<img height="200px" class="block-center img-clean" src="img/smartphone.png" alt="" />
+								<small><span style="color:cyan;">Alice</span> === <span style="color:cyan;">6987654321</span></small>
+							</div>
+							<div class="col_two">
+								<p>Alice</p>
+								<small style="color:cyan;">6987654321</small>
+								<img height="200px" class="Dfragment block-center img-clean" src="img/smartphone.png" alt="" />
+								<small><span style="color:hotpink;">Bob</span> === <span style="color:hotpink;">6912345678</span></small>
+							</div>
+						</div>
+						<p class="fragment" style="margin-top: 0; padding-top: 0; font-size:0.6em;">Bob has a Contact entry named <span style="color:cyan;">Alice</span> on his phone<br/>that points to the number of Alice.</p>
+
+						<p class="fragment" style="margin-top: 0; padding-top: 0; font-size:0.6em;">Whenever he wants to call Alice, he just types <span style="color:cyan;">Alice</span><br/>instead of the number.</p>
+
+					</section>
+
+					<!-- HOW COMPUTERS USE DOMAIN NAMES -->
+					<section>
+
+						<small>The same rule applies for Internet Protocol Addresses.<br/>We tend to use <span class="colorful">Domain Names</span> which point to IP Addresses.</small>
+						<div class="two_columns fragment">
+							<div class="col_one">
+								<p>Google Web Server</p>
+								<small style="color:hotpink;">196.168.0.10</small>
+								<img height="200px" class="block-center img-clean" src="img/laptop-apache.png" alt="" />
+							</div>
+							<div class="col_two">
+								<p>Your Computer</p>
+								<small style="color:cyan;">196.168.0.32</small>
+								<img height="200px" class="Dfragment block-center img-clean" src="img/laptop-browser.png" alt="" />
+								<small><span style="color:hotpink;">www.google.com</span> === <span style="color:hotpink;">196.168.0.10</span></small>
+							</div>
+						</div>
+						<p class="fragment" style="margin-top: 0; padding-top: 0; font-size:0.6em;">Instead of typing an IP address in your Browser's Address bar, <br/>you can just type the Domain Name, e.g. <span style="color:hotpink;">www.google.com</span></p>
+						<p class="fragment" style="font-size:0.5em;"><span class="colorful">*Google doesn't really need a domain name to call you back,<br/>since you've already contacted it with your IP address.</span></p>
+					</section>
+
+					<!-- DNS -->
+					<section>
+						<p style="font-size:0.7em;">The translation of IP Addresses to Domain Names is handled by a bunch of special Servers, called <span class="colorful">Domain Name System</span> Servers or <span class="colorful">DNS</span> Servers for short. Think of them as the old Telephone Operators.</p>
+						<img src="img/operators.jpg" alt="">
+					</section>
+
+				</section>
+
+				<!-- Network Ports -->
+				<section>
+
+					<section>
+						<h2 class="colorful">Network Ports</h2>
+						<h3 class="fragment">One Address - Many Services</h3>
+					</section>
+
+					<!-- The Hidden :80 Number in URLs -->
+					<section>
+						<p>
+							<small>Whenever we enter an URL on our Browser's address bar in order to reach a specific website, a hidden number is present in the URL right after the domain name, in the following form:</small>
+						</p>
+
+						<div class="two_columns">
+							<div class="col_one">
+								<p>What we type:</p>
+								<span class="lightblue">www.domain.com</span>
+								<span class="lightblue">www.cnn.com/news</span>
+							</div>
+							<div class="col_two">
+								<p>The actual request:</p>
+								<span class="lightblue">www.domain.com</span><span class="colorful">:80</span>
+								<span class="lightblue">www.cnn.com</span><span class="colorful">:80</span><span class="lightblue">/news</span>
+							</div>
+						</div>
+
+						<p class="fragment">Try it! reach your favorite site by appending a <span class="colorful">:80</span> right after its domain name.</p>
+
+					</section>
+
+					<section>
+						<p>But, what exactly is the purpose of such a number?</p>
+					</section>
+
+					<section>
+						<p>A Network Port number can be compared with a Call Centre's internal phone numbers.</p>
+					</section>
+
+					<section>
+						<img src="img/PBX-001.jpg" alt="">
+					</section>
+
+					<section>
+						<p>A unique external telephone number can be used as the first point of entrance into the Call Centre (think of an IP/Domain Name analogy here).</p>
+						<p class="fragment">The Internal Numbers (think of Network Ports) can subsequently be used to connect to the many different internal endpoints/services.</p>
+					</section>
+
+					<section>
+						<img src="img/PBX-002.jpg" alt="">
+					</section>
+
+					<section>
+						<p>Much like a Call Centre, a Server using one unique IP address or Domain Name can provide many different services, each using a unique Network Port.</p>
+						<p class="fragment">For example, a Server might serve web pages on Port 80 and also run a Chat Service (like Skype) on a different Port, e.g. 4378</p>
+						<p class="fragment">A Server can have a maximum of 65535 Network Port numbers.</p>
+					</section>
+
+				</section>
+
+				<!-- RECAP: 001 -->
+				<section data-background="img/background-scarlet.jpg">
+					<p>RECAP:</p>
+					<ul>
+						<li class="fragment"><small>Whenever we open a new Browser window and enter a URL on the address bar, our computer connects to another computer, we call a Web Server. The two computers can reach each other through their two unique numbers called IP addresses.</small>
+						</li><br/>
+						<li class="fragment"><small>When we request a web page through a URL, the Web Server responds by sending us an HTML file that our Browser parses and displays on our Browser's window, e.g. a request to www.domain.com/contact.html will result in the HTML file contact.html being downloaded and rendered by our Browser.</small>
+						</li><br/>
+						<li class="fragment"><small>Since names are more descriptive than numbers, and can be easily memorized, we tend to use Domain Names that correspond to IP addresses, much like our Phones store telephone numbers using Contact names.</small></li>
+					</ul>
+				</section>
+
+				<!-- RECAP: 002 -->
+				<section data-background="img/background-scarlet.jpg">
+					<p>RECAP:</p>
+					<ul>
+						<li><small>Special Servers, called DNS Servers are used to translate the IP Addresses to Domain Names.</small>
+						</li><br/>
+						<li><small>Each Server, can have one unique IP Address and still offer many different Internet services through the use of Network Port Numbers. Different Client Software, such as Web Browsers, Skype, etc., can then use this Network Port numbers to reach these different services.</small>
+						</li><br/>
+					</ul>
+				</section>
+
+				<!-- FINALE -->
+				<section data-background="img/background-scarlet.jpg">
+					<p>That's all Folks!</p>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="./libs/revealjs/lib/js/head.min.js"></script>
+		<script src="./libs/revealjs/js/reveal.js"></script>
+
+		<script>
+
+			/* SHA */
+			Reveal.configure({
+				keyboard: {
+					// Key: 'e'
+				    69: function(){
+				    	/*
+				    	IF NOT EXIST
+							<PRE>.insertAdjacentHTML('afterend', code);
+						EVALUATE 
+							eval( <PRE>.textContent )
+						*/
+				    }
+				  }
+			});
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: './libs/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: './libs/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: './libs/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: './libs/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: './libs/revealjs/plugin/search/search.js', async: true },
+					{ src: './libs/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: './libs/revealjs/plugin/notes/notes.js', async: true }
+				]
+			});
+
+			/* SHA */
+			Reveal.addEventListener( 'evaluation', function() {
+				console.log( 'Evaluation!' );
+			});
+		</script>
+
+	</body>
+</html>
