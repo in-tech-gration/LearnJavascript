@@ -285,7 +285,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 <!-- L I N T E R S -->
 
 <details>
-	<summary><strong>LINTERS</strong></summary
+	<summary><strong>LINTERS</strong></summary>
 	<ul>
 	<li><a href="http://www.jslint.com/">JSLINT</a></li>
 	<li><a href="http://www.jshint.com/">JSHINT Linter</a></li>
@@ -297,7 +297,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 <!-- R E G U L A R  E X P R E S S I O N S -->
 
 <details name="regex">
-	<summary><strong>REGULAR EXPRESSIONS [ UPDATED ]</strong></summary
+	<summary><strong>REGULAR EXPRESSIONS [ UPDATED ]</strong></summary>
 	<p><a href="https://www.youtube.com/watch?v=VrT3TRDDE4M">Regular Expressions in JavaScript - #1 REGEX ULTRA BASICS | YouTube Video | 23min </a></p>
 	<p><a href="https://www.youtube.com/watch?v=bgBWp9EIlMM" >Regular Expressions - Enough to be Dangerous | YouTube Video | 15min</a></p>
 	<p><a href="https://www.youtube.com/watch?v=ZfQFUJhPqMM">Learn Regular Expressions (Regex) - Crash Course for Beginners @freeCodeCamp | YouTube Video | 45min</a></p>
