@@ -1047,174 +1047,173 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 				<td></td>
 				<td></td>
 			</tr>
+			<tr>
+				<td>Jake Archibald</td>
+				<td><a href="http://twitter.com/jaffathecake">Twitter</a></td>
+				<td><a href="https://jakearchibald.com/">Blog</a></td>
+				<td><a href="https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Jeremy Ashkenas</td>
+				<td><a href="http://twitter.com/jashkenas">Twitter</a></td>
+				<td><a href="">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>John Resig</td>
+				<td><a href="http://twitter.com/jeresig">Twitter</a></td>
+				<td><a href="http://ejohn.org/category/blog/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Juriy Zaytsev</td>
+				<td><a href="https://twitter.com/kangax">Twitter</a></td>
+				<td><a href="http://perfectionkills.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>James Coglan</td>
+				<td><a href="https://twitter.com/jcoglan">Twitter</a></td>
+				<td><a href="https://blog.jcoglan.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>John-David Dalton</td>
+				<td><a href="https://twitter.com/jdalton">Twitter</a></td>
+				<td><a href="http://allyoucanleet.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>James Padolsey</td>
+				<td><a href="https://twitter.com/padolsey">Twitter</a></td>
+				<td><a href="http://james.padolsey.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Kent C. Dodds (If you are learning React, you definitely want to follow this person)</td>
+				<td><a href="https://twitter.com/kentcdodds">Twitter</a></td>
+				<td><a href="https://kentcdodds.com/blog">Blog</a></td>
+				<td><a href="https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Kyle Simpson</td>
+				<td><a href="https://twitter.com/getify">Twitter</a></td>
+				<td><a href="http://getify.me/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Lin Clark</td>
+				<td><a href="https://twitter.com/linclark?lang=en">Twitter</a></td>
+				<td><a href="https://hacks.mozilla.org/author/lclarkmozilla-com/">Articles at Mozilla Hacks</a> / <a href="https://code-cartoons.com/@linclark">Medium</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Lucas Smith</td>
+				<td><a href="https://twitter.com/ls_n">Twitter</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Lydia Hallie</td>
+				<td><a href="https://twitter.com/lydiahallie">Twitter</a></td>
+				<td><a href="https://www.theavocoder.com/">Blog</a></td>
+				<td><a href="https://www.youtube.com/channel/UC4EWKIKdKiDtAscQ9BIXwUw">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Michael Bolin</td>
+				<td><a href="https://twitter.com/bolinfest">Twitter</a></td>
+				<td><a href="http://blog.bolinfest.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Nicholas Zakas</td>
+				<td><a href="http://twitter.com/slicknet">Twitter</a></td>
+				<td><a href="http://www.nczonline.net/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Pamela Fox</td>
+				<td><a href="https://twitter.com/pamelafox">Twitter</a></td>
+				<td><a href="http://blog.pamelafox.org/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Paul Irish</td>
+				<td><a href="http://twitter.com/paul_irish">Twitter</a></td>
+				<td><a href="http://paulirish.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Peter van der Zee</td>
+				<td><a href="https://twitter.com/kuvos">Twitter</a></td>
+				<td><a href="http://qfox.nl/weblog">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Peter Michaux</td>
+				<td></td>
+				<td><a href="http://peter.michaux.ca/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Rebecca Murphey</td>
+				<td><a href="http://twitter.com/rmurphey">Twitter</a></td>
+				<td><a href="http://rmurphey.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Remy Sharp</td>
+				<td><a href="http://twitter.com/rem">Twitter</a></td>
+				<td><a href="http://remysharp.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Rey Bango</td>
+				<td><a href="https://twitter.com/reybango">Twitter</a></td>
+				<td><a href="http://blog.reybango.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Stoyan Stefanov</td>
+				<td><a href="https://twitter.com/stoyanstefanov?lang=en">Twitter</a></td>
+				<td><a href="http://www.phpied.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Tania Rascia</td>
+				<td><a href="https://twitter.com/taniarascia">Twitter</a></td>
+				<td><a href="https://www.taniarascia.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Thomas Fuchs</td>
+				<td><a href="https://twitter.com/thomasfuchs">Twitter</a></td>
+				<td><a href="http://mir.aculo.us/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Oliver Steele</td>
+				<td><a href="https://twitter.com/osteele">Twitter</a></td>
+				<td><a href="http://www.osteele.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Umar Hansa</td>
+				<td><a href="https://twitter.com/umaar">Twitter</a></td>
+				<td><a href="https://umaar.com/">Blog</a></td>
+				<td><a href="https://www.youtube.com/c/UmarHansa">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Yehuda Katz</td>
+				<td><a href="https://twitter.com/wycats">Twitter</a></td>
+				<td><a href="http://yehudakatz.com/">Blog</a></td>
+				<td></td>
+			</tr>
 		</tbody>
 	</table>
 </details>
 
 <!--
-	<tr>
-	<td>Jake Archibald</td>
-	<td><a href="http://twitter.com/jaffathecake">Twitter</a></td>
-	<td><a href="https://jakearchibald.com/">Blog</a></td>
-	<td><a href="https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9">YouTube</a></td>
-	</tr>
-	<tr>
-	<tr>
-	<td>Jeremy Ashkenas</td>
-	<td><a href="http://twitter.com/jashkenas">Twitter</a></td>
-	<td><a href="">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>John Resig</td>
-	<td><a href="http://twitter.com/jeresig">Twitter</a></td>
-	<td><a href="http://ejohn.org/category/blog/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Juriy Zaytsev</td>
-	<td><a href="https://twitter.com/kangax">Twitter</a></td>
-	<td><a href="http://perfectionkills.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>James Coglan</td>
-	<td><a href="https://twitter.com/jcoglan">Twitter</a></td>
-	<td><a href="https://blog.jcoglan.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>John-David Dalton</td>
-	<td><a href="https://twitter.com/jdalton">Twitter</a></td>
-	<td><a href="http://allyoucanleet.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>James Padolsey</td>
-	<td><a href="https://twitter.com/padolsey">Twitter</a></td>
-	<td><a href="http://james.padolsey.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Kent C. Dodds (If you are learning React, you definitely want to follow this person)</td>
-	<td><a href="https://twitter.com/kentcdodds">Twitter</a></td>
-	<td><a href="https://kentcdodds.com/blog">Blog</a></td>
-	<td><a href="https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Kyle Simpson</td>
-	<td><a href="https://twitter.com/getify">Twitter</a></td>
-	<td><a href="http://getify.me/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Lin Clark</td>
-	<td><a href="https://twitter.com/linclark?lang=en">Twitter</a></td>
-	<td><a href="https://hacks.mozilla.org/author/lclarkmozilla-com/">Articles at Mozilla Hacks</a> / <a href="https://code-cartoons.com/@linclark">Medium</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Lucas Smith</td>
-	<td><a href="https://twitter.com/ls_n">Twitter</a></td>
-	<td></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Lydia Hallie</td>
-	<td><a href="https://twitter.com/lydiahallie">Twitter</a></td>
-	<td><a href="https://www.theavocoder.com/">Blog</a></td>
-	<td><a href="https://www.youtube.com/channel/UC4EWKIKdKiDtAscQ9BIXwUw">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Michael Bolin</td>
-	<td><a href="https://twitter.com/bolinfest">Twitter</a></td>
-	<td><a href="http://blog.bolinfest.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Nicholas Zakas</td>
-	<td><a href="http://twitter.com/slicknet">Twitter</a></td>
-	<td><a href="http://www.nczonline.net/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Pamela Fox</td>
-	<td><a href="https://twitter.com/pamelafox">Twitter</a></td>
-	<td><a href="http://blog.pamelafox.org/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Paul Irish</td>
-	<td><a href="http://twitter.com/paul_irish">Twitter</a></td>
-	<td><a href="http://paulirish.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Peter van der Zee</td>
-	<td><a href="https://twitter.com/kuvos">Twitter</a></td>
-	<td><a href="http://qfox.nl/weblog">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Peter Michaux</td>
-	<td></td>
-	<td><a href="http://peter.michaux.ca/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Rebecca Murphey</td>
-	<td><a href="http://twitter.com/rmurphey">Twitter</a></td>
-	<td><a href="http://rmurphey.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Remy Sharp</td>
-	<td><a href="http://twitter.com/rem">Twitter</a></td>
-	<td><a href="http://remysharp.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Rey Bango</td>
-	<td><a href="https://twitter.com/reybango">Twitter</a></td>
-	<td><a href="http://blog.reybango.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Stoyan Stefanov</td>
-	<td><a href="https://twitter.com/stoyanstefanov?lang=en">Twitter</a></td>
-	<td><a href="http://www.phpied.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Tania Rascia</td>
-	<td><a href="https://twitter.com/taniarascia">Twitter</a></td>
-	<td><a href="https://www.taniarascia.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Thomas Fuchs</td>
-	<td><a href="https://twitter.com/thomasfuchs">Twitter</a></td>
-	<td><a href="http://mir.aculo.us/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Oliver Steele</td>
-	<td><a href="https://twitter.com/osteele">Twitter</a></td>
-	<td><a href="http://www.osteele.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Umar Hansa</td>
-	<td><a href="https://twitter.com/umaar">Twitter</a></td>
-	<td><a href="https://umaar.com/">Blog</a></td>
-	<td><a href="https://www.youtube.com/c/UmarHansa">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Yehuda Katz</td>
-	<td><a href="https://twitter.com/wycats">Twitter</a></td>
-	<td><a href="http://yehudakatz.com/">Blog</a></td>
-	<td></td>
-	</tr>
 -->
 
 #### 3.10 TOOLS
