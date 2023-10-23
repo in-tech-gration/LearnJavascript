@@ -865,31 +865,37 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ### 3.9 DEVELOPERS
 
-<!--
 <details id="developers-to-follow">
-	<summary><strong>3.9 DEVELOPERS (TWITTER, BLOGS)</strong></summary>
+	<summary>
+		<strong>3.9 DEVELOPERS (TWITTER, BLOGS)</strong>
+	</summary>
 	<table>
-	<thead>
-	<tr>
-	<th>DEVELOPER</th>
-	<th>TWITTER</th>
-	<th>BLOG</th>
-	<th>VIDEO CHANNEL</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-	<td>Addy Osmani</td>
-	<td><a href="https://twitter.com/addyosmani">Twitter</a></td>
-	<td><a href="https://addyosmani.com/blog/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Azat Mardan</td>
-	<td><a href="https://twitter.com/azat_co">Twitter</a></td>
-	<td></td>
-	<td></td>
-	</tr>
+		<thead>
+			<tr>
+			<th>DEVELOPER</th>
+			<th>TWITTER</th>
+			<th>BLOG</th>
+			<th>VIDEO CHANNEL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Addy Osmani</td>
+				<td><a href="https://twitter.com/addyosmani">Twitter</a></td>
+				<td><a href="https://addyosmani.com/blog/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Azat Mardan</td>
+				<td><a href="https://twitter.com/azat_co">Twitter</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</details>
+
+<!--
 	<tr>
 	<td>Alex Castrounis</td>
 	<td><a href="https://twitter.com/innoarchitech">Twitter</a></td>
@@ -1211,9 +1217,6 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td><a href="http://yehudakatz.com/">Blog</a></td>
 	<td></td>
 	</tr>
-	</tbody>
-	</table>
-</details>
 -->
 
 #### 3.10 TOOLS
