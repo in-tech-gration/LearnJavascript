@@ -908,7 +908,6 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 	<td><a href="https://www.youtube.com/user/ariyahidayat">YouTube</a></td>
 	</tr>
 	<tr>
-	<tr>
 	<td>Asim Hussain</td>
 	<td><a href="https://twitter.com/jawache">Twitter</a></td>
 	<td><a href="https://asim.dev/">Blog</a></td>
