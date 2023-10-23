@@ -808,7 +808,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
  * [ES6 Playlist by Traversy Media](https://www.youtube.com/watch?v=2LeqilIw-28&list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv)
  * [TreeHouse - Beginner's Guide to JavaScript](https://www.youtube.com/watch?v=UOeofWla8mE)
  * [Modern JavaScript YouTuybe Playlist By NetNinja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
- * [OOP in JavaScript | YouTube Playlist by NetNinja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7)
+ * [OOP in JavaScript \| YouTube Playlist by NetNinja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7)
  * [10 Things I Learned from the jQuery Source, *Paul Irish*](http://www.youtube.com/watch?v=i_qE1iAmjFg)
  * [11 More Things I Learned from the jQuery Source, *Paul Irish*](http://www.youtube.com/watch?v=ARnp9Y8xgR4)
  * [Paul Irish, "Delivering the goods"](https://www.youtube.com/watch?v=R8W_6xWphtw)
