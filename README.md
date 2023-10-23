@@ -999,60 +999,59 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 				<td><a href="http://davidwalsh.name/">Blog</a></td>
 				<td></td>
 			</tr>
+			<tr>
+				<td>Dion Almaer</td>
+				<td><a href="https://twitter.com/dalmaer">Twitter</a></td>
+				<td><a href="http://almaer.com/blog/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Douglas Crockford</td>
+				<td></td>
+				<td><a href="http://javascript.crockford.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Dean Edwards</td>
+				<td></td>
+				<td><a href="http://dean.edwards.name/weblog/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Dmitry Baranovskiy</td>
+				<td><a href="https://twitter.com/DmitryBaranovsk">Twitter</a></td>
+				<td><a href="http://dmitry.baranovskiy.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Dmitry Soshnikov</td>
+				<td><a href="https://twitter.com/DmitrySoshnikov">Twitter</a></td>
+				<td><a href="http://dmitrysoshnikov.com/">Blog</a></td>
+				<td><a href="https://www.youtube.com/channel/UC15UOu9F157NAXGL9dHc4TQ">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Dustin Diaz</td>
+				<td><a href="https://twitter.com/ded">Twitter</a></td>
+				<td><a href="http://www.dustindiaz.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Eric Elliott</td>
+				<td><a href="https://twitter.com/_ericelliott">Twitter</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Ilya Grigorik</td>
+				<td><a href="http://twitter.com/igrigorik">Twitter</a></td>
+				<td></td>
+				<td></td>
+			</tr>
 		</tbody>
 	</table>
 </details>
 
 <!--
-	<tr>
-	<td>Dion Almaer</td>
-	<td><a href="https://twitter.com/dalmaer">Twitter</a></td>
-	<td><a href="http://almaer.com/blog/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Douglas Crockford</td>
-	<td></td>
-	<td><a href="http://javascript.crockford.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Dean Edwards</td>
-	<td></td>
-	<td><a href="http://dean.edwards.name/weblog/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Dmitry Baranovskiy</td>
-	<td><a href="https://twitter.com/DmitryBaranovsk">Twitter</a></td>
-	<td><a href="http://dmitry.baranovskiy.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<tr>
-	<td>Dmitry Soshnikov</td>
-	<td><a href="https://twitter.com/DmitrySoshnikov">Twitter</a></td>
-	<td><a href="http://dmitrysoshnikov.com/">Blog</a></td>
-	<td><a href="https://www.youtube.com/channel/UC15UOu9F157NAXGL9dHc4TQ">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Dustin Diaz</td>
-	<td><a href="https://twitter.com/ded">Twitter</a></td>
-	<td><a href="http://www.dustindiaz.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Eric Elliott</td>
-	<td><a href="https://twitter.com/_ericelliott">Twitter</a></td>
-	<td></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Ilya Grigorik</td>
-	<td><a href="http://twitter.com/igrigorik">Twitter</a></td>
-	<td></td>
-	<td></td>
-	</tr>
 	<tr>
 	<td>Jake Archibald</td>
 	<td><a href="http://twitter.com/jaffathecake">Twitter</a></td>
