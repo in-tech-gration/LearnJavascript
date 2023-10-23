@@ -891,47 +891,47 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 				<td></td>
 				<td></td>
 			</tr>
+			<tr>
+				<td>Alex Castrounis</td>
+				<td><a href="https://twitter.com/innoarchitech">Twitter</a></td>
+				<td><a href="https://www.innoarchitech.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Aria Stewart</td>
+				<td><a href="https://twitter.com/aredridel">Twitter</a></td>
+				<td><a href="https://dinhe.net/~aredridel/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Ariya Hidayat</td>
+				<td><a href="https://twitter.com/ariyahidayat">Twitter</a></td>
+				<td><a href="https://ariya.ofilabs.com/">Blog</a></td>
+				<td><a href="https://www.youtube.com/user/ariyahidayat">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Asim Hussain</td>
+				<td><a href="https://twitter.com/jawache">Twitter</a></td>
+				<td><a href="https://asim.dev/">Blog</a></td>
+				<td><a href="https://www.youtube.com/jawache">YouTube</a></td>
+			</tr>
+			<tr>
+				<td>Axel Rauschmayer</td>
+				<td><a href="https://twitter.com/rauschma">Twitter</a></td>
+				<td><a href="https://2ality.com/">Blog</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Andrea Giammarchi</td>
+				<td><a href="https://twitter.com/WebReflection">Twitter</a></td>
+				<td><a href="https://webreflection.blogspot.gr/">Blog</a></td>
+				<td></td>
+			</tr>
 		</tbody>
 	</table>
 </details>
 
 <!--
-	<tr>
-	<td>Alex Castrounis</td>
-	<td><a href="https://twitter.com/innoarchitech">Twitter</a></td>
-	<td><a href="https://www.innoarchitech.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Aria Stewart</td>
-	<td><a href="https://twitter.com/aredridel">Twitter</a></td>
-	<td><a href="https://dinhe.net/~aredridel/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Ariya Hidayat</td>
-	<td><a href="https://twitter.com/ariyahidayat">Twitter</a></td>
-	<td><a href="https://ariya.ofilabs.com/">Blog</a></td>
-	<td><a href="https://www.youtube.com/user/ariyahidayat">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Asim Hussain</td>
-	<td><a href="https://twitter.com/jawache">Twitter</a></td>
-	<td><a href="https://asim.dev/">Blog</a></td>
-	<td><a href="https://www.youtube.com/jawache">YouTube</a></td>
-	</tr>
-	<tr>
-	<td>Axel Rauschmayer</td>
-	<td><a href="https://twitter.com/rauschma">Twitter</a></td>
-	<td><a href="https://2ality.com/">Blog</a></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>Andrea Giammarchi</td>
-	<td><a href="https://twitter.com/WebReflection">Twitter</a></td>
-	<td><a href="https://webreflection.blogspot.gr/">Blog</a></td>
-	<td></td>
-	</tr>
 	<tr>
 	<td>Angus Croll</td>
 	<td><a href="https://twitter.com/angusTweets">Twitter</a></td>
