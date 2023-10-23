@@ -310,7 +310,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 * [Byte saving techniques: a collection of JavaScript wizardry that can shave bytes off of your code](https://github.com/jed/140bytes/wiki/Byte-saving-techniques)
 * [Advanced JavaScript Techniques](http://www.slideshare.net/Dmitry.Baranovskiy/advanced-javascript-techniques)
 * [MetaJS: Visualize JavaScript AST Execution](http://int3.github.io/metajs/)
-* [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+* [Philip Roberts: What the heck is the event loop anyway? \| JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 #### FUNCTIONAL PROGRAMMING: **READING**
 
@@ -324,7 +324,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 #### FUNCTIONAL PROGRAMMING: **VIDEO**
 
 * [**Intro to Recursion - Refactoring to a Pure Function**, By Shanon Osbourne](https://egghead.io/lessons/javascript-intro-to-recursion-the-problem)
-* [**Functional programming and curry cooking in JS** By Stefanie Schirmer | JSConf EU 2015**](https://www.youtube.com/watch?v=6Qx5ZAbfqjo)
+* [**Functional programming and curry cooking in JS** By Stefanie Schirmer \| JSConf EU 2015**](https://www.youtube.com/watch?v=6Qx5ZAbfqjo)
 * [**Next-level functional Javascript with Ramda**, By Warren Seymour](https://vimeo.com/129549453)
 * [**Pure, functional JavaScript**, By Christian Johansen](https://vimeo.com/43382919)
 * [**Lenses Quick n' Dirty: Functional Lenses in javascript**, By Brian Lonsdorf](https://vimeo.com/104807358)
