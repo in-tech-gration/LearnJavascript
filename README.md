@@ -45,10 +45,6 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 
 ---
 
-**About me**: [GitHub](https://github.com/kostasx/) | [Twitter](https://twitter.com/kostas_mns) | [StackOverflow](https://stackoverflow.com/users/4861760/kostasx) | [LinkedIn](https://www.linkedin.com/in/kostas-minaidis/) | [CodeGrepper](https://www.grepper.com/profile/kostas-minaidis) | [PlethoraThemes](https://plethorathemes.com/author/kostasx/)
-
----
-
 <!-- L E A R N I N G -->
 
 ### LEARNING
@@ -1319,6 +1315,18 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
 ------
 
 ![Alt text](/img/javascript-please-work.jpg "JavaScript please work")
+
+#### Maintainers
+
+- **Kostas Minaidis**:
+  - [GitHub](https://github.com/kostasx/)
+  - [Twitter](https://twitter.com/kostas_mns)
+  - [StackOverflow](https://stackoverflow.com/users/4861760/kostasx)
+  - [LinkedIn](https://www.linkedin.com/in/kostas-minaidis/)
+  - [CodeGrepper](https://www.grepper.com/profile/kostas-minaidis)
+  - [PlethoraThemes](https://plethorathemes.com/author/kostasx/)
+
+---
 
 #### Contributors
 
