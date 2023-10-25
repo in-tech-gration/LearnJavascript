@@ -759,13 +759,12 @@ This list was inspired by (a now defunct) dicussion [](http://www.linkedin.com/g
   </summary>
   <br/>
   <ul>
-    <li><a href="https://github.com/getify/You-Dont-Know-JS"><strong>YDKJS: You-Dont-Know-JS</strong>, A book series on JavaScript by Kyle Simpson</a></li>
     <li><a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts, <em>by Douglas Crockford</em></a></li>
     <li><a href="http://shop.oreilly.com/product/9780596805531.do">JavaScript, The Definitive Guide, <em>by David Flanagan</em></a></li>
     <li><a href="http://shop.oreilly.com/product/9780596802806.do">High Performance JavaScript, <em>by Nicolas Zakas</em></a></li>
     <li><a href="http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/">Secrets of the JavaScript Ninja, <em>by John Resig</em></a></li>
-    <li><a href="http://learn-javascript.ericelliott.me/programming-javascript-applications/">Programming JavaScript Applications, <em>by Eric Elliot</em></a></li>
-    <li><a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-3rd-Edition.productCd-1118222199.html">Professional JavaScript for Web Developers <em>by Nicolas Zakas</em></a></li>
+    <li><a href="https://www.oreilly.com/library/view/programming-javascript-applications/9781491950289/">Programming JavaScript Applications, <em>by Eric Elliot</em></a></li>
+    <li><a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119366560">Professional JavaScript for Web Developers <em>by Nicolas Zakas</em></a></li>
    </ul>
 </details>
 
@@ -779,9 +778,10 @@ This list was inspired by (a now defunct) dicussion [](http://www.linkedin.com/g
   </summary>
   <br/>
   <ul>
+ 		<li><a href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#javascript">List of Javascript books</a> </li>
     <li><a href="http://jsforcats.com/javascript-for-cats.pdf">JavaScript For Cats, <em>by Max Ogden</em></a> <strong>(Free PDF)</strong></li>
     <li><a href="http://eloquentjavascript.net/">Eloquent Javascript, <em>by Marijn Haverbeke</em></a>	<strong>(Free Online Version)</strong></li>
-    <li><a href="http://speakingjs.com/">Speaking JavaScript: An In-Depth Guide for Programmers, by <em>Dr. Axel Rauschmayer</em></a> <strong>(Free Online Version)</strong></li>
+    <li><a href="https://exploringjs.com/es5/">Speaking JavaScript: An In-Depth Guide for Programmers, by <em>Dr. Axel Rauschmayer</em></a> <strong>(Free Online Version)</strong></li>
     <li><a href="http://www.techotopia.com/index.php/JavaScript_Essentials">JavaScript Essentials</a></li>
     <li><a href="https://leanpub.com/ohmyjs">Oh My JS: The Best JavaScript Articles, <em>by Azat Mardan</em></a></li>
     <li><a href="https://leanpub.com/understandinges6/read">Understanding ECMAScript 6, <em>by Nicholas Zakas</em></a></li>
