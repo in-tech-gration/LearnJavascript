@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+body {
+    background: white;
+    background-color: white;
+    color: black;
+}
+
+.reveal {
+    color: black;
+}
+
+img.tts_logo {
+	
+	background-color: #ff211b !important;
+	width     : 250px;
+	text-align: center;
+	margin    : 0 auto;
+	padding   : 20px;
+
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.reveal strong.colorful, .reveal h1.colorful, .reveal h2.colorful, .reveal h3.colorful, .reveal h4.colorful, .reveal h5.colorful, .reveal h6.colorful {
+	color: #ff211b !important;
+}
+
+h1.big, h2.big, h3.big, h4.big, h5.big, h6.big {
+
+	font-weight: 700;
+
+}
+
+h3.big { font-size: 3em; }
+
+.reveal strong {
+    color: inherit;
+}
+
+.reveal a {
+    color: #ff211b;
+}
+
+.reveal a.bitly_link strong,
+.reveal a.bitly_link {
+	color: white;
+}
+
+li p.small {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+ul.colorful li strong { color:#ff211b; }
+
+.reveal .highlight,
+.reveal p strong {
+  color: #ff211b;
+}
+.reveal pre,
+.reveal code {
+  white-space: pre-line;
+}
+.reveal section img {
+  border: none;
+  background: transparent;
+  margin: 0;
+  box-shadow: none;
+}
+.reveal p.super_heading {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+.reveal p.small {
+  font-size: 0.6em;
+}
+.reveal p.italics {
+  font-style: italic;
+}
+.reveal .columns.align-items-center {
+  align-items: center;
+}
+.reveal small.attribution a {
+  font-size: 0.7em;
+  opacity: 0.6;
+}
+.reveal sup {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+.reveal a.tiny_lnk {
+  font-size: 0.6em;
+}
+.reveal ul.small {
+  font-size: 0.6em;
+}
+.reveal ul.mid {
+  font-size: 0.6em;
+}
+.reveal ul.black-links li a {
+    color: black;
+}
+.reveal ul.black-links li a:hover {
+    color: #ff211b;
+}
+
+a.full-anchor {
+    position   : fixed;
+    top        : -50%;
+    left       : -50%;
+    width      : 200vw;
+    height     : 200vh;
+    text-indent: -50000px;
+}
+.reveal .slide-background {
+    background-size: contain;
+}
+.svg_contain svg {
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+    height: auto;
+}
+
+.linebreak {
+
+    display: block;
+    height: 10px;
+
+}
+
+.reveal .tts-black h1,
+.reveal .tts-black h2,
+.reveal .tts-black h3,
+.reveal .tts-black h4,
+.reveal .tts-black h5,
+.reveal .tts-black h6 {
+
+    color: #f0f0f0;
+}
