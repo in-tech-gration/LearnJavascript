@@ -759,6 +759,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   </summary>
   <br/>
   <ul>
+    <li><a href="https://books.google.gr/books?id=rwiJDwAAQBAJ">How JavaScript Works, <em>by Douglas Crockford</em></a> (also available <a href="https://www.researchgate.net/publication/347727033_How_JavaScript_Works">online</a>)</li>
     <li><a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts, <em>by Douglas Crockford</em></a></li>
     <li><a href="http://shop.oreilly.com/product/9780596805531.do">JavaScript, The Definitive Guide, <em>by David Flanagan</em></a></li>
     <li><a href="http://shop.oreilly.com/product/9780596802806.do">High Performance JavaScript, <em>by Nicolas Zakas</em></a></li>
@@ -778,7 +779,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
   </summary>
   <br/>
   <ul>
- 		<li><a href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#javascript">List of Javascript books</a> </li>
+    <li><a href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#javascript">List of Javascript books</a> </li>
+    <li><a href="https://www.researchgate.net/publication/347727033_How_JavaScript_Works">How JavaScript Works, by Douglas Crockford</a></li>
     <li><a href="http://jsforcats.com/javascript-for-cats.pdf">JavaScript For Cats, <em>by Max Ogden</em></a> <strong>(Free PDF)</strong></li>
     <li><a href="http://eloquentjavascript.net/">Eloquent Javascript, <em>by Marijn Haverbeke</em></a>	<strong>(Free Online Version)</strong></li>
     <li><a href="https://exploringjs.com/es5/">Speaking JavaScript: An In-Depth Guide for Programmers, by <em>Dr. Axel Rauschmayer</em></a> <strong>(Free Online Version)</strong></li>
