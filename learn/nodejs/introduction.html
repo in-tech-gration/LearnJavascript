@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kostas Minaidis">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/bulma-columns.css">
+    <link rel="stylesheet" href="../libs/reveal.js/css/reveal.css">
+    <link id="theme" rel="stylesheet" href="../libs/reveal.js/css/theme/black-tts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css">
+    <!-- Roboto | Google Web Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <!-- Theme used for syntax highlighting of code-->
+    <link rel="stylesheet" href="../libs/reveal.js/lib/css/monokai-sublime-sha.css">
+    <link rel="stylesheet" href="../css/reveal-tts-white.css">
+    <title>Intechgration.io | Introduction to Node.JS</title>
+  </head>
+  <body>
+    <!-- Alt+Click | Zoom-->
+    <!-- S | Speaker View-->
+    <!-- B or . | Pause View-->
+    <div class="reveal">
+      <div class="slides">
+        <section class="with-tts-right" data-state="intro" data-transition="fade-out">
+          <h3>An Introduction to </h3>
+          <h2>Node.JS</h2><small>By <strong>Kostas Minaidis</strong> | Intechgration.io</small>
+        </section>
+        <!-- TABLE OF CONTENTS-->
+        <section class="with-tts-right">
+          <h3 class="colorful">Table of Contents</h3>
+          <ul>
+            <li class="small fragment">What is Node.JS?</li>
+            <li class="small fragment">Installing Node.JS</li>
+            <li class="small fragment">Hello World App</li>
+            <li class="small fragment">Node REPL</li>
+            <li class="small fragment">Executing JS Files</li>
+            <li class="small fragment">Node Modules</li>
+            <li class="small fragment">Hello World Server App</li>
+            <li class="small fragment">Creating a basic Web Server</li>
+            <li class="small fragment">Opening our App to the World</li>
+            <li class="small fragment">Deploying (Heroku)</li>
+          </ul>
+        </section>
+        <!-- INTRODUCTION - WHAT IS NODE.JS?-->
+        <section class="with-tts-right">
+          <section>
+            <h2>What is Node.JS?</h2>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment">A Runtime Environment to run JavaScript outside the Browser. Think: Server-side JavaScript interpreter.</p>
+                <p class="small fragment">It uses Chrome's V8 JavaScript engine to compile JS commands into executable code.</p>
+                <p class="small fragment">It is a free and open source software created in 2009 by Ryan Dahl. </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <h3>Details</h3>
+                <ul>
+                  <li class="small fragment">It's cross-platform and is mainly used to build backend services (APIs, servers, etc.) and Command line tools.</li>
+                  <li class="small fragment">Uses the same JavaScript language that the browser uses, but has access to different context and APIs:
+                    <ul>
+                      <li class="small fragment">Browser: document, location, window, accelerometer, geolocation, etc. (Browser APIs)</li>
+                      <li class="small fragment">Node: fs (file system), os (operating system), http, etc.</li>
+                    </ul>
+                  </li>
+                  <li class="small fragment">Node.js has the largest open source library in the world: The NPM.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- INSTALLING NODE.JS-->
+        <section class="with-tts-right">
+          <section>
+            <h2>Installing Node.JS</h2>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment">1) Go to: <a target="_blank" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
+                <p class="small fragment">2) Download the <strong>LTS</strong> version for your platform and follow the instructions   </p>
+                <p class="small fragment">3) Once installed, open the terminal and check that node has been installed:</p>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ node --version</code></pre>
+                <p class="small fragment">You should see something like this:    </p>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>v14.15.4</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>What's the difference between<br/><strong class="colorful">LTS</strong> and <strong class="colorful">Current</strong> version?</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment"><strong class="colorful">LTS</strong>: Stability, rare updates, enterprise-level apps and services, long-term support: 18 months. Better suited for production.</p>
+                <p class="small fragment"><strong class="colorful">Current/Stable</strong>: Front-end tools, local development, regular updates, new features, performance updates, bug fixes, cutting-edge technologies, etc. Support for approximately 8 months.</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>Bottom line?</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small">If you are ready for production, hit for LTS.<br/>Otherwise use Current.</p>
+                <h6 class="small">References: </h6>
+                <p class="small"><a href="https://stackoverflow.com/questions/34829167/what-is-the-difference-between-the-lts-version-and-the-stable-version-of-node-js/34830675" target="_blank">What is the difference between the LTS version<br/>and the stable version of node.js?</a></p>
+                <p class="small"><a target="_blank" href="https://stackoverflow.com/questions/33661274/what-are-the-differences-between-long-term-support-lts-and-stable-versions-of">What are the differences between Long Term Support (LTS) and Stable versions of Node.js?</a></p>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- NODE.JS ON THE BROWSER-->
+        <section class="with-tts right">
+          <div class="columns">
+            <div class="column is-8 is-offset-2">
+              <h4>Can't / Don't want to install Node.JS?</h4>
+              <p class="fragment">No problem.<br>Try out Node.JS in the browser!</p><a class="fragment" href="https://repl.it/languages" target="_blank">Repl.it</a>
+              <div class="linebreak"></div><a class="fragment" href="https://runkit.com/" target="_blank">RunKit.com</a>
+            </div>
+          </div>
+        </section>
+        <!-- OUR FIRST HELLO WORLD NODE.JS APP-->
+        <section class="with-tts-right">
+          <section>
+            <h4>A simple Node.JS app</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ mkdir app</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ cd app</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ touch app.js</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>console.log('Node!');</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ node app.js</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>Gotchas</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ code app.js</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>console.log( window );</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ node app.js</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs" data-trim contenteditable> ReferenceError: window is not defined</code></pre>
+                <div class="linebreak"></div>
+                <p class="small fragment">We are <strong class="colorful">not</strong> running JS in the browser where the window global object is available.</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>Global Object</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment">Built-in functions such as <code>setTimeout()</code> are available both on Node.JS and the Browser. </p>
+                <p class="small fragment">On the Browser, these built-in functions are methods of the global <strong class="colorful">window</strong> Object, whereas in Node.js they are methods of the <strong class="colorful">global</strong> object:</p>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>window.setTimeout</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>global.setTimeout</code></pre>
+                <div class="linebreak"></div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- NODE REPL-->
+        <section class="with-tts-right">
+          <section>
+            <h2>Node REPL</h2>
+            <p class="fragment">Read-Eval-Print-Loop</p>
+            <p class="small fragment">Use the Node REPL to test </p>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-6 is-offset-3">
+                <p>Open up your terminal and type </p>
+                <pre><code class="hljs bash" data-trim contenteditable>$ node</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>&gt; 4+6</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>10</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-6 is-offset-3">
+                <p>Basic REPL commands</p>
+                <pre class="fragment"><code class="hljs bash">&gt; .exit</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash">&gt; .help</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash">&gt; .break or .clear</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash">&gt; .editor</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash">&gt; .save</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs bash">&gt; .load</code></pre>
+                <div class="linebreak"></div><small class="small fragment">How to clear the console?</small>
+                <pre class="fragment"><code class="hljs bash">&gt; console.clear(); or CTRL+L</code></pre>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- NODE MODULES-->
+        <section class="with-tts-right">
+          <section>
+            <h4>Node Modules</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment">Every file in Node is considered a Module.</p>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>console.log( module ); 
+// NOT a global.module object!</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>Module {
+    ...
+    exports: {},
+    ...
+}</code></pre>
+                <div class="linebreak"></div>
+                <p class="small fragment">Module global variables available: exports, require, module, __filename, __dirname</p>
+                <p class="small fragment">Think of each JavaScript file a separate Module with its own private scope and context.</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>Code</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <pre class="fragment"><code class="hljs shell" data-trim contenteditable>$ touch app.js </code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>console.log( module ); </code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs shell" data-trim contenteditable>$ node app.js </code></pre>
+                <p class="small fragment" style="font-size:0.5em; opacity:0.6;font-style:italic">*The touch command creates a new file in *nix systems</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>3 Types of Modules</h4>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment">1) Your own source files</p>
+                <p class="small fragment">2) Core node modules</p>
+                <p class="small fragment">3) Installed dependencies in <code>node_modules/ folder</code></p>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- CREATING AND LOADING A MODULE-->
+        <section class="with-tts-right">
+          <section>
+            <h4>Working with Modules:<br/>Creating a Module</h4>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <pre><code class="hljs bash" data-trim contenteditable>$ touch logger.js</code></pre>
+                <div class="linebreak"></div>
+                <pre><code class="hljs javascript" data-trim contenteditable>let message = "Module";
+
+function log(){ 
+    console.log( message );
+}
+
+module.exports = log;</code></pre>
+                <div class="linebreak"></div>
+                <p class="small">Both <code>log</code> and <code>message</code> are scoped into the module and are not available outside the module (file). We try to export only a minimal amount of variables and keep things private in the Module. </p>
+                <p class="small">We can also export multiple values:</p>
+                <pre><code class="hljs javascript" data-trim contenteditable>module.exports.log = log;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>Working with Modules:<br/>Loading a Module</h4>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const logger = require( './logger.js' );
+// We must be on the same folder here
+console.log( logger );
+logger();   // Custom variable name here
+</code></pre>
+                <p class="small fragment">We could have used:</p>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>require( './folder/logger.js' );</code></pre>
+                <p class="small fragment">or:</p>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>require( '../logger.js' );
+</code></pre>
+                <p class="small fragment"><strong>BEST PRACTICE:</strong> use a <code>const</code> to store <code>require()</code> objects.</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>Side by Side</h4>
+            <div class="columns">
+              <div class="column is-6">
+                <pre><code class="hljs bash" data-trim contenteditable>logger.js:</code></pre>
+                <p class="small"><code>module.exports</code> :: Exports --&gt;</p>
+                <div class="linebreak"></div>
+                <pre><code class="hljs javascript" data-trim contenteditable>let message = "Module";
+
+function log(){ 
+    console.log( message );
+}
+
+module.exports = log;</code></pre>
+              </div>
+              <div class="column is-6">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <p class="small">&lt;-- <code>require()</code> :: Imports</p>
+                <div class="linebreak"></div>
+                <pre><code class="hljs javascript" data-trim contenteditable>const logger = require("./logger.js");
+// We must be on the same folder here
+console.log( logger );
+logger();
+</code></pre>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- BUILT-IN MODULES-->
+        <section class="with-tts-right">
+          <section>
+            <h4>BUILT-IN MODULES</h4>
+          </section>
+        </section>
+        <!-- BUILT-IN MODULES: FS-->
+        <section class="with-tts-right">
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small">Synchronous Code</p>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+const files = fs.readdirSync( './' );</code></pre>
+                <p class="small fragment"><code>files</code> will be a String Array</p>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>console.log( files );</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small">Asynchronous Code</p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+const files = fs.readdir( './', ( err,files )=>{
+
+    if ( err ) {
+        console.log( err );
+    } else {
+        console.log( files );
+    }
+
+}); </code></pre>
+                <p class="small fragment"><strong>BEST PRACTICES:</strong> Prefer asynchronous methods instead of sync (readdirSync) for non-blocking code.</p>
+                <p class="small fragment" style="font-size:0.5em; opacity:0.6;font-style:italic">*Add 2 console.log statements to test asynchronous code</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small"><strong>readFileSync()</strong> (Synchronous Code)</p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+let contents = fs.readFileSync( 'app.js' );
+console.log( contents );</code></pre>
+                <p class="small fragment">What do you see in the console?</p>
+                <p class="small fragment">Let's try again with one small addition...</p>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>contents = fs.readFileSync( 'app.js','utf8' );
+console.log( contents );</code></pre>
+                <p class="small fragment" style="font-size:0.5em; opacity:0.6;font-style:italic">*Add some error handling using <strong>try { } catch { }</strong></p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small"><strong>readFile()</strong> (Asynchronous Code)</p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+fs.readFile( 'app.js', ( err, buffer )=>{
+    console.log( buffer.toString() );
+});</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small"><strong>writeFile()</strong> and <strong>writeFileSync</strong></p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+
+// SYNC:
+fs.writeFileSync( 'test.txt', "TEXT DATA" );
+
+// ASYNC:
+fs.writeFile( 'test.txt', "TEXT DATA",  ( err )=>{
+    if ( err ){
+        console.log( err.message );
+    }
+});</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>How to append to a file?</p><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_appendfile_path_data_options_callback" target="_blank">fs.appendFile()</a>
+            <div class="linebreak"></div><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_appendfilesync_path_data_options" target="_blank">fs.appendFileSync()</a>
+            <div class="linebreak"></div><small class="small fragment">(*Defaults to UTF8 encoding)</small>
+            <p class="fragment">How to delete a file?</p><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_unlink_path_callback" target="_blank">fs.unlink()</a>
+            <div class="linebreak"></div><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_unlinksync_path" target="_blank">fs.unlinkSync()</a>
+          </section>
+        </section>
+        <!-- BUILT-IN MODULES: PATH-->
+        <section class="with-tts-right">
+          <section>
+            <h6>The <strong class="colorful">path</strong> Built-in Module</h6>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const path = require('path'); 
+let pathObj = path.parse(__filename);</code></pre>
+                <p class="small fragment"><code>__filename</code>: The file name of the current module.</p>
+                <pre class="fragment"><code class="hljs json" data-trim contenteditable>{ 
+    root: '/',
+    dir: '/Users/kostasx/Desktop',
+    base: 'app.js',
+    ext: '.js',
+    name: 'app' 
+}</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>One step further...</h6>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const path = require('path'); 
+let arguments = process.argv;
+// process.argv == Array of command line arguments
+let pathObj = path.parse( arguments[2] );
+console.log( pathObj );</code></pre>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment"><code>process</code>: global object that provides information about, and control over, the current Node.js process. It is always available to Node.js apps without <code>require()</code>;</p>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- BUILT-IN MODULES: OS-->
+        <section class="with-tts-right">
+          <section>
+            <h6>The <strong class="colorful">os</strong> Built-in Module</h6>
+            <p class="small">Information about Operating System<br><a href="https://nodejs.org/api/os.html#os_os" target="_blank">Documentation</a></p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const os = require('os');
+
+os.totalmem();
+os.freemem(); 
+
+console.log( `Total Memory: ${os.totalmem()}` );</code></pre>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment">Google for: <a href="https://stackoverflow.com/questions/15900485/correct-way-to-convert-size-in-bytes-to-kb-mb-gb-in-javascript" target="_blank">js convert bytes to gb</a><br/>refactor code to display the total memory in GB</p>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- BUILT-IN MODULES: HTTP-->
+        <section class="with-tts-right">
+          <section>
+            <h6>The <strong class="colorful">http(s)</strong> Built-in Module</h6>
+            <p class="small">Communication over HTTP(S)<br><a href="https://nodejs.org/api/https.html" target="_blank">Documentation</a></p>
+            <div class="columns">
+              <div class="column is-12">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const https = require('https');
+const URL = 'https://api.chucknorris.io/jokes/random';
+
+https.get( URL, (response) => {
+
+    let data = '';
+
+    response.on('data', (chunk) => { data += chunk; });
+
+    response.on('end', () => {
+        console.log(JSON.parse(data));
+    });
+
+});</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-12">
+                <h6>Let's also add some error handling,<br/>just in case...</h6>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const https = require('https');
+const URL = 'https://api.chucknorris.io/jokes/random';
+
+https.get( URL, (response) => {
+
+    ...
+
+}).on("error", (err) => {
+
+    console.log("Error:" + err.message);
+
+});                                    
+</code></pre>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- BUILT-IN MODULES LIST-->
+        <section class="with-tts-right">
+          <h6>Available Builtin Modules</h6>
+          <div class="linebreak"></div><a target="_blank" href="https://www.w3schools.com/nodejs/ref_modules.asp">W3Schools List</a>
+          <div class="linebreak"></div><a href="https://github.com/sindresorhus/builtin-modules/blob/master/builtin-modules.json" target="_blank">List by @sindresorhus</a>
+        </section>
+        <!-- NPM + External Modules-->
+        <section class="with-tts-right">
+          <section>
+            <h6><strong class="colorful">NPM</strong> Node Package Manager</h6>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small">The official package manager for Node and is bundled &amp; installed automatically with the environment.</p>
+                <pre><code class="hljs bash" data-trim contenteditable>$ npm --version</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>Let's see what npm can do:</h6>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <ul class="mid">
+                  <li class="fragment">
+                    npm install package-name
+                    <br>const package = require('package-name');
+                  </li>
+                  <li class="fragment">
+                    npm init
+                    <br> npm init -y
+                    <br>package.json
+                  </li>
+                  <li class="fragment">
+                    npm install package-name --save
+                    <br>npm install package-name --save-dev
+                  </li>
+                  <li class="fragment">.gitignore</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6><strong class="colorful">package.json</strong></h6>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <p class="small fragment">A file that serves as documentation<br>for what packages your project depends on.</p>
+                <p class="small fragment">Allows you to specify the versions of a package that your project can use using semantic versioning rules.</p>
+                <pre class="fragment"><code class="hljs bash">$ npm install lodash@4.17.4</code></pre>
+                <p class="small fragment">Makes your build reproducible which means that its way easier to share with other developers.</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>Quick mention: <strong class="colorful">NPM</strong> scripts</h6>
+          </section>
+        </section>
+        <!-- NPM + External Modules: Hands-on-->
+        <section class="with-tts-right">
+          <section>
+            <h6>Node.JS Packages: Hands-on</h6>
+            <div class="columns">
+              <div class="column is-8 is-offset-2"><a target="_blank" href="https://runkit.com/kostasx/5b6e14a66f23060012ca240b">RunKit</a></div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <h6>Pluralize</h6>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ npm install pluralize --save</code></pre><br>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const pluralize = require('pluralize');
+
+let result = pluralize('test');
+console.log( "test: ", result );
+
+result = pluralize('paper');
+console.log( "paper: ", result );
+
+result = pluralize('mummy');
+console.log( "mummy: ", result );</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <h6>Colors</h6>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ npm install colors --save</code></pre><br>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>require('colors');
+
+console.log('hello'.green); // outputs green text
+console.log('i like cake and pies'.underline.red) // outputs red underlined text
+console.log('inverse the color'.inverse); // inverses the color
+console.log('OMG Rainbows!'.rainbow); // rainbow</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <h6>Convert-Units</h6>
+                <pre><code class="hljs bash">$ npm install convert-units --save</code></pre><br>
+                <pre><code class="hljs javascript" data-trim contenteditable>const convert = require('convert-units');
+
+// Days to Hours
+let result = convert(1).from('d').to('h');
+console.log( result );
+
+// Week(s) to Days
+result = convert(1).from('week').to('d');
+console.log( result );
+
+// Kilobytes to MBytes
+result = convert(1024).from('Kb').to('Mb');
+console.log( result );
+</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <p class="small">Putting it all together</p>
+                <pre><code class="hljs javascript" data-trim contenteditable>require('colors');
+const pluralize = require('pluralize');
+const convert = require('convert-units');
+
+let MB = convert(1024).from('Kb').to('Mb');
+let output = MB + " " + pluralize('megabyte', MB);
+
+console.log( output.red );
+</code></pre>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- HELLO WORLD SERVER APP USING THE HTTP MODULE-->
+        <section class="with-tts-right">
+          <section>
+            <h6>Our first Server App!</h6>
+            <p class="small">Go to: <a href="https://nodejs.org" target="_blank">https://nodejs.org</a></p>
+            <p class="small">DOCS &gt; GUIDES &gt; GETTING STARTED</p>
+            <p class="small"><a href="https://nodejs.org/en/docs/guides/getting-started-guide/" target="_blank">Getting Started</a></p>
+          </section>
+          <section>
+            <h6>Developing (like a boss)<br/>with Nodemon</h6>
+            <p class="small"> <a target="_blank" href="https://www.npmjs.com/package/nodemon">Nodemon Package</a></p>
+          </section>
+          <section>
+            <p class="small">Once you have installed Node, let's try building our first web server.<br/>Create a file named "app.js", and paste the following code:</p>
+            <pre><code class="hljs javascript" data-trim contenteditable>const http = require('http');
+const port = 3000;
+const server = http.createServer((request, response) => {
+    response.statusCode = 200;
+    response.setHeader('Content-Type', 'text/plain');
+    response.end('Hello World\n');
+});
+
+server.listen(port, () => {
+    console.log(`Server running at port: ${port}`);
+});
+</code></pre>
+            <p class="small">After that, run your web server using node app.js, visit http://localhost:3000<br>and you will see a message 'Hello World'</p>
+          </section>
+          <section>
+            <h6>More on Node.JS HTTP(S) Handling</h6><a class="small" href="https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/" target="_blank">Anatomy of an HTTP Transaction</a>
+          </section>
+        </section>
+        <!-- COMBINING THE HTTP SERVER AND NPM PACKAGES-->
+        <section class="with-tts-right">
+          <section>
+            <h6>Combining HTTP Server<br>and NPM Modules</h6>
+            <p class="small fragment">...to create our first Web Service!</p>
+          </section>
+          <section>
+            <h6>Step 01</h6>
+            <div class="columns">
+              <div class="column">
+                <pre><code class="hljs javascript" data-trim contenteditable>const http = require('http');
+const port = 8080;
+const server = http.createServer((request, response) => {
+    response.statusCode = 200;
+    response.setHeader('Content-Type', 'text/html');
+    response.end("<br>Pluralize Web Service");
+});
+
+server.listen(port, () => {
+    console.log(`Server running at port: ${port}`);
+});</code></pre>
+                <p class="small">Open https://localhost:8080 and check...</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>Step 02</h6>
+            <p class="small">Add two more modules to our app.js file</p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre><code class="hljs javascript" data-trim contenteditable>// Parse URLs
+const url = require('url'); 
+
+// Lets Pluralize!
+const pluralize = require('pluralize');</code></pre>
+                <p class="small">You will need <code>npm install pluralize</code> for the 2nd module...</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>Step 03</h6>
+            <p class="small">Add some more code inside the request handler function: </p>
+            <div class="columns">
+              <div class="column is-12">
+                <pre><code class="hljs javascript" data-trim contenteditable>const server = http.createServer((request, response) => {
+    // url.parse( urlString, queryString Object)
+    let parts = url.parse(request.url, true);
+    let query = parts.query;
+    console.log( query );
+
+    ...
+
+    if ( query.word ){
+        response.write(pluralize(query.word));
+    }
+    response.end();
+</code></pre>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- OPENING OUR APP TO THE WORLD VIA NGROK [WIP]-->
+        <section data-background="#ffffff">
+          <section>
+            <h5 style="margin-bottom:0">Opening our App<br/>to the World via NGROK</h5>
+            <p class="small" style="margin-top:0">Public URLs for demoing from your machine</p><a href="https://ngrok.com/" target="_blank" style="color:#666;">https://ngrok.com/</a><img src="images/ngrok.jpg">
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <h6>Quick Setup</h6>
+                <p class="small fragment">1) Go to <a href="https://ngrok.com/" target="_blank">https://ngrok.com/</a><br>and click on <strong>Get started for free</strong></p>
+                <p class="small fragment">2)  You will need to sign up first.<br/>Try GitHub login for quick easy access</p>
+                <p class="small fragment">3) Follow the 4-step Setup &amp; Installation guide</p>
+                <p class="small fragment">4) Copy the ngrok file to your app's folder<br> and run your app on port 8080 </p>
+                <pre class="fragment"><code class="hljs bash">$ ./ngrok http 8080</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>Hands-on</h6>
+            <p class="small">Create your own tiny server<br>and share your content with the world!</p>
+            <p class="small">...or Slack ;)</p>
+          </section>
+        </section>
+        <!-- CREATING A BASIC WEB SERVER-->
+        <!-- DEPLOYING OUR NODE.JS APP (HEROKU)-->
+        <section class="with-tts-right">
+          <h6>Deploying our Node.JS app<br>to the cloud</h6><a href="https://heroku.com" target="_blank">HEROKU</a>
+        </section>
+        <!-- RESOURCES-->
+        <section>
+          <h4>RESOURCES</h4>
+          <div class="columns">
+            <div class="column is-8 is-offset-2">
+              <ul class="mid black-links">
+                <li><a href="https://www.youtube.com/watch?v=TlB_eWDSMt4" target="_blank">NODE.JS TUTORIAL FOR BEGINNERS: LEARN NODE IN 1 HOUR</a></li>
+                <div class="linebreak"></div>
+                <li><a href="https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e" target="_blank">THE DEFINITIVE NODE.JS HANDBOOK</a></li>
+                <div class="linebreak"></div>
+                <li><a href="https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1" target="_blank">THE BEGINNER’S GUIDE: UNDERSTANDING NODE.JS &amp; EXPRESS.JS FUNDAMENTALS</a></li>
+                <div class="linebreak"></div>
+                <li><a href="https://github.com/kostasx/npm-introduction" target="_blank">An introduction to npm</a></li>
+                <div class="linebreak"></div>
+                <li><a href="https://blog.bloomca.me/2018/07/09/nodejs-repl-in-depth.html" target="_blank">Node.js REPL in Depth</a></li>
+                <div class="linebreak"></div>
+                <li><a href="https://www.npmjs.com/package/javascripting" target="_blank">LEARN JAVASCRIPT BY ADVENTURING AROUND IN THE TERMINAL</a></li>
+              </ul>
+              <pre><code class="hljs bash">$ npm install javascripting -g</code></pre>
+              <div class="linebreak"></div>
+              <pre><code class="hljs bash">$ javascripting</code></pre>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="../libs/reveal.js/lib/js/head.min.js"></script>
+    <script src="../libs/reveal.js/js/reveal.js"></script>
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+          history: true,
+          // More info https://github.com/hakimel/reveal.js#dependencies
+          dependencies: [
+          { src: '../libs/reveal.js/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+          { src: '../libs/reveal.js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+          { src: '../libs/reveal.js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+          { src: '../libs/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+          { src: '../libs/reveal.js/plugin/search/search.js', async: true },
+          { src: '../libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '../libs/reveal.js/plugin/notes/notes.js', async: true }
+          ]
+      });
+      
+      Reveal.addEventListener( 'ready', function( e ) {
+          let slideState = e.currentSlide.getAttribute('data-state');
+          // if ( slideState === 'intro' )
+      });
+      
+      /* TTS */
+      
+      Reveal.addEventListener( 'slidechanged', function( e ) {
+          let slideState = e.currentSlide.getAttribute('data-state');
+      });
+    </script>
+  </body>
+</html>

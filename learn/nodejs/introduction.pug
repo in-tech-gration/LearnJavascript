@@ -1,0 +1,902 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible' content='ie=edge')
+        meta(name='author' content='Kostas Minaidis')
+        meta(name='apple-mobile-web-app-capable' content='yes')
+        meta(name='apple-mobile-web-app-status-bar-style' content='black-translucent')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+
+        link(rel='stylesheet' href='../css/bulma-columns.css')
+        link(rel='stylesheet' href='../libs/reveal.js/css/reveal.css')
+        link#theme(rel='stylesheet' href='../libs/reveal.js/css/theme/black-tts.css')
+        link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css')
+        // Roboto | Google Web Fonts
+        link(href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet')
+        // Theme used for syntax highlighting of code
+        link(rel='stylesheet' href='../libs/reveal.js/lib/css/monokai-sublime-sha.css')
+        link(rel='stylesheet' href='../css/reveal-tts-white.css')
+
+        title Social Hackers Academy | Introduction to Node.JS
+
+    body
+
+        // Alt+Click | Zoom
+        // S | Speaker View
+        // B or . | Pause View
+
+        //- Tech Talent School - Node.JS Fundamentals - Part I & II ( 2 x 4h )
+        //-     - Introduction - What is Node.JS?
+        //-     - Installing Node.JS
+        //-     - Our first Hello World Node.JS App
+        //-         - Node REPL
+        //-         - Executing JS Files
+        //-     - Node Modules
+        //-         - What are Node Modules
+        //-         - Create a Module
+        //-         - Loading a Module
+        //-         - Built-in Modules: process
+        //-         - Built-in Modules: fs
+        //-         - Built-in Modules: path
+        //-         - Built-in Modules: os
+        //-         - External Modules & Node Package Manager (npm)
+        //-     - Hello World Server App using the HTTP Module
+        //-     - Developing with Node.JS: nodemon
+        //-     - Creating a basic Web Server
+        //-     - Opening our App to the World via NGROK
+        //-     - Deploying our Node.JS App (Heroku)
+
+        .reveal
+            .slides
+
+                section.with-tts-right(data-state='intro' data-transition="fade-out")
+                    h3 An Introduction to 
+                    h2 Node.JS
+                    small By <strong>Kostas Minaidis</strong> | Social Hackers Academy
+
+                // TABLE OF CONTENTS
+                section.with-tts-right
+                    h3.colorful Table of Contents
+                    ul
+                        li.small.fragment What is Node.JS?
+                        li.small.fragment Installing Node.JS
+                        li.small.fragment Hello World App
+                        li.small.fragment Node REPL
+                        li.small.fragment Executing JS Files
+                        li.small.fragment Node Modules
+                        li.small.fragment Hello World Server App
+                        li.small.fragment Creating a basic Web Server
+                        li.small.fragment Opening our App to the World
+                        li.small.fragment Deploying (Heroku)
+
+                // INTRODUCTION - WHAT IS NODE.JS?
+                section.with-tts-right
+                    section
+                        h2 What is Node.JS?
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment A Runtime Environment to run JavaScript outside the Browser. Think: Server-side JavaScript interpreter.
+
+                                p.small.fragment It uses Chrome's V8 JavaScript engine to compile JS commands into executable code.
+
+                                p.small.fragment It is a free and open source software created in 2009 by Ryan Dahl. 
+                    section
+                        .columns
+                            .column.is-8.is-offset-2
+                                h3 Details
+                                ul
+                                    li.small.fragment It's cross-platform and is mainly used to build backend services (APIs, servers, etc.) and Command line tools.
+                                    li.small.fragment Uses the same JavaScript language that the browser uses, but has access to different context and APIs:
+                                        ul
+                                            li.small.fragment Browser: document, location, window, accelerometer, geolocation, etc. (Browser APIs)
+                                            li.small.fragment Node: fs (file system), os (operating system), http, etc.
+                                    li.small.fragment Node.js has the largest open source library in the world: The NPM.
+
+                // INSTALLING NODE.JS
+                section.with-tts-right
+                    section
+                        h2 Installing Node.JS
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment 1) Go to: 
+                                    a(target="_blank" href="https://nodejs.org/en/download/") https://nodejs.org/en/download/
+                                p.small.fragment 2) Download the <strong>LTS</strong> version for your platform and follow the instructions   
+                                p.small.fragment 3) Once installed, open the terminal and check that node has been installed:
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ node --version
+                                p.small.fragment You should see something like this:    
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) v14.15.4
+                    section
+                        h4 What's the difference between<br/><strong class="colorful">LTS</strong> and <strong class="colorful">Current</strong> version?
+
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment <strong class="colorful">LTS</strong>: Stability, rare updates, enterprise-level apps and services, long-term support: 18 months. Better suited for production.
+
+                                p.small.fragment <strong class="colorful">Current/Stable</strong>: Front-end tools, local development, regular updates, new features, performance updates, bug fixes, cutting-edge technologies, etc. Support for approximately 8 months.
+
+                    section
+                        h4 Bottom line?
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small If you are ready for production, hit for LTS.<br/>Otherwise use Current.
+
+                                h6.small References: 
+                                p.small
+                                    a(href="https://stackoverflow.com/questions/34829167/what-is-the-difference-between-the-lts-version-and-the-stable-version-of-node-js/34830675" target="_blank") What is the difference between the LTS version<br/>and the stable version of node.js?
+                                p.small
+                                    a(target="_blank" href="https://stackoverflow.com/questions/33661274/what-are-the-differences-between-long-term-support-lts-and-stable-versions-of") What are the differences between Long Term Support (LTS) and Stable versions of Node.js?
+
+                // NODE.JS ON THE BROWSER
+                section.with-tts.right
+                    .columns
+                        .column.is-8.is-offset-2
+                            h4 Can't / Don't want to install Node.JS?
+                            p.fragment No problem.<br>Try out Node.JS in the browser!
+                            a.fragment(href="https://repl.it/languages" target="_blank") Repl.it
+                            .linebreak
+                            a.fragment(href="https://runkit.com/" target="_blank") RunKit.com
+
+                // OUR FIRST HELLO WORLD NODE.JS APP
+                section.with-tts-right
+                    section
+                        h4 A simple Node.JS app
+                        .columns
+                            .column.is-8.is-offset-2
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ mkdir app
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ cd app
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ touch app.js
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable) console.log('Node!');
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ node app.js
+                    section
+                        h4 Gotchas
+                        .columns
+                            .column.is-8.is-offset-2
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ code app.js
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable) console.log( window );
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ node app.js
+                                .linebreak
+                                pre.fragment
+                                    code.hljs(data-trim contenteditable)  ReferenceError: window is not defined
+                                .linebreak
+                                p.small.fragment We are <strong class="colorful">not</strong> running JS in the browser where the window global object is available.
+                    section
+                        h4 Global Object
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment Built-in functions such as <code>setTimeout()</code> are available both on Node.JS and the Browser. 
+                                p.small.fragment On the Browser, these built-in functions are methods of the global <strong class="colorful">window</strong> Object, whereas in Node.js they are methods of the <strong class="colorful">global</strong> object:
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) window.setTimeout
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) global.setTimeout
+                                .linebreak
+                                //- p.small.fragment Unlike the browser's window object, variables are not automatically added to Node.JS <strong class="colorful">global</strong> object.
+                                //- .linebreak
+                                //- pre.fragment
+                                //-     code.hljs.bash(data-trim contenteditable).
+                                //-         let message = 1;
+                                //-         global.message == undefined 
+
+                // NODE REPL
+                section.with-tts-right
+                    section
+                        h2 Node REPL
+                        p.fragment Read-Eval-Print-Loop
+                        p.small.fragment Use the Node REPL to test 
+                    section
+                        .columns
+                            .column.is-6.is-offset-3
+                                p Open up your terminal and type 
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) $ node
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) &gt; 4+6
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) 10
+                    section
+                        .columns
+                            .column.is-6.is-offset-3
+                                p Basic REPL commands
+                                pre.fragment
+                                    code.hljs.bash &gt; .exit
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash &gt; .help
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash &gt; .break or .clear
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash &gt; .editor
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash &gt; .save
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.bash &gt; .load
+                                .linebreak
+                                small.small.fragment How to clear the console?
+                                pre.fragment
+                                    code.hljs.bash &gt; console.clear(); or CTRL+L
+
+                // NODE MODULES
+                section.with-tts-right
+                    section
+                        h4 Node Modules
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment Every file in Node is considered a Module.
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        console.log( module ); 
+                                        // NOT a global.module object!
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        Module {
+                                            ...
+                                            exports: {},
+                                            ...
+                                        }
+                                .linebreak
+                                p.small.fragment Module global variables available: exports, require, module, __filename, __dirname
+                                p.small.fragment Think of each JavaScript file a separate Module with its own private scope and context.
+                    section
+                        h4 Code
+                        .columns
+                            .column.is-8.is-offset-2
+                                pre.fragment
+                                    code.hljs.shell(data-trim contenteditable) $ touch app.js 
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable) console.log( module ); 
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.shell(data-trim contenteditable) $ node app.js 
+                                p.small.fragment(style="font-size:0.5em; opacity:0.6;font-style:italic") *The touch command creates a new file in *nix systems
+                    section
+                        h4 3 Types of Modules
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment 1) Your own source files
+                                p.small.fragment 2) Core node modules
+                                p.small.fragment 3) Installed dependencies in <code>node_modules/ folder</code>
+
+                // CREATING AND LOADING A MODULE
+                section.with-tts-right
+                    section
+                        h4 Working with Modules:<br/>Creating a Module
+                    section
+                        .columns
+                            .column.is-8.is-offset-2
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) $ touch logger.js
+                                .linebreak
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        let message = "Module";
+
+                                        function log(){ 
+                                            console.log( message );
+                                        }
+
+                                        module.exports = log;
+                                .linebreak
+                                p.small Both <code>log</code> and <code>message</code> are scoped into the module and are not available outside the module (file). We try to export only a minimal amount of variables and keep things private in the Module. 
+
+                                p.small We can also export multiple values:
+
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable) module.exports.log = log;
+                    section
+                        h4 Working with Modules:<br/>Loading a Module
+                    section
+                        .columns
+                            .column.is-8.is-offset-2
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const logger = require( './logger.js' );
+                                        // We must be on the same folder here
+                                        console.log( logger );
+                                        logger();   // Custom variable name here
+
+                                p.small.fragment We could have used:
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+
+                                        require( './folder/logger.js' );
+                                p.small.fragment or:
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+
+                                        require( '../logger.js' );
+
+                                p.small.fragment <strong>BEST PRACTICE:</strong> use a <code>const</code> to store <code>require()</code> objects.
+
+                    section
+                        h4 Side by Side
+                        .columns
+                            .column.is-6
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) logger.js:
+                                p.small <code>module.exports</code> :: Exports --&gt;
+                                .linebreak
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        let message = "Module";
+
+                                        function log(){ 
+                                            console.log( message );
+                                        }
+
+                                        module.exports = log;
+                            .column.is-6
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                p.small &lt;-- <code>require()</code> :: Imports
+                                .linebreak
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const logger = require("./logger.js");
+                                        // We must be on the same folder here
+                                        console.log( logger );
+                                        logger();
+
+                // BUILT-IN MODULES
+                section.with-tts-right
+                    section
+                        h4 BUILT-IN MODULES
+
+                // BUILT-IN MODULES: FS
+                section.with-tts-right
+                    section
+                        h6 The <strong class="colorful">fs</strong> Built-in Module
+                        p.small Synchronous Code
+                        .columns
+                            .column.is-8.is-offset-2
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const fs = require( 'fs' );
+                                        const files = fs.readdirSync( './' );
+                                p.small.fragment <code>files</code> will be a String Array
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        console.log( files );
+                    section
+                        h6 The <strong class="colorful">fs</strong> Built-in Module
+                        p.small Asynchronous Code
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const fs = require( 'fs' );
+                                        const files = fs.readdir( './', ( err,files )=>{
+
+                                            if ( err ) {
+                                                console.log( err );
+                                            } else {
+                                                console.log( files );
+                                            }
+                                        
+                                        }); 
+                                p.small.fragment.
+                                    <strong>BEST PRACTICES:</strong> Prefer asynchronous methods instead of sync (readdirSync) for non-blocking code.
+                                p.small.fragment(style="font-size:0.5em; opacity:0.6;font-style:italic") *Add 2 console.log statements to test asynchronous code
+                    section
+                        h6 The <strong class="colorful">fs</strong> Built-in Module
+                        p.small <strong>readFileSync()</strong> (Synchronous Code)
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const fs = require( 'fs' );
+                                        let contents = fs.readFileSync( 'app.js' );
+                                        console.log( contents );
+                                p.small.fragment What do you see in the console?
+                                p.small.fragment Let's try again with one small addition...
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        contents = fs.readFileSync( 'app.js','utf8' );
+                                        console.log( contents );
+                                p.small.fragment(style="font-size:0.5em; opacity:0.6;font-style:italic") *Add some error handling using <strong>try { } catch { }</strong>
+                    section
+                        h6 The <strong class="colorful">fs</strong> Built-in Module
+                        p.small <strong>readFile()</strong> (Asynchronous Code)
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const fs = require( 'fs' );
+                                        fs.readFile( 'app.js', ( err, buffer )=>{
+                                            console.log( buffer.toString() );
+                                        });
+                    section
+                        h6 The <strong class="colorful">fs</strong> Built-in Module
+                        p.small <strong>writeFile()</strong> and <strong>writeFileSync</strong>
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const fs = require( 'fs' );
+
+                                        // SYNC:
+                                        fs.writeFileSync( 'test.txt', "TEXT DATA" );
+
+                                        // ASYNC:
+                                        fs.writeFile( 'test.txt', "TEXT DATA",  ( err )=>{
+                                            if ( err ){
+                                                console.log( err.message );
+                                            }
+                                        });
+                    section
+                        p How to append to a file?
+                        a.small.fragment(href="https://nodejs.org/api/fs.html#fs_fs_appendfile_path_data_options_callback" target="_blank") fs.appendFile()
+                        .linebreak
+                        a.small.fragment(href="https://nodejs.org/api/fs.html#fs_fs_appendfilesync_path_data_options" target="_blank") fs.appendFileSync()
+                        .linebreak
+                        small.small.fragment (*Defaults to UTF8 encoding)
+                        p.fragment How to delete a file?
+                        a.small.fragment(href="https://nodejs.org/api/fs.html#fs_fs_unlink_path_callback" target="_blank") fs.unlink()
+                        .linebreak
+                        a.small.fragment(href="https://nodejs.org/api/fs.html#fs_fs_unlinksync_path" target="_blank") fs.unlinkSync()
+
+
+                // BUILT-IN MODULES: PATH
+                section.with-tts-right
+                    section
+                        h6 The <strong class="colorful">path</strong> Built-in Module
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const path = require('path'); 
+                                        let pathObj = path.parse(__filename);
+                                p.small.fragment <code>__filename</code>: The file name of the current module.
+                                pre.fragment
+                                    code.hljs.json(data-trim contenteditable).
+                                        { 
+                                            root: '/',
+                                            dir: '/Users/kostasx/Desktop',
+                                            base: 'app.js',
+                                            ext: '.js',
+                                            name: 'app' 
+                                        }
+                    section
+                        h6 One step further...
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const path = require('path'); 
+                                        let arguments = process.argv;
+                                        // process.argv == Array of command line arguments
+                                        let pathObj = path.parse( arguments[2] );
+                                        console.log( pathObj );
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment <code>process</code>: global object that provides information about, and control over, the current Node.js process. It is always available to Node.js apps without <code>require()</code>;
+
+                // BUILT-IN MODULES: OS
+                section.with-tts-right
+                    section
+                        h6 The <strong class="colorful">os</strong> Built-in Module
+                        p.small Information about Operating System
+                            br
+                            a(href="https://nodejs.org/api/os.html#os_os" target="_blank") Documentation
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const os = require('os');
+
+                                        os.totalmem();
+                                        os.freemem(); 
+
+                                        console.log( `Total Memory: ${os.totalmem()}` );
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment Google for: <a href="https://stackoverflow.com/questions/15900485/correct-way-to-convert-size-in-bytes-to-kb-mb-gb-in-javascript" target="_blank">js convert bytes to gb</a><br/>refactor code to display the total memory in GB
+
+                // BUILT-IN MODULES: HTTP
+                section.with-tts-right
+                    section
+                        h6 The <strong class="colorful">http(s)</strong> Built-in Module
+                        p.small Communication over HTTP(S)
+                            br
+                            a(href="https://nodejs.org/api/https.html" target="_blank") Documentation
+                        .columns
+                            .column.is-12
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) app.js:
+                                .linebreak
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const https = require('https');
+                                        const URL = 'https://api.chucknorris.io/jokes/random';
+
+                                        https.get( URL, (response) => {
+
+                                            let data = '';
+
+                                            response.on('data', (chunk) => { data += chunk; });
+
+                                            response.on('end', () => {
+                                                console.log(JSON.parse(data));
+                                            });
+
+                                        });
+                    section
+                        .columns
+                            .column.is-12
+                                h6 Let's also add some error handling,<br/>just in case...
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const https = require('https');
+                                        const URL = 'https://api.chucknorris.io/jokes/random';
+
+                                        https.get( URL, (response) => {
+
+                                            ...
+
+                                        }).on("error", (err) => {
+
+                                            console.log("Error:" + err.message);
+
+                                        });                                    
+
+                // BUILT-IN MODULES LIST
+                section.with-tts-right
+                    h6 Available Builtin Modules
+                    .linebreak
+                    a(target="_blank" href="https://www.w3schools.com/nodejs/ref_modules.asp") W3Schools List
+                    .linebreak
+                    a(href="https://github.com/sindresorhus/builtin-modules/blob/master/builtin-modules.json" target="_blank") List by @sindresorhus
+
+                // NPM + External Modules
+                section.with-tts-right
+                    section
+                        h6 <strong class="colorful">NPM</strong> Node Package Manager
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small The official package manager for Node and is bundled &amp; installed automatically with the environment.
+                                pre
+                                    code.hljs.bash(data-trim contenteditable) $ npm --version
+                    section
+                        h6 Let's see what npm can do:
+                        .columns
+                            .column.is-8.is-offset-2
+                                ul.mid
+                                    li.fragment.
+                                        npm install package-name
+                                        <br>const package = require('package-name');
+                                    li.fragment.
+                                        npm init
+                                        <br> npm init -y
+                                        <br>package.json
+                                    li.fragment.
+                                        npm install package-name --save
+                                        <br>npm install package-name --save-dev
+                                    li.fragment .gitignore
+
+                    //- package.json
+                    section
+                        h6 <strong class="colorful">package.json</strong>
+                        .columns
+                            .column.is-8.is-offset-2
+                                p.small.fragment A file that serves as documentation<br>for what packages your project depends on.
+                                p.small.fragment Allows you to specify the versions of a package that your project can use using semantic versioning rules.
+                                pre.fragment
+                                    code.hljs.bash $ npm install lodash@4.17.4
+                                p.small.fragment Makes your build reproducible which means that its way easier to share with other developers.
+
+                    //- npm scripts
+                    section
+                        h6 Quick mention: <strong class="colorful">NPM</strong> scripts
+
+                // NPM + External Modules: Hands-on
+                section.with-tts-right
+                    section
+                        h6 Node.JS Packages: Hands-on
+                        .columns
+                            .column.is-8.is-offset-2
+                                a(target="_blank" href="https://runkit.com/kostasx/5b6e14a66f23060012ca240b") RunKit
+                    //- Pluralize
+                    section
+                        .columns
+                            .column.is-10.is-offset-1
+                                h6 Pluralize
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ npm install pluralize --save
+                                <br>
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const pluralize = require('pluralize');
+
+                                        let result = pluralize('test');
+                                        console.log( "test: ", result );
+
+                                        result = pluralize('paper');
+                                        console.log( "paper: ", result );
+
+                                        result = pluralize('mummy');
+                                        console.log( "mummy: ", result );
+                    //- Colors
+                    section
+                        .columns
+                            .column.is-10.is-offset-1
+                                h6 Colors
+                                pre.fragment
+                                    code.hljs.bash(data-trim contenteditable) $ npm install colors --save
+                                <br>
+                                pre.fragment
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        require('colors');
+
+                                        console.log('hello'.green); // outputs green text
+                                        console.log('i like cake and pies'.underline.red) // outputs red underlined text
+                                        console.log('inverse the color'.inverse); // inverses the color
+                                        console.log('OMG Rainbows!'.rainbow); // rainbow
+                    //- Convert Units
+                    section
+                        .columns
+                            .column.is-10.is-offset-1
+                                h6 Convert-Units
+                                pre
+                                    code.hljs.bash $ npm install convert-units --save
+                                <br>
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const convert = require('convert-units');
+
+                                        // Days to Hours
+                                        let result = convert(1).from('d').to('h');
+                                        console.log( result );
+
+                                        // Week(s) to Days
+                                        result = convert(1).from('week').to('d');
+                                        console.log( result );
+
+                                        // Kilobytes to MBytes
+                                        result = convert(1024).from('Kb').to('Mb');
+                                        console.log( result );
+
+                    section
+                        .columns
+                            .column.is-10.is-offset-1
+                                p.small Putting it all together
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        require('colors');
+                                        const pluralize = require('pluralize');
+                                        const convert = require('convert-units');
+
+                                        let MB = convert(1024).from('Kb').to('Mb');
+                                        let output = MB + " " + pluralize('megabyte', MB);
+
+                                        console.log( output.red );
+
+                // HELLO WORLD SERVER APP USING THE HTTP MODULE
+                section.with-tts-right
+                    section
+                        h6 Our first Server App!
+                        p.small Go to: <a href="https://nodejs.org" target="_blank">https://nodejs.org</a>
+                        p.small DOCS &gt; GUIDES &gt; GETTING STARTED
+                        p.small
+                            a(href="https://nodejs.org/en/docs/guides/getting-started-guide/" target="_blank") Getting Started
+                    section
+                        h6 Developing (like a boss)<br/>with Nodemon
+                        p.small 
+                            a(target="_blank" href="https://www.npmjs.com/package/nodemon") Nodemon Package
+                    section
+                        p.small Once you have installed Node, let's try building our first web server.<br/>Create a file named "app.js", and paste the following code:
+                        pre
+                            code.hljs.javascript(data-trim contenteditable).
+                                const http = require('http');
+                                const port = 3000;
+                                const server = http.createServer((request, response) => {
+                                    response.statusCode = 200;
+                                    response.setHeader('Content-Type', 'text/plain');
+                                    response.end('Hello World\n');
+                                });
+
+                                server.listen(port, () => {
+                                    console.log(`Server running at port: ${port}`);
+                                });
+
+                        p.small After that, run your web server using node app.js, visit http://localhost:3000<br>and you will see a message 'Hello World'
+
+                    section
+                        h6 More on Node.JS HTTP(S) Handling
+                        a.small(href="https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/" target="_blank") Anatomy of an HTTP Transaction
+
+                // COMBINING THE HTTP SERVER AND NPM PACKAGES
+                section.with-tts-right
+                    section
+                        h6 Combining HTTP Server<br>and NPM Modules
+                        p.small.fragment ...to create our first Web Service!
+                    section
+                        h6 Step 01
+                        .columns
+                            .column
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const http = require('http');
+                                        const port = 8080;
+                                        const server = http.createServer((request, response) => {
+                                            response.statusCode = 200;
+                                            response.setHeader('Content-Type', 'text/html');
+                                            response.end("<br>Pluralize Web Service");
+                                        });
+
+                                        server.listen(port, () => {
+                                            console.log(`Server running at port: ${port}`);
+                                        });
+                                p.small Open https://localhost:8080 and check...
+                    section
+                        h6 Step 02
+                        p.small Add two more modules to our app.js file
+                        .columns
+                            .column.is-10.is-offset-1
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        // Parse URLs
+                                        const url = require('url'); 
+ 
+                                        // Lets Pluralize!
+                                        const pluralize = require('pluralize');
+                                p.small You will need <code>npm install pluralize</code> for the 2nd module...
+                    section
+                        h6 Step 03
+                        p.small Add some more code inside the request handler function: 
+                        .columns
+                            .column.is-12
+                                pre
+                                    code.hljs.javascript(data-trim contenteditable).
+                                        const server = http.createServer((request, response) => {
+                                            // url.parse( urlString, queryString Object)
+                                            let parts = url.parse(request.url, true);
+                                            let query = parts.query;
+                                            console.log( query );
+
+                                            ...
+
+                                            if ( query.word ){
+                                                response.write(pluralize(query.word));
+                                            }
+                                            response.end();
+
+                // OPENING OUR APP TO THE WORLD VIA NGROK [WIP]
+                section(data-background="#ffffff")
+                    section
+                        h5(style="margin-bottom:0") Opening our App<br/>to the World via NGROK
+                        p.small(style="margin-top:0") Public URLs for demoing from your machine
+                        a(href="https://ngrok.com/" target="_blank" style="color:#666;") https://ngrok.com/
+                        img(src="images/ngrok.jpg")
+                    section
+                        .columns
+                            .column.is-8.is-offset-2
+                                h6 Quick Setup
+                                p.small.fragment 1) Go to <a href="https://ngrok.com/" target="_blank">https://ngrok.com/</a><br>and click on <strong>Get started for free</strong>
+                                p.small.fragment 2)  You will need to sign up first.<br/>Try GitHub login for quick easy access
+                                p.small.fragment 3) Follow the 4-step Setup &amp; Installation guide
+                                p.small.fragment 4) Copy the ngrok file to your app's folder<br> and run your app on port 8080 
+                                pre.fragment
+                                    code.hljs.bash $ ./ngrok http 8080
+                    section
+                        h6 Hands-on
+                        p.small Create your own tiny server<br>and share your content with the world!
+                        p.small ...or Slack ;)
+
+                // CREATING A BASIC WEB SERVER
+
+                // DEPLOYING OUR NODE.JS APP (HEROKU)
+                section.with-tts-right
+                    h6 Deploying our Node.JS app<br>to the cloud
+                    a(href="https://heroku.com" target="_blank") HEROKU
+
+                // RESOURCES
+                section
+                    h4 RESOURCES
+                    .columns
+                        .column.is-8.is-offset-2
+                            ul.mid.black-links
+                                li
+                                    a(href="https://www.youtube.com/watch?v=TlB_eWDSMt4" target="_blank") NODE.JS TUTORIAL FOR BEGINNERS: LEARN NODE IN 1 HOUR
+                                .linebreak
+                                li
+                                    a(href="https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e" target="_blank") THE DEFINITIVE NODE.JS HANDBOOK
+                                .linebreak
+                                li
+                                    a(href="https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1" target="_blank") THE BEGINNER’S GUIDE: UNDERSTANDING NODE.JS &amp; EXPRESS.JS FUNDAMENTALS
+                                .linebreak
+                                li
+                                    a(href="https://github.com/kostasx/npm-introduction" target="_blank") An introduction to npm
+                                .linebreak
+                                li
+                                    a(href="https://blog.bloomca.me/2018/07/09/nodejs-repl-in-depth.html" target="_blank") Node.js REPL in Depth
+                                .linebreak
+                                li
+                                    a(href="https://www.npmjs.com/package/javascripting" target="_blank") LEARN JAVASCRIPT BY ADVENTURING AROUND IN THE TERMINAL
+                            pre
+                                code.hljs.bash $ npm install javascripting -g
+                            .linebreak
+                            pre
+                                code.hljs.bash $ javascripting
+
+        //- SCRIPTS
+        script(src='../libs/reveal.js/lib/js/head.min.js')
+        script(src='../libs/reveal.js/js/reveal.js')
+        script.
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                { src: '../libs/reveal.js/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: '../libs/reveal.js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: '../libs/reveal.js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: '../libs/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: '../libs/reveal.js/plugin/search/search.js', async: true },
+                { src: '../libs/reveal.js/plugin/zoom-js/zoom.js', async: true },
+                { src: '../libs/reveal.js/plugin/notes/notes.js', async: true }
+                ]
+            });
+
+            Reveal.addEventListener( 'ready', function( e ) {
+                let slideState = e.currentSlide.getAttribute('data-state');
+                // if ( slideState === 'intro' )
+            });
+
+            /* TTS */
+
+            Reveal.addEventListener( 'slidechanged', function( e ) {
+                let slideState = e.currentSlide.getAttribute('data-state');
+            });
