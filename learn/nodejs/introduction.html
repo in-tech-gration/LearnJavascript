@@ -86,7 +86,7 @@
                 <p class="small fragment">3) Once installed, open the terminal and check that node has been installed:</p>
                 <pre class="fragment"><code class="hljs bash" data-trim contenteditable>$ node --version</code></pre>
                 <p class="small fragment">You should see something like this:    </p>
-                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>v14.15.4</code></pre>
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>v18.17.0</code></pre>
               </div>
             </div>
           </section>
@@ -334,103 +334,28 @@ logger();
             <h4>BUILT-IN MODULES</h4>
           </section>
         </section>
-        <!-- BUILT-IN MODULES: FS-->
+        <!-- BUILT-IN MODULES: OS-->
         <section class="with-tts-right">
           <section>
-            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
-            <p class="small">Synchronous Code</p>
+            <h6>The <strong class="colorful">os</strong> Built-in Module</h6>
+            <p class="small">Information about Operating System<br><a href="https://nodejs.org/api/os.html#os_os" target="_blank">Documentation</a></p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const os = require('os');
+
+os.totalmem();
+os.freemem(); 
+
+console.log( `Total Memory: ${os.totalmem()}` );</code></pre>
+              </div>
+            </div>
             <div class="columns">
               <div class="column is-8 is-offset-2">
-                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
-                <div class="linebreak"></div>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
-const files = fs.readdirSync( './' );</code></pre>
-                <p class="small fragment"><code>files</code> will be a String Array</p>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>console.log( files );</code></pre>
+                <p class="small fragment">Google for: <a href="https://stackoverflow.com/questions/15900485/correct-way-to-convert-size-in-bytes-to-kb-mb-gb-in-javascript" target="_blank">js convert bytes to gb</a><br/>refactor code to display the total memory in GB</p>
               </div>
             </div>
-          </section>
-          <section>
-            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
-            <p class="small">Asynchronous Code</p>
-            <div class="columns">
-              <div class="column is-10 is-offset-1">
-                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
-                <div class="linebreak"></div>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
-const files = fs.readdir( './', ( err,files )=>{
-
-    if ( err ) {
-        console.log( err );
-    } else {
-        console.log( files );
-    }
-
-}); </code></pre>
-                <p class="small fragment"><strong>BEST PRACTICES:</strong> Prefer asynchronous methods instead of sync (readdirSync) for non-blocking code.</p>
-                <p class="small fragment" style="font-size:0.5em; opacity:0.6;font-style:italic">*Add 2 console.log statements to test asynchronous code</p>
-              </div>
-            </div>
-          </section>
-          <section>
-            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
-            <p class="small"><strong>readFileSync()</strong> (Synchronous Code)</p>
-            <div class="columns">
-              <div class="column is-10 is-offset-1">
-                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
-                <div class="linebreak"></div>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
-let contents = fs.readFileSync( 'app.js' );
-console.log( contents );</code></pre>
-                <p class="small fragment">What do you see in the console?</p>
-                <p class="small fragment">Let's try again with one small addition...</p>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>contents = fs.readFileSync( 'app.js','utf8' );
-console.log( contents );</code></pre>
-                <p class="small fragment" style="font-size:0.5em; opacity:0.6;font-style:italic">*Add some error handling using <strong>try { } catch { }</strong></p>
-              </div>
-            </div>
-          </section>
-          <section>
-            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
-            <p class="small"><strong>readFile()</strong> (Asynchronous Code)</p>
-            <div class="columns">
-              <div class="column is-10 is-offset-1">
-                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
-                <div class="linebreak"></div>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
-fs.readFile( 'app.js', ( err, buffer )=>{
-    console.log( buffer.toString() );
-});</code></pre>
-              </div>
-            </div>
-          </section>
-          <section>
-            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
-            <p class="small"><strong>writeFile()</strong> and <strong>writeFileSync</strong></p>
-            <div class="columns">
-              <div class="column is-10 is-offset-1">
-                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
-                <div class="linebreak"></div>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
-
-// SYNC:
-fs.writeFileSync( 'test.txt', "TEXT DATA" );
-
-// ASYNC:
-fs.writeFile( 'test.txt', "TEXT DATA",  ( err )=>{
-    if ( err ){
-        console.log( err.message );
-    }
-});</code></pre>
-              </div>
-            </div>
-          </section>
-          <section>
-            <p>How to append to a file?</p><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_appendfile_path_data_options_callback" target="_blank">fs.appendFile()</a>
-            <div class="linebreak"></div><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_appendfilesync_path_data_options" target="_blank">fs.appendFileSync()</a>
-            <div class="linebreak"></div><small class="small fragment">(*Defaults to UTF8 encoding)</small>
-            <p class="fragment">How to delete a file?</p><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_unlink_path_callback" target="_blank">fs.unlink()</a>
-            <div class="linebreak"></div><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_unlinksync_path" target="_blank">fs.unlinkSync()</a>
           </section>
         </section>
         <!-- BUILT-IN MODULES: PATH-->
@@ -470,77 +395,6 @@ console.log( pathObj );</code></pre>
             <div class="columns">
               <div class="column is-8 is-offset-2">
                 <p class="small fragment"><code>process</code>: global object that provides information about, and control over, the current Node.js process. It is always available to Node.js apps without <code>require()</code>;</p>
-              </div>
-            </div>
-          </section>
-        </section>
-        <!-- BUILT-IN MODULES: OS-->
-        <section class="with-tts-right">
-          <section>
-            <h6>The <strong class="colorful">os</strong> Built-in Module</h6>
-            <p class="small">Information about Operating System<br><a href="https://nodejs.org/api/os.html#os_os" target="_blank">Documentation</a></p>
-            <div class="columns">
-              <div class="column is-10 is-offset-1">
-                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
-                <div class="linebreak"></div>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const os = require('os');
-
-os.totalmem();
-os.freemem(); 
-
-console.log( `Total Memory: ${os.totalmem()}` );</code></pre>
-              </div>
-            </div>
-            <div class="columns">
-              <div class="column is-8 is-offset-2">
-                <p class="small fragment">Google for: <a href="https://stackoverflow.com/questions/15900485/correct-way-to-convert-size-in-bytes-to-kb-mb-gb-in-javascript" target="_blank">js convert bytes to gb</a><br/>refactor code to display the total memory in GB</p>
-              </div>
-            </div>
-          </section>
-        </section>
-        <!-- BUILT-IN MODULES: HTTP-->
-        <section class="with-tts-right">
-          <section>
-            <h6>The <strong class="colorful">http(s)</strong> Built-in Module</h6>
-            <p class="small">Communication over HTTP(S)<br><a href="https://nodejs.org/api/https.html" target="_blank">Documentation</a></p>
-            <div class="columns">
-              <div class="column is-12">
-                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
-                <div class="linebreak"></div>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const https = require('https');
-const URL = 'https://api.chucknorris.io/jokes/random';
-
-https.get( URL, (response) => {
-
-    let data = '';
-
-    response.on('data', (chunk) => { data += chunk; });
-
-    response.on('end', () => {
-        console.log(JSON.parse(data));
-    });
-
-});</code></pre>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div class="columns">
-              <div class="column is-12">
-                <h6>Let's also add some error handling,<br/>just in case...</h6>
-                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const https = require('https');
-const URL = 'https://api.chucknorris.io/jokes/random';
-
-https.get( URL, (response) => {
-
-    ...
-
-}).on("error", (err) => {
-
-    console.log("Error:" + err.message);
-
-});                                    
-</code></pre>
               </div>
             </div>
           </section>
@@ -679,6 +533,152 @@ console.log( output.red );
             </div>
           </section>
         </section>
+        <!-- BUILT-IN MODULES: FS-->
+        <section class="with-tts-right">
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small">Synchronous Code</p>
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+const files = fs.readdirSync( './' );</code></pre>
+                <p class="small fragment"><code>files</code> will be a String Array</p>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>console.log( files );</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small">Asynchronous Code</p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+const files = fs.readdir( './', ( err,files )=>{
+
+    if ( err ) {
+        console.log( err );
+    } else {
+        console.log( files );
+    }
+
+}); </code></pre>
+                <p class="small fragment"><strong>BEST PRACTICES:</strong> Prefer asynchronous methods instead of sync (readdirSync) for non-blocking code.</p>
+                <p class="small fragment" style="font-size:0.5em; opacity:0.6;font-style:italic">*Add 2 console.log statements to test asynchronous code</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small"><strong>readFileSync()</strong> (Synchronous Code)</p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+let contents = fs.readFileSync( 'app.js' );
+console.log( contents );</code></pre>
+                <p class="small fragment">What do you see in the console?</p>
+                <p class="small fragment">Let's try again with one small addition...</p>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>contents = fs.readFileSync( 'app.js','utf8' );
+console.log( contents );</code></pre>
+                <p class="small fragment" style="font-size:0.5em; opacity:0.6;font-style:italic">*Add some error handling using <strong>try { } catch { }</strong></p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small"><strong>readFile()</strong> (Asynchronous Code)</p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+fs.readFile( 'app.js', ( err, buffer )=>{
+    console.log( buffer.toString() );
+});</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h6>The <strong class="colorful">fs</strong> Built-in Module</h6>
+            <p class="small"><strong>writeFile()</strong> and <strong>writeFileSync</strong></p>
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <pre><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const fs = require( 'fs' );
+
+// SYNC:
+fs.writeFileSync( 'test.txt', "TEXT DATA" );
+
+// ASYNC:
+fs.writeFile( 'test.txt', "TEXT DATA",  ( err )=>{
+    if ( err ){
+        console.log( err.message );
+    }
+});</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>How to append to a file?</p><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_appendfile_path_data_options_callback" target="_blank">fs.appendFile()</a>
+            <div class="linebreak"></div><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_appendfilesync_path_data_options" target="_blank">fs.appendFileSync()</a>
+            <div class="linebreak"></div><small class="small fragment">(*Defaults to UTF8 encoding)</small>
+            <p class="fragment">How to delete a file?</p><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_unlink_path_callback" target="_blank">fs.unlink()</a>
+            <div class="linebreak"></div><a class="small fragment" href="https://nodejs.org/api/fs.html#fs_fs_unlinksync_path" target="_blank">fs.unlinkSync()</a>
+          </section>
+        </section>
+        <!-- BUILT-IN MODULES: HTTP-->
+        <section class="with-tts-right">
+          <section>
+            <h6>The <strong class="colorful">http(s)</strong> Built-in Module</h6>
+            <p class="small">Communication over HTTP(S)<br><a href="https://nodejs.org/api/https.html" target="_blank">Documentation</a></p>
+            <div class="columns">
+              <div class="column is-12">
+                <pre class="fragment"><code class="hljs bash" data-trim contenteditable>app.js:</code></pre>
+                <div class="linebreak"></div>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const https = require('https');
+const URL = 'https://api.chucknorris.io/jokes/random';
+
+https.get( URL, (response) => {
+
+    let data = '';
+
+    response.on('data', (chunk) => { data += chunk; });
+
+    response.on('end', () => {
+        console.log(JSON.parse(data));
+    });
+
+});</code></pre>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="columns">
+              <div class="column is-12">
+                <h6>Let's also add some error handling,<br/>just in case...</h6>
+                <pre class="fragment"><code class="hljs javascript" data-trim contenteditable>const https = require('https');
+const URL = 'https://api.chucknorris.io/jokes/random';
+
+https.get( URL, (response) => {
+
+    ...
+
+}).on("error", (err) => {
+
+    console.log("Error:" + err.message);
+
+});                                    
+</code></pre>
+              </div>
+            </div>
+          </section>
+        </section>        
         <!-- HELLO WORLD SERVER APP USING THE HTTP MODULE-->
         <section class="with-tts-right">
           <section>
@@ -797,10 +797,18 @@ const pluralize = require('pluralize');</code></pre>
           </section>
         </section>
         <!-- CREATING A BASIC WEB SERVER-->
-        <!-- DEPLOYING OUR NODE.JS APP (HEROKU)-->
+
+        <!-- DEPLOYING OUR NODE.JS APP -->
         <section class="with-tts-right">
-          <h6>Deploying our Node.JS app<br>to the cloud</h6><a href="https://heroku.com" target="_blank">HEROKU</a>
+          <h6>Deploying our Node.JS app<br>to the cloud</h6>
+          <p>
+            <a href="https://fly.io/" target="_blank">Fly.io</a>
+          </p>
+          <p>
+            <a href="https://render.com/" target="_blank">render.com</a>
+          </p>
         </section>
+
         <!-- RESOURCES-->
         <section>
           <h4>RESOURCES</h4>
@@ -817,6 +825,15 @@ const pluralize = require('pluralize');</code></pre>
                 <div class="linebreak"></div>
                 <li><a href="https://blog.bloomca.me/2018/07/09/nodejs-repl-in-depth.html" target="_blank">Node.js REPL in Depth</a></li>
                 <div class="linebreak"></div>
+                <li>
+                  <a href="https://github.com/in-tech-gration/learnyounode">LearnYouNode</a>
+                </li>
+                <li>
+                  <a href="https://github.com/in-tech-gration/how-to-npm">How-to-npm</a>
+                </li>
+                <li>
+                  <a href="https://github.com/in-tech-gration/stream-adventure">Stream Adventure</a>
+                </li>
                 <li><a href="https://www.npmjs.com/package/javascripting" target="_blank">LEARN JAVASCRIPT BY ADVENTURING AROUND IN THE TERMINAL</a></li>
               </ul>
               <pre><code class="hljs bash">$ npm install javascripting -g</code></pre>
