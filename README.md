@@ -61,6 +61,8 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     * [**Scope in JavaScript** - HTTP 203](https://www.youtube.com/watch?v=5LEuJNLfLN0)
  
 * Understand how `undefined` and `null` behave and how [they differ](https://2ality.com/2021/01/undefined-null-revisited.html). 
+* Understand why `0.1 + 0.2 !== 0.3` evaluates to `true` and `0.1 + 0.2 === 0.3` evaluates to `false`. 
+  - This means that you will also understand why this is **not** a JavaScript thing, but something related to the [IEEE-754 standard](https://standards.ieee.org/ieee/754/4211/) which every computer programmer should be familiar with. You can start [here](https://0.30000000000000004.com/).
 - Study `Objects`,  
   * [`Prototypal Inheritance` and `OOP`](http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/)  
   * [**OLOO**: Objects Linked to Other Objects](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch6.md)
