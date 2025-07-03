@@ -766,6 +766,7 @@ This list was inspired by (a now defunct) [discussion](http://www.linkedin.com/g
     <li><a href="http://ejohn.org/blog/secrets-of-the-javascript-ninja-released/">Secrets of the JavaScript Ninja, <em>by John Resig</em></a></li>
     <li><a href="https://www.oreilly.com/library/view/programming-javascript-applications/9781491950289/">Programming JavaScript Applications, <em>by Eric Elliot</em></a></li>
     <li><a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119366560">Professional JavaScript for Web Developers <em>by Nicolas Zakas</em></a></li>
+    <li><a href="https://www.oreilly.com/library/view/object-oriented-javascript/9781785880568/">Object-Oriented JavaScript <em>Ved Antani, Stoyan Stefanov</em></a></li>
    </ul>
 </details>
 
